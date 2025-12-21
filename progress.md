@@ -8,7 +8,7 @@ permalink: /progress/
 
 ## Status Saat Ini
 - ✅ **Tim akreditasi sudah terbentuk**
-- ✅ **Pemahaman instrumen selesai**
+- ✅ **Pemahaman instrumen belum selesai**
 - ✅ **Draft peta kebutuhan data tersedia**
 
 ## Rencana Bulan Depan (Januari 2026)
