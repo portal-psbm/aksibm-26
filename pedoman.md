@@ -15,8 +15,6 @@ Dokumen panduan resmi yang digunakan sebagai acuan dalam persiapan akreditasi Pr
 - [Materi 5 - LKPS Final (20042025)](/aksibm-26/assets/pedoman/lkps.pdf).
 
 ## 🔗 Referensi Eksternal
-- [Instrumen Akreditasi LAM Teknik (PDF)](https://lamteknik.or.id/wp-content/uploads/2023/02/Instrumen-Akreditasi-LAM-Teknik-Edisi-2023.pdf)
 - [Portal Resmi LAM Teknik](https://lamteknik.or.id)
-- [SISTER LAM Teknik](https://sister.lamteknik.or.id)
 
 > 📅 Terakhir diperbarui: Desember 2025
