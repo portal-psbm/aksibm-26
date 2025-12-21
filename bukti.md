@@ -5,11 +5,10 @@ permalink: /bukti/
 ---
 
 # 📎 Bukti Dukung & Eviden
-
 - **Koordinator**: AW, SH
 - **Status**: Sistem penomoran sedang disiapkan
 
-### 🎯 Prinsip Pengelolaan Bukti
+## 🎯 Prinsip Pengelolaan Bukti
 - **Tersentralisasi** → Semua bukti di satu tempat
 - **Terstruktur** → Mudah ditemukan oleh tim dan asesor
 - **Terhubung** → Langsung ter-link ke narasi di LED
