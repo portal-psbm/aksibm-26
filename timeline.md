@@ -8,7 +8,7 @@ permalink: /timeline/
 
 | Periode | Kegiatan Utama | Output Diharapkan |
 |--------|----------------|-------------------|
-| **Okt–Des 2025** | Tahap Persiapan dan Pemahaman Instrumen | Tim akreditasi terbentuk dan paham kriteria. Draft peta kebutuhan data siap. |
+| **Okt–Des 2025** | Tahap Persiapan dan Pemahaman Instrumen | Tim akreditasi terbentuk dan paham kriteria. |
 | **Jan–Feb 2026** | Evaluasi Diri & Analisis Kesenjangan (GAP Analysis) | Laporan evaluasi diri awal & rencana perbaikan singkat. |
 | **Mar–Apr 2026** | Pengumpulan dan Validasi Data (LKPS) | LKPS draft & evidence terstruktur. |
 | **Mei–Jun 2026** | Penyusunan LED (Laporan Evaluasi Diri) | Draft final LED & LKPS lengkap. |
