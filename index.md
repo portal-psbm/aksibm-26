@@ -22,42 +22,31 @@ permalink: /
 </div>
 
 <script>
-  // Target: 1 September 2026
-  const targetDate = new Date('2026-09-01T00:00:00');
+  // 🔢 Atur progress secara manual (0–100)
+  const progressPercent = 33; // ← GANTI NILAI INI SESUAI PROGRES
 
+  // Update tampilan
+  document.getElementById('progress-bar').style.width = progressPercent + '%';
+  document.getElementById('progress-percent').textContent = progressPercent + '%';
+
+  // Countdown tetap otomatis
+  const targetDate = new Date('2026-09-01T00:00:00');
   function updateCountdown() {
     const now = new Date();
     const diff = targetDate - now;
-
     if (diff <= 0) {
       document.getElementById('countdown').innerHTML = '✅ Asesmen Selesai!';
-      document.getElementById('progress-bar').style.width = '100%';
-      document.getElementById('progress-percent').textContent = '100%';
       return;
     }
-
     const days = Math.floor(diff / (1000 * 60 * 60 * 24));
     const months = Math.floor(days / 30);
     const remainingDays = days % 30;
-
     document.getElementById('countdown').innerHTML = 
       `Sisa waktu: ${months} bulan ${remainingDays} hari`;
-
-    // Progress: dari 1 Okt 2025 → 1 Sep 2026 (total ~335 hari)
-    const startDate = new Date('2025-10-01T00:00:00');
-    const totalDuration = targetDate - startDate;
-    const elapsed = now - startDate;
-    const progress = Math.min(100, Math.max(0, (elapsed / totalDuration) * 100));
-
-    document.getElementById('progress-bar').style.width = progress.toFixed(2) + '%';
-    document.getElementById('progress-percent').textContent = Math.round(progress) + '%';
   }
-
-  // Update setiap detik
-  setInterval(updateCountdown, 1000);
-  updateCountdown(); // init
+  setInterval(updateCountdown, 60000); // update tiap menit
+  updateCountdown();
 </script>
-
 **Program Studi**: S1 Terapan Broadband Multimedia  
 **Target Asesmen**: **September 2026**  
 **Tim**: AW, BU, DW, MF, SH, VF, Z
