@@ -12,7 +12,7 @@ permalink: /
 
 <div style="margin: 30px 0;">
   <div style="display: flex; justify-content: space-between; margin-bottom: 6px; font-size: 0.9rem;">
-    <span>Desember 2025</span>
+    <span>Oktoberr 2025</span>
     <span><strong id="progress-percent">0%</strong></span>
     <span>September 2026</span>
   </div>
