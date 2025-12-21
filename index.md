@@ -23,7 +23,7 @@ permalink: /
 
 <script>
   // 🔢 Atur progress secara manual (0–100)
-  const progressPercent = 33; // ← GANTI NILAI INI SESUAI PROGRES
+  const progressPercent = 5; // ← GANTI NILAI INI SESUAI PROGRES
 
   // Update tampilan
   document.getElementById('progress-bar').style.width = progressPercent + '%';
