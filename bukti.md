@@ -22,19 +22,19 @@ permalink: /bukti/
 - **K7_Penelitian/** → Daftar penelitian, publikasi, HKI, luaran kerja sama 
 - **K8_Lulusan/** → Waktu tunggu kerja, kesesuaian bidang, testimoni pengguna <br><br>
 
-## 🔗 Akses Arsip Digital
+## 🔗 Akses Arsip Digital <br><br>
 Bukti pendukung dapat diakses melalui struktur folder Google Drive.
 
 > 💡 Pastikan setiap klaim di **LED** memiliki tautan langsung ke file bukti di atas. <br><br>
 
-## 📁 Prinsip Pengelolaan Bukti (Edisi 2025)
+## 📁 Prinsip Pengelolaan Bukti (Edisi 2025) <br><br>
 - **Tersentralisasi** → Semua bukti di satu repositori
 - **Terstruktur** → Mengikuti 8 kriteria LAM Teknik 2025
 - **Terukur** → Setiap bukti mendukung data kuantitatif di **LKPS**
 - **Terhubung** → Langsung dilink-kan ke narasi di **LED**
 - **Aman & Backup** → Tersedia online + cadangan lokal di PNJ <br><br>
 
-## **Timeline Penting**:
+## **Timeline Penting**: <br><br>
 > - **Maret 2026**: Seluruh bukti harus terarsip lengkap
 > - **Mei 2026**: Semua tautan bukti di LED harus valid
 
