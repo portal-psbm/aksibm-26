@@ -6,6 +6,17 @@ permalink: /tim/
 
 # 👥 Struktur Tim Akreditasi
 
+<div style="text-align: center; margin: 24px 0 32px;">
+  <img 
+    src="/aksibm-26/assets/images/tim_aksibm.jpg" 
+    alt="Tim Akreditasi PSBM 2025" 
+    style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.12);"
+  >
+  <p style="margin-top: 10px; color: #666; font-size: 0.95rem;">
+    Tim Akreditasi PSBM – Desember 2025
+  </p>
+</div>
+
 | Peran / Jabatan | Tugas Utama | Penanggung Jawab |
 |----------------|-------------|------------------|
 | **Ketua Tim Akreditasi** | Koordinasi keseluruhan, komunikasi dengan jurusan/PNJ, validasi akhir dokumen. | AW |
