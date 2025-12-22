@@ -7,9 +7,8 @@ permalink: /progress/
 # 📊 Progress Persiapan (Per Desember 2025)
 
 ## Status Saat Ini
-- ✅ **Tim akreditasi sudah terbentuk**
-- ✅ **Pemahaman instrumen (on progress)**
-- ✅ **Draft peta kebutuhan data tersedia** <br><br>
+- ✅ Tim akreditasi sudah terbentuk
+- ✅ Pemahaman instrumen (on progress) <br><br>
 
 ## Rencana Bulan Depan (Januari 2026)
 - Mulai **Evaluasi Diri & GAP Analysis**
