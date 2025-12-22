@@ -9,9 +9,10 @@ permalink: /bukti/
 - **Koordinator**: AW, SH
 - **Status**: Sistem penomoran berbasis **8 kriteria** sedang diterapkan <br><br>
 
-> Seluruh bukti diarsipkan dalam format digital (PDF, JPG, XLSX) dan dilink-kan ke narasi LED serta data LKPS.
+> Seluruh bukti diarsipkan dalam format digital (PDF, JPG, XLSX) dan dilink-kan ke narasi LED serta data LKPS. <br><br>
 
 ## 📁 Struktur Pengarsipan (Sesuai Instrumen 2025)
+
 - **K1_VMTS/** → Visi, Misi, Tujuan, Sasaran, Renstra
 - **K2_Tata_Pamong/** → Struktur organisasi, SOP, MoU/MoA
 - **K3_Mahasiswa/** → Data penerimaan, IPK, layanan, tracer study
@@ -23,6 +24,7 @@ permalink: /bukti/
 
 ## 🔗 Akses Arsip Digital
 Bukti pendukung dapat diakses melalui struktur folder Google Drive.
+
 > 💡 Pastikan setiap klaim di **LED** memiliki tautan langsung ke file bukti di atas. <br><br>
 
 ## 📁 Prinsip Pengelolaan Bukti (Edisi 2025)
