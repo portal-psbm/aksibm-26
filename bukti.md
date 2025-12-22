@@ -9,6 +9,7 @@ permalink: /bukti/
 - **Koordinator**: AW, SH
 - **Status**: Sistem penomoran sedang disiapkan
 
+
 ## 🎯 Prinsip Pengelolaan Bukti
 
 - **Tersentralisasi** → Semua bukti di satu tempat
