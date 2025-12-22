@@ -4,7 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | default: site.title }}</title>
+  
+  <!-- Favicon -->
   <link rel="icon" type="image/png" href="/aksibm-26/assets/images/favicon.png">
+  
   <style>
     :root {
       --primary: #0d47a1;
@@ -29,7 +32,7 @@
       color: var(--text);
     }
 
-    /* 🎨 Navbar Modern dengan Animasi Garis Bawah */
+    /* 🎨 Navbar */
     nav {
       background: var(--primary);
       padding: 0;
@@ -45,7 +48,7 @@
       justify-content: center;
       padding: 0;
       margin: 0;
-      position: relative;
+      flex-wrap: wrap;
     }
 
     nav li {
@@ -62,44 +65,34 @@
       position: relative;
       z-index: 2;
       transition: var(--transition);
+      white-space: nowrap;
     }
 
-    /* 🌈 Efek Hover: latar + bayangan */
+    /* 🔸 Hover effect */
     nav a:hover {
       background: var(--primary-light);
       transform: translateY(-2px);
       box-shadow: 0 6px 12px rgba(0,0,0,0.25);
     }
 
-    /* 🟢 Garis Bawah Animasi (simulasi active state) */
-    nav::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      width: 0;
-      height: 4px;
-      background: white;
-      border-radius: 2px;
-      transition: var(--transition);
-      transform: translateX(-50%);
+    /* 🔹 Menu aktif: berbeda dari yang lain */
+    nav a.active {
+      background: #ffffff;
+      color: var(--primary);
+      font-weight: 700;
+      box-shadow: 0 4px 10px rgba(13, 71, 161, 0.3);
+      transform: translateY(-2px);
     }
 
-    nav a:hover ~ ul::after,
-    nav a:focus ~ ul::after {
-      width: 40px;
-    }
-
-    /* 📱 Responsif Mobile */
+    /* 📱 Responsif */
     @media (max-width: 768px) {
       nav a {
         padding: 14px 16px;
         font-size: 0.95rem;
       }
       nav ul {
-        flex-wrap: wrap;
-        justify-content: flex-start;
         padding: 8px 12px;
+        justify-content: flex-start;
       }
     }
 
@@ -112,6 +105,12 @@
       box-shadow: 0 4px 20px rgba(0,0,0,0.08);
       border-radius: 12px;
       padding: 32px;
+      opacity: 0;
+      animation: fadeIn 0.8s 0.2s forwards;
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
     }
 
     h1 {
@@ -120,6 +119,29 @@
       font-size: 2rem;
     }
 
+    /* Tabel umum */
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      margin: 16px 0;
+    }
+    th, td {
+      padding: 12px 10px;
+      text-align: left;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    th {
+      background: #f1f5f9;
+      font-weight: 600;
+      color: var(--primary);
+      border-top: 2px solid var(--primary);
+    }
+    tr:last-child td {
+      border-bottom: 2px solid var(--primary);
+    }
+
+    /* Footer */
     footer {
       text-align: center;
       padding: 28px 0 20px;
@@ -127,29 +149,19 @@
       font-size: 0.95rem;
       margin-top: 24px;
     }
-
-    /* 💡 Animasi Halaman Masuk (opsional) */
-    .container {
-      opacity: 0;
-      animation: fadeIn 0.8s 0.2s forwards;
-    }
-
-    @keyframes fadeIn {
-      to { opacity: 1; }
-    }
   </style>
 </head>
 <body>
   <nav>
-     <ul>
-      <li><a href="/aksibm-26/">Beranda</a></li>
-      <li><a href="/aksibm-26/timeline/">Timeline</a></li>
-      <li><a href="/aksibm-26/tim/">Tim</a></li>
-      <li><a href="/aksibm-26/progress/">Progress</a></li>
-      <li><a href="/aksibm-26/lkps/">LKPS</a></li>
-      <li><a href="/aksibm-26/led/">LED</a></li>
-      <li><a href="/aksibm-26/bukti/">Bukti</a></li>
-      <li><a href="/aksibm-26/pedoman/">Pedoman</a></li>
+    <ul>
+      <li><a href="/aksibm-26/" {% if page.url == "/index.html" or page.url == "/" %}class="active"{% endif %}>Beranda</a></li>
+      <li><a href="/aksibm-26/timeline/" {% if page.url == "/timeline/" %}class="active"{% endif %}>Timeline</a></li>
+      <li><a href="/aksibm-26/tim/" {% if page.url == "/tim/" %}class="active"{% endif %}>Tim</a></li>
+      <li><a href="/aksibm-26/progress/" {% if page.url == "/progress/" %}class="active"{% endif %}>Progress</a></li>
+      <li><a href="/aksibm-26/lkps/" {% if page.url == "/lkps/" %}class="active"{% endif %}>LKPS</a></li>
+      <li><a href="/aksibm-26/led/" {% if page.url == "/led/" %}class="active"{% endif %}>LED</a></li>
+      <li><a href="/aksibm-26/bukti/" {% if page.url == "/bukti/" %}class="active"{% endif %}>Bukti</a></li>
+      <li><a href="/aksibm-26/pedoman/" {% if page.url == "/pedoman/" %}class="active"{% endif %}>Pedoman</a></li>
     </ul>
   </nav>
 
