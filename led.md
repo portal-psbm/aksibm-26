@@ -8,7 +8,7 @@ permalink: /led/
 
 > 🔗 [Lihat Dokumen LED (Google Docs)](https://docs.google.com/document/d/1-UZgNXe9Ma6KaO0e3hydxyQIq_3k_Cvazv6n233kkl0/edit?usp=drive_link) <br><br>
 
-Sedang dalam persiapan penyusunan. <br><br>
+Sedang dalam persiapan. <br><br>
 
 - **Timeline**: Mei–Juni 2026
 - **Koordinator**: BU, VF
