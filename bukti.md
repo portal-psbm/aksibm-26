@@ -15,7 +15,7 @@ permalink: /bukti/
 
 - **[K1_VMTS/](https://drive.google.com/drive/folders/1TRWWZHUTecu8NZtz9KsIL3STVRRBTSg2?usp=sharing)** → Visi, Misi, Tujuan, Sasaran, Renstra
 - **[K2_Tata_Pamong/](https://drive.google.com/drive/folders/1DrKFEI-bj6b33OrKJ9PIMEwIu94FuGSO?usp=sharing)** → Struktur organisasi, SOP, MoU/MoA
-- **[K3_Mahasiswa/](https://drive.google.com/drive/folders/1W2DzMGgS6lwBI1UusFH5YhcN_-mdPpoJ?usp=sharing)** → Data penerimaan, IPK, layanan, tracer study
+- **[K3_Mahasiswa/]** → Data penerimaan, IPK, layanan, tracer study
 - **[K4_SDM/](https://drive.google.com/drive/folders/17PZ7fR96Fkleygqg9a3Xdc2nwhYZlmSs?usp=sharing)** → Profil dosen, scan ijazah, sertifikasi, beban kerja
 - **[K5_Kurikulum/](https://drive.google.com/drive/folders/13LqmW5CNKAxb6rShIeHrAHXmk1F0xFfS?usp=sharing)** → Kurikulum KKNI, matriks CPL–MK, RPS, rubrik penilaian
 - **[K6_Sarpras_SPMI/](https://drive.google.com/drive/folders/1gMylc3D-zn_tDrG225evho12NVTcoewd?usp=sharing)** → Inventaris lab, laporan perpustakaan, dokumen SPMI (PPEPP) 
@@ -24,14 +24,14 @@ permalink: /bukti/
 
 > 💡 Pastikan setiap klaim di **LED** memiliki tautan langsung ke file bukti di atas. <br><br>
 
-## 📁 Prinsip Pengelolaan Bukti
+## 📁 Prinsip Pengelolaan Bukti <br>
 - **Tersentralisasi** → Semua bukti di satu repositori
 - **Terstruktur** → Mengikuti 8 kriteria LAM Teknik 2025
 - **Terukur** → Setiap bukti mendukung data kuantitatif di **LKPS**
 - **Terhubung** → Langsung dilink-kan ke narasi di **LED**
 - **Aman & Backup** → Tersedia online + cadangan lokal di PNJ <br><br>
 
-## **Timeline Penting**: <br><br>
+## **Timeline Penting**: <br>
 > - **Maret 2026**: Seluruh bukti harus terarsip lengkap
 > - **Mei 2026**: Semua tautan bukti di LED harus valid
 
