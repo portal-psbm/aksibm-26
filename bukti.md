@@ -8,7 +8,7 @@ permalink: /bukti/
 
 <div style="margin-left: 2em;">
 
-- **Koordinator**: AW, SH  
+- **Koordinator**: AW, SH
 - **Status**: Sistem penomoran sedang disiapkan
 
 </div>
@@ -17,9 +17,9 @@ permalink: /bukti/
 
 <div style="margin-left: 2em;">
 
-- **Tersentralisasi** → Semua bukti di satu tempat  
-- **Terstruktur** → Mudah ditemukan oleh tim dan asesor  
-- **Terhubung** → Langsung ter-link ke narasi di LED  
+- **Tersentralisasi** → Semua bukti di satu tempat
+- **Terstruktur** → Mudah ditemukan oleh tim dan asesor
+- **Terhubung** → Langsung ter-link ke narasi di LED
 - **Aman & Backup** → Tidak hanya di satu perangkat
 
 </div>
