@@ -7,8 +7,7 @@ permalink: /bukti/
 # 📎 Bukti Dukung & Eviden
 
 - **Koordinator**: AW, SH
-- **Status**: Sistem penomoran sedang disiapkan  
-
+- **Status**: Sistem penomoran sedang disiapkan<br>
 
 ## 🎯 Prinsip Pengelolaan Bukti
 
