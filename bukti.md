@@ -5,7 +5,7 @@ permalink: /bukti/
 ---
 
 # 📎 Bukti Dukung & Eviden
-
+<div style="margin-left: 1.8em;">
 - **Koordinator**: AW, SH
 - **Status**: Sistem penomoran sedang disiapkan
 
@@ -16,5 +16,5 @@ permalink: /bukti/
 - **Terhubung** → Langsung ter-link ke narasi di LED
 - **Aman & Backup** → Tidak hanya di satu perangkat
 
-
 > Seluruh bukti akan diarsipkan dalam format digital (PDF) dan dilink-kan ke narasi LED.
+</div>
