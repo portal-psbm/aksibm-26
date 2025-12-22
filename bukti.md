@@ -14,6 +14,6 @@ permalink: /bukti/
 - **Tersentralisasi** → Semua bukti di satu tempat
 - **Terstruktur** → Mudah ditemukan oleh tim dan asesor
 - **Terhubung** → Langsung ter-link ke narasi di LED
-- **Aman & Backup** → Tidak hanya di satu perangkat
+- **Aman & Backup** → Tidak hanya di satu perangkat <br><br>
 
 > Seluruh bukti akan diarsipkan dalam format digital (PDF) dan dilink-kan ke narasi LED.
