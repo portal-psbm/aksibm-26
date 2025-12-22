@@ -94,7 +94,7 @@ Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akredita
       <td><strong>Koordinator Lulusan & Tracer Study</strong></td>
       <td>Melaksanakan tracer study, menghimpun data kinerja lulusan, dan feedback pengguna</td>
       <td><strong>K8 (Lulusan)</strong></td>
-      <td>MF, SH</td>
+      <td>MF, Z</td>
     </tr>
     <tr>
       <td><strong>Koordinator Sarpras & SPMI</strong></td>
