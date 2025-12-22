@@ -4,7 +4,7 @@ title: Timeline
 permalink: /timeline/
 ---
 
-# 🗓️ Timeline Persiapan Akreditasi – Standar LAM Teknik 2025
+# 🗓️ Timeline Persiapan Akreditasi
 
 Dokumen ini mengacu pada **Instrumen Akreditasi LAM Teknik Edisi 2025**, yang menggunakan **8 kriteria** berbasis *outcome* (bukan 9 standar lama).
 
