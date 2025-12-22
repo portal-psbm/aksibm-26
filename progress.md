@@ -8,12 +8,12 @@ permalink: /progress/
 
 ## Status Saat Ini
 - ✅ **Tim akreditasi sudah terbentuk**
-- ✅ **Pemahaman instrumen belum selesai**
-- ✅ **Draft peta kebutuhan data tersedia**
+- ✅ **Pemahaman instrumen (on progress)**
+- ✅ **Draft peta kebutuhan data tersedia** <br><br>
 
 ## Rencana Bulan Depan (Januari 2026)
 - Mulai **Evaluasi Diri & GAP Analysis**
 - Siapkan template LKPS awal
-- Rapat kick-off resmi tim
+- Rapat kick-off resmi tim <br><br>
 
 > 📅 **Next Milestone**: Laporan evaluasi diri awal (Februari 2026)
