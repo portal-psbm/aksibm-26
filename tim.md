@@ -10,12 +10,12 @@ Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akredita
 
 <div style="text-align: center; margin: 24px 0 32px;">
   <img 
-    src="/aksi26/assets/images/tim-akreditasi.jpg" 
-    alt="Tim Akreditasi PSBM 2025" 
+    src="/aksibm-26/assets/images/tim_aksibm.jpg" 
+    alt="Tim Akreditasi PSBM 2026" 
     style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.12);"
   >
   <p style="margin-top: 10px; color: #666; font-size: 0.95rem;">
-    Tim Akreditasi PSBM – Desember 2025
+    Tim Akreditasi PSBM 2026
   </p>
 </div>
 
@@ -28,9 +28,9 @@ Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akredita
 | **Koordinator LKPS** | Pengumpulan & validasi data kuantitatif (mahasiswa, dosen, sarpras, lulusan, penelitian) | K1, K2, K3, K4, K6, K7, K8 | DW, BU |
 | **Koordinator LED** | Menulis narasi evaluasi diri yang berbasis **CPL dan outcome**, mengintegrasikan bukti dari LKPS | K1, K2, K3, K4, K5, K6, K7, K8 | BU, VF |
 | **Koordinator Kurikulum & CPL** | Menyusun peta CPL, matriks kurikulum, dan bukti implementasi OBE | **K5 (Kurikulum)** | VF |
-| **Koordinator Lulusan & Tracer Study** | Melaksanakan tracer study, menghimpun data kinerja lulusan, dan feedback pengguna | **K8 (Lulusan)** | MF, DW |
-| **Koordinator Sarpras & SPMI** | Mendokumentasikan sarana/prasarana dan sistem penjaminan mutu internal | **K6 (Sarpras + SPMI)** | Z, SH |
-| **Koordinator Penelitian & Kerja Sama** | Menghimpun data penelitian, pengabdian, dan kerja sama strategis | **K7 (Penelitian)** | MF, BU |
+| **Koordinator Lulusan & Tracer Study** | Melaksanakan tracer study, menghimpun data kinerja lulusan, dan feedback pengguna | **K8 (Lulusan)** | MF, SH |
+| **Koordinator Sarpras & SPMI** | Mendokumentasikan sarana/prasarana dan sistem penjaminan mutu internal | **K6 (Sarpras + SPMI)** | DW, Z |
+| **Koordinator Penelitian & Kerja Sama** | Menghimpun data penelitian, pengabdian, dan kerja sama strategis | **K7 (Penelitian)** | AW |
 
 ## 🔑 Penekanan Baru (Edisi 2025)
 - Setiap narasi di **LED harus merujuk pada Capaian Pembelajaran Lulusan (CPL)**
