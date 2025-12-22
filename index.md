@@ -52,7 +52,7 @@ permalink: /
 **Target Asesmen**: **September 2026**  
 **Tim**: AW, BU, DW, MF, SH, VF, Z
 
-> Website ini merefleksikan progres real-time persiapan akreditasi LAM Teknik.
+> Website ini merefleksikan progres real-time persiapan akreditasi PSBM 2026.
 
 <br>
 
