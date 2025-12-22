@@ -58,7 +58,7 @@ permalink: /
 
 <div style="text-align: center; margin-top: 32px;">
   <img 
-    src="/aksi26/assets/images/beranda_foto.jpg" 
+    src="/aksibm-26/assets/images/beranda_foto.jpg" 
     alt="Tim Akreditasi PSBM – Desember 2025" 
     style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"
   >
