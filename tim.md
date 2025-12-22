@@ -56,7 +56,7 @@ Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akredita
       <th>Peran</th>
       <th>Tugas Utama</th>
       <th>Kriteria LAM Teknik 2025</th>
-      <th>Anggota</th>
+      <th>Nama</th>
     </tr>
   </thead>
   <tbody>
