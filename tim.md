@@ -10,7 +10,7 @@ Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akredita
 
 <div style="text-align: center; margin: 24px 0 32px;">
   <img 
-    src="/aksibm-26/assets/images/tim_aksibm.jpg" 
+    src="/aksibm-26/assets/images/tim_aksibm.jpeg" 
     alt="Tim Akreditasi PSBM 2026" 
     style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.12);"
   >
@@ -94,19 +94,19 @@ Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akredita
       <td><strong>Koordinator Lulusan & Tracer Study</strong></td>
       <td>Melaksanakan tracer study, menghimpun data kinerja lulusan, dan feedback pengguna</td>
       <td><strong>K8 (Lulusan)</strong></td>
-      <td>MF, DW</td>
+      <td>MF, SH</td>
     </tr>
     <tr>
       <td><strong>Koordinator Sarpras & SPMI</strong></td>
       <td>Mendokumentasikan sarana/prasarana dan sistem penjaminan mutu internal</td>
       <td><strong>K6 (Sarpras + SPMI)</strong></td>
-      <td>Z, SH</td>
+      <td>DW, SH</td>
     </tr>
     <tr>
       <td><strong>Koordinator Penelitian & Kerja Sama</strong></td>
       <td>Menghimpun data penelitian, pengabdian, dan kerja sama strategis</td>
       <td><strong>K7 (Penelitian)</strong></td>
-      <td>MF, BU</td>
+      <td>AW, Z</td>
     </tr>
   </tbody>
 </table>
