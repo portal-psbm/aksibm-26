@@ -4,7 +4,7 @@ title: Tim Akreditasi
 permalink: /tim/
 ---
 
-# 👥 Tim Akreditasi PSBM – Standar LAM Teknik 2025
+# 👥 Tim Akreditasi
 
 Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akreditasi LAM Teknik Edisi 2025**, yang terdiri dari **8 kriteria berbasis outcome**. Fokus utama adalah pada **Kriteria 8: Lulusan dan Capaian Program Studi**.
 
@@ -88,7 +88,7 @@ Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akredita
       <td><strong>Koordinator Kurikulum & CPL</strong></td>
       <td>Menyusun peta CPL, matriks kurikulum, dan bukti implementasi OBE</td>
       <td><strong>K5 (Kurikulum)</strong></td>
-      <td>VF</td>
+      <td>VF, MF</td>
     </tr>
     <tr>
       <td><strong>Koordinator Lulusan & Tracer Study</strong></td>
