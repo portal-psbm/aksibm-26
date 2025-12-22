@@ -12,4 +12,4 @@ Sedang dalam penyusunan.<br><br>
 - **Koordinator**: BU, VF
 - **Status**: Belum dimulai <br><br>
 
-> Dokumen LED akan mencakup analisis mendalam terhadap **9 Standar Akreditasi LAM Teknik**, berdasarkan bukti dan data valid.
+> Dokumen LED akan mencakup analisis mendalam terhadap **Standar Akreditasi LAM Teknik**, berdasarkan bukti dan data valid.
