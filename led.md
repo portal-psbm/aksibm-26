@@ -10,6 +10,6 @@ Sedang dalam penyusunan.<br><br>
 
 - **Timeline**: Mei–Juni 2026
 - **Koordinator**: BU, VF
-- **Status**: Belum dimulai
+- **Status**: Belum dimulai <br><br>
 
 > Dokumen LED akan mencakup analisis mendalam terhadap **9 Standar Akreditasi LAM Teknik**, berdasarkan bukti dan data valid.
