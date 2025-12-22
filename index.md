@@ -12,7 +12,7 @@ permalink: /
 
 <div style="margin: 30px 0;">
   <div style="display: flex; justify-content: space-between; margin-bottom: 6px; font-size: 0.9rem;">
-    <span>Oktoberr 2025</span>
+    <span>Oktober 2025</span>
     <span><strong id="progress-percent">0%</strong></span>
     <span>September 2026</span>
   </div>
@@ -47,8 +47,22 @@ permalink: /
   setInterval(updateCountdown, 60000); // update tiap menit
   updateCountdown();
 </script>
+
 **Program Studi**: S1 Terapan Broadband Multimedia  
 **Target Asesmen**: **September 2026**  
 **Tim**: AW, BU, DW, MF, SH, VF, Z
 
-> Website ini merefleksikan progres real-time persiapan akreditasi.
+> Website ini merefleksikan progres real-time persiapan akreditasi LAM Teknik.
+
+<br>
+
+<div style="text-align: center; margin-top: 32px;">
+  <img 
+    src="/aksi26/assets/images/beranda-foto.png" 
+    alt="Tim Akreditasi PSBM – Desember 2025" 
+    style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"
+  >
+  <p style="margin-top: 12px; color: #666; font-size: 0.95rem;">
+    Tim Akreditasi PSBM – Desember 2025
+  </p>
+</div>
