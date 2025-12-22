@@ -150,13 +150,13 @@ permalink: /progress/
   </tbody>
 </table>
 
-## 📌 Rincian Aktivitas Desember 2025
+## Rincian Aktivitas Desember 2025
 - ✅ **Tim akreditasi resmi terbentuk** (SK sedang diproses)
 - ✅ **Sosialisasi Instrumen LAM Teknik 2025** selesai
 - ✅ **Struktur folder bukti digital** disiapkan (`K1_...` hingga `K8_...`)
-- ✅ **Website akreditasi** aktif di [https://portal-psbm.github.io/aksibm-26/](https://portal-psbm.github.io/aksibm-26/)
+- ✅ **Website akreditasi** aktif di [https://portal-psbm.github.io/aksibm-26/](https://portal-psbm.github.io/aksibm-26/) <br><br>
 
-## 🗓️ Rencana Januari 2026
+## Rencana Januari 2026
 - Mulai **pengumpulan data dasar** untuk LKPS
 - Susun **template LKPS dan LED** sesuai 8 kriteria <br><br>
 
