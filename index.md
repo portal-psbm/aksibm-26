@@ -4,7 +4,7 @@ title: Beranda
 permalink: /
 ---
 
-# 🎯 Akreditasi PSBM LAM Teknik 2026
+# 🎯 Akreditasi Program Studi Broadband Multimedia 2026
 
 <div id="countdown-container" style="text-align: center; margin: 20px 0;">
   <div id="countdown" style="font-size: 1.2rem; font-weight: 600; color: #0d47a1;"></div>
