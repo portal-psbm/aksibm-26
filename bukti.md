@@ -13,7 +13,7 @@ permalink: /bukti/
 
 ## 📁 Struktur Pengarsipan (Sesuai Instrumen 2025)
 
-- **[K1_VMTS/](https://drive.google.com/drive/folders/1TRWWZHUTecu8NZtz9KsIL3STVRRBTSg2?usp=sharing)**→ Visi, Misi, Tujuan, Sasaran, Renstra
+- **[K1_VMTS/](https://drive.google.com/drive/folders/1TRWWZHUTecu8NZtz9KsIL3STVRRBTSg2?usp=sharing)** → Visi, Misi, Tujuan, Sasaran, Renstra
 - **[K2_Tata_Pamong/](https://drive.google.com/drive/folders/1DrKFEI-bj6b33OrKJ9PIMEwIu94FuGSO?usp=sharing)** → Struktur organisasi, SOP, MoU/MoA
 - **[K3_Mahasiswa/](https://drive.google.com/drive/folders/1W2DzMGgS6lwBI1UusFH5YhcN_-mdPpoJ?usp=sharing)** → Data penerimaan, IPK, layanan, tracer study
 - **[K4_SDM/](https://drive.google.com/drive/folders/17PZ7fR96Fkleygqg9a3Xdc2nwhYZlmSs?usp=sharing)** → Profil dosen, scan ijazah, sertifikasi, beban kerja
