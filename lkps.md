@@ -10,7 +10,7 @@ permalink: /lkps/
 Sedang dalam persiapan. <br><br>
 
 - **Timeline**: Februari-Maret 2026
-- **Koordinator**: DW, BU
+- **Koordinator**: VF
 - **Status**: Belum dimulai <br><br>
 
 > LKPS akan berisi data kuantitatif tentang mahasiswa, dosen, sarana, penelitian, dan kerja sama.

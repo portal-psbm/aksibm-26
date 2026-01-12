@@ -11,7 +11,7 @@ permalink: /led/
 Sedang dalam persiapan. <br><br>
 
 - **Timeline**: April-Mei 2026
-- **Koordinator**: BU, VF
+- **Koordinator**: BU
 - **Status**: Belum dimulai <br><br>
 
 > Dokumen LED akan mencakup analisis mendalam terhadap Standar Akreditasi LAM Teknik (2025), berdasarkan bukti dan data valid.
