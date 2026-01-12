@@ -147,7 +147,7 @@ permalink: /progress/
 
 ## 📌 Rincian Aktivitas Desember 2025
 - ✅ **Tim akreditasi resmi terbentuk** (SK dalam proses)
-- ✅ **Pemahaman 7 kriteria LAM Teknik 2025** selesai
+- ✅ **Pemahaman 7 kriteria LAM Teknik 2025** 
 - ✅ **Struktur folder bukti digital** disiapkan (`I_VMTS/` hingga `VII_SPMI/`)
 - ✅ **Website akreditasi** aktif di [https://portal-psbm.github.io/aksibm-26/](https://portal-psbm.github.io/aksibm-26/)
 
