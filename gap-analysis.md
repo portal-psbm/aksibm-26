@@ -33,5 +33,5 @@ permalink: /gap-analysis/
 - **Februari 2026**: Finalisasi laporan & rencana perbaikan  
 - **Maret 2026**: Mulai eksekusi perbaikan sambil isi LKPS
 
-> 💡 Laporan lengkap akan diarsip di:  
-> `https://docs.google.com/spreadsheets/d/1xi1LvTeES9AJvr59tnaQnbF-sVIidU4khh7Ys-nC-oM/edit?usp=sharing
+> 💡 Link dokumen : 
+   (https://docs.google.com/spreadsheets/d/1xi1LvTeES9AJvr59tnaQnbF-sVIidU4khh7Ys-nC-oM/edit?usp=sharing)
