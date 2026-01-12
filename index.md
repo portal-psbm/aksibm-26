@@ -12,7 +12,7 @@ permalink: /
 
 <div style="margin: 30px 0;">
   <div style="display: flex; justify-content: space-between; margin-bottom: 6px; font-size: 0.9rem;">
-    <span>Oktober 2025</span>
+    <span>Desember 2025</span>
     <span><strong id="progress-percent">0%</strong></span>
     <span>September 2026</span>
   </div>
@@ -23,7 +23,7 @@ permalink: /
 
 <script>
   // 🔢 Atur progress secara manual (0–100)
-  const progressPercent = 5; // ← GANTI NILAI INI SESUAI PROGRES
+  const progressPercent = 2; // ← GANTI NILAI INI SESUAI PROGRES
 
   // Update tampilan
   document.getElementById('progress-bar').style.width = progressPercent + '%';
