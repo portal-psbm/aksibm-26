@@ -4,7 +4,7 @@ title: Timeline
 permalink: /timeline/
 ---
 
-# 🗓️ Timeline Persiapan Akreditasi PSBM 2026
+# 🗓️ Timeline Persiapan Akreditasi
 
 Dokumen ini mengacu pada **Instrumen Akreditasi LAM Teknik Edisi 2025**.
 
