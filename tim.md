@@ -4,7 +4,7 @@ title: Tim Akreditasi
 permalink: /tim/
 ---
 
-# 👥 Tim Akreditasi PSBM – 7 Kriteria LAM Teknik 2025
+# 👥 Tim Akreditasi PSBM 2026
 
 Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akreditasi LAM Teknik Edisi 2025**, yang terdiri dari **7 kriteria utama** dengan penekanan pada **luaran mahasiswa**, **relevansi**, dan **K3L**.
 
