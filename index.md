@@ -50,7 +50,7 @@ permalink: /
 
 **Program Studi**: S1 Terapan Broadband Multimedia  
 **Target Submit**: **September 2026**  
-**Tim**: AWG, ASW, BU, DW, FEA, MF, SH, VF, Z
+**Tim Inti**: AgW, AsW, BU, DW, FEA, MF, SH, VF, Z
 
 > Website ini merefleksikan progres real-time persiapan akreditasi PSBM 2026.
 

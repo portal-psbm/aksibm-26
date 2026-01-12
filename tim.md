@@ -102,14 +102,14 @@ Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akredita
       <td><strong>VI. Mahasiswa & Luaran Mahasiswa</strong></td>
       <td>Kinerja lulusan, tracer study, prestasi</td>
       <td>SH</td>
-      <td>AW</td>
+      <td>AgW, AsW</td>
       <td>- Jalankan tracer study<br>- Kumpulkan data waktu tunggu kerja<br>- Arsipkan prestasi mahasiswa & lulusan</td>
     </tr>
     <tr>
       <td><strong>VII. Sistem Penjaminan Mutu</strong></td>
       <td>Efektivitas siklus PPEPP & tindak lanjut audit</td>
       <td>Z</td>
-      <td>DW</td>
+      <td>DW, FEA</td>
       <td>- Siapkan dokumen AMI<br>- Laporkan siklus PPEPP<br>- Evaluasi tindak lanjut rekomendasi</td>
     </tr>
   </tbody>
