@@ -67,24 +67,24 @@ Dokumen ini mengacu pada **Instrumen Akreditasi LAM Teknik Edisi 2025**.
       <td><strong>Feb 2026</strong></td>
       <td>Pengisian LKPS (1)</td>
       <td>- Input data: VMTS, Tata Pamong, Mahasiswa, SDM</td>
-      <td>Draft LKPS (Kriteria 1–4)</td>
+      <td>Draft LKPS (Kriteria I-IV)</td>
     </tr>
     <tr>
       <td><strong>Mar 2026</strong></td>
       <td>Pengisian LKPS (2)</td>
       <td>- Input data: Kurikulum, Sarpras+SPMI, Penelitian, Lulusan</td>
-      <td><strong>LKPS Lengkap (8 Kriteria)</strong></td>
+      <td><strong>LKPS Lengkap (7 Kriteria)</strong></td>
     </tr>
     <tr>
       <td><strong>Apr 2026</strong></td>
       <td>Penyusunan LED (1)</td>
-      <td>- Penulisan narasi: K1–K4</td>
-      <td>Draft LED: K1–K4</td>
+      <td>- Penulisan narasi: I–IV</td>
+      <td>Draft LED: I–IV</td>
     </tr>
     <tr>
       <td><strong>Mei 2026</strong></td>
       <td>Penyusunan LED (2)</td>
-      <td>- Penulisan narasi: K5–K8<br>- Integrasi analisis CPL & outcome</td>
+      <td>- Penulisan narasi: V–VII<br>- Integrasi analisis CPL & outcome</td>
       <td><strong>Draft Final LED</strong></td>
     </tr>
     <tr>
@@ -102,13 +102,13 @@ Dokumen ini mengacu pada **Instrumen Akreditasi LAM Teknik Edisi 2025**.
     <tr>
       <td><strong>Ags 2026</strong></td>
       <td>Persiapan Submit</td>
-      <td>- Uji coba upload ke SISTER<br>- Backup dokumen</td>
+      <td>- Uji coba upload ke SISTER LAM Teknik<br>- Backup dokumen</td>
       <td>Kesiapan teknis submit</td>
     </tr>
     <tr>
       <td><strong>Sep 2026</strong></td>
       <td><strong>Submit ke LAM Teknik</strong></td>
-      <td>- Unggah LED & LKPS ke portal SISTER LAM Teknik</td>
+      <td>- Upload LED & LKPS ke portal SISTER LAM Teknik</td>
       <td><strong>Konfirmasi Submit Resmi</strong></td>
     </tr>
   </tbody>
