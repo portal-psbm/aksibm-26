@@ -6,7 +6,7 @@ permalink: /bukti/
 
 # 📎 Bukti Dukung
 
-- **Koordinator**: AW, SH
+- **Koordinator**: AgW, SH
 - **Status**: Sistem penomoran sedang diterapkan <br><br>
 
 > Seluruh bukti diarsipkan dalam format digital (PDF, JPG, XLSX) dan dilink-kan ke narasi LED serta data LKPS. <br><br>
