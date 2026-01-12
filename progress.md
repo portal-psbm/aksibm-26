@@ -16,9 +16,9 @@ permalink: /progress/
 
 <div style="margin: 20px 0;">
   <div style="display: flex; justify-content: space-between; margin-bottom: 6px; font-size: 0.9rem;">
-    <span>Des 2025</span>
+    <span>Desember 2025</span>
     <span><strong id="progress-percent">5%</strong></span>
-    <span>Sep 2026</span>
+    <span>September 2026</span>
   </div>
   <div style="height: 20px; background: #e0e0e0; border-radius: 10px; overflow: hidden;">
     <div id="progress-bar" style="height: 100%; background: linear-gradient(to right, #4caf50, #81c784); width: 5%; transition: width 0.5s ease;"></div>
