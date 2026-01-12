@@ -4,11 +4,11 @@ title: Progress
 permalink: /progress/
 ---
 
-# 📊 Progress Persiapan Akreditasi
+# 📊 Progress Persiapan Akreditasi 
 
 **Periode**: Desember 2025  
-**Fase**: Persiapan & Sosialisasi Instrumen  
-**Target Submit**: Agustus 2026 | **Asesmen Lapangan**: September 2026
+**Fase**: Persiapan Awal  
+**Target Submit**: September 2026 | **Asesmen Lapangan**: Oktober–November 2026
 
 <div id="countdown-container" style="text-align: center; margin: 24px 0;">
   <div id="countdown" style="font-size: 1.2rem; font-weight: 600; color: #0d47a1;"></div>
@@ -37,7 +37,7 @@ permalink: /progress/
     const now = new Date();
     const diff = targetDate - now;
     if (diff <= 0) {
-      document.getElementById('countdown').innerHTML = '✅ Asesmen Selesai!';
+      document.getElementById('countdown').innerHTML = '✅ Submit Selesai!';
       return;
     }
     const days = Math.floor(diff / (1000 * 60 * 60 * 24));
@@ -108,56 +108,60 @@ permalink: /progress/
   </thead>
   <tbody>
     <tr>
-      <td>K1</td>
-      <td>Visi, Misi, Tujuan, Sasaran</td>
+      <td>I</td>
+      <td>VMTS</td>
       <td><span class="status-badge status-persiapan">Persiapan</span></td>
     </tr>
     <tr>
-      <td>K2</td>
-      <td>Tata Pamong, Tata Kelola, Kerja Sama</td>
+      <td>II</td>
+      <td>Tata Pamong, Tata Kelola, Kerja Sama, Keuangan</td>
       <td><span class="status-badge status-persiapan">Persiapan</span></td>
     </tr>
     <tr>
-      <td>K3</td>
-      <td>Mahasiswa</td>
+      <td>III</td>
+      <td>Relevansi Pendidikan, Penelitian, dan PkM</td>
       <td><span class="status-badge status-belum">Belum Dimulai</span></td>
     </tr>
     <tr>
-      <td>K4</td>
+      <td>IV</td>
       <td>Sumber Daya Manusia</td>
       <td><span class="status-badge status-belum">Belum Dimulai</span></td>
     </tr>
     <tr>
-      <td>K5</td>
-      <td>Kurikulum, Pembelajaran, Penilaian</td>
+      <td>V</td>
+      <td>Sarpras & K3L</td>
       <td><span class="status-badge status-belum">Belum Dimulai</span></td>
     </tr>
     <tr>
-      <td>K6</td>
-      <td>Sarpras & Sistem Penjaminan Mutu</td>
+      <td><strong>VI</strong></td>
+      <td><strong>Mahasiswa dan Luaran Mahasiswa</strong></td>
       <td><span class="status-badge status-belum">Belum Dimulai</span></td>
     </tr>
     <tr>
-      <td>K7</td>
-      <td>Penelitian, Pengabdian, Kerja Sama</td>
-      <td><span class="status-badge status-belum">Belum Dimulai</span></td>
-    </tr>
-    <tr>
-      <td><strong>K8</strong></td>
-      <td><strong>Lulusan & Capaian Program Studi</strong></td>
+      <td>VII</td>
+      <td>Sistem Penjaminan Mutu</td>
       <td><span class="status-badge status-belum">Belum Dimulai</span></td>
     </tr>
   </tbody>
 </table>
 
-## Rincian Aktivitas Desember 2025
-- ✅ **Tim akreditasi resmi terbentuk** (SK sedang diproses)
-- ✅ **Sosialisasi Instrumen LAM Teknik 2025** selesai
-- ✅ **Struktur folder bukti digital** disiapkan (`K1_...` hingga `K8_...`)
-- ✅ **Website akreditasi** aktif di [https://portal-psbm.github.io/aksibm-26/](https://portal-psbm.github.io/aksibm-26/) <br><br>
+## 📌 Rincian Aktivitas Desember 2025
+- ✅ **Tim akreditasi resmi terbentuk** (SK dalam proses)
+- ✅ **Pemahaman 7 kriteria LAM Teknik 2025** selesai
+- ✅ **Struktur folder bukti digital** disiapkan (`I_VMTS/` hingga `VII_SPMI/`)
+- ✅ **Website akreditasi** aktif di [https://portal-psbm.github.io/aksibm-26/](https://portal-psbm.github.io/aksibm-26/)
 
-## Rencana Januari 2026
+## 🗓️ Rencana Januari 2026
+- **Sosialisasi instrumen** ke dosen PSBM
+- **GAP Analysis** per 7 kriteria
 - Mulai **pengumpulan data dasar** untuk LKPS
-- Susun **template LKPS dan LED** sesuai 8 kriteria <br><br>
 
-> 💡 Progress saat ini **5%** mencerminkan fase awal persiapan. Fokus utama Januari 2026: **LKPS** sebagai fondasi LED.
+> 💡 **Fokus Utama 2026**:  
+> - **Kriteria VI (Mahasiswa & Luaran)** adalah penentu predikat  
+> - **Kriteria V (K3L)** wajib dilengkapi dokumen SOP keselamatan  
+> - Semua kriteria harus mendukung pembuktian **outcome lulusan**
+
+> 📅 **Milestone Berikutnya**:  
+> - **Maret 2026**: LKPS lengkap  
+> - **Mei 2026**: LED final  
+> - **September 2026**: Submit ke LAM Teknik
