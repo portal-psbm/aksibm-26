@@ -4,9 +4,11 @@ title: Timeline
 permalink: /timeline/
 ---
 
-# 🗓️ Timeline Persiapan Akreditasi
+# 🗓️ Timeline Persiapan Akreditasi – Standar LAM Teknik 2025
 
-Dokumen ini mengacu pada **Instrumen Akreditasi LAM Teknik Edisi 2025**, yang menggunakan **8 kriteria** berbasis *outcome* (bukan 9 standar lama).
+Dokumen ini mengacu pada **Instrumen Akreditasi LAM Teknik Edisi 2025**.
+
+## 📅 Rencana Kerja 2025–2026
 
 <style>
   .timeline-table {
@@ -52,25 +54,25 @@ Dokumen ini mengacu pada **Instrumen Akreditasi LAM Teknik Edisi 2025**, yang me
     <tr>
       <td><strong>Des 2025</strong></td>
       <td>Persiapan</td>
-      <td>- Sosialisasi instrumen 2025<br>- Penyusunan struktur tim<br>- Pemetaan kebutuhan data</td>
-      <td>SK Tim, Template Checklist, Folder Arsip</td>
+      <td>- Penyusunan struktur tim<br>- Pemetaan kebutuhan data<br>- Persiapan folder arsip digital</td>
+      <td>SK Tim, Template Checklist, Struktur Folder Bukti</td>
     </tr>
     <tr>
       <td><strong>Jan 2026</strong></td>
-      <td>Evaluasi Diri</td>
-      <td>- Pengumpulan data dasar<br>- Analisis kesenjangan (GAP)</td>
+      <td>Sosialisasi & GAP Analysis</td>
+      <td>- Sosialisasi instrumen LAM Teknik 2025<br>- Analisis kesenjangan (GAP) </td>
       <td>Laporan GAP Analysis, Rencana Perbaikan</td>
     </tr>
     <tr>
       <td><strong>Feb 2026</strong></td>
       <td>Pengisian LKPS (1)</td>
-      <td>- Input VMTS, Tata Pamong, Mahasiswa, SDM</td>
+      <td>- Input data: VMTS, Tata Pamong, Mahasiswa, SDM</td>
       <td>Draft LKPS (Kriteria 1–4)</td>
     </tr>
     <tr>
       <td><strong>Mar 2026</strong></td>
       <td>Pengisian LKPS (2)</td>
-      <td>- Input Kurikulum, Sarpras+SPMI, Penelitian, Lulusan</td>
+      <td>- Input data: Kurikulum, Sarpras+SPMI, Penelitian, Lulusan</td>
       <td><strong>LKPS Lengkap (8 Kriteria)</strong></td>
     </tr>
     <tr>
@@ -93,27 +95,28 @@ Dokumen ini mengacu pada **Instrumen Akreditasi LAM Teknik Edisi 2025**, yang me
     </tr>
     <tr>
       <td><strong>Jul 2026</strong></td>
-      <td>Finalisasi</td>
-      <td>- Validasi pimpinan<br>- Persiapan upload</td>
+      <td>Finalisasi Dokumen</td>
+      <td>- Validasi oleh pimpinan<br>- Finalisasi PDF</td>
       <td>LED & LKPS Final (PDF)</td>
     </tr>
     <tr>
       <td><strong>Ags 2026</strong></td>
-      <td>Submit</td>
-      <td>- Unggah ke SISTER LAM Teknik</td>
-      <td>Konfirmasi Submit</td>
+      <td>Persiapan Submit</td>
+      <td>- Uji coba upload ke SISTER<br>- Backup dokumen</td>
+      <td>Kesiapan teknis submit</td>
     </tr>
     <tr>
       <td><strong>Sep 2026</strong></td>
-      <td>Asesmen Lapangan</td>
-      <td>- Presentasi, wawancara, kunjungan</td>
-      <td>Laporan Asesor</td>
+      <td><strong>Submit ke LAM Teknik</strong></td>
+      <td>- Unggah LED & LKPS ke portal SISTER LAM Teknik</td>
+      <td><strong>Konfirmasi Submit Resmi</strong></td>
     </tr>
   </tbody>
 </table>
 
-## 🔑 Fokus Utama Standar 2025
-- ✅ **8 Kriteria** menggantikan 9 standar lama
-- ✅ **Kriteria 8 (Lulusan & Capaian PS)** adalah penentu utama
-- ✅ Semua narasi harus merujuk pada **CPL** dan **bukti outcome**
-- ✅ **LKPS harus selesai sebelum April 2026**
+## 🔑 Catatan Penting
+- ✅ **Sosialisasi dan GAP Analysis** dilaksanakan pada **Januari 2026**
+- ✅ **Submit dokumen resmi** ke LAM Teknik dilakukan pada **September 2026**
+- ⏳ Asesmen lapangan kemungkinan besar akan dilaksanakan **Oktober–November 2026**
+
+> 📌 Pastikan seluruh dokumen **selesai finalisasi pada Agustus 2026** untuk memenuhi tenggat submit September 2026.
