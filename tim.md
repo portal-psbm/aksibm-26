@@ -10,7 +10,7 @@ Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akredita
 
 <div style="text-align: center; margin: 24px 0 32px;">
   <img 
-    src="/aksi26/assets/images/tim-akreditasi.jpg" 
+    src="/aksi26/assets/images/tim_aksibm.jpg" 
     alt="Tim Akreditasi PSBM 2025" 
     style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.12);"
   >
@@ -94,8 +94,8 @@ Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akredita
     <tr>
       <td><strong>V. Sarpras & K3L</strong></td>
       <td>Ketersediaan lab, IT, perpustakaan, prosedur K3L</td>
-      <td>Z</td>
       <td>MF</td>
+      <td>Z</td>
       <td>- Inventarisasi laboratorium<br>- Dokumentasi SOP K3L<br>- Laporkan akses jurnal & software legal</td>
     </tr>
     <tr>
@@ -127,8 +127,7 @@ Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akredita
 ## 🔑 Catatan Penting
 - **Kriteria VI (Mahasiswa & Luaran)** adalah **penentu utama predikat akreditasi**
 - **Kriteria V (K3L)** adalah **penambahan baru di edisi 2025** — wajib ada dokumen SOP keselamatan di lab
-- Semua bukti harus diarsip dalam folder:  
-  `/aksi26/bukti/I_VMTS/`, `/aksi26/bukti/II_Tata_Pamong/`, ..., `/aksi26/bukti/VII_SPMI/`
+- Semua bukti harus diarsip dalam folder: ...
 
 > 📅 **Timeline Krusial**:  
 > - **Jan 2026**: GAP Analysis selesai  
