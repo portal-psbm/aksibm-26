@@ -29,7 +29,7 @@ permalink: /gap-analysis/
 <br>
 
 ## 📅 Timeline Pelaksanaan
-- **Januari 2026**: Pengumpulan data awal & workshop GAP analysis  
+- **Januari 2026**: Pengumpulan data awal & GAP analysis  
 - **Februari 2026**: Finalisasi laporan & rencana perbaikan  
 - **Maret 2026**: Mulai eksekusi perbaikan sambil isi LKPS
 
