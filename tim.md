@@ -4,18 +4,18 @@ title: Tim Akreditasi
 permalink: /tim/
 ---
 
-# 👥 Tim Akreditasi
+# 👥 Tim Akreditasi PSBM – 7 Kriteria LAM Teknik 2025
 
-Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akreditasi LAM Teknik Edisi 2025**, yang terdiri dari **8 kriteria berbasis outcome**. Fokus utama adalah pada **Kriteria 8: Lulusan dan Capaian Program Studi**.
+Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akreditasi LAM Teknik Edisi 2025**, yang terdiri dari **7 kriteria utama** dengan penekanan pada **luaran mahasiswa**, **relevansi**, dan **K3L**.
 
 <div style="text-align: center; margin: 24px 0 32px;">
   <img 
-    src="/aksibm-26/assets/images/tim_aksibm.jpeg" 
-    alt="Tim Akreditasi PSBM 2026" 
+    src="/aksi26/assets/images/tim-akreditasi.jpg" 
+    alt="Tim Akreditasi PSBM 2025" 
     style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.12);"
   >
   <p style="margin-top: 10px; color: #666; font-size: 0.95rem;">
-    Tim Akreditasi PSBM 2026
+    Tim Akreditasi PSBM – Desember 2025
   </p>
 </div>
 
@@ -24,7 +24,7 @@ Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akredita
     width: 100%;
     border-collapse: separate;
     border-spacing: 0;
-    margin: 20px 0 24px;
+    margin: 24px 0;
     font-size: 0.95rem;
   }
   .tim-table th,
@@ -50,73 +50,88 @@ Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akredita
   }
 </style>
 
+## 📋 Pembagian Tugas per Kriteria
+
 <table class="tim-table">
   <thead>
     <tr>
-      <th>Peran</th>
-      <th>Tugas Utama</th>
-      <th>Kriteria LAM Teknik 2025</th>
-      <th>Nama</th>
+      <th>Kriteria</th>
+      <th>Fokus Utama</th>
+      <th>Koordinator</th>
+      <th>Anggota Pendukung</th>
+      <th>Tugas Spesifik</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>Ketua Tim</strong></td>
-      <td>Koordinasi keseluruhan, validasi akhir dokumen, komunikasi dengan jurusan/PNJ</td>
-      <td><strong>K8 (Lulusan)</strong> – sebagai penentu utama</td>
+      <td><strong>I. VMTS</strong></td>
+      <td>Kesesuaian dengan kebutuhan nasional & industri</td>
       <td>AW</td>
-    </tr>
-    <tr>
-      <td><strong>Sekretaris</strong></td>
-      <td>Administrasi dokumen, pengarsipan digital, kontrol timeline, sinkronisasi LKPS–LED</td>
-      <td>Semua kriteria</td>
       <td>SH</td>
+      <td>- Finalisasi Renstra 2025–2029<br>- Validasi SK VMTS<br>- Analisis capaian sasaran</td>
     </tr>
     <tr>
-      <td><strong>Koordinator LKPS</strong></td>
-      <td>Pengumpulan & validasi data kuantitatif (mahasiswa, dosen, sarpras, lulusan, penelitian)</td>
-      <td>K1, K2, K3, K4, K6, K7, K8</td>
-      <td>DW, BU</td>
+      <td><strong>II. Tata Pamong, Tata Kelola, Kerja Sama, Keuangan</strong></td>
+      <td>Efektivitas tata kelola & dampak kerja sama</td>
+      <td>SH</td>
+      <td>BU, MF</td>
+      <td>- Dokumentasi SOP & struktur organisasi<br>- Kumpulkan MoU/MoA aktif<br>- Laporkan alokasi anggaran mutu</td>
     </tr>
     <tr>
-      <td><strong>Koordinator LED</strong></td>
-      <td>Menulis narasi evaluasi diri yang berbasis <strong>CPL dan outcome</strong>, mengintegrasikan bukti dari LKPS</td>
-      <td>K1, K2, K3, K4, K5, K6, K7, K8</td>
-      <td>BU, VF</td>
+      <td><strong>III. Relevansi Pendidikan, Penelitian, PkM</strong></td>
+      <td>Kesesuaian CPL dengan kebutuhan pengguna lulusan</td>
+      <td>VF</td>
+      <td>BU, DW</td>
+      <td>- Susun matriks CPL–MK<br>- Evaluasi kurikulum KKNI<br>- Kumpulkan data penelitian relevan</td>
     </tr>
     <tr>
-      <td><strong>Koordinator Kurikulum & CPL</strong></td>
-      <td>Menyusun peta CPL, matriks kurikulum, dan bukti implementasi OBE</td>
-      <td><strong>K5 (Kurikulum)</strong></td>
-      <td>VF, MF</td>
+      <td><strong>IV. Sumber Daya Manusia</strong></td>
+      <td>Kualifikasi, kompetensi, beban kerja dosen</td>
+      <td>DW</td>
+      <td>VF</td>
+      <td>- Verifikasi ijazah & sertifikasi<br>- Hitung rasio dosen:mahasiswa<br>- Analisis kesesuaian bidang dosen</td>
     </tr>
     <tr>
-      <td><strong>Koordinator Lulusan & Tracer Study</strong></td>
-      <td>Melaksanakan tracer study, menghimpun data kinerja lulusan, dan feedback pengguna</td>
-      <td><strong>K8 (Lulusan)</strong></td>
-      <td>MF, Z</td>
+      <td><strong>V. Sarpras & K3L</strong></td>
+      <td>Ketersediaan lab, IT, perpustakaan, prosedur K3L</td>
+      <td>Z</td>
+      <td>MF</td>
+      <td>- Inventarisasi laboratorium<br>- Dokumentasi SOP K3L<br>- Laporkan akses jurnal & software legal</td>
     </tr>
     <tr>
-      <td><strong>Koordinator Sarpras & SPMI</strong></td>
-      <td>Mendokumentasikan sarana/prasarana dan sistem penjaminan mutu internal</td>
-      <td><strong>K6 (Sarpras + SPMI)</strong></td>
-      <td>DW, SH</td>
+      <td><strong>VI. Mahasiswa & Luaran Mahasiswa</strong></td>
+      <td>Kinerja lulusan, tracer study, prestasi</td>
+      <td>MF</td>
+      <td>DW, AW</td>
+      <td>- Jalankan tracer study<br>- Kumpulkan data waktu tunggu kerja<br>- Arsipkan prestasi mahasiswa & lulusan</td>
     </tr>
     <tr>
-      <td><strong>Koordinator Penelitian & Kerja Sama</strong></td>
-      <td>Menghimpun data penelitian, pengabdian, dan kerja sama strategis</td>
-      <td><strong>K7 (Penelitian)</strong></td>
-      <td>AW, Z</td>
+      <td><strong>VII. Sistem Penjaminan Mutu</strong></td>
+      <td>Efektivitas siklus PPEPP & tindak lanjut audit</td>
+      <td>BU</td>
+      <td>SH, AW</td>
+      <td>- Siapkan dokumen AMI<br>- Laporkan siklus PPEPP<br>- Evaluasi tindak lanjut rekomendasi</td>
     </tr>
   </tbody>
 </table>
 
-## 🔑 Penekanan Baru (Edisi 2025)
-- Setiap narasi di **LED harus merujuk pada Capaian Pembelajaran Lulusan (CPL)**
-- **Kriteria 8 (Lulusan)** menjadi **fokus utama asesor** — semua kriteria lain harus mendukung pembuktian kualitas lulusan
-- **LKPS dan LED harus sinkron** — tidak boleh ada klaim di LED yang tidak didukung data di LKPS <br><br>
+## 🎯 Peran Inti Tambahan
+
+| Peran | Tanggung Jawab | Anggota |
+|------|----------------|--------|
+| **Ketua Tim** | Koordinasi keseluruhan, validasi akhir, komunikasi dengan jurusan/PNJ | **AW** |
+| **Sekretaris** | Administrasi dokumen, sinkronisasi LKPS–LED, kontrol timeline | **SH** |
+| **Koordinator LKPS** | Pengumpulan data kuantitatif untuk semua kriteria | **DW, BU** |
+| **Koordinator LED** | Penulisan narasi evaluasi diri berbasis bukti & outcome | **BU, VF** |
+
+## 🔑 Catatan Penting
+- **Kriteria VI (Mahasiswa & Luaran)** adalah **penentu utama predikat akreditasi**
+- **Kriteria V (K3L)** adalah **penambahan baru di edisi 2025** — wajib ada dokumen SOP keselamatan di lab
+- Semua bukti harus diarsip dalam folder:  
+  `/aksi26/bukti/I_VMTS/`, `/aksi26/bukti/II_Tata_Pamong/`, ..., `/aksi26/bukti/VII_SPMI/`
 
 > 📅 **Timeline Krusial**:  
-> - **Maret 2026**: LKPS harus selesai  
-> - **Mei 2026**: LED final selesai  
-> - **Agustus 2026**: Submit ke SISTER LAM Teknik
+> - **Jan 2026**: GAP Analysis selesai  
+> - **Mar 2026**: LKPS lengkap  
+> - **Mei 2026**: LED final  
+> - **Sep 2026**: Submit ke LAM Teknik
