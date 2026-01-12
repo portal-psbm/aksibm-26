@@ -74,14 +74,14 @@ Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akredita
       <td><strong>II. Tata Pamong, Tata Kelola, Kerja Sama, Keuangan</strong></td>
       <td>Efektivitas tata kelola & dampak kerja sama</td>
       <td>MF</td>
-      <td>BU</td>
+      <td>BU, AsW</td>
       <td>- Dokumentasi SOP & struktur organisasi<br>- Kumpulkan MoU/MoA aktif<br>- Laporkan alokasi anggaran mutu</td>
     </tr>
     <tr>
       <td><strong>III. Relevansi Pendidikan, Penelitian, PkM</strong></td>
       <td>Kesesuaian CPL dengan kebutuhan pengguna lulusan</td>
       <td>AW</td>
-      <td>VF</td>
+      <td>VF, FEA</td>
       <td>- Susun matriks CPL–MK<br>- Evaluasi kurikulum KKNI<br>- Kumpulkan data penelitian relevan</td>
     </tr>
     <tr>
