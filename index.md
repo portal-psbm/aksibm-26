@@ -6,9 +6,11 @@ permalink: /
 
 # 🎯 Akreditasi Program Studi Broadband Multimedia 2026
 
-**Program Studi**: S1 Terapan Broadband Multimedia  
-**Target Submit**: **September 2026**  
+**Target Submit**: **September 2026**
 **Tim Inti**: AgW, AsW, BU, DW, FEA, MF, SH, VF, Z
+<br>
+🔗 [NADK 2020](https://drive.google.com/drive/folders/159OIE0vbfoRqZ-2MkDgNa47AuZyBlUZO)
+🔗 [NADK 2025 (OBE](https://drive.google.com/drive/folders/1QqOSL639o8FLJAgK2l7HzfgrByEkEGmM)
 
 > Website ini merefleksikan progres real-time persiapan akreditasi PSBM 2026.
 
