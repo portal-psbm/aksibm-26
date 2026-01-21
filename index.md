@@ -9,8 +9,8 @@ permalink: /
 **Target Submit**: **September 2026** 
 <br><br>
 **Dokumen Kurikulum PSBM** <br>
-🔗 [NADK 2020](https://drive.google.com/drive/folders/159OIE0vbfoRqZ-2MkDgNa47AuZyBlUZO) <br>
-🔗 [NADK 2025 (OBE)](https://drive.google.com/drive/folders/1QqOSL639o8FLJAgK2l7HzfgrByEkEGmM)
+🔗 [2020](https://drive.google.com/file/d/1LVO-L4PUUgWPDQIX-jdD8mGh-nYTmlSl/view?usp=drive_link) <br>
+🔗 [2025](https://drive.google.com/file/d/1hLEWKK-VEuRCsmu-C0dCX-znJlq3Djk7/view?usp=drive_link)
 <br><br>
 > Website ini merefleksikan progres real-time persiapan akreditasi PSBM 2026.
 
