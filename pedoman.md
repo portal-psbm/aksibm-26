@@ -22,7 +22,7 @@ permalink: /pedoman/
    - [Portal Resmi LAM Teknik](https://lamteknik.or.id)
    - [Instrumen Akreditasi LAM Teknik](https://lamteknik.or.id/akreditasi/instrumen-akreditasi) <br><br>
 
-## Dokumen Kurikulum PSBM <br>
+## 📄 Dokumen Kurikulum PSBM <br>
 🔗 [2020](https://drive.google.com/file/d/1LVO-L4PUUgWPDQIX-jdD8mGh-nYTmlSl/view?usp=drive_link) <br>
 🔗 [2025](https://drive.google.com/file/d/1hLEWKK-VEuRCsmu-C0dCX-znJlq3Djk7/view?usp=drive_link)
 
