@@ -6,8 +6,7 @@ permalink: /
 
 # 🎯 Akreditasi Program Studi Broadband Multimedia 2026
 
-**Target Submit**: **September 2026** <br>
-**Tim Inti**: AgW, AsW, BU, DW, FEA, MF, SH, VF, Z
+**Target Submit**: **September 2026** 
 <br>
 🔗 [NADK 2020](https://drive.google.com/drive/folders/159OIE0vbfoRqZ-2MkDgNa47AuZyBlUZO) <br>
 🔗 [NADK 2025 (OBE)](https://drive.google.com/drive/folders/1QqOSL639o8FLJAgK2l7HzfgrByEkEGmM)
