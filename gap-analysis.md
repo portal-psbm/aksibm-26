@@ -15,15 +15,15 @@ permalink: /gap-analysis/
 
 <br>
 
-## 📋 Hasil Sementara (Contoh)
+## 📋 Contoh
 
 | Kriteria | Kesenjangan Teridentifikasi | Rekomendasi Perbaikan |
 |---------|------------------------------|------------------------|
 | **I. VMTS** | Renstra belum memuat indikator kinerja spesifik | Susun IKU terukur per sasaran |
-| **II. Tata Pamong** | MoU dengan industri kurang dari 3 mitra aktif | Jalin kerja sama baru dengan 2 perusahaan multimedia |
+| **II. Tata Pamong** | MoU dengan industri kurang dari 3 mitra aktif | Jalin kerja sama baru dengan 2 perusahaan telekomunikasi |
 | **III. Relevansi** | CPL belum sepenuhnya terpetakan ke seluruh MK | Perbarui matriks CPL–MK pada Februari 2026 |
-| **IV. SDM** | 2 dosen belum memiliki sertifikasi kompetensi | Jadwalkan pelatihan sertifikasi Q2 2026 |
-| **V. Sarpras & K3L** | Belum ada SOP tertulis untuk K3L di lab | Susun dan sahkan SOP K3L pada Januari 2026 |
+| **IV. SDM** | 2 dosen belum memiliki sertifikasi kompetensi | Jadwalkan pelatihan sertifikasi 2026 |
+| **V. Sarpras & K3L** | Belum ada SOP tertulis untuk K3L di lab | Susun dan sahkan SOP K3L pada Februari 2026 |
 | **VI. Mahasiswa & Luaran** | Tracer study 2024 belum mencakup 80% lulusan | Lakukan follow-up survei hingga Februari 2026 |
 | **VII. SPMI** | Tindak lanjut AMI 2023 belum terevaluasi | Susun laporan evaluasi PPEPP Maret 2026 |
 
