@@ -4,9 +4,9 @@ title: Pedoman
 permalink: /pedoman/
 ---
 
-# 📘 Pedoman Akreditasi LAM Teknik 2025
+# 📘 Pedoman & Dokumen
 
-Dokumen panduan resmi yang digunakan sebagai acuan dalam persiapan akreditasi. <br><br>
+<br><br>
 
 ## 📄 Sosialisai LAM Teknik (slide)
    - [Materi 1 - Kebijakan dan Gambaran Umum (20042025)](/aksibm-26/assets/pedoman/kebijakan_dan_gambaran_umum.pdf)
@@ -23,4 +23,7 @@ Dokumen panduan resmi yang digunakan sebagai acuan dalam persiapan akreditasi. <
    - [Portal Resmi LAM Teknik](https://lamteknik.or.id)
    - [Instrumen Akreditasi LAM Teknik](https://lamteknik.or.id/akreditasi/instrumen-akreditasi) <br><br>
 
-> 📅 Terakhir diperbarui: Desember 2025
+**Dokumen Kurikulum PSBM** <br>
+🔗 [2020](https://drive.google.com/file/d/1LVO-L4PUUgWPDQIX-jdD8mGh-nYTmlSl/view?usp=drive_link) <br>
+🔗 [2025](https://drive.google.com/file/d/1hLEWKK-VEuRCsmu-C0dCX-znJlq3Djk7/view?usp=drive_link)
+
