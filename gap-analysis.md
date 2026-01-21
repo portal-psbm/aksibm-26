@@ -8,7 +8,8 @@ permalink: /gap-analysis/
 
 **Periode**: Januari 2026  
 **Fase**: Evaluasi Diri Awal  
-**Tujuan**: Mengidentifikasi kesenjangan antara kondisi saat ini dan capaian yang dipersyaratkan oleh LAM Teknik.
+**Tujuan**: Mengidentifikasi kesenjangan antara kondisi saat ini dan capaian yang dipersyaratkan oleh LAM Teknik. <br>
+🔗 [Lihat Dokumen (Google Sheet)](https://docs.google.com/spreadsheets/d/1xi1LvTeES9AJvr59tnaQnbF-sVIidU4khh7Ys-nC-oM/edit?usp=sharing)
 
 > Dokumen ini menjadi dasar penyusunan **rencana perbaikan** dan pengisian **LKPS**.
 
@@ -32,5 +33,3 @@ permalink: /gap-analysis/
 - **Januari 2026**: Pengumpulan data awal & GAP analysis  
 - **Februari 2026**: Finalisasi laporan & rencana perbaikan  
 - **Maret 2026**: Mulai eksekusi perbaikan sambil isi LKPS
-
-🔗 [Lihat Dokumen (Google Sheet)](https://docs.google.com/spreadsheets/d/1xi1LvTeES9AJvr59tnaQnbF-sVIidU4khh7Ys-nC-oM/edit?usp=sharing)
