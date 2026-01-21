@@ -6,7 +6,8 @@ permalink: /tim/
 
 # 👥 Tim Akreditasi 
 
-Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akreditasi LAM Teknik Edisi 2025**, yang terdiri dari **7 kriteria utama** dengan penekanan pada **luaran mahasiswa**, **relevansi**, dan **K3L**.
+**Anggota Tim Inti** : **AgW, AsW, BU, DW, FEA, MF, SH, VF, Z** <br>
+Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akreditasi LAM Teknik Edisi 2025**
 
 <div style="text-align: center; margin: 24px 0 32px;">
   <img 
