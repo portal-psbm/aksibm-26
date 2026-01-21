@@ -6,8 +6,6 @@ permalink: /timeline/
 
 # 🗓️ Timeline Persiapan Akreditasi
 
-Dokumen ini mengacu pada **Instrumen Akreditasi LAM Teknik Edisi 2025**.
-
 ## 📅 Rencana Kerja 2025–2026
 
 <style>

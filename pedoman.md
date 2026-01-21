@@ -4,9 +4,8 @@ title: Pedoman
 permalink: /pedoman/
 ---
 
-# 📘 Pedoman & Dokumen
-
-<br><br>
+# 📘 Pedoman & Dokumen 
+<br>
 
 ## 📄 Sosialisai LAM Teknik (slide)
    - [Materi 1 - Kebijakan dan Gambaran Umum (20042025)](/aksibm-26/assets/pedoman/kebijakan_dan_gambaran_umum.pdf)
@@ -23,7 +22,7 @@ permalink: /pedoman/
    - [Portal Resmi LAM Teknik](https://lamteknik.or.id)
    - [Instrumen Akreditasi LAM Teknik](https://lamteknik.or.id/akreditasi/instrumen-akreditasi) <br><br>
 
-**Dokumen Kurikulum PSBM** <br>
+## Dokumen Kurikulum PSBM <br>
 🔗 [2020](https://drive.google.com/file/d/1LVO-L4PUUgWPDQIX-jdD8mGh-nYTmlSl/view?usp=drive_link) <br>
 🔗 [2025](https://drive.google.com/file/d/1hLEWKK-VEuRCsmu-C0dCX-znJlq3Djk7/view?usp=drive_link)
 
