@@ -7,7 +7,7 @@ permalink: /pedoman/
 # 📘 Pedoman & Dokumen 
 <br>
 
-## 📄 Sosialisai LAM Teknik (slide)
+## 📄 Sosialisasi LAM Teknik (slide)
    - [Materi 1 - Kebijakan dan Gambaran Umum (20042025)](/aksibm-26/assets/pedoman/kebijakan_dan_gambaran_umum.pdf)
    - [Materi 2 - Matriks Penilaian (20042025)](/aksibm-26/assets/pedoman/matriks_penilaian.pdf)
    - [Materi 3 - LED (18042025)](/aksibm-26/assets/pedoman/led.pdf)
@@ -18,7 +18,7 @@ permalink: /pedoman/
    - [Panduan LKPS](/aksibm-26/assets/pedoman/panduan_penyusunan_lkps_2025.pdf)
    - [Matriks Penilaian LED & LKPS](/aksibm-26/assets/pedoman/pedoman_matrik_penilaian_2025.pdf) <br><br>
 
-## 🔗 Referensi Eksternal
+## 🔗 Website LAM Teknik
    - [Portal Resmi LAM Teknik](https://lamteknik.or.id)
    - [Instrumen Akreditasi LAM Teknik](https://lamteknik.or.id/akreditasi/instrumen-akreditasi) <br><br>
 
