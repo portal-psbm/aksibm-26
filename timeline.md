@@ -5,12 +5,15 @@ permalink: /timeline/
 ---
 
 # 🗓️ Timeline Persiapan Akreditasi
+<br>
+  
+**Target Submit**: **Awal Mei 2026**
 
-## 📅 Rencana Kerja 2025–2026
+## 📅 Rencana Kerja – Januari s.d. Mei 2026
 
 <style>
   .timeline-table {
-    width: 100%;
+    width: 1; 
     border-collapse: separate;
     border-spacing: 0;
     margin: 20px 0;
@@ -50,71 +53,48 @@ permalink: /timeline/
   </thead>
   <tbody>
     <tr>
-      <td><strong>Des 2025</strong></td>
-      <td>Persiapan</td>
-      <td>- Penyusunan struktur tim<br>- Pemetaan kebutuhan data<br>- Persiapan folder arsip digital</td>
-      <td>SK Tim, Template Checklist, Struktur Folder Bukti</td>
-    </tr>
-    <tr>
       <td><strong>Jan 2026</strong></td>
       <td>Sosialisasi & GAP Analysis</td>
-      <td>- Sosialisasi instrumen LAM Teknik 2025<br>- Analisis kesenjangan (GAP) </td>
+      <td>- Sosialisasi instrumen LAM Teknik 2025 ke seluruh dosen<br>- Workshop analisis kesenjangan per 7 kriteria</td>
       <td>Laporan GAP Analysis, Rencana Perbaikan</td>
     </tr>
     <tr>
       <td><strong>Feb 2026</strong></td>
-      <td>Pengisian LKPS (1)</td>
-      <td>- Input data: VMTS, Tata Pamong, Mahasiswa, SDM</td>
-      <td>Draft LKPS (Kriteria I-IV)</td>
+      <td>Pengisian LKPS (Tahap 1)</td>
+      <td>- Input data: VMTS, Tata Pamong, Relevansi, SDM<br>- Validasi data internal</td>
+      <td>Draft LKPS (Kriteria I–IV)</td>
     </tr>
     <tr>
       <td><strong>Mar 2026</strong></td>
-      <td>Pengisian LKPS (2)</td>
-      <td>- Input data: Kurikulum, Sarpras+SPMI, Penelitian, Lulusan</td>
+      <td>Pengisian LKPS (Tahap 2)</td>
+      <td>- Input data: Sarpras & K3L, Mahasiswa & Luaran, SPMI<br>- Finalisasi seluruh data LKPS</td>
       <td><strong>LKPS Lengkap (7 Kriteria)</strong></td>
     </tr>
     <tr>
       <td><strong>Apr 2026</strong></td>
-      <td>Penyusunan LED (1)</td>
-      <td>- Penulisan narasi: I–IV</td>
-      <td>Draft LED: I–IV</td>
-    </tr>
-    <tr>
-      <td><strong>Mei 2026</strong></td>
-      <td>Penyusunan LED (2)</td>
-      <td>- Penulisan narasi: V–VII<br>- Integrasi analisis CPL & outcome</td>
+      <td>Penyusunan LED</td>
+      <td>- Menulis narasi evaluasi diri per kriteria<br>- Mengintegrasikan bukti dan analisis outcome<br>- Review internal oleh tim</td>
       <td><strong>Draft Final LED</strong></td>
     </tr>
     <tr>
-      <td><strong>Jun 2026</strong></td>
-      <td>Review Internal</td>
-      <td>- Simulasi asesmen<br>- Koreksi data & narasi</td>
-      <td>LKPS & LED Versi 2</td>
-    </tr>
-    <tr>
-      <td><strong>Jul 2026</strong></td>
+      <td><strong>Akhir Apr 2026</strong></td>
       <td>Finalisasi Dokumen</td>
-      <td>- Validasi oleh pimpinan<br>- Finalisasi PDF</td>
-      <td>LED & LKPS Final (PDF)</td>
+      <td>- Validasi oleh Ketua Jurusan<br>- Penyempurnaan format PDF<br>- Uji coba upload ke SISTER (jika tersedia)</td>
+      <td>LED & LKPS Final (PDF siap submit)</td>
     </tr>
     <tr>
-      <td><strong>Ags 2026</strong></td>
-      <td>Persiapan Submit</td>
-      <td>- Uji coba upload ke SISTER LAM Teknik<br>- Backup dokumen</td>
-      <td>Kesiapan teknis submit</td>
-    </tr>
-    <tr>
-      <td><strong>Sep 2026</strong></td>
+      <td><strong>Awal Mei 2026</strong></td>
       <td><strong>Submit ke LAM Teknik</strong></td>
-      <td>- Upload LED & LKPS ke portal SISTER LAM Teknik</td>
+      <td>- Unggah LED dan LKPS ke portal resmi LAM Teknik<br>- Konfirmasi penerimaan dokumen</td>
       <td><strong>Konfirmasi Submit Resmi</strong></td>
     </tr>
   </tbody>
 </table>
 
 ## 🔑 Catatan Penting
-- ✅ **Sosialisasi dan GAP Analysis** dilaksanakan pada **Januari 2026**
-- ✅ **Submit dokumen resmi** ke LAM Teknik dilakukan pada **September 2026**
-- ⏳ Asesmen lapangan kemungkinan besar akan dilaksanakan **Oktober–November 2026**
+- ✅ **LKPS harus selesai Maret 2026** — menjadi dasar penyusunan LED
+- ✅ **Kriteria VI (Mahasiswa & Luaran)** adalah penentu utama predikat
+- ✅ **Kriteria V (K3L)** wajib dilengkapi dokumen SOP keselamatan di laboratorium
+- ⏳ Asesmen lapangan kemungkinan besar dilaksanakan **Juni–Juli 2026**
 
-> 📌 Pastikan seluruh dokumen **selesai finalisasi pada Agustus 2026** untuk memenuhi tenggat submit September 2026.
+> 📌 Pastikan seluruh dokumen **final pada akhir April 2026** untuk memenuhi tenggat **submit awal Mei 2026**.
