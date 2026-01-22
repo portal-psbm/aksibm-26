@@ -7,9 +7,9 @@ permalink: /timeline/
 # 🗓️ Timeline Persiapan Akreditasi
 <br>
   
-**Target Submit**: **Awal Mei 2026**
+**Target Submit**: **Awal Mei 2026** <br>
 
-## 📅 Rencana Kerja – Januari s.d. Mei 2026
+## 📅 Rencana Kerja : Januari s.d. Mei 2026
 
 <style>
   .timeline-table {

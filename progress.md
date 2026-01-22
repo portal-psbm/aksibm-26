@@ -8,7 +8,7 @@ permalink: /progress/
 
 **Periode**: Januari 2026  
 **Fase**: Persiapan Awal  
-**Target Submit**: September 2026 | **Asesmen Lapangan**: Oktober–November 2026
+**Target Submit**: Mei 2026 | **Asesmen Lapangan**: Juni–Juli 2026
 
 <div id="countdown-container" style="text-align: center; margin: 24px 0;">
   <div id="countdown" style="font-size: 1.2rem; font-weight: 600; color: #0d47a1;"></div>
@@ -31,8 +31,8 @@ permalink: /progress/
   document.getElementById('progress-bar').style.width = progressPercent + '%';
   document.getElementById('progress-percent').textContent = progressPercent + '%';
 
-  // Countdown ke September 2026
-  const targetDate = new Date('2026-09-01T00:00:00');
+  // Countdown ke Mei 2026
+  const targetDate = new Date('2026-05-01T00:00:00');
   function updateCountdown() {
     const now = new Date();
     const diff = targetDate - now;
@@ -161,5 +161,5 @@ permalink: /progress/
 
 > 📅 **Milestone Berikutnya**:  
 > - **Maret 2026**: LKPS lengkap  
-> - **Mei 2026**: LED final  
-> - **September 2026**: Submit ke LAM Teknik
+> - **April 2026**: LED final  
+> - **Mei 2026**: Submit ke LAM Teknik

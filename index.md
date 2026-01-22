@@ -4,9 +4,9 @@ title: Beranda
 permalink: /
 ---
 
-# 🎯 Akreditasi Program Studi Broadband Multimedia 2026
+# 🎯 Akreditasi Program Studi Broadband Multimedia Tahun 2026
 
-**Target Submit**: **September 2026** 
+**Target Submit**: **Mei 2026 (Batch 2)** 
 <br><br>
 
 > Website ini merefleksikan progres real-time persiapan akreditasi PSBM 2026.

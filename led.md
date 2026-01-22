@@ -10,7 +10,7 @@ permalink: /led/
 
 Sedang dalam persiapan. <br><br>
 
-- **Timeline**: April-Mei 2026
+- **Timeline**: April 2026
 - **Koordinator**: BU
 - **Status**: Belum dimulai <br><br>
 

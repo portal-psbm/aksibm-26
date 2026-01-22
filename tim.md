@@ -6,7 +6,7 @@ permalink: /tim/
 
 # 👥 Tim Akreditasi 
 
-**Anggota Tim Inti** : **AgW, AsW, BU, DW, FEA, MF, SH, VF, Z** <br>
+**Anggota Tim Inti** : **AgW, AsW, BU, DW, FEA, MF, SH, VF, Z** <br> <br>
 Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akreditasi LAM Teknik Edisi 2025**
 
 <div style="text-align: center; margin: 24px 0 32px;">
@@ -118,7 +118,7 @@ Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akredita
 
 ## 🎯 Peran Inti Tambahan
 
-| Peran | Tanggung Jawab | Anggota |
+| Peran | Tanggung Jawab | PIC |
 |------|----------------|--------|
 | **Ketua Tim** | Koordinasi keseluruhan, validasi akhir, komunikasi dengan jurusan/PNJ | **AW** |
 | **Sekretaris** | Administrasi dokumen, sinkronisasi LKPS–LED, kontrol timeline | **SH** |
@@ -133,5 +133,5 @@ Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akredita
 > 📅 **Timeline Krusial**:  
 > - **Jan 2026**: GAP Analysis selesai  
 > - **Mar 2026**: LKPS lengkap  
-> - **Mei 2026**: LED final  
-> - **Sep 2026**: Submit ke LAM Teknik
+> - **April 2026**: LED final  
+> - **Mei 2026**: Submit ke LAM Teknik
