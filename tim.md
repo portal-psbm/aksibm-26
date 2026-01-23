@@ -113,6 +113,13 @@ Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akredita
       <td>DW, FEA</td>
       <td>- Siapkan dokumen AMI<br>- Laporkan siklus PPEPP<br>- Evaluasi tindak lanjut rekomendasi</td>
     </tr>
+    <tr>
+      <td><strong>B. PROGRAM PENGEMBANGAN BERKELANJUTAN</strong></td>
+      <td>Efektivitas siklus PPEPP & tindak lanjut audit</td>
+      <td>BU</td>
+      <td>AsW</td>
+      <td>- Analisis SWOT<br>- Dokumen perencanaan strategis pengembangan PS<br>- Rencana aksi & alokasi sumber daya<br> - Bukti dukungan mitra industri/pemerintah</td>
+    </tr>
   </tbody>
 </table>
 
