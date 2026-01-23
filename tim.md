@@ -114,8 +114,8 @@ Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akredita
       <td>- Siapkan dokumen AMI<br>- Laporkan siklus PPEPP<br>- Evaluasi tindak lanjut rekomendasi</td>
     </tr>
     <tr>
-      <td><strong>B. PROGRAM PENGEMBANGAN BERKELANJUTAN</strong></td>
-      <td>Efektivitas siklus PPEPP & tindak lanjut audit</td>
+      <td><strong>Program Pengembangan Berkelanjutan</strong></td>
+      <td>Membuktikan bahwa Program Studi memiliki rencana strategis yang realistis, berkelanjutan, dan berbasis analisis mendalam terhadap lingkungan eksternal serta refleksi kinerja internal ( </td>
       <td>BU</td>
       <td>AsW</td>
       <td>- Analisis SWOT<br>- Dokumen perencanaan strategis pengembangan PS<br>- Rencana aksi & alokasi sumber daya<br> - Bukti dukungan mitra industri/pemerintah</td>
