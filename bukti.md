@@ -6,12 +6,11 @@ permalink: /bukti/
 
 # 📎 Bukti Dukung
 
-- **Koordinator**: AgW, SH
-- **Status**: Sistem penomoran sedang diterapkan <br><br>
+## 🔗 [Ceklis bukti dokumen](https://docs.google.com/spreadsheets/d/1l-hyJQPxnpv7jt6_iZ_Z3lGY048A-OM2TIcFMfrojdM/edit?usp=sharing)
 
 > Seluruh bukti diarsipkan dalam format digital (PDF, JPG, XLSX) dan dilink-kan ke narasi LED serta data LKPS. <br><br>
 
-## 🔗 Link Pengarsipan (Sesuai Instrumen 2025)
+## 🔗 Upload bukti dokumen
 
 - **[I_VMTS/](https://drive.google.com/drive/folders/1TRWWZHUTecu8NZtz9KsIL3STVRRBTSg2?usp=sharing)** → Visi, Misi, Tujuan, Sasaran, Renstra, SK penetapan
 - **[II_Tata_Pamong/](https://drive.google.com/drive/folders/1DrKFEI-bj6b33OrKJ9PIMEwIu94FuGSO?usp=sharing)** → truktur organisasi, SOP tata kelola, MoU/MoA, laporan keuangan mutu 
