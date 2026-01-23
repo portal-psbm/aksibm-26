@@ -7,8 +7,9 @@ permalink: /bukti/
 # 📎 Bukti Dukung
 
 ## 🔗 [Link daftar bukti dokumen yang harus disiapkan](https://docs.google.com/spreadsheets/d/1l-hyJQPxnpv7jt6_iZ_Z3lGY048A-OM2TIcFMfrojdM/edit?usp=sharing)
+<br><br>
 
-> Seluruh bukti diarsipkan dalam format digital (PDF, JPG, XLSX) dan dilink-kan ke narasi LED serta data LKPS. <br><br>
+> Seluruh bukti di-upload dalam format digital (PDF, JPG, XLSX, dll.) dan dilink-kan ke narasi LED serta data LKPS. <br>
 
 ## 🔗 Upload bukti dokumen
 
