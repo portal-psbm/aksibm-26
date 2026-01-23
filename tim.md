@@ -136,7 +136,7 @@ Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akredita
 - **Kriteria VI (Mahasiswa & Luaran)** adalah **penentu utama predikat akreditasi**
 - **Kriteria V (K3L)** adalah **penambahan baru di edisi 2025** — wajib ada dokumen SOP keselamatan di lab
 - Semua bukti diarsip di menu Bukti
-<br>
+<br><br>
 
 > 📅 **Timeline Krusial**:  
 > - **Jan 2026**: GAP Analysis selesai  
