@@ -139,6 +139,7 @@ Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akredita
 
 > 📅 **Timeline Krusial**:  
 > - **Jan 2026**: GAP Analysis selesai  
-> - **Mar 2026**: LKPS lengkap  
-> - **April 2026**: LED final  
-> - **Mei 2026**: Submit ke LAM Teknik
+> - **Juni 2026**: LKPS lengkap  
+> - **Juli 2026**: LED final  
+> - **Agustus 2026**: Finalisasi LKPS, LED, dan Bukti  
+> - **September 2026**: Submit ke LAM Teknik
