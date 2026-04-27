@@ -12,4 +12,4 @@ permalink: /led/
 - **Koordinator**: BU
 - **Status**: Belum dimulai <br><br>
 
-> Dokumen LED akan mencakup analisis mendalam terhadap kinerja program studi berdasarkan Standar Akreditasi LAM Teknik (2025), berdasarkan bukti dan data valid.
+> Dokumen LED akan mencakup analisis mendalam terhadap kinerja program studi berdasarkan Standar Akreditasi LAM Teknik (2025) disertai bukti dan data yang valid.
