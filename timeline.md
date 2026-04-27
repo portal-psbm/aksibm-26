@@ -7,9 +7,9 @@ permalink: /timeline/
 # 🗓️ Timeline Persiapan Akreditasi
 <br>
   
-**Target Submit**: **Awal Mei 2026** <br><br>
+**Target Submit**: **Awal September 2026** <br><br>
 
-## 📅 Rencana Kerja : Januari s.d. Mei 2026
+## 📅 Rencana Kerja : Januari s.d. Agustus 2026
 
 <style>
   .timeline-table {
@@ -53,37 +53,37 @@ permalink: /timeline/
   </thead>
   <tbody>
     <tr>
-      <td><strong>Jan 2026</strong></td>
+      <td><strong>Jan-April 2026</strong></td>
       <td>Sosialisasi & GAP Analysis</td>
       <td>- Sosialisasi instrumen LAM Teknik 2025 ke seluruh dosen<br>- Workshop analisis kesenjangan per 7 kriteria</td>
       <td>Laporan GAP Analysis, Rencana Perbaikan</td>
     </tr>
     <tr>
-      <td><strong>Feb 2026</strong></td>
+      <td><strong>Mei 2026</strong></td>
       <td>Pengisian LKPS (Tahap 1)</td>
       <td>- Input data: VMTS, Tata Pamong, Relevansi, SDM<br>- Validasi data internal</td>
       <td>Draft LKPS (Kriteria I–IV)</td>
     </tr>
     <tr>
-      <td><strong>Mar 2026</strong></td>
+      <td><strong>Juni 2026</strong></td>
       <td>Pengisian LKPS (Tahap 2)</td>
       <td>- Input data: Sarpras & K3L, Mahasiswa & Luaran, SPMI<br>- Finalisasi seluruh data LKPS</td>
       <td><strong>LKPS Lengkap (7 Kriteria)</strong></td>
     </tr>
     <tr>
-      <td><strong>Apr 2026</strong></td>
+      <td><strong>Juli 2026</strong></td>
       <td>Penyusunan LED</td>
       <td>- Menulis narasi evaluasi diri per kriteria<br>- Mengintegrasikan bukti dan analisis outcome<br>- Review internal oleh tim</td>
       <td><strong>Draft Final LED</strong></td>
     </tr>
     <tr>
-      <td><strong>Akhir Apr 2026</strong></td>
+      <td><strong>Agustus 2026</strong></td>
       <td>Finalisasi Dokumen</td>
-      <td>- Validasi oleh Ketua Jurusan<br>- Penyempurnaan format PDF<br>- Uji coba upload ke SISTER (jika tersedia)</td>
+      <td>- Validasi oleh Ketua Jurusan<br>- Penyempurnaan format PDF<br>- Uji coba upload (jika tersedia)</td>
       <td>LED & LKPS Final (PDF siap submit)</td>
     </tr>
     <tr>
-      <td><strong>Awal Mei 2026</strong></td>
+      <td><strong>Awal September 2026</strong></td>
       <td><strong>Submit ke LAM Teknik</strong></td>
       <td>- Unggah LED dan LKPS ke portal resmi LAM Teknik<br>- Konfirmasi penerimaan dokumen</td>
       <td><strong>Konfirmasi Submit Resmi</strong></td>
@@ -92,9 +92,8 @@ permalink: /timeline/
 </table>
 
 ## 🔑 Catatan Penting
-- ✅ **LKPS harus selesai Maret 2026** — menjadi dasar penyusunan LED
+- ✅ **LKPS harus selesai Juni 2026** — menjadi dasar penyusunan LED
 - ✅ **Kriteria VI (Mahasiswa & Luaran)** adalah penentu utama predikat
 - ✅ **Kriteria V (K3L)** wajib dilengkapi dokumen SOP keselamatan di laboratorium
-- ⏳ Asesmen lapangan kemungkinan besar dilaksanakan **Juni–Juli 2026**
 
-> 📌 Pastikan seluruh dokumen **final pada akhir April 2026** untuk memenuhi tenggat **submit awal Mei 2026**.
+> 📌 Pastikan seluruh dokumen **final pada akhir Agustus 2026** untuk memenuhi tenggat **submit awal September 2026**.
