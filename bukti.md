@@ -4,7 +4,7 @@ title: Bukti Dukung
 permalink: /bukti/
 ---
 
-# 📎 Bukti Dukung
+# 📎 Dokumen Bukti Dukung ....
 
 ## 🔗 [Link daftar bukti dokumen yang harus disiapkan](https://docs.google.com/spreadsheets/d/1l-hyJQPxnpv7jt6_iZ_Z3lGY048A-OM2TIcFMfrojdM/edit?usp=sharing)
 <br>

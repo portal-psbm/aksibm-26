@@ -6,21 +6,20 @@ permalink: /
 
 # 🎯 Akreditasi Program Studi Broadband Multimedia 2026
 
-**Target Submit**: **Mei 2026 (Batch 2)**  
+**Target Submit**: **Awal September 2026**  
 <br>
-> Website ini merefleksikan progres real-time persiapan akreditasi PSBM 2026.
+> Website ini merefleksikan progres real-time persiapan akreditasi PSBM sesuai Pedoman LAM Teknik Edisi 2025.
 
 <!-- 🖼️ Carousel Slide -->
 <div style="max-width: 900px; margin: 40px auto; position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,0.15);">
   <div id="slide-container" style="display: flex; transition: transform 0.5s ease-in-out; width: 100%;">
-    <!-- Ganti/ tambah foto di sini -->
     <img src="/aksibm-26/assets/images/slide1.jpg" alt="Gedung G - Lab Telekomunikasi" style="min-width: 100%; display: block;">
-    <img src="/aksibm-26/assets/images/slide2.jpeg" alt="22.1.2026" style="min-width: 100%; display: block;">
-    <img src="/aksibm-26/assets/images/slide3.jpeg" alt="22.1.2026" style="min-width: 100%; display: block;">
-    <img src="/aksibm-26/assets/images/slide4.jpeg" alt="22.1.2026" style="min-width: 100%; display: block;">
-    <img src="/aksibm-26/assets/images/slide5.jpeg" alt="22.1.2026" style="min-width: 100%; display: block;">
-    <img src="/aksibm-26/assets/images/slide6.jpeg" alt="22.1.2026" style="min-width: 100%; display: block;">
-    <img src="/aksibm-26/assets/images/slide7.jpeg" alt="22.1.2026" style="min-width: 100%; display: block;">
+    <img src="/aksibm-26/assets/images/slide2.jpeg" alt="Tim Akreditasi PSBM" style="min-width: 100%; display: block;">
+    <img src="/aksibm-26/assets/images/slide3.jpeg" alt="Studio Produksi Multimedia" style="min-width: 100%; display: block;">
+    <img src="/aksibm-26/assets/images/slide4.jpeg" alt="Pelatihan KLSD 2026" style="min-width: 100%; display: block;">
+    <img src="/aksibm-26/assets/images/slide5.jpeg" alt="Capstone Project Showcase" style="min-width: 100%; display: block;">
+    <img src="/aksibm-26/assets/images/slide6.jpeg" alt="Kegiatan Matching Fund" style="min-width: 100%; display: block;">
+    <img src="/aksibm-26/assets/images/slide7.jpeg" alt="Workshop GAP Analysis" style="min-width: 100%; display: block;">
   </div>
 
   <!-- Tombol Navigasi -->
@@ -56,7 +55,6 @@ permalink: /
     const container = document.getElementById('slide-container');
     container.style.transform = `translateX(-${currentSlide * 100}%)`;
 
-    // Update indikator
     const dots = indicatorsContainer.children;
     for (let i = 0; i < dots.length; i++) {
       dots[i].style.backgroundColor = i === currentSlide ? '#0d47a1' : '#ccc';
