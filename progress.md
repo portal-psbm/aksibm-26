@@ -6,9 +6,9 @@ permalink: /progress/
 
 # 📊 Progress Persiapan Akreditasi 
 
-**Periode**: Januari 2026  
-**Fase**: Persiapan Awal  
-**Target Submit**: Mei 2026 | **Asesmen Lapangan**: Juni–Juli 2026
+**Periode**: April 2026  
+**Fase**: Pengumpulan dokumen  
+**Target Submit**: September 2026 | **Asesmen Lapangan**: ?
 
 <div id="countdown-container" style="text-align: center; margin: 24px 0;">
   <div id="countdown" style="font-size: 1.2rem; font-weight: 600; color: #0d47a1;"></div>
@@ -27,12 +27,12 @@ permalink: /progress/
 
 <script>
   // Progress manual (Des 2025 = awal persiapan)
-  const progressPercent = 5;
+  const progressPercent = 10;
   document.getElementById('progress-bar').style.width = progressPercent + '%';
   document.getElementById('progress-percent').textContent = progressPercent + '%';
 
-  // Countdown ke Mei 2026
-  const targetDate = new Date('2026-05-01T00:00:00');
+  // Countdown ke September 2026
+  const targetDate = new Date('2026-09-01T00:00:00');
   function updateCountdown() {
     const now = new Date();
     const diff = targetDate - now;
@@ -110,56 +110,54 @@ permalink: /progress/
     <tr>
       <td>I</td>
       <td>VMTS</td>
-      <td><span class="status-badge status-persiapan">Persiapan</span></td>
+      <td><span class="status-badge status-persiapan">On progress</span></td>
     </tr>
     <tr>
       <td>II</td>
       <td>Tata Pamong, Tata Kelola, Kerja Sama, Keuangan</td>
-      <td><span class="status-badge status-persiapan">Persiapan</span></td>
+      <td><span class="status-badge status-persiapan">On progress</span></td>
     </tr>
     <tr>
       <td>III</td>
       <td>Relevansi Pendidikan, Penelitian, dan PkM</td>
-      <td><span class="status-badge status-belum">Belum Dimulai</span></td>
+      <td><span class="status-badge status-belum">On progress</span></td>
     </tr>
     <tr>
       <td>IV</td>
       <td>Sumber Daya Manusia</td>
-      <td><span class="status-badge status-belum">Belum Dimulai</span></td>
+      <td><span class="status-badge status-belum">On progress</span></td>
     </tr>
     <tr>
       <td>V</td>
       <td>Sarpras & K3L</td>
-      <td><span class="status-badge status-belum">Belum Dimulai</span></td>
+      <td><span class="status-badge status-belum">On progress</span></td>
     </tr>
     <tr>
       <td><strong>VI</strong></td>
       <td><strong>Mahasiswa dan Luaran Mahasiswa</strong></td>
-      <td><span class="status-badge status-belum">Belum Dimulai</span></td>
+      <td><span class="status-badge status-belum">On progress</span></td>
     </tr>
     <tr>
       <td>VII</td>
       <td>Sistem Penjaminan Mutu</td>
-      <td><span class="status-badge status-belum">Belum Dimulai</span></td>
+      <td><span class="status-badge status-belum">On progress</span></td>
     </tr>
   </tbody>
 </table>
 
-## 📌 Rincian Aktivitas Desember 2025
-- ✅ **Struktur folder bukti digital** disiapkan (`I_VMTS/` hingga `VII_SPMI/`)
-- ✅ **Website akreditasi** aktif di [https://portal-psbm.github.io/aksibm-26/](https://portal-psbm.github.io/aksibm-26/) <br><br>
+## 📌 Rincian Aktivitas April 2026
+- ✅ **Struktur folder bukti digital** sudah disiapkan (`I_VMTS/` hingga `VII_SPMI/`)<br><br>
 
-## 🗓️ Rencana Januari 2026
-- **Sosialisasi instrumen** ke dosen PSBM
-- **GAP Analysis** per 7 kriteria
-- Mulai **pengumpulan data dasar** untuk LKPS <br><br>
+## 🗓️ Rencana Mei 2026
+- Melanjutkan **pengumpulan data/bukti dokumen** untuk LKPS <br><br>
 
-> 💡 **Fokus Utama 2026**:  
+> 💡 **Fokus Utama**:  
 > - **Kriteria VI (Mahasiswa & Luaran)** adalah penentu predikat  
 > - **Kriteria V (K3L)** wajib dilengkapi dokumen SOP keselamatan  
 > - Semua kriteria harus mendukung pembuktian **outcome lulusan** <br><br>
 
 > 📅 **Milestone Berikutnya**:  
-> - **Maret 2026**: LKPS lengkap  
-> - **April 2026**: LED final  
-> - **Mei 2026**: Submit ke LAM Teknik
+> - **Juni 2026**: LKPS lengkap  
+> - **Juli 2026**: LED final  
+> - **Agustus 2026** : Finalisasi dokumen
+> - **September 2026** : Submit ke LAM Teknik
