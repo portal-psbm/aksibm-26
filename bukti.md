@@ -11,10 +11,10 @@ permalink: /bukti/
 
 > Seluruh bukti di-upload dalam format digital (PDF, JPG, XLSX, dll.) dan dilink-kan ke narasi LED serta data LKPS. <br><br>
 
-## 🔗 [Link bukti dokumen (older):](https://drive.google.com/drive/folders/1niZZCuyTp5MmaMl3o8HvG_-3VvPCNEf-)
+## 🔗 [Link bukti dokumen (OLD)](https://drive.google.com/drive/folders/1niZZCuyTp5MmaMl3o8HvG_-3VvPCNEf-)
 <br>
 
-## 🔗 Upload bukti dokumen :
+## 🔗 Upload bukti dokumen (NEW) :
 
 - **[00_ADMIN/](https://drive.google.com/drive/folders/1rPFNl94nuR_81tGrjt-MmivojaZdD3bG)** → **BU-Z** : Identitas (PT, UPPS, PS), SK Akreditasi Terbaru, SK Pembukaan PS, SK Pendirian PT, Tim Penyusun
 - **[01_VMTS/](https://drive.google.com/drive/folders/1fu7JW2IUPW5oZo7x30fDS_mQOspD4ffO)** → **BU-Z** : VMTS PT, VMTS UPPS, SK VMTS, Visi Keilmuan PS
