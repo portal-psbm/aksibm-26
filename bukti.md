@@ -4,7 +4,7 @@ title: Bukti Dukung
 permalink: /bukti/
 ---
 
-# 📎 Dokumen Bukti Dukung ....
+# 📎 Dokumen Bukti Dukung 
 
 ## 🔗 [Link daftar bukti dokumen yang harus disiapkan](https://docs.google.com/spreadsheets/d/1l-hyJQPxnpv7jt6_iZ_Z3lGY048A-OM2TIcFMfrojdM/edit?usp=sharing)
 <br>
@@ -13,13 +13,21 @@ permalink: /bukti/
 
 ## 🔗 Upload bukti dokumen
 
-- **[I_VMTS/](https://drive.google.com/drive/folders/1TRWWZHUTecu8NZtz9KsIL3STVRRBTSg2?usp=sharing)** → BU-Z : Visi, Misi, Tujuan, Sasaran, Renstra, SK penetapan
-- **[II_Tata_Pamong/](https://drive.google.com/drive/folders/1DrKFEI-bj6b33OrKJ9PIMEwIu94FuGSO?usp=sharing)** → MF-BU-AsW : Struktur organisasi, SOP tata kelola, MoU/MoA, laporan keuangan mutu 
-- **[III_Relevansi/](https://drive.google.com/drive/folders/1W2DzMGgS6lwBI1UusFH5YhcN_-mdPpoJ?usp=sharing)** → AW-VF-FEA : Kurikulum KKNI, matriks CPL–MK, RPS, daftar penelitian & PkM relevan
-- **[IV_SDM/](https://drive.google.com/drive/folders/17PZ7fR96Fkleygqg9a3Xdc2nwhYZlmSs?usp=sharing)** → VF-MF : Profil dosen, scan ijazah, sertifikasi kompetensi, beban kerja
-- **[V_Sarpras/](https://drive.google.com/drive/folders/13LqmW5CNKAxb6rShIeHrAHXmk1F0xFfS?usp=sharing)** → DW-SH : Inventaris lab, SOP keselamatan kerja (K3L), laporan perpustakaan, akses jurnal
-- **[VI_Mahasiswa dan Luaran/](https://drive.google.com/drive/folders/1gMylc3D-zn_tDrG225evho12NVTcoewd?usp=sharing)** → SH-AgW-AsW : Data penerimaan, IPK, tracer study, waktu tunggu kerja, prestasi lulusan
-- **[VII_SPMI/](https://drive.google.com/drive/folders/1yCyVGVdh3cSkU-EDEWtnTblsy7gBgWyV?usp=sharing)** → Z-DW-FEA : Manual mutu, laporan Audit Mutu Internal, dokumen siklus PPEPP <br><br>
+- **[00_ADMIN/](https://drive.google.com/drive/u/2/folders/1rPFNl94nuR_81tGrjt-MmivojaZdD3bG)** → BU-Z : Identitas (PT, UPPS, PS), SK Akreditasi Terbaru, SK Pembukaan PS, SK Pendirian PT, Tim Penyusun
+- **[01_VMTS/](https://drive.google.com/drive/u/2/folders/1fu7JW2IUPW5oZo7x30fDS_mQOspD4ffO)** → BU-Z : VMTS PT, VMTS UPPS, SK VMTS, Visi Keilmuan PS
+- **[02_AKUNTABILITAS/](https://drive.google.com/drive/u/2/folders/1m4XITxsWJS4hsaglZCzMleCNPk0ZKegE)** → MF-BU-AsW : Kerjasama Pendidikan, Penelitian, dan PkM; Keuangan 
+- **[03_PENDIDIKAN/](https://drive.google.com/drive/u/2/folders/1YUjDBrzJcJ_NJ1b30KLdUV_u4KGXu7pc)** → AW-VF-FEA : Kurikulum, Integrasi Penelitian dan PkM, Basic Science, Capstone Project
+- **[04_PENELITIAN_DTPS/](https://drive.google.com/drive/u/2/folders/1Duq0r8ay9AE1nocZycN6y8dYDnidMEzX)** → VF-MF : Kontrak/SPK Hibah, Laporan Akhir, Proposal
+- **[05_PKM_DTPS/](https://drive.google.com/drive/u/2/folders/1py8CAfOhTMJY8XDBDoJhJKEROjuc8yNA)** → VF-MF : Bukti Kegiatan, Laporan Akhir, Proposal
+- **[06_SDM/](https://drive.google.com/drive/u/2/folders/1DGW6PEIwdAxjF3UDTijX_2pI4LhmlwZd)** → VF-MF : Dosen (BKD, CV, Ijazah, Sertifikat), Tendik 
+- **[07_LUARAN_DTPS/](https://drive.google.com/drive/u/2/folders/1tFQs9eKLAvhkJZo9ihqf-nc3MqiB_35c)** → : Publikasi, HKI, Produk Jasa, Kinerja DTPS, Sitasi, Rekognisi, Pembimbing Lapangan
+- **[08_SARPRAS_K3L/](https://drive.google.com/drive/u/2/folders/1vCvv9xrnBBaN_PAJwJlFdhLDcwLIcxxM)** → DW-SH : Sarpras, Dokumen K3L, Fasilitas K3L
+- **[09_MAHASISWA/](https://drive.google.com/drive/u/2/folders/1yZKrWDuQEMX6Zz0Zk2cf1uNZolOybwEj)** → SH-AgW-AsW : Jumlah Mahasiswa, IPK, Masa Studi
+- **[10_PRESTASI_MAHASISWA/](https://drive.google.com/drive/u/2/folders/1IpojVLepcw_1Lhtq-epFlzS1ELzzE7zp)** → SH-AgW-AsW : Akademik, Non-akademik
+- **[11_LUARAN_MAHASISWA/](https://drive.google.com/drive/u/2/folders/18czBRpEYufa50ksm08CTNjmJ_WVACbp_)** → SH-AgW-AsW : Publikasi, Pagelaran, Luaran, Produk Mahasiswa
+- **[12_TRACER_STUDY/](https://drive.google.com/drive/u/2/folders/1LwTsU0AL2-37_h_JgWxqLwA2veFuveb5)** → SH-AgW-AsW : Waktu tunggu, Kesesuaian kerja, Tempat kerja, Kepuasan pengguna
+- **[13_KETERLIBATAN_MHS/](https://drive.google.com/drive/u/2/folders/1qTeCicjqBBp-Bdfl1tRXQoTD5a0RoqIi)** → SH-AgW-AsW : Penelitian dan PkM dosen
+- **[14_SPMI/](https://drive.google.com/drive/u/2/folders/10PnP_REG3oG0w5_NDJ-i2qmhI7rjtN9a)** → Z-DW-FEA : Dokumen dan Pelaksanaan SPMI <br><br>
 
 > 💡 Pastikan setiap klaim di **LED** memiliki tautan langsung ke file bukti di atas. <br><br>
 
@@ -31,6 +39,5 @@ permalink: /bukti/
 - **Aman & Backup** → Tersedia online + cadangan lokal di PNJ <br><br>
 
 ## **Timeline Penting**: <br>
-> - **Maret 2026**: Seluruh bukti harus terarsip lengkap
-> - **Mei 2026**: Semua tautan bukti di LED harus valid
-
+> - **Mei 2026**: Seluruh bukti harus terarsip lengkap
+> - **Juli 2026**: Semua tautan bukti di LED harus valid
