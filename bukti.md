@@ -24,7 +24,7 @@ permalink: /bukti/
 - **[08_SARPRAS_K3L/](https://drive.google.com/drive/u/2/folders/1vCvv9xrnBBaN_PAJwJlFdhLDcwLIcxxM)** → **DW-SH** : Sarpras, Dokumen K3L, Fasilitas K3L
 - **[09_MAHASISWA/](https://drive.google.com/drive/u/2/folders/1yZKrWDuQEMX6Zz0Zk2cf1uNZolOybwEj)** → **SH-AgW-AsW** : Jumlah Mahasiswa, IPK, Masa Studi
 - **[10_PRESTASI_MAHASISWA/](https://drive.google.com/drive/u/2/folders/1IpojVLepcw_1Lhtq-epFlzS1ELzzE7zp)** → **SH-AgW-AsW** : Prestasi Akademik dan Non-akademik
-- **[11_LUARAN_MAHASISWA/](https://drive.google.com/drive/u/2/folders/18czBRpEYufa50ksm08CTNjmJ_WVACbp_)** → **SH-AgW-AsW** : Publikasi, Pagelaran, Luaran, Produk Mahasiswa
+- **[11_LUARAN_MAHASISWA/](https://drive.google.com/drive/u/2/folders/18czBRpEYufa50ksm08CTNjmJ_WVACbp_) → **SH-AgW-AsW** : Publikasi, Pagelaran, Luaran, Produk Mahasiswa
 - **[12_TRACER_STUDY/](https://drive.google.com/drive/u/2/folders/1LwTsU0AL2-37_h_JgWxqLwA2veFuveb5)** → **SH-AgW-AsW** : Waktu tunggu, Kesesuaian kerja, Tempat kerja, Kepuasan pengguna
 - **[13_KETERLIBATAN_MHS/](https://drive.google.com/drive/u/2/folders/1qTeCicjqBBp-Bdfl1tRXQoTD5a0RoqIi)** → **SH-AgW-AsW** : Penelitian dan PkM dosen
 - **[14_SPMI/](https://drive.google.com/drive/u/2/folders/10PnP_REG3oG0w5_NDJ-i2qmhI7rjtN9a)** → **Z-DW-FEA** : Dokumen dan Pelaksanaan SPMI <br><br>
