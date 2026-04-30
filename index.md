@@ -4,11 +4,11 @@ title: Beranda
 permalink: /
 ---
 
-# 🎯 Akreditasi Program Studi Broadband Multimedia 2026
+# 🎯 Akreditasi Prodi Broadband Multimedia 2026
 
 **Target Submit**: **Awal September 2026**  
 <br>
-> Website ini merefleksikan progres real-time persiapan akreditasi PSBM sesuai Pedoman LAM Teknik Edisi 2025.
+> Website ini merefleksikan progres persiapan akreditasi PSBM sesuai Pedoman LAM Teknik Edisi 2025.
 
 <!-- 🖼️ Carousel Slide -->
 <div style="max-width: 900px; margin: 40px auto; position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,0.15);">
