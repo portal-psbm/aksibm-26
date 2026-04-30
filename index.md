@@ -4,7 +4,7 @@ title: Beranda
 permalink: /
 ---
 
-# 🎯 Akreditasi Prodi Broadband Multimedia 2026
+# 🎯 Akreditasi Program Studi Broadband Multimedia 2026
 
 **Target Submit**: **Awal September 2026**  
 <br>
