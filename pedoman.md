@@ -7,7 +7,7 @@ permalink: /pedoman/
 # 📘 Pedoman & Dokumen 
 <br>
 
-## 📄 Sosialisasi LAM Teknik (Mei 2026) NEW !!!
+## 📄 Sosialisasi LAM Teknik (Mei 2026) -> NEW !!!
    - [Materi 1 - Kebijakan dan Gambaran Umum LAM Teknik](/aksibm-26/assets/pedoman/Materi1.pdf)
    - [Materi 2 - Instrumen APS AVP 2025 LAM Teknik K1-K2](/aksibm-26/assets/pedoman/Materi2.pdf)
    - [Materi 3 - Instrumen APS AVP 2025 LAM Teknik K3-K4](/aksibm-26/assets/pedoman/Materi3.pdf)
