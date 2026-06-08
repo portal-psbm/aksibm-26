@@ -7,11 +7,20 @@ permalink: /pedoman/
 # 📘 Pedoman & Dokumen 
 <br>
 
+## 📄 Sosialisasi LAM Teknik (Mei 2026) NEW !!!
+   - [Materi 1 - Kebijakan dan Gambaran Umum LAM Teknik](/aksibm-26/assets/pedoman/Materi1.pdf)
+   - [Materi 2 - Instrumen APS AVP 2025 LAM Teknik K1-K2](/aksibm-26/assets/pedoman/Materi2.pdf)
+   - [Materi 3 - Instrumen APS AVP 2025 LAM Teknik K3-K4](/aksibm-26/assets/pedoman/Materi3.pdf)
+   - [Materi 4 - Instrumen APS AVP 2025 LAM Teknik K5-K6](/aksibm-26/assets/pedoman/Materi4.pdf) 
+   - [Materi 5 - Instrumen APS AVP 2025 LAM Teknik K7-B](/aksibm-26/assets/pedoman/Materi5.pdf)
+   - [Materi 6 - Penyusunan LED-LKPS](/aksibm-26/assets/pedoman/Materi6.pdf) <br><br>
+   
 ## 📄 Sosialisasi LAM Teknik (slide)
    - [Materi 1 - Kebijakan dan Gambaran Umum (20042025)](/aksibm-26/assets/pedoman/kebijakan_dan_gambaran_umum.pdf)
    - [Materi 2 - Matriks Penilaian (20042025)](/aksibm-26/assets/pedoman/matriks_penilaian.pdf)
    - [Materi 3 - LED (18042025)](/aksibm-26/assets/pedoman/led.pdf)
    - [Materi 5 - LKPS Final (20042025)](/aksibm-26/assets/pedoman/lkps.pdf) <br><br>
+
 
 ## 📄 Panduan Penyusunan & Penilaian
    - [Panduan LED](/aksibm-26/assets/pedoman/panduan_penyusunan_led_2025.pdf)
