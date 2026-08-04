@@ -27,7 +27,7 @@ permalink: /progress/
 
 <script>
   // Progress manual (Des 2025 = awal persiapan)
-  const progressPercent = 10;
+  const progressPercent = 30;
   document.getElementById('progress-bar').style.width = progressPercent + '%';
   document.getElementById('progress-percent').textContent = progressPercent + '%';
 
