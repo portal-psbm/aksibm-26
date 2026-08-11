@@ -131,15 +131,3 @@ Tim ini dibentuk untuk mempersiapkan akreditasi berdasarkan **Instrumen Akredita
 | **Sekretaris** | Administrasi dokumen, sinkronisasi LKPS–LED, kontrol timeline | **SH** |
 | **Koordinator LKPS** | Pengumpulan data kuantitatif untuk semua kriteria | **VF** |
 | **Koordinator LED** | Penulisan narasi evaluasi diri berbasis bukti & outcome | **BU** |
-
-## 🔑 Catatan Penting
-- **Kriteria VI (Mahasiswa & Luaran)** adalah **penentu utama predikat akreditasi**
-- **Kriteria V (K3L)** adalah **penambahan baru di edisi 2025** — wajib ada dokumen SOP keselamatan di lab
-- Semua bukti diarsip di menu Bukti <br><br>
-
-> 📅 **Timeline Krusial**:  
-> - **Jan 2026**: GAP Analysis selesai  
-> - **Juni 2026**: LKPS lengkap  
-> - **Juli 2026**: LED final  
-> - **Agustus 2026**: Finalisasi LKPS, LED, dan Bukti  
-> - **September 2026**: Submit ke LAM Teknik
