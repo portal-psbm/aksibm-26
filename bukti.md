@@ -33,14 +33,3 @@ permalink: /bukti/
 - **[14_SPMI/Tabel 7a, 7b](https://drive.google.com/drive/folders/10PnP_REG3oG0w5_NDJ-i2qmhI7rjtN9a)** → **Z-DW-FEA** : Dokumen dan Pelaksanaan SPMI <br><br>
 
 > 💡 Pastikan setiap klaim di **LED** memiliki tautan langsung ke file bukti di atas. <br><br>
-
-## 📁 Prinsip Pengelolaan Bukti <br>
-- **Tersentralisasi** → Semua bukti di satu repositori
-- **Terstruktur** → 7 kriteria resmi LAM Teknik 2025
-- **Terukur** → Setiap bukti mendukung data kuantitatif di **LKPS**
-- **Terhubung** → Langsung dilink-kan ke narasi di **LED**
-- **Aman & Backup** → Tersedia online + cadangan lokal di PNJ <br><br>
-
-## **Timeline Penting**: <br>
-> - **Mei 2026**: Seluruh bukti harus terarsip lengkap
-> - **Juli 2026**: Semua tautan bukti di LED harus valid
