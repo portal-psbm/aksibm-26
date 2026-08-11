@@ -144,20 +144,3 @@ permalink: /progress/
     </tr>
   </tbody>
 </table>
-
-## 📌 Rincian Aktivitas April 2026
-- ✅ **Struktur folder bukti digital** sudah disiapkan (`I_VMTS/` hingga `VII_SPMI/`)<br><br>
-
-## 🗓️ Rencana Mei 2026
-- Melanjutkan **pengumpulan data/bukti dokumen** untuk LKPS <br><br>
-
-> 💡 **Fokus Utama**:  
-> - **Kriteria VI (Mahasiswa & Luaran)** adalah penentu predikat  
-> - **Kriteria V (K3L)** wajib dilengkapi dokumen SOP keselamatan  
-> - Semua kriteria harus mendukung pembuktian **outcome lulusan** <br><br>
-
-> 📅 **Milestone Berikutnya**:  
-> - **Juni 2026**: LKPS lengkap  
-> - **Juli 2026**: LED final  
-> - **Agustus 2026** : Finalisasi dokumen
-> - **September 2026** : Submit ke LAM Teknik
