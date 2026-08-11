@@ -91,9 +91,4 @@ permalink: /timeline/
   </tbody>
 </table>
 
-## 🔑 Catatan Penting
-- ✅ **LKPS harus selesai Juni 2026** — menjadi dasar penyusunan LED
-- ✅ **Kriteria VI (Mahasiswa & Luaran)** adalah penentu utama predikat
-- ✅ **Kriteria V (K3L)** wajib dilengkapi dokumen SOP keselamatan di laboratorium
-
 > 📌 Pastikan seluruh dokumen **final pada akhir Agustus 2026** untuk memenuhi tenggat **submit awal September 2026**.
