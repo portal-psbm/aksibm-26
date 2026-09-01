@@ -37,7 +37,7 @@ permalink: /progress/
     const now = new Date();
     const diff = targetDate - now;
     if (diff <= 0) {
-      document.getElementById('countdown').innerHTML = 'P r o g r e s s . . . .';
+      document.getElementById('countdown').innerHTML = 'P r o g r e s s  . . .';
       return;
     }
     const days = Math.floor(diff / (1000 * 60 * 60 * 24));
