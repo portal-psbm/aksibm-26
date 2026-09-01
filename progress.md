@@ -6,9 +6,9 @@ permalink: /progress/
 
 # 📊 Progress Persiapan Akreditasi 
 
-**Periode**: April 2026  
+**Periode**: September 2026  
 **Fase**: Pengumpulan dokumen  
-**Target Submit**: September 2026 | **Asesmen Lapangan**: ?
+**Target Submit**: September 2026 | **Asesmen Lapangan**: Oktober 2026
 
 <div id="countdown-container" style="text-align: center; margin: 24px 0;">
   <div id="countdown" style="font-size: 1.2rem; font-weight: 600; color: #0d47a1;"></div>
