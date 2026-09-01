@@ -50,7 +50,7 @@ permalink: /progress/
   updateCountdown();
 </script>
 
-## 📋 Status Per Kriteria (April 2026)
+## 📋 Status Per Kriteria (September 2026)
 
 <style>
   .progress-table {
