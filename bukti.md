@@ -5,7 +5,6 @@ permalink: /bukti/
 ---
 
 # 📎 Dokumen Bukti Dukung 
-<br>
 > Seluruh bukti di-upload dalam format digital (PDF, JPG, XLSX, dll.) dan dilink-kan ke narasi LED serta data LKPS. <br><br>
 
 ## 🔗 [Link bukti dokumen (OLD)](https://drive.google.com/drive/folders/1niZZCuyTp5MmaMl3o8HvG_-3VvPCNEf-)
