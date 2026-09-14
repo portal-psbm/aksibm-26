@@ -26,12 +26,10 @@ permalink: /progress/
 </div>
 
 <script>
-  // Progress manual (Des 2025 = awal persiapan)
   const progressPercent = 100;
   document.getElementById('progress-bar').style.width = progressPercent + '%';
   document.getElementById('progress-percent').textContent = progressPercent + '%';
 
-  // Countdown ke September 2026
   const targetDate = new Date('2026-09-01T00:00:00');
   function updateCountdown() {
     const now = new Date();
@@ -90,9 +88,26 @@ permalink: /progress/
     background-color: #fff8e1;
     color: #f57c00;
   }
+  /* ✨ Efek Blinking untuk status Done */
   .status-done {
     background-color: #e8f5e9;
     color: #2e7d32;
+    animation: blinkDone 1.8s ease-in-out infinite;
+    box-shadow: 0 0 0 rgba(76, 175, 80, 0.4);
+  }
+  @keyframes blinkDone {
+    0%, 100% {
+      background-color: #e8f5e9;
+      color: #2e7d32;
+      box-shadow: 0 0 0 rgba(76, 175, 80, 0.4);
+      transform: scale(1);
+    }
+    50% {
+      background-color: #4caf50;
+      color: #ffffff;
+      box-shadow: 0 0 12px rgba(76, 175, 80, 0.8);
+      transform: scale(1.05);
+    }
   }
   @media (max-width: 600px) {
     .progress-table th, .progress-table td {
@@ -137,8 +152,8 @@ permalink: /progress/
       <td><span class="status-badge status-done">✅ Done</span></td>
     </tr>
     <tr>
-      <td><strong>VI</strong></td>
-      <td><strong>Mahasiswa dan Luaran Mahasiswa</strong></td>
+      <td>VI</td>
+      <td>Mahasiswa dan Luaran Mahasiswa</td>
       <td><span class="status-badge status-done">✅ Done</span></td>
     </tr>
     <tr>
