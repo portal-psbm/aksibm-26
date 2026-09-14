@@ -4,7 +4,7 @@ title: Progress
 permalink: /progress/
 ---
 
-# 📊 Progress Persiapan Akreditasi 
+# 📊 Progress Persiapan Akreditasi
 
 **Periode**: September 2026  
 **Fase**: Pengumpulan dokumen  
@@ -17,11 +17,11 @@ permalink: /progress/
 <div style="margin: 20px 0;">
   <div style="display: flex; justify-content: space-between; margin-bottom: 6px; font-size: 0.9rem;">
     <span>Januari 2026</span>
-    <span><strong id="progress-percent">10%</strong></span>
+    <span><strong id="progress-percent">100%</strong></span>
     <span>September 2026</span>
   </div>
   <div style="height: 20px; background: #e0e0e0; border-radius: 10px; overflow: hidden;">
-    <div id="progress-bar" style="height: 100%; background: linear-gradient(to right, #4caf50, #81c784); width: 5%; transition: width 0.5s ease;"></div>
+    <div id="progress-bar" style="height: 100%; background: linear-gradient(to right, #4caf50, #81c784); width: 100%; transition: width 0.5s ease;"></div>
   </div>
 </div>
 
@@ -36,8 +36,8 @@ permalink: /progress/
   function updateCountdown() {
     const now = new Date();
     const diff = targetDate - now;
-    if (diff <= 0) { D
-      document.getElementById('countdown').innerHTML = '>>> D O N E <<<';
+    if (diff <= 0) {
+      document.getElementById('countdown').innerHTML = '>>> DONE <<<';
       return;
     }
     const days = Math.floor(diff / (1000 * 60 * 60 * 24));
@@ -90,6 +90,10 @@ permalink: /progress/
     background-color: #fff8e1;
     color: #f57c00;
   }
+  .status-done {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+  }
   @media (max-width: 600px) {
     .progress-table th, .progress-table td {
       padding: 10px 8px;
@@ -110,37 +114,37 @@ permalink: /progress/
     <tr>
       <td>I</td>
       <td>VMTS</td>
-      <td><span class="status-badge status-persiapan">Done</span></td>
+      <td><span class="status-badge status-done">✅ Done</span></td>
     </tr>
     <tr>
       <td>II</td>
       <td>Tata Pamong, Tata Kelola, Kerja Sama, Keuangan</td>
-      <td><span class="status-badge status-persiapan">Done</span></td>
+      <td><span class="status-badge status-done">✅ Done</span></td>
     </tr>
     <tr>
       <td>III</td>
       <td>Relevansi Pendidikan, Penelitian, dan PkM</td>
-      <td><span class="status-badge status-belum">Done</span></td>
+      <td><span class="status-badge status-done">✅ Done</span></td>
     </tr>
     <tr>
       <td>IV</td>
       <td>Sumber Daya Manusia</td>
-      <td><span class="status-badge status-belum">Done</span></td>
+      <td><span class="status-badge status-done">✅ Done</span></td>
     </tr>
     <tr>
       <td>V</td>
       <td>Sarpras & K3L</td>
-      <td><span class="status-badge status-belum">Done</span></td>
+      <td><span class="status-badge status-done">✅ Done</span></td>
     </tr>
     <tr>
       <td><strong>VI</strong></td>
       <td><strong>Mahasiswa dan Luaran Mahasiswa</strong></td>
-      <td><span class="status-badge status-belum">Done</span></td>
+      <td><span class="status-badge status-done">✅ Done</span></td>
     </tr>
     <tr>
       <td>VII</td>
       <td>Sistem Penjaminan Mutu</td>
-      <td><span class="status-badge status-belum">Done</span></td>
+      <td><span class="status-badge status-done">✅ Done</span></td>
     </tr>
   </tbody>
 </table>
