@@ -1,19 +1,171 @@
-/* ✨ Efek Blinking untuk countdown DONE */
-@keyframes blinkDone {
-  0%, 100% {
-    color: #0d47a1;
-    text-shadow: 0 0 0 transparent;
-    transform: scale(1);
-  }
-  50% {
-    color: #2e7d32;
-    text-shadow: 0 0 20px rgba(76, 175, 80, 0.8), 0 0 40px rgba(76, 175, 80, 0.4);
-    transform: scale(1.1);
-  }
-}
+---
+layout: default
+title: Progress
+permalink: /progress/
+---
 
-.countdown-done {
-  animation: blinkDone 1.5s ease-in-out infinite;
-  font-size: 1.8rem !important;
-  letter-spacing: 4px;
-}
+# 📊 Progress Persiapan Akreditasi
+
+**Periode**: September 2026  
+**Fase**: Pengumpulan dokumen  
+**Target Submit**: September 2026 | **Asesmen Lapangan**: Oktober 2026
+
+<div id="countdown-container" style="text-align: center; margin: 24px 0;">
+  <div id="countdown" style="font-size: 1.2rem; font-weight: 600; color: #0d47a1;"></div>
+</div>
+
+<div style="margin: 20px 0;">
+  <div style="display: flex; justify-content: space-between; margin-bottom: 6px; font-size: 0.9rem;">
+    <span>Januari 2026</span>
+    <span><strong id="progress-percent">100%</strong></span>
+    <span>September 2026</span>
+  </div>
+  <div style="height: 20px; background: #e0e0e0; border-radius: 10px; overflow: hidden;">
+    <div id="progress-bar" style="height: 100%; background: linear-gradient(to right, #4caf50, #81c784); width: 100%; transition: width 0.5s ease;"></div>
+  </div>
+</div>
+
+<script>
+  const progressPercent = 100;
+  document.getElementById('progress-bar').style.width = progressPercent + '%';
+  document.getElementById('progress-percent').textContent = progressPercent + '%';
+
+  const targetDate = new Date('2026-09-01T00:00:00');
+  function updateCountdown() {
+    const now = new Date();
+    const diff = targetDate - now;
+    if (diff <= 0) {
+      const countdownEl = document.getElementById('countdown');
+      countdownEl.innerHTML = '>>> DONE <<<';
+      countdownEl.classList.add('countdown-done');
+      return;
+    }
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const months = Math.floor(days / 30);
+    const remainingDays = days % 30;
+    document.getElementById('countdown').innerHTML = 
+      `Sisa waktu: ${months} bulan ${remainingDays} hari`;
+  }
+  setInterval(updateCountdown, 60000);
+  updateCountdown();
+</script>
+
+## 📋 Status Per Kriteria (September 2026)
+
+<style>
+  .progress-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 24px 0;
+    font-size: 0.95rem;
+  }
+  .progress-table th,
+  .progress-table td {
+    padding: 12px 10px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  .progress-table th {
+    background-color: #f1f5f9;
+    font-weight: 600;
+    color: #0d47a1;
+    border-top: 2px solid #0d47a1;
+  }
+  .progress-table tr:last-child td {
+    border-bottom: 2px solid #0d47a1;
+  }
+  .status-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  .status-belum {
+    background-color: #ffebee;
+    color: #d32f2f;
+  }
+  .status-persiapan {
+    background-color: #fff8e1;
+    color: #f57c00;
+  }
+  .status-done {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+  }
+
+  /* ✨ Efek Blinking untuk countdown DONE */
+  @keyframes blinkDone {
+    0%, 100% {
+      color: #0d47a1;
+      text-shadow: 0 0 0 transparent;
+      transform: scale(1);
+    }
+    50% {
+      color: #2e7d32;
+      text-shadow: 0 0 20px rgba(76, 175, 80, 0.8), 0 0 40px rgba(76, 175, 80, 0.4);
+      transform: scale(1.1);
+    }
+  }
+
+  .countdown-done {
+    animation: blinkDone 1.5s ease-in-out infinite;
+    font-size: 1.8rem !important;
+    letter-spacing: 4px;
+  }
+
+  @media (max-width: 600px) {
+    .progress-table th, .progress-table td {
+      padding: 10px 8px;
+      font-size: 0.88rem;
+    }
+  }
+</style>
+
+<table class="progress-table">
+  <thead>
+    <tr>
+      <th>Kriteria</th>
+      <th>Judul</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>I</td>
+      <td>VMTS</td>
+      <td><span class="status-badge status-done">✅ Done</span></td>
+    </tr>
+    <tr>
+      <td>II</td>
+      <td>Tata Pamong, Tata Kelola, Kerja Sama, Keuangan</td>
+      <td><span class="status-badge status-done">✅ Done</span></td>
+    </tr>
+    <tr>
+      <td>III</td>
+      <td>Relevansi Pendidikan, Penelitian, dan PkM</td>
+      <td><span class="status-badge status-done">✅ Done</span></td>
+    </tr>
+    <tr>
+      <td>IV</td>
+      <td>Sumber Daya Manusia</td>
+      <td><span class="status-badge status-done">✅ Done</span></td>
+    </tr>
+    <tr>
+      <td>V</td>
+      <td>Sarpras & K3L</td>
+      <td><span class="status-badge status-done">✅ Done</span></td>
+    </tr>
+    <tr>
+      <td>VI</td>
+      <td>Mahasiswa dan Luaran Mahasiswa</td>
+      <td><span class="status-badge status-done">✅ Done</span></td>
+    </tr>
+    <tr>
+      <td>VII</td>
+      <td>Sistem Penjaminan Mutu</td>
+      <td><span class="status-badge status-done">✅ Done</span></td>
+    </tr>
+  </tbody>
+</table>
