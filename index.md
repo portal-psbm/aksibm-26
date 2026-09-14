@@ -8,14 +8,14 @@ permalink: /
 
 **Target Submit**: **Awal September 2026**  
 <br>
-> Website ini merefleksikan progres real-time persiapan akreditasi PSBM sesuai Pedoman LAM Teknik Edisi 2025.
+> Website ini merefleksikan progres persiapan akreditasi PSBM sesuai Pedoman LAM Teknik Edisi 2025.
 
-<!-- 🖼️ Modern Carousel Slide -->
+<!-- 🖼️ Modern Carousel Slide (Infinite Loop) -->
 <div class="carousel-container">
   <div id="slide-container">
     
     <!-- Slide 1 -->
-    <div class="slide active">
+    <div class="slide">
       <img src="/aksibm-26/assets/images/slide1.jpg" alt="Gedung G - Lab Telekomunikasi">
       <div class="slide-caption">
         <h3>Gedung G - Lab Telekomunikasi</h3>
@@ -88,7 +88,7 @@ permalink: /
 
   </div>
 
-  <!-- Tombol Navigasi (Glassmorphism) -->
+  <!-- Tombol Navigasi -->
   <button class="nav-btn prev" onclick="moveSlide(-1)">&#8249;</button>
   <button class="nav-btn next" onclick="moveSlide(1)">&#8250;</button>
 
@@ -108,7 +108,7 @@ permalink: /
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 12px 32px rgba(0,0,0,0.2);
-    aspect-ratio: 16/9; /* Menjaga proporsi agar tidak gepeng di semua layar */
+    aspect-ratio: 16/9;
     background: #111;
   }
 
@@ -117,7 +117,8 @@ permalink: /
     display: flex;
     width: 100%;
     height: 100%;
-    transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    /* Transisi akan diatur via JS untuk infinite loop */
+    transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   }
 
   .slide {
@@ -125,17 +126,17 @@ permalink: /
     height: 100%;
     position: relative;
     display: flex;
-    align-items: flex-end; /* Caption di bawah */
+    align-items: flex-end;
   }
 
   .slide img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Gambar tidak akan terdistorsi */
+    object-fit: cover;
     display: block;
   }
 
-  /* Gradient Overlay agar teks terbaca jelas di atas foto apapun */
+  /* Gradient Overlay agar teks terbaca jelas */
   .slide::after {
     content: '';
     position: absolute;
@@ -157,7 +158,7 @@ permalink: /
     z-index: 2;
     opacity: 0;
     transform: translateY(20px);
-    transition: all 0.5s ease 0.2s; /* Delay agar muncul setelah slide geser */
+    transition: all 0.5s ease 0.2s;
   }
 
   .slide.active .slide-caption {
@@ -179,7 +180,7 @@ permalink: /
     text-shadow: 0 1px 2px rgba(0,0,0,0.5);
   }
 
-  /* Tombol Navigasi */
+  /* Tombol Navigasi (Glassmorphism) */
   .nav-btn {
     position: absolute;
     top: 50%;
@@ -255,7 +256,7 @@ permalink: /
 
   .progress-fill {
     height: 100%;
-    background: #4caf50; /* Warna hijau progres */
+    background: #4caf50;
     width: 0%;
     transition: width 0.05s linear;
   }
@@ -265,7 +266,7 @@ permalink: /
     .carousel-container {
       margin: 24px 16px;
       border-radius: 12px;
-      aspect-ratio: 4/3; /* Lebih tinggi di HP agar foto terlihat jelas */
+      aspect-ratio: 4/3;
     }
     .slide-caption {
       bottom: 60px;
@@ -279,60 +280,96 @@ permalink: /
 </style>
 
 <script>
-  let currentSlide = 0;
-  const slides = document.querySelectorAll('.slide');
-  const totalSlides = slides.length;
-  const indicatorsContainer = document.getElementById('indicators');
-  const progressFill = document.querySelector('.progress-fill');
-  
+  const slideContainer = document.getElementById('slide-container');
+  const originalSlides = Array.from(slideContainer.children);
+  const totalOriginalSlides = originalSlides.length;
+
+  // 1. Clone slide pertama dan terakhir untuk infinite loop
+  const firstClone = originalSlides[0].cloneNode(true);
+  const lastClone = originalSlides[totalOriginalSlides - 1].cloneNode(true);
+
+  slideContainer.appendChild(firstClone);
+  slideContainer.insertBefore(lastClone, originalSlides[0]);
+
+  let currentSlide = 1; // Mulai dari slide asli pertama (bukan clone)
+  const totalSlides = totalOriginalSlides + 2;
+  let isTransitioning = false;
   let autoSlideInterval;
   let progressInterval;
-  const slideDuration = 5000; // 5 detik per slide
+  const slideDuration = 5000; // 5 detik
   let progress = 0;
 
-  // Buat indikator dots secara otomatis sesuai jumlah slide
-  slides.forEach((_, i) => {
+  // 2. Buat indikator dots
+  const indicatorsContainer = document.getElementById('indicators');
+  for (let i = 0; i < totalOriginalSlides; i++) {
     const dot = document.createElement('div');
     dot.classList.add('dot');
     if (i === 0) dot.classList.add('active');
-    dot.addEventListener('click', () => goToSlide(i));
+    // +1 karena ada clone di awal
+    dot.addEventListener('click', () => goToSlide(i + 1));
     indicatorsContainer.appendChild(dot);
-  });
+  }
 
   function updateSlide() {
-    const container = document.getElementById('slide-container');
-    container.style.transform = `translateX(-${currentSlide * 100}%)`;
-
-    // Update active class untuk animasi caption & dot
-    slides.forEach((slide, i) => {
-      slide.classList.toggle('active', i === currentSlide);
-    });
+    slideContainer.style.transform = `translateX(-${currentSlide * 100}%)`;
     
-    const dots = indicatorsContainer.children;
-    for (let i = 0; i < dots.length; i++) {
-      dots[i].classList.toggle('active', i === currentSlide);
+    // Update active class untuk caption
+    const allSlides = slideContainer.children;
+    for (let i = 0; i < allSlides.length; i++) {
+      allSlides[i].classList.toggle('active', i === currentSlide);
     }
-
-    resetProgress();
+    
+    // Update active class untuk dots
+    const dots = indicatorsContainer.children;
+    let activeDotIndex = currentSlide - 1;
+    if (activeDotIndex < 0) activeDotIndex = totalOriginalSlides - 1;
+    if (activeDotIndex >= totalOriginalSlides) activeDotIndex = 0;
+    
+    for (let i = 0; i < dots.length; i++) {
+      dots[i].classList.toggle('active', i === activeDotIndex);
+    }
   }
 
   function moveSlide(direction) {
+    if (isTransitioning) return;
+    isTransitioning = true;
     currentSlide += direction;
-    if (currentSlide < 0) currentSlide = totalSlides - 1;
-    if (currentSlide >= totalSlides) currentSlide = 0;
     updateSlide();
-    restartAutoSlide();
   }
 
   function goToSlide(index) {
+    if (isTransitioning) return;
+    isTransitioning = true;
     currentSlide = index;
     updateSlide();
-    restartAutoSlide();
   }
+
+  // 3. Deteksi akhir transisi untuk reset posisi secara instan (tanpa animasi)
+  slideContainer.addEventListener('transitionend', () => {
+    isTransitioning = false;
+    
+    // Jika sampai di clone slide pertama (paling kanan), lompat ke slide pertama asli
+    if (currentSlide === totalSlides - 1) {
+      slideContainer.style.transition = 'none';
+      currentSlide = 1;
+      updateSlide();
+      // Force reflow agar browser menerapkan perubahan instan
+      slideContainer.offsetHeight; 
+      slideContainer.style.transition = 'transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
+    } 
+    // Jika sampai di clone slide terakhir (paling kiri), lompat ke slide terakhir asli
+    else if (currentSlide === 0) {
+      slideContainer.style.transition = 'none';
+      currentSlide = totalOriginalSlides;
+      updateSlide();
+      slideContainer.offsetHeight;
+      slideContainer.style.transition = 'transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
+    }
+  });
 
   function resetProgress() {
     progress = 0;
-    progressFill.style.width = '0%';
+    document.querySelector('.progress-fill').style.width = '0%';
   }
 
   function startAutoSlide() {
@@ -340,26 +377,20 @@ permalink: /
     clearInterval(autoSlideInterval);
     clearInterval(progressInterval);
     
-    // Animasi progress bar
     progressInterval = setInterval(() => {
       progress += 100 / (slideDuration / 50); 
-      progressFill.style.width = `${progress}%`;
+      document.querySelector('.progress-fill').style.width = `${progress}%`;
     }, 50);
 
-    // Ganti slide
     autoSlideInterval = setInterval(() => {
       moveSlide(1);
     }, slideDuration);
   }
 
-  function restartAutoSlide() {
-    startAutoSlide();
-  }
-
-  // Mulai auto slide saat halaman dimuat
+  // Mulai auto slide
   startAutoSlide();
 
-  // Pause saat mouse hover (UX yang baik agar asesor bisa membaca)
+  // Pause saat hover
   const carouselContainer = document.querySelector('.carousel-container');
   carouselContainer.addEventListener('mouseenter', () => {
     clearInterval(autoSlideInterval);
@@ -369,4 +400,7 @@ permalink: /
   carouselContainer.addEventListener('mouseleave', () => {
     startAutoSlide();
   });
+
+  // Inisialisasi posisi awal
+  updateSlide();
 </script>
