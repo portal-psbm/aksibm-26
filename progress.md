@@ -36,8 +36,8 @@ permalink: /progress/
   function updateCountdown() {
     const now = new Date();
     const diff = targetDate - now;
-    if (diff <= 0) {
-      document.getElementById('countdown').innerHTML = 'P r o g r e s s  . . .';
+    if (diff <= 0) { D
+      document.getElementById('countdown').innerHTML = '>>> D O N E <<<';
       return;
     }
     const days = Math.floor(diff / (1000 * 60 * 60 * 24));
@@ -110,37 +110,37 @@ permalink: /progress/
     <tr>
       <td>I</td>
       <td>VMTS</td>
-      <td><span class="status-badge status-persiapan">On progress</span></td>
+      <td><span class="status-badge status-persiapan">Done</span></td>
     </tr>
     <tr>
       <td>II</td>
       <td>Tata Pamong, Tata Kelola, Kerja Sama, Keuangan</td>
-      <td><span class="status-badge status-persiapan">On progress</span></td>
+      <td><span class="status-badge status-persiapan">Done</span></td>
     </tr>
     <tr>
       <td>III</td>
       <td>Relevansi Pendidikan, Penelitian, dan PkM</td>
-      <td><span class="status-badge status-belum">On progress</span></td>
+      <td><span class="status-badge status-belum">Done</span></td>
     </tr>
     <tr>
       <td>IV</td>
       <td>Sumber Daya Manusia</td>
-      <td><span class="status-badge status-belum">On progress</span></td>
+      <td><span class="status-badge status-belum">Done</span></td>
     </tr>
     <tr>
       <td>V</td>
       <td>Sarpras & K3L</td>
-      <td><span class="status-badge status-belum">On progress</span></td>
+      <td><span class="status-badge status-belum">Done</span></td>
     </tr>
     <tr>
       <td><strong>VI</strong></td>
       <td><strong>Mahasiswa dan Luaran Mahasiswa</strong></td>
-      <td><span class="status-badge status-belum">On progress</span></td>
+      <td><span class="status-badge status-belum">Done</span></td>
     </tr>
     <tr>
       <td>VII</td>
       <td>Sistem Penjaminan Mutu</td>
-      <td><span class="status-badge status-belum">On progress</span></td>
+      <td><span class="status-badge status-belum">Done</span></td>
     </tr>
   </tbody>
 </table>
