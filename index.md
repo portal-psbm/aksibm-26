@@ -13,13 +13,14 @@ permalink: /
 <!-- 🖼️ Carousel Slide -->
 <div style="max-width: 900px; margin: 40px auto; position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,0.15);">
   <div id="slide-container" style="display: flex; transition: transform 0.5s ease-in-out; width: 100%;">
-    <img src="/aksibm-26/assets/images/slide1.jpg" alt="Gedung G - Lab Telekomunikasi" style="min-width: 100%; display: block;">
+    <img src="/aksibm-26/assets/images/slide1.jpg" alt="Gedung G" style="min-width: 100%; display: block;">
     <img src="/aksibm-26/assets/images/slide2.jpeg" alt="Tim Akreditasi PSBM" style="min-width: 100%; display: block;">
-    <img src="/aksibm-26/assets/images/slide3.jpeg" alt="Studio Produksi Multimedia" style="min-width: 100%; display: block;">
-    <img src="/aksibm-26/assets/images/slide4.jpeg" alt="Pelatihan KLSD 2026" style="min-width: 100%; display: block;">
-    <img src="/aksibm-26/assets/images/slide5.jpeg" alt="Capstone Project Showcase" style="min-width: 100%; display: block;">
-    <img src="/aksibm-26/assets/images/slide6.jpeg" alt="Kegiatan Matching Fund" style="min-width: 100%; display: block;">
-    <img src="/aksibm-26/assets/images/slide7.jpeg" alt="Workshop GAP Analysis" style="min-width: 100%; display: block;">
+    <img src="/aksibm-26/assets/images/slide3.jpeg" alt="Slide3" style="min-width: 100%; display: block;">
+    <img src="/aksibm-26/assets/images/slide4.jpeg" alt="Slide4" style="min-width: 100%; display: block;">
+    <img src="/aksibm-26/assets/images/slide5.jpeg" alt="Slide5" style="min-width: 100%; display: block;">
+    <img src="/aksibm-26/assets/images/slide6.jpeg" alt="Slide6" style="min-width: 100%; display: block;">
+    <img src="/aksibm-26/assets/images/slide7.jpeg" alt="Slide7" style="min-width: 100%; display: block;">
+    <img src="/aksibm-26/assets/images/slide8.jpeg" alt="Slide8" style="min-width: 100%; display: block;">
   </div>
 
   <!-- Tombol Navigasi -->
