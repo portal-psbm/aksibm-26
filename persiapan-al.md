@@ -28,7 +28,6 @@ permalink: /persiapan-al/
   .al-panel.active { display: block; }
   @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 
-  /* Stats bar */
   .stats-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-bottom: 16px; }
   .stat-mini { background: white; border: 1px solid #e0e0e0; border-radius: 8px; padding: 12px; text-align: center; border-left: 4px solid #0d47a1; }
   .stat-mini .snum { font-size: 1.5rem; font-weight: 800; color: #0d47a1; }
@@ -42,7 +41,6 @@ permalink: /persiapan-al/
   .stat-mini.rendah { border-left-color: #2e7d32; }
   .stat-mini.rendah .snum { color: #2e7d32; }
 
-  /* Filter */
   .filter-bar { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; padding: 12px; background: #f8fafc; border-radius: 8px; border: 1px solid #e0e0e0; }
   .filter-bar select, .filter-bar input { padding: 8px 12px; border: 1px solid #e0e0e0; border-radius: 6px; font-size: 0.85rem; background: white; }
   .filter-bar input { flex: 1; min-width: 200px; }
@@ -54,14 +52,22 @@ permalink: /persiapan-al/
   .sub-nav button.active { color: #0d47a1; border-bottom-color: #0d47a1; }
   .sub-nav button .count { background: #e3f2fd; color: #0d47a1; padding: 2px 8px; border-radius: 10px; font-size: 0.75rem; margin-left: 4px; font-weight: 700; }
   .sub-nav button.active .count { background: #0d47a1; color: white; }
+  .sub-nav button.bab3-btn { background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%); color: #e65100; border-radius: 6px; border: 1px solid #ffcc80; }
+  .sub-nav button.bab3-btn.active { background: linear-gradient(135deg, #e65100 0%, #bf360c 100%); color: white; border-color: #bf360c; }
+  .sub-nav button.bab3-btn .count { background: #ffe0b2; color: #bf360c; }
+  .sub-nav button.bab3-btn.active .count { background: white; color: #bf360c; }
 
-  /* Question Card */
   .q-card { background: white; border: 1px solid #e0e0e0; border-radius: 10px; margin-bottom: 10px; overflow: hidden; transition: all 0.2s; box-shadow: 0 2px 6px rgba(0,0,0,0.04); }
   .q-card:hover { box-shadow: 0 4px 14px rgba(0,0,0,0.08); }
+  .q-card.bab3 { border-left: 4px solid #e65100; }
   .q-card-header { display: flex; align-items: center; gap: 10px; padding: 12px 14px; cursor: pointer; background: #f8fafc; border-bottom: 1px solid #e0e0e0; transition: background 0.2s; flex-wrap: wrap; }
+  .q-card.bab3 .q-card-header { background: #fff8e1; }
   .q-card-header:hover { background: #e3f2fd; }
+  .q-card.bab3 .q-card-header:hover { background: #ffecb3; }
   .q-num { font-weight: 800; color: #0d47a1; font-size: 0.85rem; min-width: 40px; font-family: 'Courier New', monospace; }
+  .q-card.bab3 .q-num { color: #e65100; }
   .q-ind { font-size: 0.72rem; color: #888; background: #eceff1; padding: 2px 8px; border-radius: 10px; font-weight: 600; }
+  .q-card.bab3 .q-ind { background: #ffe0b2; color: #bf360c; }
   .q-main { flex: 1; font-weight: 600; color: #333; font-size: 0.88rem; line-height: 1.4; min-width: 200px; }
   .q-risk { padding: 4px 10px; border-radius: 12px; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.3px; white-space: nowrap; }
   .q-risk.Kritis { background: #ffebee; color: #b71c1c; border: 1px solid #ef9a9a; }
@@ -76,16 +82,18 @@ permalink: /persiapan-al/
   .q-section { margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px dashed #e0e0e0; }
   .q-section:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
   .q-section-title { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 1px; font-weight: 700; color: #0d47a1; margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
+  .q-card.bab3 .q-section-title { color: #e65100; }
   .q-section-content { font-size: 0.88rem; color: #333; line-height: 1.5; }
   .q-followup { background: #fff8e1; border-left: 4px solid #ff9800; padding: 10px 14px; border-radius: 6px; margin-top: 8px; }
   .q-followup .flabel { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 1px; font-weight: 700; color: #e65100; margin-bottom: 4px; }
   .q-followup .ftext { font-size: 0.88rem; color: #555; font-style: italic; line-height: 1.5; }
   .q-meta-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-top: 10px; }
   .q-meta-item { background: #f8fafc; padding: 8px 10px; border-radius: 6px; border-left: 3px solid #0d47a1; }
+  .q-card.bab3 .q-meta-item { border-left-color: #e65100; }
   .q-meta-item .mlabel { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.5px; color: #888; font-weight: 600; }
   .q-meta-item .mvalue { font-size: 0.82rem; color: #333; font-weight: 600; margin-top: 2px; }
 
-  /* Mode AL */
+  /* ===== Mode AL ===== */
   .mode-al-hero { background: linear-gradient(135deg, #0d47a1 0%, #1565c0 100%); color: white; padding: 28px; border-radius: 12px; margin-bottom: 20px; text-align: center; }
   .mode-al-hero h2 { margin: 0 0 6px 0; font-size: 1.4rem; }
   .mode-al-hero .subtitle { opacity: 0.9; font-size: 0.9rem; margin-bottom: 16px; }
@@ -95,8 +103,110 @@ permalink: /persiapan-al/
   .quick-chips { display: flex; gap: 6px; justify-content: center; flex-wrap: wrap; margin-top: 16px; }
   .quick-chip { padding: 6px 12px; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); border-radius: 16px; color: white; cursor: pointer; font-weight: 600; font-size: 0.78rem; transition: all 0.2s; }
   .quick-chip:hover { background: rgba(255,255,255,0.3); }
+  .quick-chip.bab3 { background: rgba(230, 81, 0, 0.25); border-color: rgba(255, 183, 77, 0.5); }
+  .quick-chip.bab3:hover { background: rgba(230, 81, 0, 0.4); }
 
   .no-result { text-align: center; padding: 40px 20px; color: #888; background: #f8fafc; border-radius: 10px; }
+
+  /* ===== DATA KUNCI LKPS ===== */
+  .lkps-hero {
+    background: linear-gradient(135deg, #0d47a1 0%, #1565c0 100%);
+    color: white; padding: 24px; border-radius: 12px; margin-bottom: 20px;
+    text-align: center;
+  }
+  .lkps-hero h2 { margin: 0 0 6px 0; font-size: 1.3rem; }
+  .lkps-hero .subtitle { opacity: 0.9; font-size: 0.88rem; }
+  .lkps-warning {
+    display: inline-block; background: #c62828; color: white;
+    padding: 4px 12px; border-radius: 12px; font-size: 0.75rem;
+    font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;
+    margin-top: 10px;
+  }
+
+  .super-priority-box {
+    background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%);
+    border: 2px solid #ff9800; border-radius: 12px; padding: 20px;
+    margin-bottom: 20px;
+  }
+  .super-priority-box h3 {
+    margin: 0 0 12px 0; color: #e65100; font-size: 1rem;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .super-priority-box .sp-item {
+    background: white; padding: 10px 14px; border-radius: 8px;
+    margin-bottom: 8px; font-size: 0.88rem; color: #333;
+    border-left: 4px solid #ff9800; font-family: 'Courier New', monospace;
+    font-weight: 600; line-height: 1.6;
+  }
+  .super-priority-box .sp-item:last-child { margin-bottom: 0; }
+
+  .critical-notes-box {
+    background: #ffebee; border: 2px solid #c62828; border-radius: 12px;
+    padding: 20px; margin-bottom: 20px;
+  }
+  .critical-notes-box h3 {
+    margin: 0 0 12px 0; color: #c62828; font-size: 1rem;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .critical-notes-box .cn-item {
+    background: white; padding: 12px 14px; border-radius: 8px;
+    margin-bottom: 8px; font-size: 0.88rem; color: #333;
+    border-left: 4px solid #c62828; line-height: 1.5;
+  }
+  .critical-notes-box .cn-item:last-child { margin-bottom: 0; }
+  .critical-notes-box .cn-item strong { color: #c62828; }
+
+  .lkps-cat-tabs {
+    display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px;
+  }
+  .lkps-cat-btn {
+    padding: 8px 14px; background: white; border: 2px solid #e0e0e0;
+    border-radius: 20px; cursor: pointer; font-weight: 600;
+    font-size: 0.82rem; color: #555; transition: all 0.2s;
+  }
+  .lkps-cat-btn:hover { border-color: #0d47a1; color: #0d47a1; }
+  .lkps-cat-btn.active { background: #0d47a1; color: white; border-color: #0d47a1; }
+
+  .lkps-card {
+    background: white; border: 1px solid #e0e0e0; border-radius: 10px;
+    padding: 14px 16px; margin-bottom: 10px; border-left: 4px solid #0d47a1;
+    transition: all 0.2s;
+  }
+  .lkps-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); transform: translateX(2px); }
+  .lkps-card.wajib { border-left-color: #c62828; background: #fff8f8; }
+  .lkps-card-header {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    gap: 10px; margin-bottom: 8px; flex-wrap: wrap;
+  }
+  .lkps-card-title { font-weight: 700; color: #333; font-size: 0.95rem; flex: 1; min-width: 200px; }
+  .lkps-card-value {
+    font-size: 1.4rem; font-weight: 800; color: #0d47a1;
+    background: #e3f2fd; padding: 6px 12px; border-radius: 8px;
+    white-space: nowrap;
+  }
+  .lkps-card.wajib .lkps-card-value { background: #ffebee; color: #c62828; }
+  .wajib-badge {
+    display: inline-block; background: #c62828; color: white;
+    padding: 3px 8px; border-radius: 10px; font-size: 0.68rem;
+    font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;
+    margin-left: 6px;
+  }
+  .lkps-card-note {
+    font-size: 0.82rem; color: #666; line-height: 1.5; margin-bottom: 8px;
+  }
+  .lkps-card-note strong { color: #333; }
+  .lkps-card-actions {
+    display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px;
+    padding-top: 8px; border-top: 1px dashed #e0e0e0;
+  }
+  .lkps-btn {
+    padding: 4px 10px; border-radius: 6px; border: 1px solid #0d47a1;
+    background: white; color: #0d47a1; font-size: 0.75rem; font-weight: 600;
+    cursor: pointer; transition: all 0.2s;
+  }
+  .lkps-btn:hover { background: #0d47a1; color: white; }
+  .lkps-btn.primary { background: #0d47a1; color: white; }
+  .lkps-btn.primary:hover { background: #1565c0; }
 
   @media (max-width: 767px) {
     .folder-shelf { gap: 6px; padding-bottom: 8px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
@@ -106,31 +216,35 @@ permalink: /persiapan-al/
     .q-meta-grid { grid-template-columns: 1fr; }
     .q-card-header { flex-wrap: wrap; gap: 6px; }
     .q-main { margin: 4px 0; min-width: 100%; order: 3; }
+    .lkps-card-header { flex-direction: column; }
   }
 </style>
 
 <div class="cabinet-container">
   <div class="folder-shelf">
     <div class="folder-tab mode-al active" onclick="showPanel('modeal', this)">🎯<br>MODE AL</div>
+    <div class="folder-tab" onclick="showPanel('data', this)">📊<br>DATA KUNCI</div>
     <div class="folder-tab" onclick="showPanel('bank', this)">❓<br>BANK PERTANYAAN</div>
   </div>
 
   <div class="al-content" id="alContent">
 
-    <!-- MODE AL -->
+    <!-- ========== MODE AL ========== -->
     <div class="al-panel active" id="panel-modeal">
       <div class="mode-al-hero">
         <h2>🎯 MODE ASESMEN LAPANGAN</h2>
-        <div class="subtitle">Cari dari 183 pertanyaan asesmen PSBM (C.1–C.7)</div>
-        <input type="text" class="mode-al-search" id="modeAlSearch" placeholder="🔎 Ketik kata kunci: VMTS, tracer, CPL, penelitian, RPS..." oninput="searchModeAL()">
+        <div class="subtitle">Cari dari 243 pertanyaan + angka LKPS PSBM</div>
+        <input type="text" class="mode-al-search" id="modeAlSearch" placeholder="🔎 Ketik: VMTS, 66 kerja sama, 11 DTPS, tracer, CPL, SWOT..." oninput="searchModeAL()">
         <div class="quick-chips">
-          <div class="quick-chip" onclick="quickSearch('kekhasan VMTS')">Kekhasan VMTS</div>
-          <div class="quick-chip" onclick="quickSearch('tracer study')">Tracer Study</div>
+          <div class="quick-chip" onclick="quickSearch('66')">66 Kerja Sama</div>
+          <div class="quick-chip" onclick="quickSearch('11 DTPS')">11 DTPS</div>
+          <div class="quick-chip" onclick="quickSearch('45 penelitian')">45 Penelitian</div>
+          <div class="quick-chip" onclick="quickSearch('53 MK')">53 MK</div>
+          <div class="quick-chip" onclick="quickSearch('tracer')">Tracer</div>
           <div class="quick-chip" onclick="quickSearch('CPL')">CPL</div>
-          <div class="quick-chip" onclick="quickSearch('RPS')">RPS</div>
-          <div class="quick-chip" onclick="quickSearch('penelitian mahasiswa')">Penelitian Mhs</div>
           <div class="quick-chip" onclick="quickSearch('K3L')">K3L</div>
-          <div class="quick-chip" onclick="quickSearch('PPEPP')">PPEPP</div>
+          <div class="quick-chip bab3" onclick="quickSearch('SWOT')">📘 SWOT</div>
+          <div class="quick-chip bab3" onclick="quickSearch('program pengembangan')">📘 Program</div>
         </div>
       </div>
       <div id="searchResultContainer"></div>
@@ -140,13 +254,68 @@ permalink: /persiapan-al/
       </div>
     </div>
 
-    <!-- BANK PERTANYAAN -->
+    <!-- ========== DATA KUNCI LKPS ========== -->
+    <div class="al-panel" id="panel-data">
+      <div class="lkps-hero">
+        <h2>📊 ANGKA KUNCI LKPS — WAJIB KONSISTEN</h2>
+        <div class="subtitle">Resume Data / Angka Penting LKPS PSBM — Sumber tunggal untuk Kaprodi/PIC saat AL</div>
+        <div class="lkps-warning">🔴 Semua angka harus sama dengan LKPS final yang diunggah ke SAKTI</div>
+      </div>
+
+      <!-- Super Priority -->
+      <div class="super-priority-box">
+        <h3>⭐ ANGKA SUPER-PRIORITAS — WAJIB DIHAFAL</h3>
+        <div class="sp-item">🤝 66 kerja sama → 42 Pendidikan | 17 Penelitian | 7 PkM</div>
+        <div class="sp-item">📘 53 MK | 150 SKS | 80 SKS praktik = 53,33%</div>
+        <div class="sp-item">👨‍🏫 11 DTPS | 3 Doktor | 4 Lektor Kepala | 6 Lektor</div>
+        <div class="sp-item">🔬 45 penelitian → 14 | 13 | 18</div>
+        <div class="sp-item">💰 36 internal | 9 eksternal nasional | 0 luar negeri</div>
+        <div class="sp-item">🎓 12/45 penelitian melibatkan mahasiswa = 26,67%</div>
+        <div class="sp-item">🤝 14 PkM → 2 | 6 | 6; 100% pendanaan internal/mandiri</div>
+        <div class="sp-item">🎯 80 lulusan | 61 terlacak = 76,25%</div>
+        <div class="sp-item">💼 43/61 kesesuaian kerja tinggi = 70,49%</div>
+        <div class="sp-item">🏢 49/61 bekerja nasional/multinasional = 80,33%</div>
+      </div>
+
+      <!-- Critical Notes -->
+      <div class="critical-notes-box">
+        <h3>🔴 CATATAN KRITIS UNTUK AL</h3>
+        <div class="cn-item"><strong>Kerja sama = 66</strong> (42 + 17 + 7). Angka ini berbeda dari 65 = 41 + 17 + 7 pada draft/narasi sebelumnya. Gunakan dan rekonsiliasikan terhadap LKPS final yang disubmit.</div>
+        <div class="cn-item"><strong>Penelitian melibatkan mahasiswa = 12 dari 45 (26,67%)</strong>. Siapkan penjelasan evaluasi diri dan program peningkatan integrasi penelitian DTPS dengan mahasiswa.</div>
+        <div class="cn-item"><strong>Kepuasan pengguna — Bahasa asing:</strong> tabel menunjukkan "Cukup" = 11,1%, sedangkan narasi RTL menyebut 25%. <strong>Inkonsistensi ini perlu direkonsiliasi sebelum AL.</strong></div>
+      </div>
+
+      <!-- Category Tabs -->
+      <div class="lkps-cat-tabs" id="lkpsCatTabs">
+        <div class="lkps-cat-btn active" onclick="filterLKPS('all', this)">Semua</div>
+        <div class="lkps-cat-btn" onclick="filterLKPS('Kerja Sama', this)">🤝 Kerja Sama</div>
+        <div class="lkps-cat-btn" onclick="filterLKPS('Pendidikan', this)">📘 Pendidikan</div>
+        <div class="lkps-cat-btn" onclick="filterLKPS('SDM', this)">👨‍🏫 SDM</div>
+        <div class="lkps-cat-btn" onclick="filterLKPS('Penelitian', this)">🔬 Penelitian</div>
+        <div class="lkps-cat-btn" onclick="filterLKPS('PkM', this)">🤝 PkM</div>
+        <div class="lkps-cat-btn" onclick="filterLKPS('Luaran DTPS', this)">📤 Luaran DTPS</div>
+        <div class="lkps-cat-btn" onclick="filterLKPS('Tracer', this)">🎯 Tracer</div>
+        <div class="lkps-cat-btn" onclick="filterLKPS('Kepuasan Pengguna', this)">⭐ Kepuasan</div>
+        <div class="lkps-cat-btn" onclick="filterLKPS('Prestasi Mhs', this)">🏆 Prestasi Mhs</div>
+      </div>
+
+      <div class="filter-bar">
+        <input type="text" id="lkpsSearch" placeholder="🔎 Cari angka atau indikator..." oninput="renderLKPS()">
+        <select id="filterWajib" onchange="renderLKPS()">
+          <option value="">Semua</option>
+          <option value="wajib">🔴 Wajib Konsisten</option>
+        </select>
+      </div>
+
+      <div id="lkpsContent"></div>
+    </div>
+
+    <!-- ========== BANK PERTANYAAN ========== -->
     <div class="al-panel" id="panel-bank">
-      <h2 style="color:#0d47a1; margin-top:0;">❓ Bank Pertanyaan AL PSBM — 183 Pertanyaan</h2>
-      <p style="color:#666; font-size:0.9rem; margin-top:-4px;">Kumpulan pertanyaan utama + pendalaman asesor berdasarkan indikator C.1–C.7. Klik pertanyaan untuk melihat detail.</p>
+      <h2 style="color:#0d47a1; margin-top:0;">❓ Bank Pertanyaan AL PSBM — 243 Pertanyaan</h2>
+      <p style="color:#666; font-size:0.9rem; margin-top:-4px;">183 pertanyaan C.1–C.7 + 60 pertanyaan BAB III. Klik pertanyaan untuk melihat detail.</p>
 
       <div class="stats-bar" id="statsBar"></div>
-
       <div class="sub-nav" id="bankSubNav"></div>
 
       <div class="filter-bar">
@@ -170,7 +339,76 @@ permalink: /persiapan-al/
 </div>
 
 <script>
-// ===== 183 PERTANYAAN BANK AL =====
+// ===== DATA KUNCI LKPS =====
+const dataLKPS = [
+  // Kerja Sama
+  { nama: 'Kerja sama tridharma', value: '66', kategori: 'Kerja Sama', wajib: true, catatan: '🔴 Wajib konsisten. Berbeda dari draft lama (65). Rekonsiliasi dengan LKPS final.', pertanyaan: ['016','017','033','034'] },
+  { nama: 'Kerja sama Pendidikan', value: '42', kategori: 'Kerja Sama', wajib: true, catatan: '5 internasional + 37 nasional', pertanyaan: ['016','018'] },
+  { nama: 'Kerja sama Penelitian', value: '17', kategori: 'Kerja Sama', wajib: true, catatan: '1 internasional + 16 nasional', pertanyaan: ['016','020'] },
+  { nama: 'Kerja sama PkM', value: '7', kategori: 'Kerja Sama', wajib: true, catatan: '1 nasional + 6 lokal/wilayah', pertanyaan: ['016'] },
+
+  // Pendidikan
+  { nama: 'Mata kuliah', value: '53 MK', kategori: 'Pendidikan', wajib: true, catatan: 'Seluruhnya memiliki RPS', pertanyaan: ['043','044'] },
+  { nama: 'Total kurikulum', value: '150 SKS', kategori: 'Pendidikan', wajib: true, catatan: '—', pertanyaan: [] },
+  { nama: 'Praktik/praktikum/lapangan', value: '80 SKS', kategori: 'Pendidikan', wajib: true, catatan: '53,33% dari total SKS', pertanyaan: ['052','053'] },
+  { nama: 'Teori/kuliah', value: '68 SKS', kategori: 'Pendidikan', wajib: false, catatan: '—', pertanyaan: [] },
+  { nama: 'Seminar', value: '2 SKS', kategori: 'Pendidikan', wajib: false, catatan: '—', pertanyaan: [] },
+  { nama: 'MK kompetensi', value: '25 MK', kategori: 'Pendidikan', wajib: false, catatan: '—', pertanyaan: ['088'] },
+
+  // SDM
+  { nama: 'DTPS', value: '11 dosen', kategori: 'SDM', wajib: true, catatan: '🔴 Angka dasar SDM', pertanyaan: ['076','127','128'] },
+  { nama: 'Doktor', value: '3 (27,27%)', kategori: 'SDM', wajib: true, catatan: 'Perlu pengembangan', pertanyaan: ['079','080'] },
+  { nama: 'Lektor Kepala', value: '4 (36,36%)', kategori: 'SDM', wajib: true, catatan: '—', pertanyaan: ['082'] },
+  { nama: 'Lektor', value: '6', kategori: 'SDM', wajib: false, catatan: '—', pertanyaan: ['082'] },
+  { nama: 'BKD rata-rata', value: '14,77 SKS', kategori: 'SDM', wajib: false, catatan: '—', pertanyaan: ['094'] },
+
+  // Penelitian
+  { nama: 'Penelitian 3 tahun', value: '45', kategori: 'Penelitian', wajib: true, catatan: '14 → 13 → 18', pertanyaan: ['017','067','097'] },
+  { nama: 'Penelitian internal/mandiri', value: '36 (80%)', kategori: 'Penelitian', wajib: true, catatan: '🔴 Dominan internal', pertanyaan: ['018','029'] },
+  { nama: 'Penelitian eksternal nasional', value: '9 (20%)', kategori: 'Penelitian', wajib: true, catatan: '—', pertanyaan: ['018'] },
+  { nama: 'Penelitian luar negeri', value: '0', kategori: 'Penelitian', wajib: true, catatan: '🔴 Titik pendalaman', pertanyaan: ['018','098'] },
+  { nama: 'Penelitian melibatkan mahasiswa', value: '12/45 (26,67%)', kategori: 'Penelitian', wajib: true, catatan: '🔴 Perlu ditingkatkan', pertanyaan: ['020','067','068','069'] },
+
+  // PkM
+  { nama: 'PkM 3 tahun', value: '14', kategori: 'PkM', wajib: true, catatan: '2 → 6 → 6', pertanyaan: ['023','073'] },
+  { nama: 'Pendanaan PkM internal/mandiri', value: '14/14 (100%)', kategori: 'PkM', wajib: true, catatan: '🔴 Titik pendalaman', pertanyaan: ['022','032'] },
+  { nama: 'PkM melibatkan mahasiswa', value: '7', kategori: 'PkM', wajib: false, catatan: '—', pertanyaan: ['074'] },
+
+  // Luaran DTPS
+  { nama: 'Produk/jasa DTPS diadopsi', value: '13', kategori: 'Luaran DTPS', wajib: true, catatan: 'Kekuatan luaran', pertanyaan: ['109','110'] },
+  { nama: 'Publikasi DTPS', value: '220', kategori: 'Luaran DTPS', wajib: false, catatan: '3 tahun', pertanyaan: ['103'] },
+
+  // Tracer
+  { nama: 'Lulusan (basis tracer)', value: '80', kategori: 'Tracer', wajib: true, catatan: 'Basis tracer', pertanyaan: ['155'] },
+  { nama: 'Lulusan terlacak', value: '61', kategori: 'Tracer', wajib: true, catatan: '76,25%', pertanyaan: ['155'] },
+  { nama: 'Waktu tunggu <3 bulan', value: '34/61 (55,74%)', kategori: 'Tracer', wajib: false, catatan: '—', pertanyaan: ['157'] },
+  { nama: 'Waktu tunggu 3–18 bulan', value: '27/61 (44,26%)', kategori: 'Tracer', wajib: false, catatan: '—', pertanyaan: ['157'] },
+  { nama: 'Waktu tunggu >18 bulan', value: '0', kategori: 'Tracer', wajib: false, catatan: 'Kekuatan', pertanyaan: ['157'] },
+  { nama: 'Kesesuaian kerja tinggi', value: '43/61 (70,49%)', kategori: 'Tracer', wajib: true, catatan: '—', pertanyaan: ['160'] },
+  { nama: 'Kesesuaian kerja sedang', value: '11/61 (18,03%)', kategori: 'Tracer', wajib: false, catatan: '—', pertanyaan: ['160'] },
+  { nama: 'Kesesuaian kerja rendah', value: '7/61 (11,48%)', kategori: 'Tracer', wajib: false, catatan: '—', pertanyaan: ['160'] },
+  { nama: 'Kerja skala nasional', value: '39/61', kategori: 'Tracer', wajib: false, catatan: '—', pertanyaan: ['163'] },
+  { nama: 'Multinasional/internasional', value: '10/61', kategori: 'Tracer', wajib: false, catatan: '—', pertanyaan: ['163'] },
+  { nama: 'Nasional + multinasional', value: '49/61 (80,33%)', kategori: 'Tracer', wajib: true, catatan: 'Kekuatan', pertanyaan: ['163'] },
+
+  // Kepuasan Pengguna
+  { nama: 'Responden pengguna lulusan', value: '45', kategori: 'Kepuasan Pengguna', wajib: true, catatan: 'Jangan tertukar dengan 61 tracer', pertanyaan: ['166'] },
+  { nama: 'Kepuasan TI – Sangat Baik', value: '82,2%', kategori: 'Kepuasan Pengguna', wajib: false, catatan: 'Tertinggi', pertanyaan: ['167'] },
+  { nama: 'Etika – Sangat Baik', value: '80,0%', kategori: 'Kepuasan Pengguna', wajib: false, catatan: '—', pertanyaan: ['167'] },
+  { nama: 'Komunikasi – Sangat Baik', value: '77,78%', kategori: 'Kepuasan Pengguna', wajib: false, catatan: '—', pertanyaan: ['167'] },
+  { nama: 'Kerja sama tim – Sangat Baik', value: '75,6%', kategori: 'Kepuasan Pengguna', wajib: false, catatan: '—', pertanyaan: ['167'] },
+  { nama: 'Keahlian bidang – Sangat Baik', value: '73,3%', kategori: 'Kepuasan Pengguna', wajib: false, catatan: '—', pertanyaan: ['167'] },
+  { nama: 'Pengembangan diri – Sangat Baik', value: '73,3%', kategori: 'Kepuasan Pengguna', wajib: false, catatan: '—', pertanyaan: ['167'] },
+  { nama: 'Bahasa asing – Sangat Baik', value: '71,1%', kategori: 'Kepuasan Pengguna', wajib: true, catatan: '⚠️ Perlu penguatan. Tabel: "Cukup"=11,1% vs RTL=25% → INKONSISTEN', pertanyaan: ['167','168'] },
+
+  // Prestasi Mahasiswa
+  { nama: 'Prestasi akademik', value: '10', kategori: 'Prestasi Mhs', wajib: false, catatan: '2 internasional + 8 nasional', pertanyaan: ['136'] },
+  { nama: 'Prestasi nonakademik', value: '9', kategori: 'Prestasi Mhs', wajib: false, catatan: '1 internasional + 5 nasional + 3 wilayah', pertanyaan: ['137'] },
+  { nama: 'Publikasi/presentasi mahasiswa', value: '126', kategori: 'Prestasi Mhs', wajib: false, catatan: 'Termasuk 34 jurnal nasional terakreditasi', pertanyaan: ['148'] },
+  { nama: 'Produk/jasa mahasiswa', value: '16', kategori: 'Prestasi Mhs', wajib: false, catatan: '—', pertanyaan: ['139'] }
+];
+
+// ===== 243 PERTANYAAN (183 C.1-C.7 + 60 BAB III) =====
 const dataPertanyaan = [
   // C.1 (9)
   { no:'001', k:'C.1', ind:'1 Kekhasan VMTS', q:'Apa kekhasan VMTS JTE dan visi keilmuan PSBM dibanding program sejenis?', f:'Apa yang benar-benar membedakan PSBM, bukan sekadar penggunaan istilah Broadband Multimedia?', d:'Tabel 1', b:'VMTS PNJ/JTE/PSBM', p:'Kaprodi/Kajur', r:'Tinggi' },
@@ -361,7 +599,68 @@ const dataPertanyaan = [
   { no:'180', k:'C.7', ind:'60 Evaluasi Kinerja', q:'Bagaimana hasil pengukuran disebarluaskan kepada stakeholder?', f:'Tunjukkan bukti publikasi/diseminasi.', d:'—', b:'Website/rapat/laporan', p:'GPM', r:'Tinggi' },
   { no:'181', k:'C.7', ind:'61 Kepuasan Stakeholder', q:'Siapa saja stakeholder yang disurvei?', f:'Apakah mencakup mahasiswa, dosen, tendik, lulusan, pengguna, industri, dan mitra lain?', d:'—', b:'Instrumen survei', p:'GPM', r:'Kritis' },
   { no:'182', k:'C.7', ind:'61 Kepuasan Stakeholder', q:'Bagaimana validitas, periodisitas dan analisis survei kepuasan dijamin?', f:'Apa hasil terendah?', d:'—', b:'Instrumen/raw data', p:'GPM', r:'Tinggi' },
-  { no:'183', k:'C.7', ind:'61 Kepuasan Stakeholder', q:'Bagaimana hasil kepuasan ditindaklanjuti dan dipublikasikan?', f:'Tunjukkan survei → masalah → tindakan → hasil berikutnya.', d:'—', b:'RTL + publikasi', p:'GPM/Kajur', r:'Kritis' }
+  { no:'183', k:'C.7', ind:'61 Kepuasan Stakeholder', q:'Bagaimana hasil kepuasan ditindaklanjuti dan dipublikasikan?', f:'Tunjukkan survei → masalah → tindakan → hasil berikutnya.', d:'—', b:'RTL + publikasi', p:'GPM/Kajur', r:'Kritis' },
+  // BAB III (60)
+  { no:'B3-01', k:'BAB III', ind:'Dasar BAB III', q:'Apa dasar penyusunan BAB III?', f:'Apakah BAB III hanya rencana kerja?', d:'C.1–C.7', b:'LED C.1–C.7 → BAB III', p:'Kaprodi/GPM', r:'Kritis' },
+  { no:'B3-02', k:'BAB III', ind:'Dasar BAB III', q:'Jadi BAB III bukan sekadar rencana kerja?', f:'Bagaimana program diturunkan dari gap evaluasi diri?', d:'Indikator terkait', b:'Matriks SWOT + program', p:'Kaprodi', r:'Kritis' },
+  { no:'B3-03', k:'BAB III', ind:'Prioritas', q:'Apa tiga masalah strategis terpenting PSBM?', f:'Mengapa masalah tersebut dipilih?', d:'3.b; 6.h.1; 7', b:'BAB III / RTL', p:'Kajur/Kaprodi', r:'Kritis' },
+  { no:'B3-04', k:'BAB III', ind:'Prioritas', q:'Mengapa masalah tersebut dipilih?', f:'Apakah muncul konsisten pada evaluasi?', d:'C.3; C.4; C.6; C.7', b:'Analisis faktor penghambat', p:'Kaprodi', r:'Kritis' },
+  { no:'B3-05', k:'BAB III', ind:'Traceability', q:'Bagaimana menjamin masalah di BAB III sesuai fakta?', f:'Tunjukkan traceability ke LED/LKPS.', d:'Seluruh LKPS', b:'Matriks traceability', p:'Kaprodi/GPM', r:'Kritis' },
+  { no:'B3-06', k:'BAB III', ind:'SWOT', q:'Apa kekuatan utama PSBM?', f:'Bukti konkretnya apa?', d:'2.a; 3.a; 4.a', b:'SWOT', p:'Kaprodi', r:'Tinggi' },
+  { no:'B3-07', k:'BAB III', ind:'Kurikulum', q:'Apa bukti kekhasan Broadband Multimedia?', f:'MK apa yang merepresentasikannya?', d:'3.a.1', b:'NADK + Kurikulum', p:'Kurikulum', r:'Tinggi' },
+  { no:'B3-08', k:'BAB III', ind:'Kurikulum', q:'Apa bukti kurikulum PSBM kuat secara vokasional?', f:'Berapa SKS praktik/aplikatif?', d:'3.a.1', b:'LKPS 3.a.1', p:'Kurikulum', r:'Tinggi' },
+  { no:'B3-09', k:'BAB III', ind:'CPL', q:'Apa kelemahan paling mendasar dari pendidikan?', f:'Mengapa itu dianggap kelemahan strategis?', d:'3.a', b:'Rekap CPL/CPMK', p:'Kurikulum/GPM', r:'Kritis' },
+  { no:'B3-10', k:'BAB III', ind:'CPL', q:'Mengapa itu dianggap kelemahan strategis?', f:'CPL sebagai ukuran utama keberhasilan?', d:'3.a', b:'CPL–CPMK–MK', p:'Kurikulum/GPM', r:'Kritis' },
+  { no:'B3-11', k:'BAB III', ind:'RPS', q:'Bukankah seluruh RPS sudah tersedia?', f:'Apa tantangan berikutnya?', d:'3.a.2', b:'Repository RPS', p:'Kurikulum', r:'Tinggi' },
+  { no:'B3-12', k:'BAB III', ind:'Peluang', q:'Apa peluang terbesar PSBM?', f:'Bagaimana peluang teknologi dimanfaatkan?', d:'—', b:'Analisis lingkungan eksternal', p:'Kajur/Kaprodi', r:'Tinggi' },
+  { no:'B3-13', k:'BAB III', ind:'Peluang', q:'Bagaimana peluang teknologi dimanfaatkan?', f:'Program apa yang dijalankan?', d:'3.a; 3.b; 4.a', b:'Kurikulum + roadmap', p:'Kaprodi', r:'Tinggi' },
+  { no:'B3-14', k:'BAB III', ind:'Ancaman', q:'Apa ancaman terbesar?', f:'Bagaimana PSBM mengantisipasinya?', d:'3.a; 4.a; 5.a', b:'SWOT', p:'Kajur/Kaprodi', r:'Tinggi' },
+  { no:'B3-15', k:'BAB III', ind:'Ancaman', q:'Bagaimana PSBM mengantisipasinya?', f:'Program konkret apa yang dijalankan?', d:'3.a; 4.a; 5.a', b:'Program pengembangan', p:'Kajur/Kaprodi', r:'Tinggi' },
+  { no:'B3-16', k:'BAB III', ind:'Penelitian', q:'Apa kelemahan penelitian?', f:'Berapa penelitian DTPS?', d:'3.b; 6.h.1', b:'LKPS penelitian', p:'P3M/Kaprodi', r:'Kritis' },
+  { no:'B3-17', k:'BAB III', ind:'Penelitian', q:'Berapa penelitian DTPS?', f:'Bagaimana sumber dananya?', d:'3.b', b:'LKPS 3.b', p:'P3M', r:'Kritis' },
+  { no:'B3-18', k:'BAB III', ind:'Penelitian', q:'Bagaimana sumber dananya?', f:'Apa makna angka itu bagi evaluasi diri?', d:'3.b', b:'Kontrak / rekap penelitian', p:'P3M', r:'Kritis' },
+  { no:'B3-19', k:'BAB III', ind:'Penelitian', q:'Apa makna angka itu bagi evaluasi diri?', f:'Bagaimana dengan keterlibatan mahasiswa?', d:'3.b', b:'SWOT + LKPS 3.b', p:'P3M', r:'Tinggi' },
+  { no:'B3-20', k:'BAB III', ind:'Penelitian', q:'Bagaimana dengan keterlibatan mahasiswa?', f:'Apa program perbaikannya?', d:'6.h.1', b:'LKPS 6.h.1', p:'P3M/Kaprodi', r:'Kritis' },
+  { no:'B3-21', k:'BAB III', ind:'Penelitian', q:'Apa program perbaikannya?', f:'Bagaimana integrasi dengan TA?', d:'3.b; 6.h.1', b:'Roadmap + program', p:'P3M', r:'Kritis' },
+  { no:'B3-22', k:'BAB III', ind:'PkM', q:'Apa kelemahan PkM?', f:'Berapa PkM PSBM?', d:'3.c', b:'LKPS 3.c', p:'P3M', r:'Kritis' },
+  { no:'B3-23', k:'BAB III', ind:'PkM', q:'Berapa PkM PSBM?', f:'Apa yang positif dari PkM?', d:'3.c', b:'LKPS 3.c', p:'P3M', r:'Tinggi' },
+  { no:'B3-24', k:'BAB III', ind:'PkM', q:'Apa yang positif dari PkM?', f:'Lalu apa pengembangannya?', d:'3.c; 6.i', b:'LKPS 6.i', p:'P3M', r:'Tinggi' },
+  { no:'B3-25', k:'BAB III', ind:'PkM', q:'Lalu apa pengembangannya?', f:'Bagaimana pendanaan eksternal diperluas?', d:'2.a; 3.c', b:'Roadmap PkM', p:'P3M', r:'Tinggi' },
+  { no:'B3-26', k:'BAB III', ind:'SDM', q:'Apa kelemahan SDM?', f:'Apa basis kekuatan SDM?', d:'4.a–4.j', b:'SWOT C.4', p:'Kajur', r:'Tinggi' },
+  { no:'B3-27', k:'BAB III', ind:'SDM', q:'Apa basis kekuatan SDM?', f:'Apakah jumlah doktor sudah memadai?', d:'4.a; 4.c', b:'LKPS SDM', p:'Kajur/Kaprodi', r:'Kritis' },
+  { no:'B3-28', k:'BAB III', ind:'SDM', q:'Apakah jumlah doktor sudah memadai?', f:'Apa masalah JAFA?', d:'4.a', b:'Ijazah + roadmap SDM', p:'Kajur', r:'Tinggi' },
+  { no:'B3-29', k:'BAB III', ind:'SDM', q:'Apa masalah JAFA?', f:'Bagaimana strategi percepatan?', d:'4.a', b:'SK JAFA + roadmap', p:'Kajur', r:'Tinggi' },
+  { no:'B3-30', k:'BAB III', ind:'Internasionalisasi', q:'Apa kelemahan internasionalisasi?', f:'Apa indikator masalah daya saing global lulusan?', d:'2.a; 4.e; 4.j; 6.g', b:'SWOT', p:'Kajur/Kaprodi', r:'Kritis' },
+  { no:'B3-31', k:'BAB III', ind:'Lulusan', q:'Apa indikator masalah daya saing global lulusan?', f:'Apa program untuk mengatasinya?', d:'6.g.2', b:'Survei pengguna', p:'Kaprodi/CDC', r:'Tinggi' },
+  { no:'B3-32', k:'BAB III', ind:'Lulusan', q:'Apa program untuk mengatasinya?', f:'Bagaimana mengukur keberhasilannya?', d:'6.g', b:'Program pengembangan', p:'Kaprodi', r:'Tinggi' },
+  { no:'B3-33', k:'BAB III', ind:'Kerja Sama', q:'Mengapa kerja sama menjadi kekuatan?', f:'Apakah jumlah cukup untuk menyatakan unggul?', d:'2.a', b:'LKPS 2.a', p:'Kajur/Kaprodi', r:'Kritis' },
+  { no:'B3-34', k:'BAB III', ind:'Kerja Sama', q:'Apakah jumlah kerja sama cukup untuk menyatakan unggul?', f:'Apa yang harus dikembangkan?', d:'2.a', b:'IA + laporan outcome', p:'Kajur/Kaprodi', r:'Kritis' },
+  { no:'B3-35', k:'BAB III', ind:'Strategi', q:'Apa hubungan SWOT dengan tujuan strategis?', f:'Berikan contoh strategi SO.', d:'—', b:'SWOT → tujuan strategis', p:'Kajur/Kaprodi', r:'Kritis' },
+  { no:'B3-36', k:'BAB III', ind:'Strategi SO', q:'Berikan contoh strategi SO.', f:'Berikan contoh strategi WO.', d:'2.a; 3.a; 3.b; 4.a', b:'Matriks SO', p:'Kaprodi', r:'Tinggi' },
+  { no:'B3-37', k:'BAB III', ind:'Strategi WO', q:'Berikan contoh strategi WO.', f:'Berikan contoh strategi ST.', d:'2.a; 3.b; 4.e', b:'Matriks WO', p:'Kaprodi', r:'Tinggi' },
+  { no:'B3-38', k:'BAB III', ind:'Strategi ST', q:'Berikan contoh strategi ST.', f:'Berikan contoh strategi WT.', d:'3.a; 4.a', b:'Matriks ST', p:'Kaprodi', r:'Tinggi' },
+  { no:'B3-39', k:'BAB III', ind:'Strategi WT', q:'Berikan contoh strategi WT.', f:'Bagaimana strategi ini diimplementasikan?', d:'4.a; 5.a; 6.g', b:'Matriks WT', p:'Kajur/Kaprodi', r:'Tinggi' },
+  { no:'B3-40', k:'BAB III', ind:'Tujuan Strategis', q:'Apa tujuan strategis utama pengembangan?', f:'Bagaimana memastikan tujuan strategis sesuai VMTS?', d:'C.1–C.7', b:'Tujuan Strategis BAB III', p:'Kajur/Kaprodi', r:'Kritis' },
+  { no:'B3-41', k:'BAB III', ind:'Tujuan Strategis', q:'Bagaimana memastikan tujuan strategis sesuai VMTS?', f:'Siapa yang bertanggung jawab?', d:'—', b:'VMTS → SWOT → tujuan', p:'Kajur/Kaprodi', r:'Kritis' },
+  { no:'B3-42', k:'BAB III', ind:'Program Pendidikan', q:'Apa prioritas pertama pendidikan?', f:'Apa indikator keberhasilannya?', d:'3.a', b:'Tabel 3.2', p:'Kurikulum', r:'Kritis' },
+  { no:'B3-43', k:'BAB III', ind:'Program Pendidikan', q:'Apa indikator keberhasilannya?', f:'Bagaimana membuktikan closed loop CPL?', d:'3.a', b:'Dashboard / rekap CPL', p:'Kurikulum/GPM', r:'Kritis' },
+  { no:'B3-44', k:'BAB III', ind:'CPL', q:'Bagaimana membuktikan closed loop CPL?', f:'Siapa yang bertanggung jawab?', d:'3.a', b:'CPL → BA → RTL', p:'Kurikulum/GPM', r:'Kritis' },
+  { no:'B3-45', k:'BAB III', ind:'PIC', q:'Siapa yang bertanggung jawab?', f:'Bagaimana koordinasi dengan stakeholder?', d:'—', b:'SK + BA evaluasi', p:'Kaprodi', r:'Tinggi' },
+  { no:'B3-46', k:'BAB III', ind:'Program Penelitian', q:'Apa prioritas penelitian?', f:'Bagaimana keberhasilannya diukur?', d:'3.b; 6.h.1', b:'Program penelitian', p:'P3M', r:'Kritis' },
+  { no:'B3-47', k:'BAB III', ind:'Program Penelitian', q:'Bagaimana keberhasilannya diukur?', f:'Apa target konkret?', d:'3.b; 4.e–4.g; 6.h.1', b:'LKPS + laporan', p:'P3M', r:'Kritis' },
+  { no:'B3-48', k:'BAB III', ind:'Program PkM', q:'Apa prioritas PkM?', f:'Bagaimana dampaknya dievaluasi?', d:'3.c; 6.i', b:'Program PkM', p:'P3M', r:'Tinggi' },
+  { no:'B3-49', k:'BAB III', ind:'Program SDM', q:'Apa prioritas SDM?', f:'Siapa PIC-nya?', d:'4.a–4.j', b:'Roadmap SDM', p:'Kajur', r:'Tinggi' },
+  { no:'B3-50', k:'BAB III', ind:'Program Sarpras', q:'Apa prioritas sarpras?', f:'Bagaimana kelayakan program?', d:'5.a', b:'Inventaris + RKAT', p:'Kajur/Kalab', r:'Tinggi' },
+  { no:'B3-51', k:'BAB III', ind:'Kelayakan', q:'Bagaimana program dibuat realistis?', f:'Dari mana anggarannya?', d:'2.b; 4; 5', b:'Tabel 3.2 + RKAT', p:'Kajur', r:'Kritis' },
+  { no:'B3-52', k:'BAB III', ind:'Anggaran', q:'Dari mana anggarannya?', f:'Bagaimana program dimonitor?', d:'2.b', b:'RKAT + kontrak', p:'Kajur', r:'Kritis' },
+  { no:'B3-53', k:'BAB III', ind:'Monitoring', q:'Bagaimana program dimonitor?', f:'Bagaimana BAB III masuk PPEPP?', d:'7', b:'AMI + RTM + RTL', p:'GPM', r:'Kritis' },
+  { no:'B3-54', k:'BAB III', ind:'PPEPP', q:'Bagaimana BAB III masuk PPEPP?', f:'Apa bukti program ini berkelanjutan setelah AL?', d:'7.a; 7.b', b:'PPEPP + AMI + RTM', p:'GPM', r:'Kritis' },
+  { no:'B3-55', k:'BAB III', ind:'Keberlanjutan', q:'Apa bukti program ini berkelanjutan setelah AL?', f:'Bagaimana stakeholder eksternal berperan?', d:'—', b:'Renstra + Renop + RKAT', p:'Kajur', r:'Kritis' },
+  { no:'B3-56', k:'BAB III', ind:'Stakeholder', q:'Bagaimana stakeholder eksternal berperan?', f:'Apa risiko jika program pengembangan tidak berhasil?', d:'2.a; 3.a', b:'BA + IA + laporan', p:'Kaprodi', r:'Tinggi' },
+  { no:'B3-57', k:'BAB III', ind:'Prioritas', q:'Jika sumber daya terbatas, program mana didahulukan?', f:'Bagaimana menentukan prioritas?', d:'C.3; C.4; C.6; C.7', b:'Matriks prioritas', p:'Kajur/Kaprodi', r:'Kritis' },
+  { no:'B3-58', k:'BAB III', ind:'Risiko', q:'Apa risiko jika program pengembangan tidak berhasil?', f:'Bagaimana mitigasinya?', d:'—', b:'Risk Register + SWOT', p:'Kajur/Kaprodi', r:'Tinggi' },
+  { no:'B3-59', k:'BAB III', ind:'Outcome', q:'Bagaimana PSBM tahu program berhasil?', f:'Indikator outcome apa yang dipakai?', d:'C.3; C.4; C.6', b:'KPI + LKPS periode berikutnya', p:'GPM/Kaprodi', r:'Kritis' },
+  { no:'B3-60', k:'BAB III', ind:'Arah Pengembangan', q:'Dalam satu kalimat, ke mana PSBM akan dikembangkan?', f:'Bagaimana VMTS mendukung arah ini?', d:'C.1–C.7', b:'VMTS + BAB III', p:'Kajur/Kaprodi', r:'Kritis' }
 ];
 
 // ===== NAVIGATION =====
@@ -371,7 +670,83 @@ function showPanel(id, btn) {
   document.querySelectorAll('.folder-tab').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
   if (id === 'bank') initBank();
+  if (id === 'data') renderData('all');
   if (id === 'modeal') renderKritis();
+}
+
+// ===== DATA KUNCI LKPS =====
+let currentLKPSFilter = 'all';
+function filterLKPS(filter, btn) {
+  document.querySelectorAll('.lkps-cat-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  currentLKPSFilter = filter;
+  renderLKPS();
+}
+
+function renderData(filter) {
+  currentLKPSFilter = filter;
+  document.querySelectorAll('.lkps-cat-btn').forEach(b => {
+    b.classList.remove('active');
+    if (b.textContent.trim() === 'Semua') b.classList.add('active');
+  });
+  renderLKPS();
+}
+
+function renderLKPS() {
+  const search = (document.getElementById('lkpsSearch')?.value || '').toLowerCase();
+  const wajibOnly = document.getElementById('filterWajib')?.value || '';
+
+  let filtered = dataLKPS;
+  if (currentLKPSFilter !== 'all') filtered = filtered.filter(d => d.kategori === currentLKPSFilter);
+  if (search) filtered = filtered.filter(d => 
+    d.nama.toLowerCase().includes(search) || 
+    d.value.toLowerCase().includes(search) || 
+    d.catatan.toLowerCase().includes(search)
+  );
+  if (wajibOnly === 'wajib') filtered = filtered.filter(d => d.wajib);
+
+  // Sort: wajib first
+  filtered.sort((a, b) => (b.wajib ? 1 : 0) - (a.wajib ? 1 : 0));
+
+  let html = '<div style="margin-bottom:12px; font-size:0.85rem; color:#666;">Menampilkan <strong>' + filtered.length + '</strong> dari ' + dataLKPS.length + ' angka</div>';
+  
+  filtered.forEach(d => {
+    html += '<div class="lkps-card ' + (d.wajib ? 'wajib' : '') + '">';
+    html += '<div class="lkps-card-header">';
+    html += '<div class="lkps-card-title">' + d.nama + (d.wajib ? '<span class="wajib-badge">🔴 WAJIB KONSISTEN</span>' : '') + '</div>';
+    html += '<div class="lkps-card-value">' + d.value + '</div>';
+    html += '</div>';
+    html += '<div class="lkps-card-note"><strong>📝 Catatan:</strong> ' + d.catatan + '</div>';
+    
+    if (d.pertanyaan && d.pertanyaan.length > 0) {
+      html += '<div class="lkps-card-actions">';
+      html += '<button class="lkps-btn primary" onclick="jumpToPertanyaan(\'' + d.pertanyaan[0] + '\')">❓ Lihat Pertanyaan Terkait (' + d.pertanyaan.length + ')</button>';
+      html += '<button class="lkps-btn" onclick="alert(\'Buka LKPS: ' + d.nama + '\')">📄 Buka LKPS</button>';
+      html += '<button class="lkps-btn" onclick="alert(\'Buka Evidence: ' + d.nama + '\')">📁 Buka Evidence</button>';
+      html += '</div>';
+    }
+    html += '</div>';
+  });
+
+  if (filtered.length === 0) {
+    html = '<div class="no-result">🔍 Tidak ada angka yang cocok dengan filter.</div>';
+  }
+
+  document.getElementById('lkpsContent').innerHTML = html;
+}
+
+function jumpToPertanyaan(no) {
+  const btns = document.querySelectorAll('.folder-tab');
+  showPanel('bank', btns[2]);
+  setTimeout(() => {
+    const card = document.getElementById('qcard-' + no);
+    if (card) {
+      card.classList.add('open');
+      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      card.style.boxShadow = '0 0 0 3px #0d47a1';
+      setTimeout(() => { card.style.boxShadow = ''; }, 2500);
+    }
+  }, 300);
 }
 
 // ===== STATS =====
@@ -389,17 +764,18 @@ function renderStats() {
     '<div class="stat-mini rendah"><div class="snum">' + rendah + '</div><div class="slbl">🟢 Rendah</div></div>';
 }
 
-// ===== SUB NAV KRITERIA =====
+// ===== SUB NAV KRITERIA + BAB III =====
 let currentKFilter = 'all';
 function renderSubNav() {
   const counts = { all: dataPertanyaan.length };
-  ['C.1','C.2','C.3','C.4','C.5','C.6','C.7'].forEach(k => {
+  ['C.1','C.2','C.3','C.4','C.5','C.6','C.7','BAB III'].forEach(k => {
     counts[k] = dataPertanyaan.filter(q => q.k === k).length;
   });
   let html = '<button class="active" onclick="filterK(\'all\', this)">Semua <span class="count">' + counts.all + '</span></button>';
   ['C.1','C.2','C.3','C.4','C.5','C.6','C.7'].forEach(k => {
     html += '<button onclick="filterK(\'' + k + '\', this)">' + k + ' <span class="count">' + counts[k] + '</span></button>';
   });
+  html += '<button class="bab3-btn" onclick="filterK(\'BAB III\', this)">📘 BAB III <span class="count">' + counts['BAB III'] + '</span></button>';
   document.getElementById('bankSubNav').innerHTML = html;
 }
 function filterK(k, btn) {
@@ -413,6 +789,7 @@ function filterK(k, btn) {
 function renderPICOptions() {
   const pics = [...new Set(dataPertanyaan.map(q => q.p))].sort();
   const sel = document.getElementById('filterPIC');
+  sel.innerHTML = '<option value="">Semua PIC</option>';
   pics.forEach(p => {
     const opt = document.createElement('option');
     opt.value = p;
@@ -439,10 +816,11 @@ function renderBank() {
   if (risk) filtered = filtered.filter(q => q.r === risk);
   if (pic) filtered = filtered.filter(q => q.p.toLowerCase().includes(pic.toLowerCase()));
 
-  let html = '<div style="margin-bottom:12px; font-size:0.85rem; color:#666;">Menampilkan <strong>' + filtered.length + '</strong> dari 183 pertanyaan</div>';
+  let html = '<div style="margin-bottom:12px; font-size:0.85rem; color:#666;">Menampilkan <strong>' + filtered.length + '</strong> dari ' + dataPertanyaan.length + ' pertanyaan</div>';
   
   filtered.forEach(q => {
-    html += '<div class="q-card" id="qcard-' + q.no + '">';
+    const isBab3 = q.k === 'BAB III';
+    html += '<div class="q-card ' + (isBab3 ? 'bab3' : '') + '" id="qcard-' + q.no + '">';
     html += '<div class="q-card-header" onclick="toggleQ(\'' + q.no + '\')">';
     html += '<div class="q-num">#' + q.no + '</div>';
     html += '<div class="q-ind">' + q.k + ' • ' + q.ind + '</div>';
@@ -493,46 +871,82 @@ function searchModeAL() {
   }
   defaultView.style.display = 'none';
 
-  const results = dataPertanyaan.filter(q => 
-    q.q.toLowerCase().includes(query) || 
-    q.ind.toLowerCase().includes(query) || 
-    q.f.toLowerCase().includes(query) ||
-    q.b.toLowerCase().includes(query) ||
-    q.p.toLowerCase().includes(query)
-  );
+  const results = [];
+
+  // Cari di LKPS
+  dataLKPS.forEach(d => {
+    if (d.nama.toLowerCase().includes(query) || 
+        d.value.toLowerCase().includes(query) || 
+        d.catatan.toLowerCase().includes(query)) {
+      results.push({ type: 'lkps', data: d });
+    }
+  });
+
+  // Cari di pertanyaan
+  dataPertanyaan.forEach(q => {
+    const match = q.q.toLowerCase().includes(query) ||
+                  q.ind.toLowerCase().includes(query) ||
+                  q.f.toLowerCase().includes(query) ||
+                  q.b.toLowerCase().includes(query) ||
+                  q.p.toLowerCase().includes(query) ||
+                  q.k.toLowerCase().includes(query);
+    if (match) results.push({ type: 'pertanyaan', data: q });
+  });
 
   if (results.length === 0) {
     container.innerHTML = '<div class="no-result">🔍 Tidak ditemukan hasil untuk "<strong>' + query + '</strong>"<br><small>Coba kata kunci lain.</small></div>';
     return;
   }
 
-  let html = '<div style="margin-bottom:12px; font-size:0.85rem; color:#666;">Ditemukan <strong>' + results.length + '</strong> pertanyaan</div>';
-  results.forEach(q => {
-    html += '<div class="q-card" id="mcard-' + q.no + '">';
-    html += '<div class="q-card-header" onclick="document.getElementById(\'mcard-' + q.no + '\').classList.toggle(\'open\')">';
-    html += '<div class="q-num">#' + q.no + '</div>';
-    html += '<div class="q-ind">' + q.k + ' • ' + q.ind + '</div>';
-    html += '<div class="q-main">' + q.q + '</div>';
-    html += '<div class="q-risk ' + q.r + '">' + q.r.toUpperCase() + '</div>';
+  let html = '<div style="margin-bottom:12px; font-size:0.85rem; color:#666;">Ditemukan <strong>' + results.length + '</strong> hasil</div>';
+  
+  // Tampilkan LKPS dulu
+  results.filter(r => r.type === 'lkps').forEach(r => {
+    const d = r.data;
+    html += '<div class="lkps-card ' + (d.wajib ? 'wajib' : '') + '">';
+    html += '<div class="lkps-card-header">';
+    html += '<div class="lkps-card-title">' + d.nama + (d.wajib ? '<span class="wajib-badge">🔴 WAJIB KONSISTEN</span>' : '') + '</div>';
+    html += '<div class="lkps-card-value">' + d.value + '</div>';
+    html += '</div>';
+    html += '<div class="lkps-card-note"><strong>📝 Catatan:</strong> ' + d.catatan + '</div>';
+    if (d.pertanyaan && d.pertanyaan.length > 0) {
+      html += '<div class="lkps-card-actions">';
+      html += '<button class="lkps-btn primary" onclick="jumpToPertanyaan(\'' + d.pertanyaan[0] + '\')">❓ Pertanyaan Terkait (' + d.pertanyaan.length + ')</button>';
+      html += '</div>';
+    }
+    html += '</div>';
+  });
+
+  // Lalu pertanyaan
+  results.filter(r => r.type === 'pertanyaan').forEach(q => {
+    const qd = q.data;
+    const isBab3 = qd.k === 'BAB III';
+    html += '<div class="q-card ' + (isBab3 ? 'bab3' : '') + '" id="mcard-' + qd.no + '">';
+    html += '<div class="q-card-header" onclick="document.getElementById(\'mcard-' + qd.no + '\').classList.toggle(\'open\')">';
+    html += '<div class="q-num">#' + qd.no + '</div>';
+    html += '<div class="q-ind">' + qd.k + ' • ' + qd.ind + '</div>';
+    html += '<div class="q-main">' + qd.q + '</div>';
+    html += '<div class="q-risk ' + qd.r + '">' + qd.r.toUpperCase() + '</div>';
     html += '<div class="q-toggle">▼</div>';
     html += '</div>';
     html += '<div class="q-card-body">';
-    html += '<div class="q-followup"><div class="flabel">🔍 FOLLOW-UP ASESOR</div><div class="ftext">' + q.f + '</div></div>';
+    html += '<div class="q-followup"><div class="flabel">🔍 FOLLOW-UP ASESOR</div><div class="ftext">' + qd.f + '</div></div>';
     html += '<div class="q-meta-grid">';
-    html += '<div class="q-meta-item"><div class="mlabel">📊 Data LKPS</div><div class="mvalue">' + q.d + '</div></div>';
-    html += '<div class="q-meta-item"><div class="mlabel">👤 PIC</div><div class="mvalue">' + q.p + '</div></div>';
-    html += '<div class="q-meta-item"><div class="mlabel">⚠️ Risiko</div><div class="mvalue"><span class="q-risk ' + q.r + '" style="font-size:0.72rem;">' + q.r.toUpperCase() + '</span></div></div>';
+    html += '<div class="q-meta-item"><div class="mlabel">📊 Data LKPS</div><div class="mvalue">' + qd.d + '</div></div>';
+    html += '<div class="q-meta-item"><div class="mlabel">👤 PIC</div><div class="mvalue">' + qd.p + '</div></div>';
+    html += '<div class="q-meta-item"><div class="mlabel">⚠️ Risiko</div><div class="mvalue"><span class="q-risk ' + qd.r + '" style="font-size:0.72rem;">' + qd.r.toUpperCase() + '</span></div></div>';
     html += '</div>';
-    html += '<div class="q-section" style="margin-top:12px;"><div class="q-section-title">📎 BUKTI</div><div class="q-section-content">' + q.b + '</div></div>';
-    html += '<div style="margin-top:12px;"><button class="btn-primary" style="padding:6px 14px; border-radius:6px; border:none; background:#0d47a1; color:white; font-weight:600; cursor:pointer; font-size:0.85rem;" onclick="jumpToBank(\'' + q.no + '\')">📋 Lihat di Bank Pertanyaan</button></div>';
+    html += '<div class="q-section" style="margin-top:12px;"><div class="q-section-title">📎 BUKTI</div><div class="q-section-content">' + qd.b + '</div></div>';
+    html += '<div style="margin-top:12px;"><button class="lkps-btn primary" onclick="jumpToBank(\'' + qd.no + '\')">📋 Lihat di Bank Pertanyaan</button></div>';
     html += '</div></div>';
   });
+
   container.innerHTML = html;
 }
 
 function jumpToBank(no) {
   const btns = document.querySelectorAll('.folder-tab');
-  showPanel('bank', btns[1]);
+  showPanel('bank', btns[2]);
   setTimeout(() => {
     const card = document.getElementById('qcard-' + no);
     if (card) {
@@ -548,7 +962,8 @@ function renderKritis() {
   const kritis = dataPertanyaan.filter(q => q.r === 'Kritis').slice(0, 10);
   let html = '';
   kritis.forEach(q => {
-    html += '<div class="q-card" id="kcard-' + q.no + '">';
+    const isBab3 = q.k === 'BAB III';
+    html += '<div class="q-card ' + (isBab3 ? 'bab3' : '') + '" id="kcard-' + q.no + '">';
     html += '<div class="q-card-header" onclick="document.getElementById(\'kcard-' + q.no + '\').classList.toggle(\'open\')">';
     html += '<div class="q-num">#' + q.no + '</div>';
     html += '<div class="q-ind">' + q.k + ' • ' + q.ind + '</div>';
@@ -579,5 +994,6 @@ function initBank() {
 document.addEventListener('DOMContentLoaded', function() {
   renderKritis();
   initBank();
+  renderLKPS();
 });
 </script>
