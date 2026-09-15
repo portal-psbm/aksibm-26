@@ -5,7 +5,7 @@ permalink: /persiapan-al/
 ---
 
 <style>
-  /* ===== Cabinet Container ===== */
+  /* ===== Cabinet Container - Tema Biru Konsisten ===== */
   .cabinet-container {
     background: linear-gradient(180deg, #e3f2fd 0%, #bbdefb 100%);
     padding: 24px 24px 0 24px;
@@ -34,12 +34,12 @@ permalink: /persiapan-al/
   .folder-shelf::-webkit-scrollbar-track { background: rgba(13, 71, 161, 0.05); border-radius: 2px; }
   .folder-shelf::-webkit-scrollbar-thumb { background: #0d47a1; border-radius: 2px; }
 
-  /* ===== Folder Tab - Label Singkat ===== */
+  /* ===== Folder Tab ===== */
   .folder-tab {
     position: relative;
     flex: 0 0 auto;
-    min-width: 90px;
-    padding: 10px 6px 14px 6px;
+    min-width: 110px;
+    padding: 14px 14px 18px 14px;
     background: #ffffff;
     border-radius: 8px 8px 0 0;
     border: 1px solid #e0e0e0;
@@ -47,23 +47,20 @@ permalink: /persiapan-al/
     cursor: pointer;
     text-align: center;
     font-weight: 600;
-    font-size: 0.72rem;
-    line-height: 1.2;
+    font-size: 0.82rem;
     color: #666;
     transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(4px);
     box-shadow: 0 -2px 6px rgba(0,0,0,0.05);
-    white-space: normal;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+    white-space: nowrap;
   }
 
   .folder-tab::before {
     content: '';
     position: absolute;
     top: -6px;
-    left: 22%;
-    width: 56%;
+    left: 20%;
+    width: 60%;
     height: 6px;
     background: #f5f5f5;
     border-radius: 4px 4px 0 0;
@@ -79,7 +76,7 @@ permalink: /persiapan-al/
   }
   .folder-tab:hover::before { background: #f1f5f9; }
 
-  /* Folder Aktif */
+  /* Folder Aktif - Biru #0d47a1 */
   .folder-tab.active {
     background: #0d47a1;
     color: #ffffff;
@@ -88,7 +85,6 @@ permalink: /persiapan-al/
     border-color: #0d47a1;
     box-shadow: 0 -4px 16px rgba(13, 71, 161, 0.25);
     font-weight: 700;
-    font-size: 0.72rem;
   }
   .folder-tab.active::before {
     background: #0d47a1;
@@ -115,7 +111,7 @@ permalink: /persiapan-al/
   .al-panel.active { display: block; }
   @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 
-  /* ===== Komponen Internal ===== */
+  /* ===== Komponen Internal - Konsisten dengan Halaman Lain ===== */
   .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 16px 0; }
   .stat-card { background: white; border-radius: 10px; padding: 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #0d47a1; transition: transform 0.2s; }
   .stat-card:hover { transform: translateY(-2px); }
@@ -205,17 +201,17 @@ permalink: /persiapan-al/
   /* ===== RESPONSIVE ===== */
   @media (min-width: 1200px) {
     .folder-shelf { overflow-x: visible; padding-bottom: 0; }
-    .folder-tab { flex: 1 1 0; min-width: 0; padding: 10px 4px 14px 4px; font-size: 0.7rem; }
+    .folder-tab { flex: 1 1 0; min-width: 0; padding: 14px 8px 18px 8px; font-size: 0.8rem; white-space: normal; }
     .folder-tab::before { left: 25%; width: 50%; }
   }
   @media (min-width: 768px) and (max-width: 1199px) {
     .folder-shelf { flex-wrap: wrap; overflow-x: visible; padding-bottom: 0; }
-    .folder-tab { flex: 0 1 calc(20% - 6px); min-width: 0; font-size: 0.7rem; }
+    .folder-tab { flex: 0 1 calc(20% - 6px); min-width: 0; font-size: 0.8rem; white-space: normal; }
   }
   @media (max-width: 767px) {
     .folder-shelf { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 8px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
     .folder-shelf::-webkit-scrollbar { display: none; }
-    .folder-tab { min-width: 90px; flex: 0 0 auto; font-size: 0.7rem; padding: 10px 6px 14px 6px; }
+    .folder-tab { min-width: 110px; flex: 0 0 auto; font-size: 0.78rem; padding: 12px 10px 16px 10px; }
     .progress-row { flex-wrap: wrap; }
     .progress-row .label { width: 100%; margin-bottom: 4px; }
     .al-content { padding: 20px; }
@@ -225,16 +221,16 @@ permalink: /persiapan-al/
 <!-- ===== KABINET FOLDER NAV ===== -->
 <div class="cabinet-container">
   <div class="folder-shelf">
-    <div class="folder-tab active" onclick="showPanel('dashboard', this)">📊<br>Dash</div>
+    <div class="folder-tab active" onclick="showPanel('dashboard', this)">📊<br>Dashboard</div>
     <div class="folder-tab" onclick="showPanel('kriteria', this)">📑<br>Kriteria</div>
     <div class="folder-tab" onclick="showPanel('bukti', this)">📎<br>Bukti</div>
-    <div class="folder-tab" onclick="showPanel('pertanyaan', this)">❓<br>Tanya</div>
-    <div class="folder-tab" onclick="showPanel('mock', this)">🎭<br>Mock</div>
+    <div class="folder-tab" onclick="showPanel('pertanyaan', this)">❓<br>Pertanyaan</div>
+    <div class="folder-tab" onclick="showPanel('mock', this)">🎭<br>Mock AL</div>
     <div class="folder-tab" onclick="showPanel('ppepp', this)">🔄<br>PPEPP</div>
     <div class="folder-tab" onclick="showPanel('risiko', this)">⚠️<br>Risiko</div>
-    <div class="folder-tab" onclick="showPanel('tim', this)">👥<br>Tim</div>
-    <div class="folder-tab" onclick="showPanel('checklist', this)">✅<br>Check</div>
-    <div class="folder-tab" onclick="showPanel('modeal', this)">🚀<br>Mode</div>
+    <div class="folder-tab" onclick="showPanel('tim', this)">👥<br>Tim/PIC</div>
+    <div class="folder-tab" onclick="showPanel('checklist', this)">✅<br>Checklist</div>
+    <div class="folder-tab" onclick="showPanel('modeal', this)">🚀<br>Mode AL</div>
   </div>
 
   <!-- ===== AREA KONTEN ===== -->
@@ -458,7 +454,6 @@ function showPanel(id, btn) {
   if (id === 'ppepp') showPPEPP('kurikulum', document.querySelector('#panel-ppepp .sub-nav button'));
   if (id === 'checklist') showChecklist('h30', document.querySelector('#panel-checklist .sub-nav button'));
 }
-
 function showKriteria(key, btn) {
   document.querySelectorAll('#kriteriaSubNav button').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
@@ -470,7 +465,6 @@ function showKriteria(key, btn) {
   });
   document.getElementById('kriteriaContent').innerHTML = html;
 }
-
 function renderBukti() {
   var search = (document.getElementById('buktiSearch') ? document.getElementById('buktiSearch').value : '').toLowerCase();
   var filtered = dataBukti.filter(function(b) { return !search || b.name.toLowerCase().indexOf(search) >= 0 || b.code.toLowerCase().indexOf(search) >= 0; });
@@ -481,7 +475,6 @@ function renderBukti() {
   document.getElementById('buktiList').innerHTML = html || '<p style="text-align:center; color:#666; padding:20px;">Tidak ada bukti ditemukan</p>';
 }
 function filterBukti() { renderBukti(); }
-
 function renderPertanyaan(filter) {
   filter = filter || 'all';
   var filtered = dataPertanyaan.filter(function(p) { return filter === 'all' || p.type === filter; });
@@ -496,14 +489,12 @@ function filterPertanyaan(type, btn) {
   btn.classList.add('active');
   renderPertanyaan(type);
 }
-
 function startMock() {
   document.getElementById('mockSetup').style.display = 'none';
   var session = document.getElementById('mockSession');
   session.style.display = 'block';
   session.innerHTML = '<div style="text-align:center; padding:40px; background:#e8f5e9; border-radius:12px;"><h2 style="color:#2e7d32;">✅ Mock AL Selesai!</h2><div style="font-size:2rem; font-weight:700; color:#0d47a1; margin:16px 0;">3.4 / 4.0</div><button class="btn btn-primary" onclick="document.getElementById(\'mockSetup\').style.display=\'block\'; document.getElementById(\'mockSession\').style.display=\'none\';">Kembali</button></div>';
 }
-
 function showPPEPP(key, btn) {
   document.querySelectorAll('#panel-ppepp .sub-nav button').forEach(function(b) { b.classList.remove('active'); });
   btn.classList.add('active');
@@ -512,7 +503,6 @@ function showPPEPP(key, btn) {
   data.steps.forEach(function(s) { html += '<div class="ppepp-step"><div class="step-title">' + s.t + '</div><div class="step-content">' + s.c + '</div></div>'; });
   document.getElementById('ppeppContent').innerHTML = html;
 }
-
 function showChecklist(key, btn) {
   document.querySelectorAll('#panel-checklist .sub-nav button').forEach(function(b) { b.classList.remove('active'); });
   btn.classList.add('active');
@@ -524,7 +514,6 @@ function showChecklist(key, btn) {
   html += '</div>';
   document.getElementById('checklistContent').innerHTML = html;
 }
-
 document.addEventListener('DOMContentLoaded', function() {
   showKriteria('c1', document.querySelector('#kriteriaSubNav button'));
   renderBukti();
