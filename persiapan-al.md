@@ -97,9 +97,15 @@ permalink: /persiapan-al/
   .mode-al-hero { background: linear-gradient(135deg, #0d47a1 0%, #1565c0 100%); color: white; padding: 28px; border-radius: 12px; margin-bottom: 20px; text-align: center; }
   .mode-al-hero h2 { margin: 0 0 6px 0; font-size: 1.4rem; }
   .mode-al-hero .subtitle { opacity: 0.9; font-size: 0.9rem; margin-bottom: 16px; }
-  .mode-al-search { width: 100%; max-width: 700px; padding: 16px 24px; border-radius: 30px; border: 2px solid rgba(255,255,255,0.3); background: rgba(255,255,255,0.15); color: white; font-size: 1rem; margin: 0 auto; display: block; backdrop-filter: blur(4px); }
+  .mode-al-search-wrapper { display: flex; gap: 8px; max-width: 700px; margin: 0 auto 16px auto; }
+  .mode-al-search { flex: 1; padding: 16px 24px; border-radius: 30px; border: 2px solid rgba(255,255,255,0.3); background: rgba(255,255,255,0.15); color: white; font-size: 1rem; backdrop-filter: blur(4px); }
   .mode-al-search::placeholder { color: rgba(255,255,255,0.7); }
   .mode-al-search:focus { outline: none; border-color: #fff; background: rgba(255,255,255,0.25); }
+  .mode-al-btn { padding: 16px 24px; border-radius: 30px; border: none; font-size: 1rem; font-weight: 600; cursor: pointer; transition: all 0.2s; white-space: nowrap; }
+  .mode-al-btn.search { background: #4caf50; color: white; }
+  .mode-al-btn.search:hover { background: #45a049; }
+  .mode-al-btn.clear { background: rgba(255,255,255,0.2); color: white; border: 2px solid rgba(255,255,255,0.5); }
+  .mode-al-btn.clear:hover { background: rgba(255,255,255,0.3); }
   .quick-chips { display: flex; gap: 6px; justify-content: center; flex-wrap: wrap; margin-top: 16px; }
   .quick-chip { padding: 6px 12px; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); border-radius: 16px; color: white; cursor: pointer; font-weight: 600; font-size: 0.78rem; transition: all 0.2s; }
   .quick-chip:hover { background: rgba(255,255,255,0.3); }
@@ -108,102 +114,40 @@ permalink: /persiapan-al/
 
   .no-result { text-align: center; padding: 40px 20px; color: #888; background: #f8fafc; border-radius: 10px; }
 
-  /* ===== DATA KUNCI LKPS ===== */
-  .lkps-hero {
-    background: linear-gradient(135deg, #0d47a1 0%, #1565c0 100%);
-    color: white; padding: 24px; border-radius: 12px; margin-bottom: 20px;
-    text-align: center;
-  }
+  /* ===== Data Kunci LKPS ===== */
+  .lkps-hero { background: linear-gradient(135deg, #0d47a1 0%, #1565c0 100%); color: white; padding: 24px; border-radius: 12px; margin-bottom: 20px; text-align: center; }
   .lkps-hero h2 { margin: 0 0 6px 0; font-size: 1.3rem; }
   .lkps-hero .subtitle { opacity: 0.9; font-size: 0.88rem; }
-  .lkps-warning {
-    display: inline-block; background: #c62828; color: white;
-    padding: 4px 12px; border-radius: 12px; font-size: 0.75rem;
-    font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;
-    margin-top: 10px;
-  }
+  .lkps-warning { display: inline-block; background: #c62828; color: white; padding: 4px 12px; border-radius: 12px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 10px; }
 
-  .super-priority-box {
-    background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%);
-    border: 2px solid #ff9800; border-radius: 12px; padding: 20px;
-    margin-bottom: 20px;
-  }
-  .super-priority-box h3 {
-    margin: 0 0 12px 0; color: #e65100; font-size: 1rem;
-    display: flex; align-items: center; gap: 8px;
-  }
-  .super-priority-box .sp-item {
-    background: white; padding: 10px 14px; border-radius: 8px;
-    margin-bottom: 8px; font-size: 0.88rem; color: #333;
-    border-left: 4px solid #ff9800; font-family: 'Courier New', monospace;
-    font-weight: 600; line-height: 1.6;
-  }
+  .super-priority-box { background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%); border: 2px solid #ff9800; border-radius: 12px; padding: 20px; margin-bottom: 20px; }
+  .super-priority-box h3 { margin: 0 0 12px 0; color: #e65100; font-size: 1rem; display: flex; align-items: center; gap: 8px; }
+  .super-priority-box .sp-item { background: white; padding: 10px 14px; border-radius: 8px; margin-bottom: 8px; font-size: 0.88rem; color: #333; border-left: 4px solid #ff9800; font-family: 'Courier New', monospace; font-weight: 600; line-height: 1.6; }
   .super-priority-box .sp-item:last-child { margin-bottom: 0; }
 
-  .critical-notes-box {
-    background: #ffebee; border: 2px solid #c62828; border-radius: 12px;
-    padding: 20px; margin-bottom: 20px;
-  }
-  .critical-notes-box h3 {
-    margin: 0 0 12px 0; color: #c62828; font-size: 1rem;
-    display: flex; align-items: center; gap: 8px;
-  }
-  .critical-notes-box .cn-item {
-    background: white; padding: 12px 14px; border-radius: 8px;
-    margin-bottom: 8px; font-size: 0.88rem; color: #333;
-    border-left: 4px solid #c62828; line-height: 1.5;
-  }
+  .critical-notes-box { background: #ffebee; border: 2px solid #c62828; border-radius: 12px; padding: 20px; margin-bottom: 20px; }
+  .critical-notes-box h3 { margin: 0 0 12px 0; color: #c62828; font-size: 1rem; display: flex; align-items: center; gap: 8px; }
+  .critical-notes-box .cn-item { background: white; padding: 12px 14px; border-radius: 8px; margin-bottom: 8px; font-size: 0.88rem; color: #333; border-left: 4px solid #c62828; line-height: 1.5; }
   .critical-notes-box .cn-item:last-child { margin-bottom: 0; }
   .critical-notes-box .cn-item strong { color: #c62828; }
 
-  .lkps-cat-tabs {
-    display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px;
-  }
-  .lkps-cat-btn {
-    padding: 8px 14px; background: white; border: 2px solid #e0e0e0;
-    border-radius: 20px; cursor: pointer; font-weight: 600;
-    font-size: 0.82rem; color: #555; transition: all 0.2s;
-  }
+  .lkps-cat-tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
+  .lkps-cat-btn { padding: 8px 14px; background: white; border: 2px solid #e0e0e0; border-radius: 20px; cursor: pointer; font-weight: 600; font-size: 0.82rem; color: #555; transition: all 0.2s; }
   .lkps-cat-btn:hover { border-color: #0d47a1; color: #0d47a1; }
   .lkps-cat-btn.active { background: #0d47a1; color: white; border-color: #0d47a1; }
 
-  .lkps-card {
-    background: white; border: 1px solid #e0e0e0; border-radius: 10px;
-    padding: 14px 16px; margin-bottom: 10px; border-left: 4px solid #0d47a1;
-    transition: all 0.2s;
-  }
+  .lkps-card { background: white; border: 1px solid #e0e0e0; border-radius: 10px; padding: 14px 16px; margin-bottom: 10px; border-left: 4px solid #0d47a1; transition: all 0.2s; }
   .lkps-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); transform: translateX(2px); }
   .lkps-card.wajib { border-left-color: #c62828; background: #fff8f8; }
-  .lkps-card-header {
-    display: flex; justify-content: space-between; align-items: flex-start;
-    gap: 10px; margin-bottom: 8px; flex-wrap: wrap;
-  }
+  .lkps-card-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 8px; flex-wrap: wrap; }
   .lkps-card-title { font-weight: 700; color: #333; font-size: 0.95rem; flex: 1; min-width: 200px; }
-  .lkps-card-value {
-    font-size: 1.4rem; font-weight: 800; color: #0d47a1;
-    background: #e3f2fd; padding: 6px 12px; border-radius: 8px;
-    white-space: nowrap;
-  }
+  .lkps-card-value { font-size: 1.4rem; font-weight: 800; color: #0d47a1; background: #e3f2fd; padding: 6px 12px; border-radius: 8px; white-space: nowrap; }
   .lkps-card.wajib .lkps-card-value { background: #ffebee; color: #c62828; }
-  .wajib-badge {
-    display: inline-block; background: #c62828; color: white;
-    padding: 3px 8px; border-radius: 10px; font-size: 0.68rem;
-    font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;
-    margin-left: 6px;
-  }
-  .lkps-card-note {
-    font-size: 0.82rem; color: #666; line-height: 1.5; margin-bottom: 8px;
-  }
+  .wajib-badge { display: inline-block; background: #c62828; color: white; padding: 3px 8px; border-radius: 10px; font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; margin-left: 6px; }
+  .lkps-card-note { font-size: 0.82rem; color: #666; line-height: 1.5; margin-bottom: 8px; }
   .lkps-card-note strong { color: #333; }
-  .lkps-card-actions {
-    display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px;
-    padding-top: 8px; border-top: 1px dashed #e0e0e0;
-  }
-  .lkps-btn {
-    padding: 4px 10px; border-radius: 6px; border: 1px solid #0d47a1;
-    background: white; color: #0d47a1; font-size: 0.75rem; font-weight: 600;
-    cursor: pointer; transition: all 0.2s;
-  }
+  .lkps-card-actions { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; padding-top: 8px; border-top: 1px dashed #e0e0e0; }
+  .lkps-btn { padding: 4px 10px; border-radius: 6px; border: 1px solid #0d47a1; background: white; color: #0d47a1; font-size: 0.75rem; font-weight: 600; cursor: pointer; transition: all 0.2s; }
   .lkps-btn:hover { background: #0d47a1; color: white; }
   .lkps-btn.primary { background: #0d47a1; color: white; }
   .lkps-btn.primary:hover { background: #1565c0; }
@@ -217,6 +161,8 @@ permalink: /persiapan-al/
     .q-card-header { flex-wrap: wrap; gap: 6px; }
     .q-main { margin: 4px 0; min-width: 100%; order: 3; }
     .lkps-card-header { flex-direction: column; }
+    .mode-al-search-wrapper { flex-direction: column; }
+    .mode-al-btn { width: 100%; }
   }
 </style>
 
@@ -233,8 +179,12 @@ permalink: /persiapan-al/
     <div class="al-panel active" id="panel-modeal">
       <div class="mode-al-hero">
         <h2>🎯 MODE ASESMEN LAPANGAN</h2>
-        <div class="subtitle">Cari dari 243 pertanyaan + angka LKPS PSBM</div>
-        <input type="text" class="mode-al-search" id="modeAlSearch" placeholder="🔎 Ketik: VMTS, 66 kerja sama, 11 DTPS, tracer, CPL, SWOT..." oninput="searchModeAL()">
+        <div class="subtitle">Cari dari 243 pertanyaan asesmen PSBM (C.1–C.7 + BAB III)</div>
+        <div class="mode-al-search-wrapper">
+          <input type="text" class="mode-al-search" id="modeAlSearch" placeholder="🔎 Ketik: VMTS, 66 kerja sama, 11 DTPS, tracer, CPL, SWOT..." onkeypress="if(event.key==='Enter') searchModeAL()">
+          <button class="mode-al-btn search" onclick="searchModeAL()">🔍 Cari</button>
+          <button class="mode-al-btn clear" onclick="clearSearch()"> Clear</button>
+        </div>
         <div class="quick-chips">
           <div class="quick-chip" onclick="quickSearch('66')">66 Kerja Sama</div>
           <div class="quick-chip" onclick="quickSearch('11 DTPS')">11 DTPS</div>
@@ -267,14 +217,14 @@ permalink: /persiapan-al/
         <h3>⭐ ANGKA SUPER-PRIORITAS — WAJIB DIHAFAL</h3>
         <div class="sp-item">🤝 66 kerja sama → 42 Pendidikan | 17 Penelitian | 7 PkM</div>
         <div class="sp-item">📘 53 MK | 150 SKS | 80 SKS praktik = 53,33%</div>
-        <div class="sp-item">👨‍🏫 11 DTPS | 3 Doktor | 4 Lektor Kepala | 6 Lektor</div>
+        <div class="sp-item">👨🏫 11 DTPS | 3 Doktor | 4 Lektor Kepala | 6 Lektor</div>
         <div class="sp-item">🔬 45 penelitian → 14 | 13 | 18</div>
         <div class="sp-item">💰 36 internal | 9 eksternal nasional | 0 luar negeri</div>
         <div class="sp-item">🎓 12/45 penelitian melibatkan mahasiswa = 26,67%</div>
-        <div class="sp-item">🤝 14 PkM → 2 | 6 | 6; 100% pendanaan internal/mandiri</div>
+        <div class="sp-item"> 14 PkM → 2 | 6 | 6; 100% pendanaan internal/mandiri</div>
         <div class="sp-item">🎯 80 lulusan | 61 terlacak = 76,25%</div>
         <div class="sp-item">💼 43/61 kesesuaian kerja tinggi = 70,49%</div>
-        <div class="sp-item">🏢 49/61 bekerja nasional/multinasional = 80,33%</div>
+        <div class="sp-item"> 49/61 bekerja nasional/multinasional = 80,33%</div>
       </div>
 
       <!-- Critical Notes -->
@@ -290,7 +240,7 @@ permalink: /persiapan-al/
         <div class="lkps-cat-btn active" onclick="filterLKPS('all', this)">Semua</div>
         <div class="lkps-cat-btn" onclick="filterLKPS('Kerja Sama', this)">🤝 Kerja Sama</div>
         <div class="lkps-cat-btn" onclick="filterLKPS('Pendidikan', this)">📘 Pendidikan</div>
-        <div class="lkps-cat-btn" onclick="filterLKPS('SDM', this)">👨‍🏫 SDM</div>
+        <div class="lkps-cat-btn" onclick="filterLKPS('SDM', this)">👨‍ SDM</div>
         <div class="lkps-cat-btn" onclick="filterLKPS('Penelitian', this)">🔬 Penelitian</div>
         <div class="lkps-cat-btn" onclick="filterLKPS('PkM', this)">🤝 PkM</div>
         <div class="lkps-cat-btn" onclick="filterLKPS('Luaran DTPS', this)">📤 Luaran DTPS</div>
@@ -322,9 +272,9 @@ permalink: /persiapan-al/
         <input type="text" id="bankSearch" placeholder="🔎 Cari pertanyaan, indikator, PIC..." oninput="renderBank()">
         <select id="filterRisk" onchange="renderBank()">
           <option value="">Semua Risiko</option>
-          <option value="Kritis">🔴 Kritis</option>
+          <option value="Kritis"> Kritis</option>
           <option value="Tinggi">🟠 Tinggi</option>
-          <option value="Sedang">🟡 Sedang</option>
+          <option value="Sedang"> Sedang</option>
           <option value="Rendah">🟢 Rendah</option>
         </select>
         <select id="filterPIC" onchange="renderBank()">
@@ -364,14 +314,14 @@ const dataLKPS = [
 
   // Penelitian
   { nama: 'Penelitian 3 tahun', value: '45', kategori: 'Penelitian', wajib: true, catatan: '14 → 13 → 18', pertanyaan: ['017','067','097'] },
-  { nama: 'Penelitian internal/mandiri', value: '36 (80%)', kategori: 'Penelitian', wajib: true, catatan: '🔴 Dominan internal', pertanyaan: ['018','029'] },
+  { nama: 'Penelitian internal/mandiri', value: '36 (80%)', kategori: 'Penelitian', wajib: true, catatan: ' Dominan internal', pertanyaan: ['018','029'] },
   { nama: 'Penelitian eksternal nasional', value: '9 (20%)', kategori: 'Penelitian', wajib: true, catatan: '—', pertanyaan: ['018'] },
-  { nama: 'Penelitian luar negeri', value: '0', kategori: 'Penelitian', wajib: true, catatan: '🔴 Titik pendalaman', pertanyaan: ['018','098'] },
+  { nama: 'Penelitian luar negeri', value: '0', kategori: 'Penelitian', wajib: true, catatan: ' Titik pendalaman', pertanyaan: ['018','098'] },
   { nama: 'Penelitian melibatkan mahasiswa', value: '12/45 (26,67%)', kategori: 'Penelitian', wajib: true, catatan: '🔴 Perlu ditingkatkan', pertanyaan: ['020','067','068','069'] },
 
   // PkM
   { nama: 'PkM 3 tahun', value: '14', kategori: 'PkM', wajib: true, catatan: '2 → 6 → 6', pertanyaan: ['023','073'] },
-  { nama: 'Pendanaan PkM internal/mandiri', value: '14/14 (100%)', kategori: 'PkM', wajib: true, catatan: '🔴 Titik pendalaman', pertanyaan: ['022','032'] },
+  { nama: 'Pendanaan PkM internal/mandiri', value: '14/14 (100%)', kategori: 'PkM', wajib: true, catatan: ' Titik pendalaman', pertanyaan: ['022','032'] },
   { nama: 'PkM melibatkan mahasiswa', value: '7', kategori: 'PkM', wajib: false, catatan: '—', pertanyaan: ['074'] },
 
   // Luaran DTPS
@@ -399,7 +349,7 @@ const dataLKPS = [
   { nama: 'Kerja sama tim – Sangat Baik', value: '75,6%', kategori: 'Kepuasan Pengguna', wajib: false, catatan: '—', pertanyaan: ['167'] },
   { nama: 'Keahlian bidang – Sangat Baik', value: '73,3%', kategori: 'Kepuasan Pengguna', wajib: false, catatan: '—', pertanyaan: ['167'] },
   { nama: 'Pengembangan diri – Sangat Baik', value: '73,3%', kategori: 'Kepuasan Pengguna', wajib: false, catatan: '—', pertanyaan: ['167'] },
-  { nama: 'Bahasa asing – Sangat Baik', value: '71,1%', kategori: 'Kepuasan Pengguna', wajib: true, catatan: '⚠️ Perlu penguatan. Tabel: "Cukup"=11,1% vs RTL=25% → INKONSISTEN', pertanyaan: ['167','168'] },
+  { nama: 'Bahasa asing – Sangat Baik', value: '71,1%', kategori: 'Kepuasan Pengguna', wajib: true, catatan: '️ Perlu penguatan. Tabel: "Cukup"=11,1% vs RTL=25% → INKONSISTEN', pertanyaan: ['167','168'] },
 
   // Prestasi Mahasiswa
   { nama: 'Prestasi akademik', value: '10', kategori: 'Prestasi Mhs', wajib: false, catatan: '2 internasional + 8 nasional', pertanyaan: ['136'] },
@@ -720,7 +670,7 @@ function renderLKPS() {
     
     if (d.pertanyaan && d.pertanyaan.length > 0) {
       html += '<div class="lkps-card-actions">';
-      html += '<button class="lkps-btn primary" onclick="jumpToPertanyaan(\'' + d.pertanyaan[0] + '\')">❓ Lihat Pertanyaan Terkait (' + d.pertanyaan.length + ')</button>';
+      html += '<button class="lkps-btn primary" onclick="jumpToPertanyaan(\'' + d.pertanyaan[0] + '\')"> Lihat Pertanyaan Terkait (' + d.pertanyaan.length + ')</button>';
       html += '<button class="lkps-btn" onclick="alert(\'Buka LKPS: ' + d.nama + '\')">📄 Buka LKPS</button>';
       html += '<button class="lkps-btn" onclick="alert(\'Buka Evidence: ' + d.nama + '\')">📁 Buka Evidence</button>';
       html += '</div>';
@@ -834,7 +784,7 @@ function renderBank() {
     html += '<div class="q-followup"><div class="flabel">🔍 PERTANYAAN PENDALAMAN / FOLLOW-UP</div><div class="ftext">' + q.f + '</div></div>';
     html += '<div class="q-meta-grid">';
     html += '<div class="q-meta-item"><div class="mlabel">📊 Data LKPS</div><div class="mvalue">' + q.d + '</div></div>';
-    html += '<div class="q-meta-item"><div class="mlabel">👤 PIC</div><div class="mvalue">' + q.p + '</div></div>';
+    html += '<div class="q-meta-item"><div class="mlabel"> PIC</div><div class="mvalue">' + q.p + '</div></div>';
     html += '<div class="q-meta-item"><div class="mlabel">⚠️ Risiko</div><div class="mvalue"><span class="q-risk ' + q.r + '" style="font-size:0.72rem;">' + q.r.toUpperCase() + '</span></div></div>';
     html += '</div>';
     html += '<div class="q-section" style="margin-top:12px;"><div class="q-section-title">📎 BUKTI YANG DIBUKA</div><div class="q-section-content">' + q.b + '</div></div>';
@@ -857,6 +807,12 @@ function toggleQ(no) {
 function quickSearch(keyword) {
   document.getElementById('modeAlSearch').value = keyword;
   searchModeAL();
+}
+
+function clearSearch() {
+  document.getElementById('modeAlSearch').value = '';
+  document.getElementById('searchResultContainer').innerHTML = '';
+  document.getElementById('defaultModeAL').style.display = 'block';
 }
 
 function searchModeAL() {
@@ -905,7 +861,7 @@ function searchModeAL() {
     const d = r.data;
     html += '<div class="lkps-card ' + (d.wajib ? 'wajib' : '') + '">';
     html += '<div class="lkps-card-header">';
-    html += '<div class="lkps-card-title">' + d.nama + (d.wajib ? '<span class="wajib-badge">🔴 WAJIB KONSISTEN</span>' : '') + '</div>';
+    html += '<div class="lkps-card-title">' + d.nama + (d.wajib ? '<span class="wajib-badge"> WAJIB KONSISTEN</span>' : '') + '</div>';
     html += '<div class="lkps-card-value">' + d.value + '</div>';
     html += '</div>';
     html += '<div class="lkps-card-note"><strong>📝 Catatan:</strong> ' + d.catatan + '</div>';
