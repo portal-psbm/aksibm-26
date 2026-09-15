@@ -5,10 +5,10 @@ permalink: /persiapan-al/
 ---
 
 <style>
-  /* ===== Cabinet Container - Tema Biru Konsisten ===== */
+  /* ===== Cabinet Container ===== */
   .cabinet-container {
     background: linear-gradient(180deg, #e3f2fd 0%, #bbdefb 100%);
-    padding: 24px 24px 0 24px;
+    padding: 20px 20px 0 20px;
     border-radius: 16px 16px 0 0;
     box-shadow: inset 0 4px 12px rgba(13, 71, 161, 0.08), 0 4px 16px rgba(0,0,0,0.06);
     position: relative;
@@ -16,12 +16,12 @@ permalink: /persiapan-al/
     border-bottom: none;
   }
 
-  /* ===== Folder Shelf ===== */
+  /* ===== Folder Shelf - Spasi Rapat ===== */
   .folder-shelf {
     display: flex;
     flex-wrap: nowrap;
-    gap: 6px;
-    padding: 0 8px;
+    gap: 2px;
+    padding: 0 4px;
     position: relative;
     z-index: 10;
     overflow-x: auto;
@@ -34,12 +34,12 @@ permalink: /persiapan-al/
   .folder-shelf::-webkit-scrollbar-track { background: rgba(13, 71, 161, 0.05); border-radius: 2px; }
   .folder-shelf::-webkit-scrollbar-thumb { background: #0d47a1; border-radius: 2px; }
 
-  /* ===== Folder Tab ===== */
+  /* ===== Folder Tab - Label Singkat & Kompak ===== */
   .folder-tab {
     position: relative;
     flex: 0 0 auto;
-    min-width: 110px;
-    padding: 14px 14px 18px 14px;
+    min-width: 82px;
+    padding: 10px 4px 14px 4px;
     background: #ffffff;
     border-radius: 8px 8px 0 0;
     border: 1px solid #e0e0e0;
@@ -47,20 +47,23 @@ permalink: /persiapan-al/
     cursor: pointer;
     text-align: center;
     font-weight: 600;
-    font-size: 0.82rem;
+    font-size: 0.68rem;
+    line-height: 1.15;
     color: #666;
     transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(4px);
     box-shadow: 0 -2px 6px rgba(0,0,0,0.05);
-    white-space: nowrap;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 
   .folder-tab::before {
     content: '';
     position: absolute;
     top: -6px;
-    left: 20%;
-    width: 60%;
+    left: 22%;
+    width: 56%;
     height: 6px;
     background: #f5f5f5;
     border-radius: 4px 4px 0 0;
@@ -76,7 +79,7 @@ permalink: /persiapan-al/
   }
   .folder-tab:hover::before { background: #f1f5f9; }
 
-  /* Folder Aktif - Biru #0d47a1 */
+  /* Folder Aktif */
   .folder-tab.active {
     background: #0d47a1;
     color: #ffffff;
@@ -85,6 +88,7 @@ permalink: /persiapan-al/
     border-color: #0d47a1;
     box-shadow: 0 -4px 16px rgba(13, 71, 161, 0.25);
     font-weight: 700;
+    font-size: 0.68rem;
   }
   .folder-tab.active::before {
     background: #0d47a1;
@@ -111,7 +115,7 @@ permalink: /persiapan-al/
   .al-panel.active { display: block; }
   @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 
-  /* ===== Komponen Internal - Konsisten dengan Halaman Lain ===== */
+  /* ===== Komponen Internal ===== */
   .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 16px 0; }
   .stat-card { background: white; border-radius: 10px; padding: 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #0d47a1; transition: transform 0.2s; }
   .stat-card:hover { transform: translateY(-2px); }
@@ -200,21 +204,22 @@ permalink: /persiapan-al/
 
   /* ===== RESPONSIVE ===== */
   @media (min-width: 1200px) {
-    .folder-shelf { overflow-x: visible; padding-bottom: 0; }
-    .folder-tab { flex: 1 1 0; min-width: 0; padding: 14px 8px 18px 8px; font-size: 0.8rem; white-space: normal; }
+    .folder-shelf { overflow-x: visible; padding-bottom: 0; gap: 1px; }
+    .folder-tab { flex: 1 1 0; min-width: 0; padding: 10px 2px 14px 2px; font-size: 0.68rem; }
     .folder-tab::before { left: 25%; width: 50%; }
   }
   @media (min-width: 768px) and (max-width: 1199px) {
-    .folder-shelf { flex-wrap: wrap; overflow-x: visible; padding-bottom: 0; }
-    .folder-tab { flex: 0 1 calc(20% - 6px); min-width: 0; font-size: 0.8rem; white-space: normal; }
+    .folder-shelf { flex-wrap: wrap; overflow-x: visible; padding-bottom: 0; gap: 2px; }
+    .folder-tab { flex: 0 1 calc(20% - 2px); min-width: 0; font-size: 0.68rem; padding: 10px 4px 14px 4px; }
   }
   @media (max-width: 767px) {
-    .folder-shelf { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 8px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+    .folder-shelf { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 8px; -webkit-overflow-scrolling: touch; scrollbar-width: none; gap: 2px; }
     .folder-shelf::-webkit-scrollbar { display: none; }
-    .folder-tab { min-width: 110px; flex: 0 0 auto; font-size: 0.78rem; padding: 12px 10px 16px 10px; }
+    .folder-tab { min-width: 82px; flex: 0 0 auto; font-size: 0.68rem; padding: 10px 4px 14px 4px; }
     .progress-row { flex-wrap: wrap; }
     .progress-row .label { width: 100%; margin-bottom: 4px; }
     .al-content { padding: 20px; }
+    .cabinet-container { padding: 16px 12px 0 12px; }
   }
 </style>
 
@@ -225,7 +230,7 @@ permalink: /persiapan-al/
     <div class="folder-tab" onclick="showPanel('kriteria', this)">📑<br>Kriteria</div>
     <div class="folder-tab" onclick="showPanel('bukti', this)">📎<br>Bukti</div>
     <div class="folder-tab" onclick="showPanel('pertanyaan', this)">❓<br>Pertanyaan</div>
-    <div class="folder-tab" onclick="showPanel('mock', this)">🎭<br>Mock AL</div>
+    <div class="folder-tab" onclick="showPanel('mock', this)">🎭<br>Mock</div>
     <div class="folder-tab" onclick="showPanel('ppepp', this)">🔄<br>PPEPP</div>
     <div class="folder-tab" onclick="showPanel('risiko', this)">⚠️<br>Risiko</div>
     <div class="folder-tab" onclick="showPanel('tim', this)">👥<br>Tim/PIC</div>
@@ -283,7 +288,7 @@ permalink: /persiapan-al/
       <input type="text" class="search-box" id="buktiSearch" placeholder="Cari bukti: CPL, RPS, tracer, penelitian..." oninput="filterBukti()">
       <div class="card-grid">
         <div class="stat-card" style="border-left-color:#4caf50;"><div class="label">Total Evidence</div><div class="value" style="color:#2e7d32;">157</div></div>
-        <div class="stat-card"><div class="label">Verified</div><div class="value">148</div></div>
+        <div class="stat-card" style="border-left-color:#1976d2;"><div class="label">Verified</div><div class="value" style="color:#1976d2;">148</div></div>
         <div class="stat-card" style="border-left-color:#ff9800;"><div class="label">Review</div><div class="value" style="color:#f57c00;">6</div></div>
         <div class="stat-card" style="border-left-color:#f44336;"><div class="label">Missing</div><div class="value" style="color:#d32f2f;">3</div></div>
       </div>
@@ -401,14 +406,45 @@ permalink: /persiapan-al/
 
 <script>
 const dataKriteria = {
-  c1: { title: 'C.1 VMTS', readiness: 96, status: 'READY', indicators: [{ name: 'Kekhasan VMTS', status: 'ready', evidence: '5/5', questions: 6, pic: 'AW + SH' }, { name: 'Mekanisme Penyusunan', status: 'ready', evidence: '4/4', questions: 5, pic: 'AW + SH' }, { name: 'Tingkat Pemahaman', status: 'ready', evidence: '6/6', questions: 7, pic: 'AW + SH' }] },
-  c2: { title: 'C.2 Tata Pamong, Tata Kelola, Kerja Sama, Keuangan', readiness: 92, status: 'READY', indicators: [{ name: 'Sistem Tata Pamong', status: 'ready', evidence: '5/5', questions: 8, pic: 'SH + BU' }, { name: 'Kerja Sama', status: 'ready', evidence: '8/8', questions: 9, pic: 'MF' }] },
-  c3: { title: 'C.3 Relevansi Pendidikan, Penelitian, dan PkM', readiness: 87, status: 'REVIEW', indicators: [{ name: 'Profil Lulusan', status: 'ready', evidence: '5/5', questions: 6, pic: 'Tim Kurikulum' }, { name: 'Kesesuaian CPL', status: 'ready', evidence: '8/8', questions: 9, pic: 'Tim Kurikulum' }, { name: 'Tinjauan CPL', status: 'review', evidence: '6/7', questions: 8, pic: 'Tim Kurikulum' }, { name: 'Capstone Project', status: 'review', evidence: '4/5', questions: 7, pic: 'VF' }] },
-  c4: { title: 'C.4 Sumber Daya Manusia', readiness: 97, status: 'READY', indicators: [{ name: 'Profil DTPS', status: 'ready', evidence: '10/10', questions: 8, pic: 'DW' }, { name: 'Kinerja DTPS', status: 'ready', evidence: '15/15', questions: 12, pic: 'VF' }] },
-  c5: { title: 'C.5 Sarana, Prasarana, dan K3L', readiness: 93, status: 'READY', indicators: [{ name: 'Sarana & Prasarana', status: 'ready', evidence: '8/8', questions: 7, pic: 'Z' }, { name: 'Dokumen K3L', status: 'review', evidence: '3/4', questions: 5, pic: 'Z' }] },
-  c6: { title: 'C.6 Mahasiswa dan Luaran Mahasiswa', readiness: 86, status: 'REVIEW', indicators: [{ name: 'Tracer Study', status: 'review', evidence: '5/7', questions: 10, pic: 'MF + DW' }, { name: 'Prestasi Mahasiswa', status: 'ready', evidence: '8/8', questions: 6, pic: 'MF' }] },
-  c7: { title: 'C.7 Sistem Penjaminan Mutu', readiness: 83, status: 'REVIEW', indicators: [{ name: 'Siklus PPEPP', status: 'review', evidence: '5/7', questions: 9, pic: 'BU + SH' }, { name: 'Kepuasan Stakeholder', status: 'review', evidence: '3/5', questions: 7, pic: 'BU' }] }
+  c1: { title: 'C.1 VMTS', readiness: 96, status: 'READY', indicators: [
+    { name: 'Kekhasan VMTS', status: 'ready', evidence: '5/5', questions: 6, pic: 'AW + SH' },
+    { name: 'Mekanisme Penyusunan', status: 'ready', evidence: '4/4', questions: 5, pic: 'AW + SH' },
+    { name: 'Tingkat Pemahaman', status: 'ready', evidence: '6/6', questions: 7, pic: 'AW + SH' }
+  ]},
+  c2: { title: 'C.2 Tata Pamong, Tata Kelola, Kerja Sama, Keuangan', readiness: 92, status: 'READY', indicators: [
+    { name: 'Sistem Tata Pamong', status: 'ready', evidence: '5/5', questions: 8, pic: 'SH + BU' },
+    { name: 'Kerja Sama', status: 'ready', evidence: '8/8', questions: 9, pic: 'MF' },
+    { name: 'Pengelolaan Keuangan', status: 'ready', evidence: '5/5', questions: 7, pic: 'SH' }
+  ]},
+  c3: { title: 'C.3 Relevansi Pendidikan, Penelitian, dan PkM', readiness: 87, status: 'REVIEW', indicators: [
+    { name: 'Profil Lulusan', status: 'ready', evidence: '5/5', questions: 6, pic: 'Tim Kurikulum' },
+    { name: 'Kesesuaian CPL', status: 'ready', evidence: '8/8', questions: 9, pic: 'Tim Kurikulum' },
+    { name: 'Tinjauan CPL', status: 'review', evidence: '6/7', questions: 8, pic: 'Tim Kurikulum' },
+    { name: 'Capstone Project', status: 'review', evidence: '4/5', questions: 7, pic: 'VF' }
+  ]},
+  c4: { title: 'C.4 Sumber Daya Manusia', readiness: 97, status: 'READY', indicators: [
+    { name: 'Profil DTPS', status: 'ready', evidence: '10/10', questions: 8, pic: 'DW' },
+    { name: 'Tenaga Kependidikan', status: 'ready', evidence: '4/4', questions: 5, pic: 'Z' },
+    { name: 'Kinerja DTPS', status: 'ready', evidence: '15/15', questions: 12, pic: 'VF' }
+  ]},
+  c5: { title: 'C.5 Sarana, Prasarana, dan K3L', readiness: 93, status: 'READY', indicators: [
+    { name: 'Sarana & Prasarana', status: 'ready', evidence: '8/8', questions: 7, pic: 'Z' },
+    { name: 'Dokumen K3L', status: 'review', evidence: '3/4', questions: 5, pic: 'Z' },
+    { name: 'Fasilitas K3L', status: 'ready', evidence: '6/6', questions: 4, pic: 'Z + MF' }
+  ]},
+  c6: { title: 'C.6 Mahasiswa dan Luaran Mahasiswa', readiness: 86, status: 'REVIEW', indicators: [
+    { name: 'Rasio Mahasiswa:DTPS', status: 'ready', evidence: '3/3', questions: 4, pic: 'MF' },
+    { name: 'Tracer Study', status: 'review', evidence: '5/7', questions: 10, pic: 'MF + DW' },
+    { name: 'Prestasi Mahasiswa', status: 'ready', evidence: '8/8', questions: 6, pic: 'MF' },
+    { name: 'Kinerja Lulusan', status: 'review', evidence: '4/6', questions: 8, pic: 'MF + DW' }
+  ]},
+  c7: { title: 'C.7 Sistem Penjaminan Mutu', readiness: 83, status: 'REVIEW', indicators: [
+    { name: 'Unit Penjaminan Mutu', status: 'ready', evidence: '4/4', questions: 5, pic: 'BU' },
+    { name: 'Siklus PPEPP', status: 'review', evidence: '5/7', questions: 9, pic: 'BU + SH' },
+    { name: 'Kepuasan Stakeholder', status: 'review', evidence: '3/5', questions: 7, pic: 'BU' }
+  ]}
 };
+
 const dataBukti = [
   { code: 'C1-VMTS-001', name: 'SK VMTS PT & UPPS', path: 'C.1 → VMTS → Kekhasan', status: 'verified' },
   { code: 'C3-CPL-001', name: 'NADK PSBM 2020', path: 'C.3 → Pendidikan → CPL', status: 'verified' },
@@ -419,6 +455,7 @@ const dataBukti = [
   { code: 'C6-TRACER-001', name: 'Laporan Tracer Study 2024', path: 'C.6 → Luaran → Tracer', status: 'verified' },
   { code: 'C7-AMI-001', name: 'Laporan AMI 2025', path: 'C.7 → SPMI → Audit', status: 'verified' }
 ];
+
 const dataPertanyaan = [
   { code: 'Q01', text: 'Bagaimana PSBM mengukur ketercapaian CPL?', kriteria: 'C.3', type: 'critical', pic: 'Kurikulum' },
   { code: 'Q02', text: 'Bagaimana hasil tracer study digunakan untuk memperbaiki kurikulum?', kriteria: 'C.3/C.6', type: 'ppepp', pic: 'Kurikulum' },
@@ -429,18 +466,66 @@ const dataPertanyaan = [
   { code: 'Q07', text: 'Berapa response rate tracer study 2024?', kriteria: 'C.6', type: 'data', pic: 'MF' },
   { code: 'Q08', text: 'Bagaimana implementasi K3L di laboratorium?', kriteria: 'C.5', type: 'critical', pic: 'Z' }
 ];
+
 const dataPPEPP = {
-  kurikulum: { steps: [{ t: 'PENETAPAN', c: 'Kurikulum KKNI Level 6 + OBE 2020' }, { t: 'PELAKSANAAN', c: 'Pembelajaran semester berjalan' }, { t: 'EVALUASI', c: 'Tracer study + User survey + Workshop kurikulum' }, { t: 'PENGENDALIAN', c: 'Analisis kesenjangan CPL vs kebutuhan industri' }, { t: 'PENINGKATAN', c: 'Revisi Kurikulum OBE 2025' }] },
-  cpl: { steps: [{ t: 'PENETAPAN', c: 'NADK PSBM 2020 — 12 CPL' }, { t: 'PELAKSANAAN', c: 'Pembelajaran berbasis CPL di setiap RPS' }, { t: 'EVALUASI', c: 'Tracer + User Survey + Workshop OBE 2024' }, { t: 'PENGENDALIAN', c: 'Analisis kesenjangan kompetensi' }, { t: 'PENINGKATAN', c: 'Pengembangan Kurikulum OBE 2025' }] },
-  tracer: { steps: [{ t: 'PENETAPAN', c: 'SK Pelaksanaan Tracer Study tahunan' }, { t: 'PELAKSANAAN', c: 'Kuesioner DIKTI + follow-up lulusan' }, { t: 'EVALUASI', c: 'Response rate 2024: 68%' }, { t: 'PENGENDALIAN', c: 'Identifikasi lulusan belum terisi' }, { t: 'PENINGKATAN', c: 'Kolaborasi career center + insentif alumni' }] },
-  ami: { steps: [{ t: 'PENETAPAN', c: 'SK Audit Mutu Internal 2025' }, { t: 'PELAKSANAAN', c: 'Audit 7 kriteria + wawancara' }, { t: 'EVALUASI', c: 'Laporan temuan AMI Oktober 2025' }, { t: 'PENGENDALIAN', c: 'Rapat Tinjauan Manajemen (RTM)' }, { t: 'PENINGKATAN', c: 'Rencana tindak lanjut 15 temuan' }] }
+  kurikulum: { steps: [
+    { t: 'PENETAPAN', c: 'Kurikulum KKNI Level 6 + OBE 2020' },
+    { t: 'PELAKSANAAN', c: 'Pembelajaran semester berjalan' },
+    { t: 'EVALUASI', c: 'Tracer study + User survey + Workshop kurikulum' },
+    { t: 'PENGENDALIAN', c: 'Analisis kesenjangan CPL vs kebutuhan industri' },
+    { t: 'PENINGKATAN', c: 'Revisi Kurikulum OBE 2025' }
+  ]},
+  cpl: { steps: [
+    { t: 'PENETAPAN', c: 'NADK PSBM 2020 — 12 CPL' },
+    { t: 'PELAKSANAAN', c: 'Pembelajaran berbasis CPL di setiap RPS' },
+    { t: 'EVALUASI', c: 'Tracer + User Survey + Workshop OBE 2024' },
+    { t: 'PENGENDALIAN', c: 'Analisis kesenjangan kompetensi' },
+    { t: 'PENINGKATAN', c: 'Pengembangan Kurikulum OBE 2025' }
+  ]},
+  tracer: { steps: [
+    { t: 'PENETAPAN', c: 'SK Pelaksanaan Tracer Study tahunan' },
+    { t: 'PELAKSANAAN', c: 'Kuesioner DIKTI + follow-up lulusan' },
+    { t: 'EVALUASI', c: 'Response rate 2024: 68%' },
+    { t: 'PENGENDALIAN', c: 'Identifikasi lulusan belum terisi' },
+    { t: 'PENINGKATAN', c: 'Kolaborasi career center + insentif alumni' }
+  ]},
+  ami: { steps: [
+    { t: 'PENETAPAN', c: 'SK Audit Mutu Internal 2025' },
+    { t: 'PELAKSANAAN', c: 'Audit 7 kriteria + wawancara' },
+    { t: 'EVALUASI', c: 'Laporan temuan AMI Oktober 2025' },
+    { t: 'PENGENDALIAN', c: 'Rapat Tinjauan Manajemen (RTM)' },
+    { t: 'PENINGKATAN', c: 'Rencana tindak lanjut 15 temuan' }
+  ]}
 };
+
 const dataChecklist = {
-  h30: { title: 'H-30', items: [{ text: 'Freeze baseline SAKTI', done: true }, { text: 'Data Master diverifikasi', done: true }, { text: 'Identifikasi PIC per kriteria', done: true }, { text: 'Struktur Evidence folder final', done: true }, { text: 'Link Google Drive semua publik', done: false }] },
-  h21: { title: 'H-21', items: [{ text: 'Evidence verification selesai', done: true }, { text: 'Mock AL I dilaksanakan', done: false }, { text: 'Critical questions dijawab', done: false }] },
-  h14: { title: 'H-14', items: [{ text: 'Mock AL II dilaksanakan', done: false }, { text: 'Stakeholder simulation', done: false }, { text: 'Link audit semua bukti', done: false }] },
-  h7: { title: 'H-7', items: [{ text: 'Full simulation AL', done: false }, { text: 'Backup evidence lokal & cloud', done: false }, { text: 'Freeze konten LED & LKPS', done: false }] },
-  h1: { title: 'H-1', items: [{ text: 'Cek final semua link', done: false }, { text: 'Siapkan ruang AL', done: false }, { text: 'Briefing tim terakhir', done: false }] }
+  h30: { title: 'H-30', items: [
+    { text: 'Freeze baseline SAKTI', done: true },
+    { text: 'Data Master diverifikasi', done: true },
+    { text: 'Identifikasi PIC per kriteria', done: true },
+    { text: 'Struktur Evidence folder final', done: true },
+    { text: 'Link Google Drive semua publik', done: false }
+  ]},
+  h21: { title: 'H-21', items: [
+    { text: 'Evidence verification selesai', done: true },
+    { text: 'Mock AL I dilaksanakan', done: false },
+    { text: 'Critical questions dijawab', done: false }
+  ]},
+  h14: { title: 'H-14', items: [
+    { text: 'Mock AL II dilaksanakan', done: false },
+    { text: 'Stakeholder simulation', done: false },
+    { text: 'Link audit semua bukti', done: false }
+  ]},
+  h7: { title: 'H-7', items: [
+    { text: 'Full simulation AL', done: false },
+    { text: 'Backup evidence lokal & cloud', done: false },
+    { text: 'Freeze konten LED & LKPS', done: false }
+  ]},
+  h1: { title: 'H-1', items: [
+    { text: 'Cek final semua link', done: false },
+    { text: 'Siapkan ruang AL', done: false },
+    { text: 'Briefing tim terakhir', done: false }
+  ]}
 };
 
 function showPanel(id, btn) {
@@ -454,6 +539,7 @@ function showPanel(id, btn) {
   if (id === 'ppepp') showPPEPP('kurikulum', document.querySelector('#panel-ppepp .sub-nav button'));
   if (id === 'checklist') showChecklist('h30', document.querySelector('#panel-checklist .sub-nav button'));
 }
+
 function showKriteria(key, btn) {
   document.querySelectorAll('#kriteriaSubNav button').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
@@ -465,6 +551,7 @@ function showKriteria(key, btn) {
   });
   document.getElementById('kriteriaContent').innerHTML = html;
 }
+
 function renderBukti() {
   var search = (document.getElementById('buktiSearch') ? document.getElementById('buktiSearch').value : '').toLowerCase();
   var filtered = dataBukti.filter(function(b) { return !search || b.name.toLowerCase().indexOf(search) >= 0 || b.code.toLowerCase().indexOf(search) >= 0; });
@@ -475,6 +562,7 @@ function renderBukti() {
   document.getElementById('buktiList').innerHTML = html || '<p style="text-align:center; color:#666; padding:20px;">Tidak ada bukti ditemukan</p>';
 }
 function filterBukti() { renderBukti(); }
+
 function renderPertanyaan(filter) {
   filter = filter || 'all';
   var filtered = dataPertanyaan.filter(function(p) { return filter === 'all' || p.type === filter; });
@@ -489,12 +577,14 @@ function filterPertanyaan(type, btn) {
   btn.classList.add('active');
   renderPertanyaan(type);
 }
+
 function startMock() {
   document.getElementById('mockSetup').style.display = 'none';
   var session = document.getElementById('mockSession');
   session.style.display = 'block';
   session.innerHTML = '<div style="text-align:center; padding:40px; background:#e8f5e9; border-radius:12px;"><h2 style="color:#2e7d32;">✅ Mock AL Selesai!</h2><div style="font-size:2rem; font-weight:700; color:#0d47a1; margin:16px 0;">3.4 / 4.0</div><button class="btn btn-primary" onclick="document.getElementById(\'mockSetup\').style.display=\'block\'; document.getElementById(\'mockSession\').style.display=\'none\';">Kembali</button></div>';
 }
+
 function showPPEPP(key, btn) {
   document.querySelectorAll('#panel-ppepp .sub-nav button').forEach(function(b) { b.classList.remove('active'); });
   btn.classList.add('active');
@@ -503,6 +593,7 @@ function showPPEPP(key, btn) {
   data.steps.forEach(function(s) { html += '<div class="ppepp-step"><div class="step-title">' + s.t + '</div><div class="step-content">' + s.c + '</div></div>'; });
   document.getElementById('ppeppContent').innerHTML = html;
 }
+
 function showChecklist(key, btn) {
   document.querySelectorAll('#panel-checklist .sub-nav button').forEach(function(b) { b.classList.remove('active'); });
   btn.classList.add('active');
@@ -514,6 +605,7 @@ function showChecklist(key, btn) {
   html += '</div>';
   document.getElementById('checklistContent').innerHTML = html;
 }
+
 document.addEventListener('DOMContentLoaded', function() {
   showKriteria('c1', document.querySelector('#kriteriaSubNav button'));
   renderBukti();
