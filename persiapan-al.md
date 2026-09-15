@@ -31,7 +31,7 @@ permalink: /persiapan-al/
   .cabinet-container {
     background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
     padding: 24px 24px 0 24px;
-    border-radius: 0 0 16px 16px;
+    border-radius: 16px 16px 16px 16px; /* Sudut atas membulat karena header dihapus */
     box-shadow: inset 0 10px 20px rgba(0,0,0,0.2), 0 12px 32px rgba(0,0,0,0.15);
     position: relative;
   }
@@ -266,14 +266,7 @@ permalink: /persiapan-al/
   }
 </style>
 
-<!-- ===== HEADER ===== -->
-<div class="al-header">
-  <h1>🎯 PSBM — AL COMMAND CENTER</h1>
-  <div class="subtitle">Persiapan Asesmen Lapangan • LAM Teknik 2026</div>
-  <div class="h-countdown" id="hCountdown">H-30</div>
-</div>
-
-<!-- ===== KABINET FOLDER NAV ===== -->
+<!-- ===== KABINET FOLDER NAV (LANGSUNG TANPA HEADER) ===== -->
 <div class="cabinet-container">
   <div class="folder-shelf">
     <div class="folder-tab active" onclick="showPanel('dashboard', this)">📊<br>Dashboard</div>
