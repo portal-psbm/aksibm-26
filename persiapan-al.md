@@ -34,7 +34,7 @@ permalink: /persiapan-al/
   .folder-shelf::-webkit-scrollbar-track { background: rgba(13, 71, 161, 0.05); border-radius: 2px; }
   .folder-shelf::-webkit-scrollbar-thumb { background: #0d47a1; border-radius: 2px; }
 
-  /* ===== Folder Tab ===== */
+  /* ===== Folder Tab Default ===== */
   .folder-tab {
     position: relative;
     flex: 1 1 0;
@@ -77,7 +77,7 @@ permalink: /persiapan-al/
   }
   .folder-tab:hover::before { background: #f1f5f9; }
 
-  /* Folder Aktif - Biru */
+  /* Folder Aktif - Biru Tema */
   .folder-tab.active {
     background: #0d47a1;
     color: #ffffff;
@@ -94,30 +94,45 @@ permalink: /persiapan-al/
     top: -9px;
   }
 
-  /* MODE AL - Folder Biru Menyala (menonjol dengan tema) */
+  /* ===== MODE AL - ORANYE LEMBOT saat tidak aktif ===== */
   .folder-tab.mode-al {
-    background: linear-gradient(135deg, #0d47a1 0%, #1565c0 100%);
-    color: #fff;
-    border-color: #0d47a1;
-    box-shadow: 0 -4px 16px rgba(13, 71, 161, 0.3);
-    animation: pulseMode 2.5s ease-in-out infinite;
+    background: linear-gradient(180deg, #fff8e1 0%, #ffecb3 100%);
+    color: #e65100;
+    border-color: #ffcc80;
+    box-shadow: 0 -2px 8px rgba(230, 81, 0, 0.12);
   }
   .folder-tab.mode-al::before {
-    background: linear-gradient(135deg, #0d47a1 0%, #1565c0 100%);
-    border-color: #0d47a1;
+    background: linear-gradient(180deg, #ffcc80 0%, #ffb74d 100%);
+    border-color: #ffcc80;
   }
   .folder-tab.mode-al:hover {
-    background: linear-gradient(135deg, #0a3a8a 0%, #0d47a1 100%);
-    color: #fff;
+    background: linear-gradient(180deg, #fff3e0 0%, #ffe0b2 100%);
+    color: #bf360c;
+    transform: translateY(0px);
+    box-shadow: 0 -4px 12px rgba(230, 81, 0, 0.2);
   }
+  .folder-tab.mode-al:hover::before {
+    background: linear-gradient(180deg, #ffb74d 0%, #ffa726 100%);
+    border-color: #ffb74d;
+  }
+
+  /* MODE AL - Saat AKTIF = biru tema + pulse */
   .folder-tab.mode-al.active {
-    background: linear-gradient(135deg, #0a3a8a 0%, #0d47a1 100%);
-    color: #fff;
+    background: linear-gradient(135deg, #0d47a1 0%, #1565c0 100%);
+    color: #ffffff;
+    border-color: #0d47a1;
     box-shadow: 0 -6px 20px rgba(13, 71, 161, 0.5);
+    animation: pulseMode 2.5s ease-in-out infinite;
+  }
+  .folder-tab.mode-al.active::before {
+    background: linear-gradient(135deg, #0d47a1 0%, #1565c0 100%);
+    border-color: #0d47a1;
+    height: 9px;
+    top: -9px;
   }
   @keyframes pulseMode {
-    0%, 100% { box-shadow: 0 -4px 16px rgba(13, 71, 161, 0.3); }
-    50% { box-shadow: 0 -4px 20px rgba(13, 71, 161, 0.5); }
+    0%, 100% { box-shadow: 0 -6px 20px rgba(13, 71, 161, 0.5); }
+    50% { box-shadow: 0 -6px 28px rgba(13, 71, 161, 0.7); }
   }
 
   /* ===== Content Area ===== */
@@ -132,9 +147,6 @@ permalink: /persiapan-al/
     position: relative;
     z-index: 5;
     margin-top: -1px;
-  }
-  .al-content.mode-al-active {
-    border-top-color: #0d47a1;
   }
 
   .al-panel { display: none; animation: fadeIn 0.3s ease; }
@@ -252,7 +264,6 @@ permalink: /persiapan-al/
     padding: 20px;
     margin-top: 16px;
   }
-  .detail-panel h3 { margin: 0 0 16px 0; color: #0d47a1; font-size: 1.1rem; }
   .detail-section {
     background: white;
     border-radius: 8px;
@@ -474,12 +485,8 @@ permalink: /persiapan-al/
   .search-result .result-section .section-content { font-size: 0.88rem; color: #333; }
   .search-result .result-section ul { margin: 4px 0 0 0; padding-left: 18px; }
   .search-result .result-section ul li { font-size: 0.85rem; padding: 2px 0; }
-  .search-result .result-section.followup {
-    border-left-color: #ff9800;
-  }
-  .search-result .result-section.followup .section-title {
-    color: #e65100;
-  }
+  .search-result .result-section.followup { border-left-color: #ff9800; }
+  .search-result .result-section.followup .section-title { color: #e65100; }
 
   /* ===== Responsive ===== */
   @media (max-width: 767px) {
@@ -650,18 +657,18 @@ permalink: /persiapan-al/
 
         <h3 style="text-align:center; margin:20px 0 12px 0; font-size:0.9rem; letter-spacing:1px; opacity:0.9;">BUKTI UTAMA</h3>
         <div class="evidence-grid">
-          <div class="evidence-btn" onclick="quickSearch('LED')">📄 LED</div>
-          <div class="evidence-btn" onclick="quickSearch('LKPS')">📊 LKPS</div>
-          <div class="evidence-btn" onclick="quickSearch('VMTS')">🎯 VMTS</div>
-          <div class="evidence-btn" onclick="quickSearch('Kurikulum')">📘 Kurikulum</div>
-          <div class="evidence-btn" onclick="quickSearch('CPL')">🎓 CPL</div>
-          <div class="evidence-btn" onclick="quickSearch('RPS')">📝 RPS</div>
-          <div class="evidence-btn" onclick="quickSearch('Roadmap')">🗺️ Roadmap</div>
-          <div class="evidence-btn" onclick="quickSearch('Penelitian')">🔬 Penelitian</div>
-          <div class="evidence-btn" onclick="quickSearch('PkM')">🤝 PkM</div>
-          <div class="evidence-btn" onclick="quickSearch('Tracer')">📈 Tracer</div>
-          <div class="evidence-btn" onclick="quickSearch('Kerja Sama')">🤝 Kerja Sama</div>
-          <div class="evidence-btn" onclick="quickSearch('AMI')">🔍 AMI/RTM</div>
+          <div class="evidence-btn" onclick="quickSearch('led')">📄 LED</div>
+          <div class="evidence-btn" onclick="quickSearch('lkps')">📊 LKPS</div>
+          <div class="evidence-btn" onclick="quickSearch('vmts')">🎯 VMTS</div>
+          <div class="evidence-btn" onclick="quickSearch('kurikulum')">📘 Kurikulum</div>
+          <div class="evidence-btn" onclick="quickSearch('cpl')">🎓 CPL</div>
+          <div class="evidence-btn" onclick="quickSearch('rps')">📝 RPS</div>
+          <div class="evidence-btn" onclick="quickSearch('roadmap')">🗺️ Roadmap</div>
+          <div class="evidence-btn" onclick="quickSearch('penelitian')">🔬 Penelitian</div>
+          <div class="evidence-btn" onclick="quickSearch('pkm')">🤝 PkM</div>
+          <div class="evidence-btn" onclick="quickSearch('tracer')">📈 Tracer</div>
+          <div class="evidence-btn" onclick="quickSearch('kerja sama')">🤝 Kerja Sama</div>
+          <div class="evidence-btn" onclick="quickSearch('ami')">🔍 AMI/RTM</div>
         </div>
 
         <div class="search-result" id="searchResult"></div>
@@ -815,9 +822,6 @@ function showPanel(id, btn) {
   document.getElementById('panel-' + id).classList.add('active');
   document.querySelectorAll('.folder-tab').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
-  
-  const content = document.getElementById('alContent');
-  content.classList.toggle('mode-al-active', id === 'modeal');
   
   if (id === 'kesiapan') showKesiapan('c1', document.querySelector('#kesiapanSubNav button'));
 }
