@@ -36,23 +36,33 @@ permalink: /persiapan-al/
     position: relative;
   }
 
+  /* ===== Folder Shelf - Sebaris di Desktop ===== */
   .folder-shelf {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 6px;
     padding: 0 12px;
     position: relative;
     z-index: 10;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: #94a3b8 transparent;
+    padding-bottom: 8px;
   }
 
-  /* Elegant Folder Design */
+  .folder-shelf::-webkit-scrollbar { height: 6px; }
+  .folder-shelf::-webkit-scrollbar-track { background: rgba(255,255,255,0.05); border-radius: 3px; }
+  .folder-shelf::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 3px; }
+  .folder-shelf::-webkit-scrollbar-thumb:hover { background: #cbd5e1; }
+
+  /* ===== Folder Tab - Default (Mobile) ===== */
   .folder-tab {
     position: relative;
-    flex: 1;
-    min-width: 100px;
-    max-width: 150px;
-    padding: 14px 12px 18px 12px;
-    background: #e2e8f0; /* Soft Slate */
+    flex: 0 0 auto;
+    min-width: 110px;
+    padding: 14px 16px 18px 16px;
+    background: #e2e8f0;
     border-radius: 10px 10px 0 0;
     border: 1px solid transparent;
     border-bottom: none;
@@ -64,9 +74,9 @@ permalink: /persiapan-al/
     transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(6px);
     box-shadow: 0 -2px 8px rgba(0,0,0,0.05);
+    white-space: nowrap;
   }
 
-  /* Subtle top tab */
   .folder-tab::before {
     content: '';
     position: absolute;
@@ -102,6 +112,44 @@ permalink: /persiapan-al/
     background: linear-gradient(135deg, #0d47a1 0%, #1565c0 100%);
     height: 8px;
     top: -8px;
+  }
+
+  /* ===== ✨ DESKTOP: Semua Folder Berbagi Ruang Sama Rata ===== */
+  @media (min-width: 1200px) {
+    .folder-shelf {
+      flex-wrap: nowrap;
+      overflow-x: visible;
+      padding-bottom: 0;
+    }
+    
+    .folder-tab {
+      flex: 1 1 0;
+      min-width: 0;
+      padding: 14px 8px 18px 8px;
+      font-size: 0.82rem;
+      white-space: normal;
+    }
+    
+    .folder-tab::before {
+      left: 25%;
+      width: 50%;
+    }
+  }
+
+  /* ===== TABLET: 5 Folder per Baris ===== */
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .folder-shelf {
+      flex-wrap: wrap;
+      overflow-x: visible;
+      padding-bottom: 0;
+    }
+    
+    .folder-tab {
+      flex: 0 1 calc(20% - 6px);
+      min-width: 0;
+      font-size: 0.82rem;
+      white-space: normal;
+    }
   }
 
   /* Content Area (Drawer) */
@@ -208,7 +256,7 @@ permalink: /persiapan-al/
   .quick-btn { background: rgba(255,255,255,0.08); color: white; padding: 16px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.1); cursor: pointer; font-weight: 500; transition: all 0.2s; font-size: 0.9rem; }
   .quick-btn:hover { background: rgba(255,255,255,0.15); border-color: rgba(255,255,255,0.3); transform: translateY(-2px); }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .folder-shelf { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 8px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
     .folder-shelf::-webkit-scrollbar { display: none; }
     .folder-tab { min-width: 110px; flex: 0 0 auto; font-size: 0.8rem; padding: 12px 10px 16px 10px; }
@@ -408,25 +456,50 @@ permalink: /persiapan-al/
 
 <script>
 const dataKriteria = {
-  c1: { title: 'C.1 VMTS', readiness: 96, status: 'READY', indicators: [{ name: 'Kekhasan VMTS', status: 'ready', evidence: '5/5', questions: 6, pic: 'AW + SH' }] },
-  c3: { title: 'C.3 Relevansi Pendidikan, Penelitian, dan PkM', readiness: 87, status: 'REVIEW', indicators: [{ name: 'Profil Lulusan', status: 'ready', evidence: '5/5', questions: 6, pic: 'Tim Kurikulum' }, { name: 'Tinjauan CPL', status: 'review', evidence: '6/7', questions: 8, pic: 'Tim Kurikulum' }] }
+  c1: { title: 'C.1 VMTS', readiness: 96, status: 'READY', indicators: [{ name: 'Kekhasan VMTS', status: 'ready', evidence: '5/5', questions: 6, pic: 'AW + SH' }, { name: 'Mekanisme Penyusunan', status: 'ready', evidence: '4/4', questions: 5, pic: 'AW + SH' }, { name: 'Tingkat Pemahaman', status: 'ready', evidence: '6/6', questions: 7, pic: 'AW + SH' }] },
+  c2: { title: 'C.2 Tata Pamong, Tata Kelola, Kerja Sama, Keuangan', readiness: 92, status: 'READY', indicators: [{ name: 'Sistem Tata Pamong', status: 'ready', evidence: '5/5', questions: 8, pic: 'SH + BU' }, { name: 'Kerja Sama', status: 'ready', evidence: '8/8', questions: 9, pic: 'MF' }] },
+  c3: { title: 'C.3 Relevansi Pendidikan, Penelitian, dan PkM', readiness: 87, status: 'REVIEW', indicators: [{ name: 'Profil Lulusan', status: 'ready', evidence: '5/5', questions: 6, pic: 'Tim Kurikulum' }, { name: 'Kesesuaian CPL', status: 'ready', evidence: '8/8', questions: 9, pic: 'Tim Kurikulum' }, { name: 'Tinjauan CPL', status: 'review', evidence: '6/7', questions: 8, pic: 'Tim Kurikulum' }, { name: 'Capstone Project', status: 'review', evidence: '4/5', questions: 7, pic: 'VF' }] },
+  c4: { title: 'C.4 Sumber Daya Manusia', readiness: 97, status: 'READY', indicators: [{ name: 'Profil DTPS', status: 'ready', evidence: '10/10', questions: 8, pic: 'DW' }, { name: 'Kinerja DTPS', status: 'ready', evidence: '15/15', questions: 12, pic: 'VF' }] },
+  c5: { title: 'C.5 Sarana, Prasarana, dan K3L', readiness: 93, status: 'READY', indicators: [{ name: 'Sarana & Prasarana', status: 'ready', evidence: '8/8', questions: 7, pic: 'Z' }, { name: 'Dokumen K3L', status: 'review', evidence: '3/4', questions: 5, pic: 'Z' }] },
+  c6: { title: 'C.6 Mahasiswa dan Luaran Mahasiswa', readiness: 86, status: 'REVIEW', indicators: [{ name: 'Tracer Study', status: 'review', evidence: '5/7', questions: 10, pic: 'MF + DW' }, { name: 'Prestasi Mahasiswa', status: 'ready', evidence: '8/8', questions: 6, pic: 'MF' }] },
+  c7: { title: 'C.7 Sistem Penjaminan Mutu', readiness: 83, status: 'REVIEW', indicators: [{ name: 'Siklus PPEPP', status: 'review', evidence: '5/7', questions: 9, pic: 'BU + SH' }, { name: 'Kepuasan Stakeholder', status: 'review', evidence: '3/5', questions: 7, pic: 'BU' }] }
 };
+
 const dataBukti = [
+  { code: 'C1-VMTS-001', name: 'SK VMTS PT & UPPS', path: 'C.1 → VMTS → Kekhasan', status: 'verified' },
   { code: 'C3-CPL-001', name: 'NADK PSBM 2020', path: 'C.3 → Pendidikan → CPL', status: 'verified' },
   { code: 'C3-CPL-002', name: 'Workshop OBE 2024', path: 'C.3 → Pendidikan → Tinjauan CPL', status: 'verified' },
-  { code: 'C3-CPL-003', name: 'Tindak Lanjut Evaluasi CPL', path: 'C.3 → Pendidikan → Tinjauan CPL', status: 'review' }
+  { code: 'C3-CPL-003', name: 'Tindak Lanjut Evaluasi CPL', path: 'C.3 → Pendidikan → Tinjauan CPL', status: 'review' },
+  { code: 'C4-SDM-001', name: 'Ijazah & Sertifikat DTPS', path: 'C.4 → SDM → Profil', status: 'verified' },
+  { code: 'C5-K3L-001', name: 'SOP K3L Laboratorium', path: 'C.5 → K3L → Dokumen', status: 'review' },
+  { code: 'C6-TRACER-001', name: 'Laporan Tracer Study 2024', path: 'C.6 → Luaran → Tracer', status: 'verified' },
+  { code: 'C7-AMI-001', name: 'Laporan AMI 2025', path: 'C.7 → SPMI → Audit', status: 'verified' }
 ];
+
 const dataPertanyaan = [
   { code: 'Q01', text: 'Bagaimana PSBM mengukur ketercapaian CPL?', kriteria: 'C.3', type: 'critical', pic: 'Kurikulum' },
-  { code: 'Q02', text: 'Bagaimana hasil tracer study digunakan untuk memperbaiki kurikulum?', kriteria: 'C.3/C.6', type: 'ppepp', pic: 'Kurikulum' }
+  { code: 'Q02', text: 'Bagaimana hasil tracer study digunakan untuk memperbaiki kurikulum?', kriteria: 'C.3/C.6', type: 'ppepp', pic: 'Kurikulum' },
+  { code: 'Q03', text: 'Bagaimana PSBM memastikan CPL tetap relevan terhadap kebutuhan industri?', kriteria: 'C.3', type: 'critical', pic: 'Kurikulum' },
+  { code: 'Q04', text: 'Sebutkan 3 penelitian DTPS yang melibatkan mahasiswa dan luarannya.', kriteria: 'C.3/C.4', type: 'data', pic: 'VF + DW' },
+  { code: 'Q05', text: 'Bagaimana mekanisme tinjauan rutin RPS?', kriteria: 'C.3', type: 'ppepp', pic: 'VF' },
+  { code: 'Q06', text: 'Apa tindak lanjut dari temuan AMI 2025?', kriteria: 'C.7', type: 'ppepp', pic: 'BU' },
+  { code: 'Q07', text: 'Berapa response rate tracer study 2024?', kriteria: 'C.6', type: 'data', pic: 'MF' },
+  { code: 'Q08', text: 'Bagaimana implementasi K3L di laboratorium?', kriteria: 'C.5', type: 'critical', pic: 'Z' }
 ];
+
 const dataPPEPP = {
   kurikulum: { steps: [{ t: 'PENETAPAN', c: 'Kurikulum KKNI Level 6 + OBE 2020' }, { t: 'PELAKSANAAN', c: 'Pembelajaran semester berjalan' }, { t: 'EVALUASI', c: 'Tracer study + User survey + Workshop kurikulum' }, { t: 'PENGENDALIAN', c: 'Analisis kesenjangan CPL vs kebutuhan industri' }, { t: 'PENINGKATAN', c: 'Revisi Kurikulum OBE 2025' }] },
-  cpl: { steps: [{ t: 'PENETAPAN', c: 'NADK PSBM 2020 — 12 CPL' }, { t: 'PELAKSANAAN', c: 'Pembelajaran berbasis CPL di setiap RPS' }, { t: 'EVALUASI', c: 'Tracer + User Survey + Workshop OBE 2024' }, { t: 'PENGENDALIAN', c: 'Analisis kesenjangan kompetensi' }, { t: 'PENINGKATAN', c: 'Pengembangan Kurikulum OBE 2025' }] }
+  cpl: { steps: [{ t: 'PENETAPAN', c: 'NADK PSBM 2020 — 12 CPL' }, { t: 'PELAKSANAAN', c: 'Pembelajaran berbasis CPL di setiap RPS' }, { t: 'EVALUASI', c: 'Tracer + User Survey + Workshop OBE 2024' }, { t: 'PENGENDALIAN', c: 'Analisis kesenjangan kompetensi' }, { t: 'PENINGKATAN', c: 'Pengembangan Kurikulum OBE 2025' }] },
+  tracer: { steps: [{ t: 'PENETAPAN', c: 'SK Pelaksanaan Tracer Study tahunan' }, { t: 'PELAKSANAAN', c: 'Kuesioner DIKTI + follow-up lulusan' }, { t: 'EVALUASI', c: 'Response rate 2024: 68%' }, { t: 'PENGENDALIAN', c: 'Identifikasi lulusan belum terisi' }, { t: 'PENINGKATAN', c: 'Kolaborasi career center + insentif alumni' }] },
+  ami: { steps: [{ t: 'PENETAPAN', c: 'SK Audit Mutu Internal 2025' }, { t: 'PELAKSANAAN', c: 'Audit 7 kriteria + wawancara' }, { t: 'EVALUASI', c: 'Laporan temuan AMI Oktober 2025' }, { t: 'PENGENDALIAN', c: 'Rapat Tinjauan Manajemen (RTM)' }, { t: 'PENINGKATAN', c: 'Rencana tindak lanjut 15 temuan' }] }
 };
+
 const dataChecklist = {
-  h30: { title: 'H-30', items: [{ text: 'Freeze baseline SAKTI', done: true }, { text: 'Data Master diverifikasi', done: true }, { text: 'Identifikasi PIC per kriteria', done: true }] },
-  h21: { title: 'H-21', items: [{ text: 'Evidence verification selesai', done: true }, { text: 'Mock AL I dilaksanakan', done: false }] }
+  h30: { title: 'H-30', items: [{ text: 'Freeze baseline SAKTI', done: true }, { text: 'Data Master diverifikasi', done: true }, { text: 'Identifikasi PIC per kriteria', done: true }, { text: 'Struktur Evidence folder final', done: true }, { text: 'Link Google Drive semua publik', done: false }] },
+  h21: { title: 'H-21', items: [{ text: 'Evidence verification selesai', done: true }, { text: 'Mock AL I dilaksanakan', done: false }, { text: 'Critical questions dijawab', done: false }] },
+  h14: { title: 'H-14', items: [{ text: 'Mock AL II dilaksanakan', done: false }, { text: 'Stakeholder simulation', done: false }, { text: 'Link audit semua bukti', done: false }] },
+  h7: { title: 'H-7', items: [{ text: 'Full simulation AL', done: false }, { text: 'Backup evidence lokal & cloud', done: false }, { text: 'Freeze konten LED & LKPS', done: false }] },
+  h1: { title: 'H-1', items: [{ text: 'Cek final semua link', done: false }, { text: 'Siapkan ruang AL', done: false }, { text: 'Briefing tim terakhir', done: false }] }
 };
 
 function showPanel(id, btn) {
@@ -488,7 +561,7 @@ function startMock() {
 function showPPEPP(key, btn) {
   document.querySelectorAll('#panel-ppepp .sub-nav button').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
-  const data = dataPPEPP[key] || { steps: [{ t: 'PENETAPAN', c: 'Dokumen kebijakan' }, { t: 'PELAKSANAAN', c: 'Implementasi' }, { t: 'EVALUASI', c: 'Monitoring' }, { t: 'PENGENDALIAN', c: 'Analisis' }, { t: 'PENINGKATAN', c: 'Rencana perbaikan' }] };
+  const data = dataPPEPP[key];
   let html = `<h3 style="color:#0f172a; margin-top:0;">${key.toUpperCase()} — Closed Loop</h3>`;
   data.steps.forEach(s => { html += `<div class="ppepp-step"><div class="step-title">${s.t}</div><div class="step-content">${s.c}</div></div>`; });
   document.getElementById('ppeppContent').innerHTML = html;
@@ -497,7 +570,7 @@ function showPPEPP(key, btn) {
 function showChecklist(key, btn) {
   document.querySelectorAll('#panel-checklist .sub-nav button').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
-  const data = dataChecklist[key] || { title: key, items: [] };
+  const data = dataChecklist[key];
   let html = `<div class="checklist-group"><h4>${data.title}</h4>`;
   data.items.forEach((item, i) => {
     html += `<div class="checklist-item ${item.done?'done':''}"><input type="checkbox" id="cl-${key}-${i}" ${item.done?'checked':''} onchange="this.parentElement.classList.toggle('done', this.checked)"><label for="cl-${key}-${i}" style="color:#334155; cursor:pointer;">${item.text}</label></div>`;
