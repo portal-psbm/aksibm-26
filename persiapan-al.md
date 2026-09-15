@@ -16,12 +16,12 @@ permalink: /persiapan-al/
     border-bottom: none;
   }
 
-  /* ===== Folder Shelf - Spasi Rapat ===== */
+  /* ===== Folder Shelf - 5 Folder Saja ===== */
   .folder-shelf {
     display: flex;
     flex-wrap: nowrap;
-    gap: 2px;
-    padding: 0 4px;
+    gap: 8px;
+    padding: 0 8px;
     position: relative;
     z-index: 10;
     overflow-x: auto;
@@ -34,21 +34,21 @@ permalink: /persiapan-al/
   .folder-shelf::-webkit-scrollbar-track { background: rgba(13, 71, 161, 0.05); border-radius: 2px; }
   .folder-shelf::-webkit-scrollbar-thumb { background: #0d47a1; border-radius: 2px; }
 
-  /* ===== Folder Tab - Label Singkat & Kompak ===== */
+  /* ===== Folder Tab - Lebih Lebar karena cuma 5 ===== */
   .folder-tab {
     position: relative;
-    flex: 0 0 auto;
-    min-width: 82px;
-    padding: 10px 4px 14px 4px;
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 14px 8px 18px 8px;
     background: #ffffff;
-    border-radius: 8px 8px 0 0;
+    border-radius: 10px 10px 0 0;
     border: 1px solid #e0e0e0;
     border-bottom: none;
     cursor: pointer;
     text-align: center;
     font-weight: 600;
-    font-size: 0.68rem;
-    line-height: 1.15;
+    font-size: 0.85rem;
+    line-height: 1.2;
     color: #666;
     transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(4px);
@@ -61,10 +61,10 @@ permalink: /persiapan-al/
   .folder-tab::before {
     content: '';
     position: absolute;
-    top: -6px;
+    top: -7px;
     left: 22%;
     width: 56%;
-    height: 6px;
+    height: 7px;
     background: #f5f5f5;
     border-radius: 4px 4px 0 0;
     border: 1px solid #e0e0e0;
@@ -88,13 +88,13 @@ permalink: /persiapan-al/
     border-color: #0d47a1;
     box-shadow: 0 -4px 16px rgba(13, 71, 161, 0.25);
     font-weight: 700;
-    font-size: 0.68rem;
+    font-size: 0.85rem;
   }
   .folder-tab.active::before {
     background: #0d47a1;
     border-color: #0d47a1;
-    height: 8px;
-    top: -8px;
+    height: 9px;
+    top: -9px;
   }
 
   /* ===== Content Area ===== */
@@ -203,45 +203,30 @@ permalink: /persiapan-al/
   .quick-btn:hover { background: rgba(255,255,255,0.25); }
 
   /* ===== RESPONSIVE ===== */
-  @media (min-width: 1200px) {
-    .folder-shelf { overflow-x: visible; padding-bottom: 0; gap: 1px; }
-    .folder-tab { flex: 1 1 0; min-width: 0; padding: 10px 2px 14px 2px; font-size: 0.68rem; }
-    .folder-tab::before { left: 25%; width: 50%; }
-  }
-  @media (min-width: 768px) and (max-width: 1199px) {
-    .folder-shelf { flex-wrap: wrap; overflow-x: visible; padding-bottom: 0; gap: 2px; }
-    .folder-tab { flex: 0 1 calc(20% - 2px); min-width: 0; font-size: 0.68rem; padding: 10px 4px 14px 4px; }
-  }
   @media (max-width: 767px) {
-    .folder-shelf { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 8px; -webkit-overflow-scrolling: touch; scrollbar-width: none; gap: 2px; }
+    .folder-shelf { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 8px; -webkit-overflow-scrolling: touch; scrollbar-width: none; gap: 6px; }
     .folder-shelf::-webkit-scrollbar { display: none; }
-    .folder-tab { min-width: 82px; flex: 0 0 auto; font-size: 0.68rem; padding: 10px 4px 14px 4px; }
+    .folder-tab { min-width: 100px; flex: 0 0 auto; font-size: 0.8rem; padding: 12px 10px 16px 10px; }
     .progress-row { flex-wrap: wrap; }
     .progress-row .label { width: 100%; margin-bottom: 4px; }
     .al-content { padding: 20px; }
-    .cabinet-container { padding: 16px 12px 0 12px; }
   }
 </style>
 
-<!-- ===== KABINET FOLDER NAV ===== -->
+<!-- ===== KABINET FOLDER NAV - 5 FOLDER SAJA ===== -->
 <div class="cabinet-container">
   <div class="folder-shelf">
-    <div class="folder-tab active" onclick="showPanel('dashboard', this)">📊<br>Dashboard</div>
-    <div class="folder-tab" onclick="showPanel('kriteria', this)">📑<br>Kriteria</div>
-    <div class="folder-tab" onclick="showPanel('bukti', this)">📎<br>Bukti</div>
-    <div class="folder-tab" onclick="showPanel('pertanyaan', this)">❓<br>Pertanyaan</div>
-    <div class="folder-tab" onclick="showPanel('mock', this)">🎭<br>Mock</div>
-    <div class="folder-tab" onclick="showPanel('ppepp', this)">🔄<br>PPEPP</div>
-    <div class="folder-tab" onclick="showPanel('risiko', this)">⚠️<br>Risiko</div>
-    <div class="folder-tab" onclick="showPanel('tim', this)">👥<br>Tim/PIC</div>
-    <div class="folder-tab" onclick="showPanel('checklist', this)">✅<br>Checklist</div>
-    <div class="folder-tab" onclick="showPanel('modeal', this)">🚀<br>Mode AL</div>
+    <div class="folder-tab active" onclick="showPanel('dashboard', this)">📊<br>DASHBOARD</div>
+    <div class="folder-tab" onclick="showPanel('kriteria', this)">📑<br>C.1 – C.7</div>
+    <div class="folder-tab" onclick="showPanel('bukti', this)">📎<br>BUKTI</div>
+    <div class="folder-tab" onclick="showPanel('latihan', this)">🎯<br>LATIHAN</div>
+    <div class="folder-tab" onclick="showPanel('modeal', this)">🚀<br>MODE AL</div>
   </div>
 
   <!-- ===== AREA KONTEN ===== -->
   <div class="al-content">
 
-    <!-- DASHBOARD -->
+    <!-- ========== DASHBOARD ========== -->
     <div class="al-panel active" id="panel-dashboard">
       <h2 style="color:#0d47a1; margin-top:0;">Overall Readiness</h2>
       <div class="progress-row"><div class="bar" style="height:22px;"><div class="bar-fill" style="width:89%;"></div></div><div class="percent" style="font-size:1.2rem;">89%</div></div>
@@ -267,7 +252,7 @@ permalink: /persiapan-al/
       </div>
     </div>
 
-    <!-- KRITERIA -->
+    <!-- ========== C.1 – C.7 ========== -->
     <div class="al-panel" id="panel-kriteria">
       <h2 style="color:#0d47a1; margin-top:0;">Kriteria Akreditasi</h2>
       <div class="sub-nav" id="kriteriaSubNav">
@@ -282,7 +267,7 @@ permalink: /persiapan-al/
       <div id="kriteriaContent"></div>
     </div>
 
-    <!-- BUKTI -->
+    <!-- ========== BUKTI ========== -->
     <div class="al-panel" id="panel-bukti">
       <h2 style="color:#0d47a1; margin-top:0;">🔍 Bukti Asesmen Lapangan</h2>
       <input type="text" class="search-box" id="buktiSearch" placeholder="Cari bukti: CPL, RPS, tracer, penelitian..." oninput="filterBukti()">
@@ -295,91 +280,21 @@ permalink: /persiapan-al/
       <div id="buktiList"></div>
     </div>
 
-    <!-- PERTANYAAN -->
-    <div class="al-panel" id="panel-pertanyaan">
-      <h2 style="color:#0d47a1; margin-top:0;">🔥 Bank Pertanyaan Asesor</h2>
-      <div class="sub-nav">
-        <button class="active" onclick="filterPertanyaan('all', this)">Semua</button>
-        <button onclick="filterPertanyaan('critical', this)">🔥 Critical</button>
-        <button onclick="filterPertanyaan('ppepp', this)">🔄 PPEPP</button>
-        <button onclick="filterPertanyaan('data', this)">📊 Data</button>
+    <!-- ========== LATIHAN (Gabungan: Pertanyaan + Mock + PPEPP + Risiko + Tim + Checklist) ========== -->
+    <div class="al-panel" id="panel-latihan">
+      <h2 style="color:#0d47a1; margin-top:0;">🎯 Latihan & Persiapan Tim</h2>
+      <div class="sub-nav" id="latihanSubNav">
+        <button class="active" onclick="showLatihan('pertanyaan', this)">❓ Pertanyaan</button>
+        <button onclick="showLatihan('mock', this)">🎭 Mock AL</button>
+        <button onclick="showLatihan('ppepp', this)">🔄 PPEPP</button>
+        <button onclick="showLatihan('risiko', this)">⚠️ Risiko</button>
+        <button onclick="showLatihan('tim', this)">👥 Tim/PIC</button>
+        <button onclick="showLatihan('checklist', this)">✅ Checklist</button>
       </div>
-      <div id="pertanyaanList"></div>
+      <div id="latihanContent"></div>
     </div>
 
-    <!-- MOCK AL -->
-    <div class="al-panel" id="panel-mock">
-      <h2 style="color:#0d47a1; margin-top:0;">🎭 Simulasi Asesmen Lapangan</h2>
-      <div id="mockSetup">
-        <div class="card-grid">
-          <div class="stat-card"><div class="label">Pilih Kriteria</div><select style="width:100%; padding:8px; margin-top:8px; border-radius:6px; border:1px solid #e0e0e0;"><option>Semua Kriteria</option><option selected>C.3 Relevansi</option></select></div>
-          <div class="stat-card"><div class="label">Mode Asesor</div><select style="width:100%; padding:8px; margin-top:8px; border-radius:6px; border:1px solid #e0e0e0;"><option>Normal</option><option selected>🔥 Kritis</option></select></div>
-          <div class="stat-card"><div class="label">Jumlah Pertanyaan</div><div style="margin-top:8px; display:flex; gap:6px;"><button class="btn btn-outline">10</button><button class="btn btn-primary">20</button><button class="btn btn-outline">30</button></div></div>
-        </div>
-        <div style="text-align:center; margin-top:24px;"><button class="btn btn-primary" style="padding:14px 40px; font-size:1rem;" onclick="startMock()">🚀 MULAI MOCK AL</button></div>
-      </div>
-      <div id="mockSession" style="display:none;"></div>
-    </div>
-
-    <!-- PPEPP -->
-    <div class="al-panel" id="panel-ppepp">
-      <h2 style="color:#0d47a1; margin-top:0;">🔄 PPEPP Closed-Loop Improvement</h2>
-      <div class="sub-nav">
-        <button class="active" onclick="showPPEPP('kurikulum', this)">Kurikulum</button>
-        <button onclick="showPPEPP('cpl', this)">CPL</button>
-        <button onclick="showPPEPP('tracer', this)">Tracer</button>
-        <button onclick="showPPEPP('ami', this)">AMI</button>
-      </div>
-      <div id="ppeppContent"></div>
-    </div>
-
-    <!-- RISIKO -->
-    <div class="al-panel" id="panel-risiko">
-      <h2 style="color:#0d47a1; margin-top:0;">⚠️ Risk & Clarification Register</h2>
-      <div class="card-grid">
-        <div class="stat-card" style="border-left-color:#f44336;"><div class="label">🔴 Critical</div><div class="value" style="color:#d32f2f;">2</div></div>
-        <div class="stat-card" style="border-left-color:#ff9800;"><div class="label">🟠 High</div><div class="value" style="color:#e65100;">4</div></div>
-        <div class="stat-card" style="border-left-color:#ffc107;"><div class="label">🟡 Medium</div><div class="value" style="color:#f57c00;">7</div></div>
-        <div class="stat-card" style="border-left-color:#4caf50;"><div class="label">🟢 Resolved</div><div class="value" style="color:#2e7d32;">28</div></div>
-      </div>
-      <table class="risk-table">
-        <thead><tr><th>Risiko</th><th>Kriteria</th><th>PIC</th><th>H-</th><th>Status</th></tr></thead>
-        <tbody>
-          <tr><td>Bukti CPL belum lengkap</td><td>C.3</td><td>Kurikulum</td><td>18</td><td><span class="risk-badge risk-critical">CRITICAL</span></td></tr>
-          <tr><td>Link evidence mati</td><td>C.3</td><td>Admin</td><td>14</td><td><span class="risk-badge risk-high">HIGH</span></td></tr>
-          <tr><td>Mock score &lt; 3</td><td>C.7</td><td>UPM</td><td>10</td><td><span class="risk-badge risk-medium">MEDIUM</span></td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <!-- TIM/PIC -->
-    <div class="al-panel" id="panel-tim">
-      <h2 style="color:#0d47a1; margin-top:0;">👥 Tim Asesmen Lapangan</h2>
-      <div class="team-grid">
-        <div class="team-card"><div class="role">KETUA TIM</div><div class="name">AW</div><div class="stat" style="color:#666;">Overall AL Readiness: <strong style="color:#333;">94%</strong></div></div>
-        <div class="team-card"><div class="role">PIC C.1 VMTS</div><div class="name">AW + SH</div><div class="stat" style="color:#666;">Questions: <strong style="color:#333;">12/12</strong></div></div>
-        <div class="team-card" style="border-top-color:#ff9800;"><div class="role">PIC C.3 Relevansi</div><div class="name">VF + BU</div><div class="stat" style="color:#666;">Questions: <strong style="color:#333;">18/20</strong><br>Mock Score: <strong style="color:#e65100;">3.2</strong> ⚠️</div></div>
-        <div class="team-card"><div class="role">PIC C.4 SDM</div><div class="name">DW + VF</div><div class="stat" style="color:#666;">Questions: <strong style="color:#333;">20/20</strong></div></div>
-        <div class="team-card"><div class="role">PIC C.5 Sarpras & K3L</div><div class="name">Z + MF</div><div class="stat" style="color:#666;">Questions: <strong style="color:#333;">14/16</strong></div></div>
-        <div class="team-card" style="border-top-color:#ff9800;"><div class="role">PIC C.6 Mahasiswa</div><div class="name">MF + DW</div><div class="stat" style="color:#666;">Questions: <strong style="color:#333;">21/24</strong><br>Mock Score: <strong style="color:#e65100;">2.9</strong> ⚠️</div></div>
-        <div class="team-card" style="border-top-color:#ff9800;"><div class="role">PIC C.7 SPMI</div><div class="name">BU + SH</div><div class="stat" style="color:#666;">Questions: <strong style="color:#333;">16/18</strong><br>Mock Score: <strong style="color:#e65100;">2.8</strong> ⚠️</div></div>
-      </div>
-    </div>
-
-    <!-- CHECKLIST -->
-    <div class="al-panel" id="panel-checklist">
-      <h2 style="color:#0d47a1; margin-top:0;">✅ Checklist Menuju AL</h2>
-      <div class="sub-nav">
-        <button class="active" onclick="showChecklist('h30', this)">H-30</button>
-        <button onclick="showChecklist('h21', this)">H-21</button>
-        <button onclick="showChecklist('h14', this)">H-14</button>
-        <button onclick="showChecklist('h7', this)">H-7</button>
-        <button onclick="showChecklist('h1', this)">H-1</button>
-      </div>
-      <div id="checklistContent"></div>
-    </div>
-
-    <!-- MODE AL -->
+    <!-- ========== MODE AL ========== -->
     <div class="al-panel" id="panel-modeal">
       <div class="mode-al-view">
         <h2>🚀 PSBM — ASESMEN LAPANGAN</h2>
@@ -405,6 +320,7 @@ permalink: /persiapan-al/
 </div>
 
 <script>
+// ===== DATA =====
 const dataKriteria = {
   c1: { title: 'C.1 VMTS', readiness: 96, status: 'READY', indicators: [
     { name: 'Kekhasan VMTS', status: 'ready', evidence: '5/5', questions: 6, pic: 'AW + SH' },
@@ -528,18 +444,19 @@ const dataChecklist = {
   ]}
 };
 
+// ===== NAVIGATION UTAMA =====
 function showPanel(id, btn) {
   document.querySelectorAll('.al-panel').forEach(p => p.classList.remove('active'));
   document.getElementById('panel-' + id).classList.add('active');
   document.querySelectorAll('.folder-tab').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
+  
   if (id === 'kriteria') showKriteria('c1', document.querySelector('#kriteriaSubNav button'));
   if (id === 'bukti') renderBukti();
-  if (id === 'pertanyaan') renderPertanyaan();
-  if (id === 'ppepp') showPPEPP('kurikulum', document.querySelector('#panel-ppepp .sub-nav button'));
-  if (id === 'checklist') showChecklist('h30', document.querySelector('#panel-checklist .sub-nav button'));
+  if (id === 'latihan') showLatihan('pertanyaan', document.querySelector('#latihanSubNav button'));
 }
 
+// ===== KRITERIA =====
 function showKriteria(key, btn) {
   document.querySelectorAll('#kriteriaSubNav button').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
@@ -552,6 +469,7 @@ function showKriteria(key, btn) {
   document.getElementById('kriteriaContent').innerHTML = html;
 }
 
+// ===== BUKTI =====
 function renderBukti() {
   var search = (document.getElementById('buktiSearch') ? document.getElementById('buktiSearch').value : '').toLowerCase();
   var filtered = dataBukti.filter(function(b) { return !search || b.name.toLowerCase().indexOf(search) >= 0 || b.code.toLowerCase().indexOf(search) >= 0; });
@@ -563,54 +481,107 @@ function renderBukti() {
 }
 function filterBukti() { renderBukti(); }
 
+// ===== LATIHAN (Sub-nav internal) =====
+function showLatihan(key, btn) {
+  document.querySelectorAll('#latihanSubNav button').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  
+  if (key === 'pertanyaan') renderPertanyaan('all');
+  else if (key === 'mock') renderMock();
+  else if (key === 'ppepp') renderPPEPP('kurikulum');
+  else if (key === 'risiko') renderRisiko();
+  else if (key === 'tim') renderTim();
+  else if (key === 'checklist') renderChecklist('h30');
+}
+
 function renderPertanyaan(filter) {
   filter = filter || 'all';
   var filtered = dataPertanyaan.filter(function(p) { return filter === 'all' || p.type === filter; });
-  var html = '';
+  var html = '<div class="sub-nav" style="margin-top:8px;">';
+  html += '<button class="active" onclick="renderPertanyaan(\'all\')">Semua</button>';
+  html += '<button onclick="renderPertanyaan(\'critical\')">🔥 Critical</button>';
+  html += '<button onclick="renderPertanyaan(\'ppepp\')">🔄 PPEPP</button>';
+  html += '<button onclick="renderPertanyaan(\'data\')">📊 Data</button>';
+  html += '</div>';
   filtered.forEach(function(p) {
     html += '<div class="question-card ' + (p.type==='critical'?'critical':'') + '"><div class="q-code">' + p.code + ' • ' + p.kriteria + '</div><div class="q-text">' + p.text + '</div><div class="q-meta">PIC: ' + p.pic + '</div><div style="margin-top:10px;"><button class="btn btn-primary">LIHAT JAWABAN</button></div></div>';
   });
-  document.getElementById('pertanyaanList').innerHTML = html;
-}
-function filterPertanyaan(type, btn) {
-  document.querySelectorAll('#panel-pertanyaan .sub-nav button').forEach(function(b) { b.classList.remove('active'); });
-  btn.classList.add('active');
-  renderPertanyaan(type);
+  document.getElementById('latihanContent').innerHTML = html;
 }
 
-function startMock() {
-  document.getElementById('mockSetup').style.display = 'none';
-  var session = document.getElementById('mockSession');
-  session.style.display = 'block';
-  session.innerHTML = '<div style="text-align:center; padding:40px; background:#e8f5e9; border-radius:12px;"><h2 style="color:#2e7d32;">✅ Mock AL Selesai!</h2><div style="font-size:2rem; font-weight:700; color:#0d47a1; margin:16px 0;">3.4 / 4.0</div><button class="btn btn-primary" onclick="document.getElementById(\'mockSetup\').style.display=\'block\'; document.getElementById(\'mockSession\').style.display=\'none\';">Kembali</button></div>';
+function renderMock() {
+  var html = '<h3 style="color:#0d47a1;">🎭 Simulasi Asesmen Lapangan</h3>';
+  html += '<div class="card-grid">';
+  html += '<div class="stat-card"><div class="label">Pilih Kriteria</div><select style="width:100%; padding:8px; margin-top:8px; border-radius:6px; border:1px solid #e0e0e0;"><option>Semua Kriteria</option><option selected>C.3 Relevansi</option></select></div>';
+  html += '<div class="stat-card"><div class="label">Mode Asesor</div><select style="width:100%; padding:8px; margin-top:8px; border-radius:6px; border:1px solid #e0e0e0;"><option>Normal</option><option selected>🔥 Kritis</option></select></div>';
+  html += '<div class="stat-card"><div class="label">Jumlah Pertanyaan</div><div style="margin-top:8px; display:flex; gap:6px;"><button class="btn btn-outline">10</button><button class="btn btn-primary">20</button><button class="btn btn-outline">30</button></div></div>';
+  html += '</div>';
+  html += '<div style="text-align:center; margin-top:24px;"><button class="btn btn-primary" style="padding:14px 40px; font-size:1rem;" onclick="alert(\'Mock AL dimulai!\')">🚀 MULAI MOCK AL</button></div>';
+  document.getElementById('latihanContent').innerHTML = html;
 }
 
-function showPPEPP(key, btn) {
-  document.querySelectorAll('#panel-ppepp .sub-nav button').forEach(function(b) { b.classList.remove('active'); });
-  btn.classList.add('active');
-  var data = dataPPEPP[key] || { steps: [{ t: 'PENETAPAN', c: 'Dokumen kebijakan' }, { t: 'PELAKSANAAN', c: 'Implementasi' }, { t: 'EVALUASI', c: 'Monitoring' }, { t: 'PENGENDALIAN', c: 'Analisis' }, { t: 'PENINGKATAN', c: 'Rencana perbaikan' }] };
-  var html = '<h3 style="color:#0d47a1;">' + key.toUpperCase() + ' — Closed Loop</h3>';
+function renderPPEPP(key) {
+  var data = dataPPEPP[key] || { steps: [] };
+  var html = '<div class="sub-nav" style="margin-top:8px;">';
+  html += '<button class="' + (key==='kurikulum'?'active':'') + '" onclick="renderPPEPP(\'kurikulum\')">Kurikulum</button>';
+  html += '<button class="' + (key==='cpl'?'active':'') + '" onclick="renderPPEPP(\'cpl\')">CPL</button>';
+  html += '<button class="' + (key==='tracer'?'active':'') + '" onclick="renderPPEPP(\'tracer\')">Tracer</button>';
+  html += '<button class="' + (key==='ami'?'active':'') + '" onclick="renderPPEPP(\'ami\')">AMI</button>';
+  html += '</div>';
+  html += '<h3 style="color:#0d47a1;">' + key.toUpperCase() + ' — Closed Loop</h3>';
   data.steps.forEach(function(s) { html += '<div class="ppepp-step"><div class="step-title">' + s.t + '</div><div class="step-content">' + s.c + '</div></div>'; });
-  document.getElementById('ppeppContent').innerHTML = html;
+  document.getElementById('latihanContent').innerHTML = html;
 }
 
-function showChecklist(key, btn) {
-  document.querySelectorAll('#panel-checklist .sub-nav button').forEach(function(b) { b.classList.remove('active'); });
-  btn.classList.add('active');
+function renderRisiko() {
+  var html = '<div class="card-grid">';
+  html += '<div class="stat-card" style="border-left-color:#f44336;"><div class="label">🔴 Critical</div><div class="value" style="color:#d32f2f;">2</div></div>';
+  html += '<div class="stat-card" style="border-left-color:#ff9800;"><div class="label">🟠 High</div><div class="value" style="color:#e65100;">4</div></div>';
+  html += '<div class="stat-card" style="border-left-color:#ffc107;"><div class="label">🟡 Medium</div><div class="value" style="color:#f57c00;">7</div></div>';
+  html += '<div class="stat-card" style="border-left-color:#4caf50;"><div class="label">🟢 Resolved</div><div class="value" style="color:#2e7d32;">28</div></div>';
+  html += '</div>';
+  html += '<table class="risk-table"><thead><tr><th>Risiko</th><th>Kriteria</th><th>PIC</th><th>H-</th><th>Status</th></tr></thead><tbody>';
+  html += '<tr><td>Bukti CPL belum lengkap</td><td>C.3</td><td>Kurikulum</td><td>18</td><td><span class="risk-badge risk-critical">CRITICAL</span></td></tr>';
+  html += '<tr><td>Link evidence mati</td><td>C.3</td><td>Admin</td><td>14</td><td><span class="risk-badge risk-high">HIGH</span></td></tr>';
+  html += '<tr><td>Mock score &lt; 3</td><td>C.7</td><td>UPM</td><td>10</td><td><span class="risk-badge risk-medium">MEDIUM</span></td></tr>';
+  html += '</tbody></table>';
+  document.getElementById('latihanContent').innerHTML = html;
+}
+
+function renderTim() {
+  var html = '<div class="team-grid">';
+  html += '<div class="team-card"><div class="role">KETUA TIM</div><div class="name">AW</div><div class="stat" style="color:#666;">Overall AL Readiness: <strong style="color:#333;">94%</strong></div></div>';
+  html += '<div class="team-card"><div class="role">PIC C.1 VMTS</div><div class="name">AW + SH</div><div class="stat" style="color:#666;">Questions: <strong style="color:#333;">12/12</strong></div></div>';
+  html += '<div class="team-card" style="border-top-color:#ff9800;"><div class="role">PIC C.3 Relevansi</div><div class="name">VF + BU</div><div class="stat" style="color:#666;">Questions: <strong style="color:#333;">18/20</strong><br>Mock Score: <strong style="color:#e65100;">3.2</strong> ⚠️</div></div>';
+  html += '<div class="team-card"><div class="role">PIC C.4 SDM</div><div class="name">DW + VF</div><div class="stat" style="color:#666;">Questions: <strong style="color:#333;">20/20</strong></div></div>';
+  html += '<div class="team-card"><div class="role">PIC C.5 Sarpras & K3L</div><div class="name">Z + MF</div><div class="stat" style="color:#666;">Questions: <strong style="color:#333;">14/16</strong></div></div>';
+  html += '<div class="team-card" style="border-top-color:#ff9800;"><div class="role">PIC C.6 Mahasiswa</div><div class="name">MF + DW</div><div class="stat" style="color:#666;">Questions: <strong style="color:#333;">21/24</strong><br>Mock Score: <strong style="color:#e65100;">2.9</strong> ⚠️</div></div>';
+  html += '<div class="team-card" style="border-top-color:#ff9800;"><div class="role">PIC C.7 SPMI</div><div class="name">BU + SH</div><div class="stat" style="color:#666;">Questions: <strong style="color:#333;">16/18</strong><br>Mock Score: <strong style="color:#e65100;">2.8</strong> ⚠️</div></div>';
+  html += '</div>';
+  document.getElementById('latihanContent').innerHTML = html;
+}
+
+function renderChecklist(key) {
   var data = dataChecklist[key] || { title: key, items: [] };
-  var html = '<div class="checklist-group"><h4>' + data.title + '</h4>';
+  var html = '<div class="sub-nav" style="margin-top:8px;">';
+  html += '<button class="' + (key==='h30'?'active':'') + '" onclick="renderChecklist(\'h30\')">H-30</button>';
+  html += '<button class="' + (key==='h21'?'active':'') + '" onclick="renderChecklist(\'h21\')">H-21</button>';
+  html += '<button class="' + (key==='h14'?'active':'') + '" onclick="renderChecklist(\'h14\')">H-14</button>';
+  html += '<button class="' + (key==='h7'?'active':'') + '" onclick="renderChecklist(\'h7\')">H-7</button>';
+  html += '<button class="' + (key==='h1'?'active':'') + '" onclick="renderChecklist(\'h1\')">H-1</button>';
+  html += '</div>';
+  html += '<div class="checklist-group"><h4>' + data.title + '</h4>';
   data.items.forEach(function(item, i) {
     html += '<div class="checklist-item ' + (item.done?'done':'') + '"><input type="checkbox" id="cl-' + key + '-' + i + '" ' + (item.done?'checked':'') + ' onchange="this.parentElement.classList.toggle(\'done\', this.checked)"><label for="cl-' + key + '-' + i + '">' + item.text + '</label></div>';
   });
   html += '</div>';
-  document.getElementById('checklistContent').innerHTML = html;
+  document.getElementById('latihanContent').innerHTML = html;
 }
 
+// ===== INIT =====
 document.addEventListener('DOMContentLoaded', function() {
   showKriteria('c1', document.querySelector('#kriteriaSubNav button'));
   renderBukti();
-  renderPertanyaan();
-  showPPEPP('kurikulum', document.querySelector('#panel-ppepp .sub-nav button'));
-  showChecklist('h30', document.querySelector('#panel-checklist .sub-nav button'));
+  showLatihan('pertanyaan', document.querySelector('#latihanSubNav button'));
 });
 </script>
