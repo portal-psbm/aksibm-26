@@ -181,7 +181,7 @@ permalink: /persiapan-al/
         <h2>🎯 MODE ASESMEN LAPANGAN</h2>
         <div class="subtitle">Cari dari 243 pertanyaan asesmen PSBM (C.1–C.7 + BAB III)</div>
         <div class="mode-al-search-wrapper">
-          <input type="text" class="mode-al-search" id="modeAlSearch" placeholder="🔎 Ketik: VMTS, 66 kerja sama, 11 DTPS, tracer, CPL, SWOT..." onkeypress="if(event.key==='Enter') searchModeAL()">
+          <input type="text" class="mode-al-search" id="modeAlSearch" placeholder="🔎 Ketik: VMTS, kerja sama, DTPS, tracer, CPL, SWOT..." onkeypress="if(event.key==='Enter') searchModeAL()">
           <button class="mode-al-btn search" onclick="searchModeAL()">🔍 Cari</button>
           <button class="mode-al-btn clear" onclick="clearSearch()"> Clear</button>
         </div>
@@ -196,7 +196,7 @@ permalink: /persiapan-al/
           <!-- C.3 - Tridharma -->
           <div class="quick-chip" onclick="quickSearch('penelitian')">🔬 Penelitian</div>
           <div class="quick-chip" onclick="quickSearch('PkM')">🤝 PkM</div>
-          <div class="quick-chip" onclick="quickSearch('penelitian mahasiswa')">👨‍🎓 Penelitian Mhs</div>
+           <!-- ========== DATA KUNCI LKPS ========== --><div class="quick-chip" onclick="quickSearch('penelitian mahasiswa')">👨‍🎓 Penelitian Mhs</div>
           <!-- C.2 & Lintas -->
           <div class="quick-chip" onclick="quickSearch('kerja sama')">🤝 Kerja Sama</div>
           <div class="quick-chip" onclick="quickSearch('produk diadopsi')">📦 Produk Diadopsi</div>
