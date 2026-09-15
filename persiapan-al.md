@@ -94,30 +94,30 @@ permalink: /persiapan-al/
     top: -9px;
   }
 
-  /* MODE AL - Folder Merah Menyala (menonjol) */
+  /* MODE AL - Folder Biru Menyala (menonjol dengan tema) */
   .folder-tab.mode-al {
-    background: linear-gradient(135deg, #c62828 0%, #e53935 100%);
+    background: linear-gradient(135deg, #0d47a1 0%, #1565c0 100%);
     color: #fff;
-    border-color: #c62828;
-    box-shadow: 0 -4px 16px rgba(198, 40, 40, 0.3);
+    border-color: #0d47a1;
+    box-shadow: 0 -4px 16px rgba(13, 71, 161, 0.3);
     animation: pulseMode 2.5s ease-in-out infinite;
   }
   .folder-tab.mode-al::before {
-    background: linear-gradient(135deg, #c62828 0%, #e53935 100%);
-    border-color: #c62828;
+    background: linear-gradient(135deg, #0d47a1 0%, #1565c0 100%);
+    border-color: #0d47a1;
   }
   .folder-tab.mode-al:hover {
-    background: linear-gradient(135deg, #b71c1c 0%, #d32f2f 100%);
+    background: linear-gradient(135deg, #0a3a8a 0%, #0d47a1 100%);
     color: #fff;
   }
   .folder-tab.mode-al.active {
-    background: linear-gradient(135deg, #b71c1c 0%, #c62828 100%);
+    background: linear-gradient(135deg, #0a3a8a 0%, #0d47a1 100%);
     color: #fff;
-    box-shadow: 0 -6px 20px rgba(198, 40, 40, 0.5);
+    box-shadow: 0 -6px 20px rgba(13, 71, 161, 0.5);
   }
   @keyframes pulseMode {
-    0%, 100% { box-shadow: 0 -4px 16px rgba(198, 40, 40, 0.3); }
-    50% { box-shadow: 0 -4px 20px rgba(198, 40, 40, 0.5); }
+    0%, 100% { box-shadow: 0 -4px 16px rgba(13, 71, 161, 0.3); }
+    50% { box-shadow: 0 -4px 20px rgba(13, 71, 161, 0.5); }
   }
 
   /* ===== Content Area ===== */
@@ -134,7 +134,7 @@ permalink: /persiapan-al/
     margin-top: -1px;
   }
   .al-content.mode-al-active {
-    border-top-color: #c62828;
+    border-top-color: #0d47a1;
   }
 
   .al-panel { display: none; animation: fadeIn 0.3s ease; }
@@ -374,9 +374,9 @@ permalink: /persiapan-al/
   .score-btn:hover { border-color: #0d47a1; color: #0d47a1; }
   .score-btn .score-label { font-size: 0.7rem; font-weight: 500; color: #888; display: block; margin-top: 2px; }
 
-  /* ===== Mode AL ===== */
+  /* ===== Mode AL - TEMA BIRU ===== */
   .mode-al-container {
-    background: linear-gradient(135deg, #b71c1c 0%, #c62828 50%, #d32f2f 100%);
+    background: linear-gradient(135deg, #0a3a8a 0%, #0d47a1 50%, #1565c0 100%);
     color: white;
     padding: 32px;
     border-radius: 12px;
@@ -420,7 +420,7 @@ permalink: /persiapan-al/
     transition: all 0.2s;
   }
   .kriteria-chip:hover { background: rgba(255,255,255,0.25); }
-  .kriteria-chip.active { background: white; color: #c62828; border-color: white; }
+  .kriteria-chip.active { background: white; color: #0d47a1; border-color: white; }
 
   .evidence-grid {
     display: grid;
@@ -455,25 +455,31 @@ permalink: /persiapan-al/
     display: none;
   }
   .search-result.active { display: block; animation: fadeIn 0.3s ease; }
-  .search-result h3 { color: #c62828; margin: 0 0 12px 0; font-size: 1rem; }
+  .search-result h3 { color: #0d47a1; margin: 0 0 12px 0; font-size: 1rem; }
   .search-result .result-section {
     background: #f8fafc;
     border-radius: 8px;
     padding: 12px 14px;
     margin-bottom: 8px;
-    border-left: 4px solid #c62828;
+    border-left: 4px solid #0d47a1;
   }
   .search-result .result-section .section-title {
     font-size: 0.72rem;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
-    color: #c62828;
+    color: #0d47a1;
     margin-bottom: 4px;
   }
   .search-result .result-section .section-content { font-size: 0.88rem; color: #333; }
   .search-result .result-section ul { margin: 4px 0 0 0; padding-left: 18px; }
   .search-result .result-section ul li { font-size: 0.85rem; padding: 2px 0; }
+  .search-result .result-section.followup {
+    border-left-color: #ff9800;
+  }
+  .search-result .result-section.followup .section-title {
+    color: #e65100;
+  }
 
   /* ===== Responsive ===== */
   @media (max-width: 767px) {
@@ -897,7 +903,6 @@ function searchModeAL() {
     return;
   }
   
-  // Cari di dataModeAL
   let found = null;
   for (const key in dataModeAL) {
     if (key.includes(query) || dataModeAL[key].title.toLowerCase().includes(query)) {
@@ -927,7 +932,7 @@ function searchModeAL() {
   }
   
   if (found.followup && found.followup.length > 0) {
-    html += '<div class="result-section" style="border-left-color:#ff9800;"><div class="section-title" style="color:#e65100;">FOLLOW-UP</div><ul>';
+    html += '<div class="result-section followup"><div class="section-title">FOLLOW-UP</div><ul>';
     found.followup.forEach(f => { html += '<li>→ ' + f + '</li>'; });
     html += '</ul></div>';
   }
