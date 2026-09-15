@@ -16,7 +16,7 @@ permalink: /persiapan-al/
     border-bottom: none;
   }
 
-  /* ===== Folder Shelf - 4 Folder ===== */
+  /* ===== Folder Shelf - 3 Folder ===== */
   .folder-shelf {
     display: flex;
     flex-wrap: nowrap;
@@ -152,82 +152,6 @@ permalink: /persiapan-al/
   .al-panel { display: none; animation: fadeIn 0.3s ease; }
   .al-panel.active { display: block; }
   @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
-
-  /* ===== Dashboard ===== */
-  .dash-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 20px;
-    background: linear-gradient(135deg, #0d47a1 0%, #1565c0 100%);
-    color: white;
-    border-radius: 10px;
-    margin-bottom: 20px;
-  }
-  .dash-header h2 { margin: 0; font-size: 1.2rem; }
-  .dash-header .h-badge {
-    background: #ff6f00;
-    padding: 8px 16px;
-    border-radius: 20px;
-    font-weight: 700;
-    font-size: 1rem;
-  }
-  .overall-box {
-    background: #f8fafc;
-    border: 2px solid #e0e0e0;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  .overall-box .label { font-size: 0.85rem; color: #666; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; }
-  .overall-box .big-percent { font-size: 3rem; font-weight: 800; color: #0d47a1; margin: 8px 0; }
-  .overall-box .bar { height: 14px; background: #e0e0e0; border-radius: 7px; overflow: hidden; margin-top: 8px; }
-  .overall-box .bar-fill { height: 100%; background: linear-gradient(to right, #4caf50, #81c784); border-radius: 7px; }
-
-  .kriteria-row {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 10px 0;
-    border-bottom: 1px solid #f0f0f0;
-  }
-  .kriteria-row .k-label { width: 40px; font-weight: 700; color: #0d47a1; font-size: 0.9rem; }
-  .kriteria-row .k-bar { flex: 1; height: 12px; background: #e0e0e0; border-radius: 6px; overflow: hidden; }
-  .kriteria-row .k-bar-fill { height: 100%; border-radius: 6px; transition: width 0.6s; }
-  .kriteria-row .k-bar-fill.siap { background: linear-gradient(to right, #4caf50, #81c784); }
-  .kriteria-row .k-bar-fill.perlu { background: linear-gradient(to right, #ff9800, #ffb74d); }
-  .kriteria-row .k-percent { width: 45px; font-weight: 700; text-align: right; color: #333; }
-  .kriteria-row .k-status { width: 140px; text-align: center; font-size: 0.72rem; font-weight: 700; padding: 4px 10px; border-radius: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
-  .k-status.siap { background: #e8f5e9; color: #2e7d32; }
-  .k-status.perlu { background: #fff3e0; color: #e65100; }
-
-  .priority-box {
-    background: #fff8e1;
-    border-left: 4px solid #ff9800;
-    padding: 16px 20px;
-    border-radius: 8px;
-    margin-top: 20px;
-  }
-  .priority-box h4 { margin: 0 0 10px 0; color: #e65100; font-size: 0.95rem; }
-  .priority-box .item { padding: 4px 0; font-size: 0.9rem; color: #555; }
-
-  .info-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 16px;
-    margin-top: 20px;
-  }
-  .info-card {
-    background: #f8fafc;
-    border: 1px solid #e0e0e0;
-    border-radius: 10px;
-    padding: 16px;
-    border-left: 4px solid #0d47a1;
-  }
-  .info-card .label { font-size: 0.78rem; color: #666; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
-  .info-card .value { font-size: 1.5rem; font-weight: 700; color: #0d47a1; margin-top: 4px; }
-  .info-card .sub { font-size: 0.85rem; color: #666; margin-top: 4px; }
 
   /* ===== Kesiapan Kriteria ===== */
   .sub-nav { display: flex; gap: 4px; margin-bottom: 20px; border-bottom: 2px solid #e0e0e0; flex-wrap: wrap; }
@@ -494,21 +418,16 @@ permalink: /persiapan-al/
     .folder-shelf::-webkit-scrollbar { display: none; }
     .folder-tab { min-width: 110px; flex: 0 0 auto; font-size: 0.8rem; }
     .al-content { padding: 20px; }
-    .info-cards { grid-template-columns: 1fr; }
-    .kriteria-row { flex-wrap: wrap; }
-    .kriteria-row .k-status { width: auto; margin-top: 4px; }
     .score-grid { grid-template-columns: repeat(5, 1fr); }
     .score-btn .score-label { display: none; }
     .mode-al-container { padding: 20px; margin: -20px; }
-    .dash-header { flex-direction: column; gap: 10px; text-align: center; }
   }
 </style>
 
-<!-- ===== KABINET FOLDER NAV ===== -->
+<!-- ===== KABINET FOLDER NAV - 3 FOLDER ===== -->
 <div class="cabinet-container">
   <div class="folder-shelf">
-    <div class="folder-tab active" onclick="showPanel('dashboard', this)">📊<br>DASHBOARD</div>
-    <div class="folder-tab" onclick="showPanel('kesiapan', this)">📑<br>KESIAPAN KRITERIA</div>
+    <div class="folder-tab active" onclick="showPanel('kesiapan', this)">📑<br>KESIAPAN KRITERIA</div>
     <div class="folder-tab" onclick="showPanel('simulasi', this)">🎯<br>SIMULASI AL</div>
     <div class="folder-tab mode-al" onclick="showPanel('modeal', this)">🚀<br>MODE AL</div>
   </div>
@@ -516,50 +435,8 @@ permalink: /persiapan-al/
   <!-- ===== AREA KONTEN ===== -->
   <div class="al-content" id="alContent">
 
-    <!-- ========== DASHBOARD ========== -->
-    <div class="al-panel active" id="panel-dashboard">
-      <div class="dash-header">
-        <h2>PERSIAPAN AL PSBM</h2>
-        <div class="h-badge">H-30</div>
-      </div>
-
-      <div class="overall-box">
-        <div class="label">Kesiapan Keseluruhan</div>
-        <div class="big-percent">86%</div>
-        <div class="bar"><div class="bar-fill" style="width: 86%;"></div></div>
-      </div>
-
-      <div class="kriteria-row"><div class="k-label">C.1</div><div class="k-bar"><div class="k-bar-fill siap" style="width:95%;"></div></div><div class="k-percent">95%</div><div class="k-status siap">SIAP</div></div>
-      <div class="kriteria-row"><div class="k-label">C.2</div><div class="k-bar"><div class="k-bar-fill siap" style="width:91%;"></div></div><div class="k-percent">91%</div><div class="k-status siap">SIAP</div></div>
-      <div class="kriteria-row"><div class="k-label">C.3</div><div class="k-bar"><div class="k-bar-fill perlu" style="width:84%;"></div></div><div class="k-percent">84%</div><div class="k-status perlu">PERLU PERBAIKAN</div></div>
-      <div class="kriteria-row"><div class="k-label">C.4</div><div class="k-bar"><div class="k-bar-fill siap" style="width:96%;"></div></div><div class="k-percent">96%</div><div class="k-status siap">SIAP</div></div>
-      <div class="kriteria-row"><div class="k-label">C.5</div><div class="k-bar"><div class="k-bar-fill siap" style="width:92%;"></div></div><div class="k-percent">92%</div><div class="k-status siap">SIAP</div></div>
-      <div class="kriteria-row"><div class="k-label">C.6</div><div class="k-bar"><div class="k-bar-fill perlu" style="width:85%;"></div></div><div class="k-percent">85%</div><div class="k-status perlu">PERLU PERBAIKAN</div></div>
-      <div class="kriteria-row"><div class="k-label">C.7</div><div class="k-bar"><div class="k-bar-fill perlu" style="width:83%;"></div></div><div class="k-percent">83%</div><div class="k-status perlu">PERLU PERBAIKAN</div></div>
-
-      <div class="priority-box">
-        <h4>⚠️ PRIORITAS</h4>
-        <div class="item">🔴 <strong>2 bukti kritis</strong> belum siap</div>
-        <div class="item">🟠 <strong>3 jawaban</strong> belum tervalidasi</div>
-        <div class="item">🟡 <strong>4 PIC</strong> perlu latihan</div>
-      </div>
-
-      <div class="info-cards">
-        <div class="info-card">
-          <div class="label">Mock AL Terakhir</div>
-          <div class="value">3.2 / 4</div>
-          <div class="sub">Skor rata-rata tim</div>
-        </div>
-        <div class="info-card">
-          <div class="label">Target Terdekat</div>
-          <div class="value">H-14</div>
-          <div class="sub">Mock AL II</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ========== KESIAPAN KRITERIA ========== -->
-    <div class="al-panel" id="panel-kesiapan">
+    <!-- ========== KESIAPAN KRITERIA (DEFAULT AKTIF) ========== -->
+    <div class="al-panel active" id="panel-kesiapan">
       <h2 style="color:#0d47a1; margin-top:0;">Kesiapan Kriteria</h2>
       <div class="sub-nav" id="kesiapanSubNav">
         <button class="active" onclick="showKesiapan('c1', this)">C.1</button>
@@ -944,4 +821,9 @@ function searchModeAL() {
   resultDiv.innerHTML = html;
   resultDiv.classList.add('active');
 }
+
+// ===== INIT: Langsung tampilkan Kesiapan Kriteria C.1 =====
+document.addEventListener('DOMContentLoaded', function() {
+  showKesiapan('c1', document.querySelector('#kesiapanSubNav button'));
+});
 </script>
