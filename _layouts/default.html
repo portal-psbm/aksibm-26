@@ -1,179 +1,139 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title | default: site.title }}</title>
-  
-  <!-- Favicon -->
-  <link rel="icon" type="image/ico" href="/aksibm-26/assets/images/favicon.ico">
-  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }} — Akreditasi PSBM 2026</title>
   <style>
-    :root {
-      --primary: #0d47a1;
-      --primary-light: #1976d2;
-      --primary-dark: #0a3a8c;
-      --text: #212121;
-      --bg: #ffffff;
-      --light-bg: #f8fafc;
-      --transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f5f7fa;
+      color: #333;
       line-height: 1.6;
-      background-color: var(--light-bg);
-      color: var(--text);
     }
-
-    /* 🎨 Navbar */
-    nav {
-      background: var(--primary);
-      padding: 0;
-      box-shadow: 0 2px 15px rgba(0,0,0,0.15);
+    .site-header {
+      background: linear-gradient(135deg, #0d47a1 0%, #1565c0 100%);
+      color: white;
+      padding: 16px 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
       position: sticky;
       top: 0;
-      z-index: 1000;
+      z-index: 100;
     }
-
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .site-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: white;
+      text-decoration: none;
+    }
+    .site-logo .logo-icon { font-size: 1.6rem; }
+    .site-logo .logo-text h1 { font-size: 1rem; font-weight: 700; margin: 0; }
+    .site-logo .logo-text p { font-size: 0.72rem; opacity: 0.85; margin: 0; }
     nav ul {
       list-style: none;
       display: flex;
-      justify-content: center;
-      padding: 0;
-      margin: 0;
+      gap: 4px;
       flex-wrap: wrap;
     }
-
-    nav li {
-      margin: 0;
-    }
-
-    nav a {
-      color: white;
+    nav ul li a {
+      color: rgba(255,255,255,0.9);
       text-decoration: none;
-      padding: 16px 20px;
-      display: block;
-      font-weight: 500;
-      font-size: 1.02rem;
-      position: relative;
-      z-index: 2;
-      transition: var(--transition);
-      white-space: nowrap;
-    }
-
-    /* 🔸 Hover effect */
-    nav a:hover {
-      background: var(--primary-light);
-      transform: translateY(-2px);
-      box-shadow: 0 6px 12px rgba(0,0,0,0.25);
-    }
-
-    /* 🔹 Menu aktif: berbeda dari yang lain */
-    nav a.active {
-      background: #ffffff;
-      color: var(--primary);
-      font-weight: 700;
-      box-shadow: 0 4px 10px rgba(13, 71, 161, 0.3);
-      transform: translateY(-2px);
-    }
-
-    /* 📱 Responsif */
-    @media (max-width: 768px) {
-      nav a {
-        padding: 14px 16px;
-        font-size: 0.95rem;
-      }
-      nav ul {
-        padding: 8px 12px;
-        justify-content: flex-start;
-      }
-    }
-
-    /* 🖼️ Konten Utama */
-    .container {
-      max-width: 920px;
-      margin: 36px auto;
-      padding: 0 24px;
-      background: var(--bg);
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-      border-radius: 12px;
-      padding: 32px;
-      opacity: 0;
-      animation: fadeIn 0.8s 0.2s forwards;
-    }
-
-    @keyframes fadeIn {
-      to { opacity: 1; }
-    }
-
-    h1 {
-      color: var(--primary);
-      margin-bottom: 20px;
-      font-size: 2rem;
-    }
-
-    /* Tabel umum */
-    table {
-      width: 100%;
-      border-collapse: separate;
-      border-spacing: 0;
-      margin: 16px 0;
-    }
-    th, td {
-      padding: 12px 10px;
-      text-align: left;
-      border-bottom: 1px solid #e0e0e0;
-    }
-    th {
-      background: #f1f5f9;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 0.82rem;
       font-weight: 600;
-      color: var(--primary);
-      border-top: 2px solid var(--primary);
+      transition: all 0.2s;
+      display: inline-block;
     }
-    tr:last-child td {
-      border-bottom: 2px solid var(--primary);
+    nav ul li a:hover {
+      background: rgba(255,255,255,0.15);
+      color: white;
     }
-
-    /* Footer */
-    footer {
+    nav ul li a.active {
+      background: white;
+      color: #0d47a1;
+    }
+    nav ul li a.highlight {
+      background: rgba(230, 81, 0, 0.3);
+      border: 1px solid rgba(255, 183, 77, 0.6);
+      color: #fff;
+    }
+    nav ul li a.highlight:hover {
+      background: rgba(230, 81, 0, 0.5);
+    }
+    nav ul li a.highlight.active {
+      background: #e65100;
+      color: white;
+      border-color: #e65100;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 24px auto;
+      padding: 0 20px;
+    }
+    .site-footer {
+      background: #1a2942;
+      color: rgba(255,255,255,0.8);
+      padding: 20px;
       text-align: center;
-      padding: 28px 0 20px;
-      color: #555;
-      font-size: 0.95rem;
-      margin-top: 24px;
+      margin-top: 40px;
+      font-size: 0.82rem;
+    }
+    .site-footer p { margin: 4px 0; }
+    @media (max-width: 768px) {
+      .header-inner { flex-direction: column; align-items: flex-start; }
+      nav ul { width: 100%; }
+      nav ul li a { font-size: 0.78rem; padding: 6px 10px; }
     }
   </style>
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="/aksibm-26/" {% if page.url == "/index.html" or page.url == "/" %}class="active"{% endif %}>Beranda</a></li>
-      <li><a href="/aksibm-26/timeline/" {% if page.url == "/timeline/" %}class="active"{% endif %}>Timeline</a></li>
-      <li><a href="/aksibm-26/tim/" {% if page.url == "/tim/" %}class="active"{% endif %}>Tim</a></li>
-      <li><a href="/aksibm-26/progress/" {% if page.url == "/progress/" %}class="active"{% endif %}>Progress</a></li>
-      <li><a href="/aksibm-26/lkps/" {% if page.url == "/lkps/" %}class="active"{% endif %}>LKPS</a></li>
-      <li><a href="/aksibm-26/led/" {% if page.url == "/led/" %}class="active"{% endif %}>LED</a></li>
-      <li><a href="/aksibm-26/bukti/" {% if page.url == "/bukti/" %}class="active"{% endif %}>Bukti</a></li>
-      <li><a href="/aksibm-26/pedoman/" {% if page.url == "/pedoman/" %}class="active"{% endif %}>Pedoman</a></li>
-       <li><a href="/aksibm-26/evidence-al/" {% if page.url == "/evidence-al/" %}class="active highlight"{% else %}class="highlight"{% endif %}>📂 Evidence AL</a></li>
-      <li><a href="/aksibm-26/persiapan-al/" {% if page.url == "/persiapan-al/" %}class="active"{% endif %}>Persiapan AL</a></li>
-    </ul>
-  </nav>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/aksibm-26/" class="site-logo">
+        <span class="logo-icon">🎯</span>
+        <div class="logo-text">
+          <h1>Akreditasi PSBM 2026</h1>
+          <p>LAM Teknik • Politeknik Negeri Jakarta</p>
+        </div>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="/aksibm-26/" {% if page.url == "/" %}class="active"{% endif %}>🏠 Beranda</a></li>
+          <li><a href="/aksibm-26/timeline/" {% if page.url == "/timeline/" %}class="active"{% endif %}>📅 Timeline</a></li>
+          <li><a href="/aksibm-26/tim/" {% if page.url == "/tim/" %}class="active"{% endif %}>👥 Tim</a></li>
+          <li><a href="/aksibm-26/progress/" {% if page.url == "/progress/" %}class="active"{% endif %}>📊 Progress</a></li>
+          <li><a href="/aksibm-26/persiapan-al/" {% if page.url == "/persiapan-al/" %}class="active"{% endif %}>🎯 Persiapan AL</a></li>
+          <li><a href="/aksibm-26/evidence-al/" {% if page.url == "/evidence-al/" %}class="active highlight"{% else %}class="highlight"{% endif %}>📂 Evidence AL</a></li>
+          <li><a href="/aksibm-26/lkps/" {% if page.url == "/lkps/" %}class="active"{% endif %}>📊 LKPS</a></li>
+          <li><a href="/aksibm-26/led/" {% if page.url == "/led/" %}class="active"{% endif %}>📄 LED</a></li>
+          <li><a href="/aksibm-26/bukti/" {% if page.url == "/bukti/" %}class="active"{% endif %}>📁 Bukti</a></li>
+          <li><a href="/aksibm-26/pedoman/" {% if page.url == "/pedoman/" %}class="active"{% endif %}>📖 Pedoman</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
   <div class="container">
     {{ content }}
   </div>
 
-  <footer>
-    &copy; {{ 'now' | date: "%Y" }} Program Studi S1 Terapan Broadband Multimedia<br>
-    Pendaftaran Akreditasi: September 2026 | Predikat: Unggul
+  <footer class="site-footer">
+    <p>© {{ 'now' | date: "%Y" }} Program Studi Sarjana Terapan Broadband Multimedia — Politeknik Negeri Jakarta</p>
+    <p>Pendaftaran Akreditasi: September 2026 | Predikat Target: Unggul</p>
   </footer>
+
 </body>
 </html>
