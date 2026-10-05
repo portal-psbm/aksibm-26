@@ -6,7 +6,7 @@ permalink: /lkps/
 
 # 📋 Laporan Kinerja Program Studi (LKPS)
 
-> 🔗 [LKPS (uploaded)](https://docs.google.com/spreadsheets/d/1vS3kctRbtq2ze-NpJriezcRrmUMynC1T/edit?usp=drive_link&ouid=104338691997360962714&rtpof=true&sd=true) <br><br>
+> 🔗 [LKPS (uploaded)](https://docs.google.com/spreadsheets/d/1vS3kctRbtq2ze-NpJriezcRrmUMynC1T/edit?gid=774945756#gid=774945756) <br><br>
 
 - **Timeline**: September 2026
 - **Koordinator**: VF
