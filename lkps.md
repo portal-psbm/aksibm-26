@@ -6,10 +6,10 @@ permalink: /lkps/
 
 # 📋 Laporan Kinerja Program Studi (LKPS)
 
-> 🔗 [Pengisian LKPS (Google Sheet)](https://docs.google.com/spreadsheets/d/1jaMpl96auQ_Zlr0nc8ymsO7PrmH2bcWZpZpsMbXVyfM/edit?usp=drive_link) <br><br>
+> 🔗 [LKPS (uploaded)](https://docs.google.com/spreadsheets/d/1vS3kctRbtq2ze-NpJriezcRrmUMynC1T/edit?usp=drive_link&ouid=104338691997360962714&rtpof=true&sd=true) <br><br>
 
-- **Timeline**: Mei-Juni 2026
+- **Timeline**: September 2026
 - **Koordinator**: VF
-- **Status**: On progress <br><br>
+- **Status**: Done <br><br>
 
 > LKPS akan berisi data kuantitatif tentang mahasiswa, dosen, sarana, penelitian, kerja sama, dan lain-lain.
