@@ -143,13 +143,13 @@ permalink: /evidence-al/
         <h2>📂 Evidence AL PSBM</h2>
         <div class="subtitle">Portal Bukti Pendukung Asesmen Lapangan — Akses 1–2 klik</div>
         <div class="ev-search-wrap">
-          <input type="text" class="ev-search" id="evSearch" placeholder="🔎 Cari: CPL, RPS, tracer, AMI, kerja sama, VMTS..." onkeypress="if(event.key==='Enter') searchEv()">
-          <button class="ev-btn search" onclick="searchEv()"> Cari</button>
-          <button class="ev-btn clear" onclick="clearEvSearch()"> Clear</button>
+          <input type="text" class="ev-search" id="evSearch" placeholder=" Cari: CPL, RPS, tracer, AMI, kerja sama, VMTS..." onkeypress="if(event.key==='Enter') searchEv()">
+          <button class="ev-btn search" onclick="searchEv()">🔍 Cari</button>
+          <button class="ev-btn clear" onclick="clearEvSearch()">✖ Clear</button>
         </div>
         <div class="ev-chips">
           <div class="ev-chip" onclick="goToPanel('c1')">📑 C.1</div>
-          <div class="ev-chip" onclick="goToPanel('c2')">🏛️ C.2</div>
+          <div class="ev-chip" onclick="goToPanel('c2')">️ C.2</div>
           <div class="ev-chip" onclick="goToPanel('c3')">📘 C.3</div>
           <div class="ev-chip" onclick="goToPanel('c4')">👨‍ C.4</div>
           <div class="ev-chip" onclick="goToPanel('c5')">💰 C.5</div>
@@ -195,7 +195,7 @@ permalink: /evidence-al/
               <div class="bc-desc">Rencana Pembelajaran</div>
             </div>
             <div class="bukti-card" onclick="quickEvSearch('Tracer Study')">
-              <div class="bc-icon"></div>
+              <div class="bc-icon">📈</div>
               <div class="bc-name">Tracer Study</div>
               <div class="bc-desc">Laporan lulusan</div>
             </div>
@@ -215,7 +215,7 @@ permalink: /evidence-al/
               <div class="bc-desc">Profil dosen</div>
             </div>
             <div class="bukti-card" onclick="quickEvSearch('AMI')">
-              <div class="bc-icon">🔍</div>
+              <div class="bc-icon"></div>
               <div class="bc-name">AMI – RTM – RTL</div>
               <div class="bc-desc">Audit & monitoring</div>
             </div>
@@ -258,110 +258,95 @@ permalink: /evidence-al/
 </div>
 
 <script>
-// ===== DATA EVIDENCE LENGKAP DENGAN URL =====
+// ===== DATA EVIDENCE LENGKAP =====
 const dataEvidence = [
-  // C.1 VMTS (11 evidence)
-  { id:'E001', nama:'SK VMTS PT', k:'c1', ind:'Kekhasan VMTS', jenis:'SK', tahun:'2020', ket:'SK VMTS tingkat Politeknik Negeri Jakarta', sumber:'LED C.1', prio:'UTAMA', icon:'📜', url:'https://drive.google.com/file/d/CONTOH_ID_FILE/view?usp=sharing' },
-  { id:'E002', nama:'SK VMTS UPPS (JTE)', k:'c1', ind:'Kekhasan VMTS', jenis:'SK', tahun:'2020', ket:'SK VMTS tingkat Jurusan/UPPS', sumber:'LED C.1', prio:'UTAMA', icon:'📜', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_2/view?usp=sharing' },
-  { id:'E003', nama:'Dokumen Visi Keilmuan PSBM', k:'c1', ind:'Kekhasan VMTS', jenis:'Dokumen', tahun:'2020', ket:'Visi keilmuan Broadband Multimedia', sumber:'LED C.1', prio:'UTAMA', icon:'📘', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_3/view?usp=sharing' },
-  { id:'E004', nama:'Matriks Sinkronisasi VMTS', k:'c1', ind:'Kekhasan VMTS', jenis:'Matriks', tahun:'2024', ket:'Linearitas visi PT → JTE → PSBM', sumber:'LED C.1', prio:'UTAMA', icon:'📊', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_4/view?usp=sharing' },
-  { id:'E005', nama:'SK Tim Penyusun VMTS', k:'c1', ind:'Mekanisme Penyusunan', jenis:'SK', tahun:'2020', ket:'SK tim penyusun VMTS dan visi keilmuan', sumber:'LED C.1', prio:'UTAMA', icon:'📜', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_5/view?usp=sharing' },
-  { id:'E006', nama:'Undangan & Daftar Hadir FGD VMTS', k:'c1', ind:'Mekanisme Penyusunan', jenis:'Dokumentasi', tahun:'2020-2024', ket:'Bukti keterlibatan stakeholder', sumber:'LED C.1', prio:'UTAMA', icon:'📋', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E007', nama:'Notulensi & BA FGD VMTS', k:'c1', ind:'Mekanisme Penyusunan', jenis:'BA', tahun:'2020-2024', ket:'Masukan alumni, pengguna, pakar', sumber:'LED C.1', prio:'UTAMA', icon:'📝', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E008', nama:'Buku Saku VMTS', k:'c1', ind:'Sosialisasi VMTS', jenis:'Publikasi', tahun:'2024', ket:'Media sosialisasi VMTS ke stakeholder', sumber:'LED C.1', prio:'UTAMA', icon:'📗', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_8/view?usp=sharing' },
-  { id:'E009', nama:'Laporan Survei Pemahaman VMTS', k:'c1', ind:'Pemahaman Stakeholder', jenis:'Laporan', tahun:'2024', ket:'Hasil survei pemahaman stakeholder (85%)', sumber:'LED C.1 / LKPS 1', prio:'UTAMA', icon:'', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_9/view?usp=sharing' },
-  { id:'E010', nama:'Renstra & Renop JTE', k:'c1', ind:'Pencapaian VMTS', jenis:'Dokumen', tahun:'2020-2025', ket:'Target dan capaian VMTS', sumber:'LED C.1', prio:'UTAMA', icon:'📘', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E011', nama:'Laporan Capaian VMTS', k:'c1', ind:'Pencapaian VMTS', jenis:'Laporan', tahun:'2024', ket:'Realisasi vs target VMTS', sumber:'LED C.1', prio:'UTAMA', icon:'', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_11/view?usp=sharing' },
-
-  // C.2 Tata Kelola (11 evidence)
-  { id:'E012', nama:'Statuta PNJ', k:'c2', ind:'Tata Pamong', jenis:'Regulasi', tahun:'2021', ket:'Statuta Politeknik Negeri Jakarta', sumber:'LED C.2', prio:'UTAMA', icon:'📜', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_12/view?usp=sharing' },
-  { id:'E013', nama:'SK OTK JTE', k:'c2', ind:'Tata Pamong', jenis:'SK', tahun:'2022', ket:'Organisasi dan Tata Kerja JTE', sumber:'LED C.2', prio:'UTAMA', icon:'', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_13/view?usp=sharing' },
-  { id:'E014', nama:'SK Pengangkatan Pimpinan JTE', k:'c2', ind:'Tata Pamong', jenis:'SK', tahun:'2022', ket:'SK Kajur, Kaprodi', sumber:'LED C.2', prio:'UTAMA', icon:'📜', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_14/view?usp=sharing' },
-  { id:'E015', nama:'SOP Tata Kelola JTE', k:'c2', ind:'Tata Pamong', jenis:'SOP', tahun:'2023', ket:'SOP pengelolaan JTE', sumber:'LED C.2', prio:'UTAMA', icon:'📋', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E016', nama:'RKAT JTE 2024', k:'c2', ind:'Pengelolaan', jenis:'Dokumen', tahun:'2024', ket:'Rencana Kerja dan Anggaran', sumber:'LED C.2', prio:'UTAMA', icon:'📊', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_16/view?usp=sharing' },
-  { id:'E017', nama:'Laporan Realisasi Anggaran', k:'c2', ind:'Pengelolaan', jenis:'Laporan', tahun:'2022-2024', ket:'Realisasi anggaran 3 tahun', sumber:'LED C.2 / LKPS 2.b', prio:'UTAMA', icon:'', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E018', nama:'Daftar MoU Aktif (66)', k:'c2', ind:'Kerja Sama', jenis:'Daftar', tahun:'2024', ket:'66 MoU tridharma aktif', sumber:'LED C.2 / LKPS 2.a', prio:'UTAMA', icon:'', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_18/view?usp=sharing' },
-  { id:'E019', nama:'IA Kerja Sama Pendidikan (42)', k:'c2', ind:'Kerja Sama', jenis:'Laporan', tahun:'2022-2024', ket:'Implementasi 42 kerja sama pendidikan', sumber:'LED C.2', prio:'UTAMA', icon:'📋', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E020', nama:'IA Kerja Sama Penelitian (17)', k:'c2', ind:'Kerja Sama', jenis:'Laporan', tahun:'2022-2024', ket:'Implementasi 17 kerja sama penelitian', sumber:'LED C.2', prio:'UTAMA', icon:'', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E021', nama:'IA Kerja Sama PkM (7)', k:'c2', ind:'Kerja Sama', jenis:'Laporan', tahun:'2022-2024', ket:'Implementasi 7 kerja sama PkM', sumber:'LED C.2', prio:'UTAMA', icon:'📋', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E022', nama:'Laporan Survei Kepuasan Mitra', k:'c2', ind:'Evaluasi Kerja Sama', jenis:'Laporan', tahun:'2024', ket:'Hasil survei kepuasan mitra', sumber:'LED C.2', prio:'UTAMA', icon:'⭐', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_22/view?usp=sharing' },
-
-  // C.3 Diklitpmas (22 evidence)
-  { id:'E023', nama:'NADK PSBM 2020', k:'c3', ind:'Kurikulum', jenis:'Dokumen', tahun:'2020', ket:'Naskah Akademik Pengembangan Kurikulum', sumber:'LED C.3', prio:'UTAMA', icon:'📘', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_23/view?usp=sharing' },
-  { id:'E024', nama:'Dokumen Kurikulum PSBM', k:'c3', ind:'Kurikulum', jenis:'Dokumen', tahun:'2024', ket:'Struktur kurikulum 150 SKS, 53 MK', sumber:'LED C.3 / LKPS 3.a.1', prio:'UTAMA', icon:'📘', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_24/view?usp=sharing' },
-  { id:'E025', nama:'BA Evaluasi Kurikulum', k:'c3', ind:'Pemutakhiran Kurikulum', jenis:'BA', tahun:'2020-2024', ket:'Berita Acara evaluasi 2020, 2021, 2024', sumber:'LED C.3', prio:'UTAMA', icon:'📝', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E026', nama:'Profil Lulusan PSBM', k:'c3', ind:'Profil Lulusan', jenis:'Dokumen', tahun:'2020', ket:'6 profil lulusan PSBM', sumber:'LED C.3', prio:'UTAMA', icon:'🎓', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_26/view?usp=sharing' },
-  { id:'E027', nama:'Matriks Profil Lulusan–CPL', k:'c3', ind:'CPL', jenis:'Matriks', tahun:'2024', ket:'Penurunan profil lulusan ke CPL', sumber:'LED C.3', prio:'UTAMA', icon:'', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_27/view?usp=sharing' },
-  { id:'E028', nama:'Rumusan 12 CPL PSBM', k:'c3', ind:'CPL', jenis:'Dokumen', tahun:'2020', ket:'Rumusan CPL sesuai 4 standar kompetensi', sumber:'LED C.3', prio:'UTAMA', icon:'', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_28/view?usp=sharing' },
-  { id:'E029', nama:'Matriks CPL–MK', k:'c3', ind:'CPL', jenis:'Matriks', tahun:'2024', ket:'Pemetaan CPL ke mata kuliah', sumber:'LED C.3', prio:'UTAMA', icon:'📊', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_29/view?usp=sharing' },
-  { id:'E030', nama:'Matriks CPL–CPMK', k:'c3', ind:'CPL', jenis:'Matriks', tahun:'2024', ket:'Pemetaan CPL ke CPMK', sumber:'LED C.3', prio:'UTAMA', icon:'📊', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_30/view?usp=sharing' },
-  { id:'E031', nama:'Rekap Ketercapaian CPL', k:'c3', ind:'Pengukuran CPL', jenis:'Rekap', tahun:'2022-2024', ket:'Hasil pengukuran ketercapaian CPL', sumber:'LED C.3 / LKPS 3.a.1', prio:'UTAMA', icon:'📈', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_31/view?usp=sharing' },
-  { id:'E032', nama:'BA Evaluasi CPL', k:'c3', ind:'Pengukuran CPL', jenis:'BA', tahun:'2024', ket:'Berita Acara evaluasi CPL', sumber:'LED C.3', prio:'UTAMA', icon:'📝', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_32/view?usp=sharing' },
-  { id:'E033', nama:'Rencana Tindak Lanjut CPL', k:'c3', ind:'Pengukuran CPL', jenis:'Dokumen', tahun:'2024', ket:'RTL closed-loop CPL', sumber:'LED C.3', prio:'UTAMA', icon:'📋', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_33/view?usp=sharing' },
-  { id:'E034', nama:'Repository RPS (53 MK)', k:'c3', ind:'RPS', jenis:'Repository', tahun:'2024', ket:'Kumpulan RPS 53 MK', sumber:'LED C.3 / LKPS 3.a.2', prio:'UTAMA', icon:'📁', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E035', nama:'BA Tinjauan RPS', k:'c3', ind:'RPS', jenis:'BA', tahun:'2024', ket:'Berita Acara tinjauan RPS', sumber:'LED C.3', prio:'UTAMA', icon:'📝', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_35/view?usp=sharing' },
-  { id:'E036', nama:'Matriks Integrasi Penelitian–MK', k:'c3', ind:'Integrasi Penelitian', jenis:'Matriks', tahun:'2024', ket:'Integrasi penelitian ke MK inti (≥10%)', sumber:'LED C.3 / LKPS 3.a.3', prio:'UTAMA', icon:'📊', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_36/view?usp=sharing' },
-  { id:'E037', nama:'Matriks Integrasi PkM–MK', k:'c3', ind:'Integrasi PkM', jenis:'Matriks', tahun:'2024', ket:'Integrasi PkM ke MK inti', sumber:'LED C.3', prio:'UTAMA', icon:'📊', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_37/view?usp=sharing' },
-  { id:'E038', nama:'Roadmap Penelitian PSBM', k:'c3', ind:'Penelitian', jenis:'Roadmap', tahun:'2020-2025', ket:'Peta jalan penelitian 4 bidang fokus', sumber:'LED C.3', prio:'UTAMA', icon:'🗺️', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_38/view?usp=sharing' },
-  { id:'E039', nama:'Daftar Penelitian DTPS (45 judul)', k:'c3', ind:'Penelitian', jenis:'Daftar', tahun:'2022-2024', ket:'45 penelitian: 14, 13, 18', sumber:'LED C.3 / LKPS 3.b', prio:'UTAMA', icon:'🔬', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_39/view?usp=sharing' },
-  { id:'E040', nama:'Bukti Keterlibatan Mahasiswa dalam Penelitian', k:'c3', ind:'Penelitian-Mahasiswa', jenis:'Dokumentasi', tahun:'2022-2024', ket:'12/45 penelitian melibatkan mhs (26,67%)', sumber:'LED C.3 / LKPS 6.h.1', prio:'UTAMA', icon:'👨‍', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E041', nama:'Roadmap PkM PSBM', k:'c3', ind:'PkM', jenis:'Roadmap', tahun:'2020-2025', ket:'Peta jalan PkM', sumber:'LED C.3', prio:'UTAMA', icon:'🗺️', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_41/view?usp=sharing' },
-  { id:'E042', nama:'Daftar PkM DTPS (14 kegiatan)', k:'c3', ind:'PkM', jenis:'Daftar', tahun:'2022-2024', ket:'14 PkM: 2, 6, 6', sumber:'LED C.3 / LKPS 3.c', prio:'UTAMA', icon:'', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_42/view?usp=sharing' },
-  { id:'E043', nama:'Panduan Capstone Project', k:'c3', ind:'Capstone', jenis:'Panduan', tahun:'2024', ket:'Panduan resmi capstone project', sumber:'LED C.3', prio:'UTAMA', icon:'', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_43/view?usp=sharing' },
-  { id:'E044', nama:'Laporan Capstone Project', k:'c3', ind:'Capstone', jenis:'Laporan', tahun:'2024', ket:'Laporan capstone project mahasiswa', sumber:'LED C.3', prio:'UTAMA', icon:'', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-
-  // C.4 SDM (11 evidence)
-  { id:'E045', nama:'Daftar DTPS PSBM (11 dosen)', k:'c4', ind:'Kecukupan DTPS', jenis:'Daftar', tahun:'2024', ket:'11 DTPS inti PSBM', sumber:'LED C.4 / LKPS 4.a', prio:'UTAMA', icon:'👨‍', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_45/view?usp=sharing' },
-  { id:'E046', nama:'CV DTPS', k:'c4', ind:'Kualifikasi', jenis:'CV', tahun:'2024', ket:'Curriculum Vitae 11 DTPS', sumber:'LED C.4', prio:'UTAMA', icon:'📄', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E047', nama:'Ijazah & Sertifikat DTPS', k:'c4', ind:'Kualifikasi', jenis:'Scan', tahun:'2024', ket:'3 doktor, 4 Lektor Kepala, 6 Lektor', sumber:'LED C.4', prio:'UTAMA', icon:'🎓', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E048', nama:'SK Jabatan Fungsional', k:'c4', ind:'JAFA', jenis:'SK', tahun:'2024', ket:'SK JAFA DTPS', sumber:'LED C.4', prio:'UTAMA', icon:'📜', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E049', nama:'Roadmap Pengembangan SDM', k:'c4', ind:'Pengembangan SDM', jenis:'Roadmap', tahun:'2024-2028', ket:'Rencana studi lanjut & JAFA', sumber:'LED C.4', prio:'UTAMA', icon:'🗺️', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_49/view?usp=sharing' },
-  { id:'E050', nama:'Sertifikat Kompetensi DTPS', k:'c4', ind:'Sertifikasi', jenis:'Sertifikat', tahun:'2024', ket:'Sertifikasi profesi/industri DTPS', sumber:'LED C.4', prio:'UTAMA', icon:'🏅', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E051', nama:'Laporan BKD DTPS', k:'c4', ind:'Beban Kerja', jenis:'Laporan', tahun:'2022-2024', ket:'BKD rata-rata 14,77 SKS', sumber:'LED C.4 / LKPS 4.c', prio:'UTAMA', icon:'📊', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_51/view?usp=sharing' },
-  { id:'E052', nama:'Daftar Publikasi DTPS (220)', k:'c4', ind:'Publikasi', jenis:'Daftar', tahun:'2022-2024', ket:'220 publikasi 3 tahun', sumber:'LED C.4 / LKPS 4.e', prio:'UTAMA', icon:'📚', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_52/view?usp=sharing' },
-  { id:'E053', nama:'Daftar Luaran DTPS (HKI, Produk)', k:'c4', ind:'Luaran DTPS', jenis:'Daftar', tahun:'2022-2024', ket:'Paten, HKI, TTG, produk, buku', sumber:'LED C.4 / LKPS 4.f', prio:'UTAMA', icon:'💡', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_53/view?usp=sharing' },
-  { id:'E054', nama:'Bukti Produk Diadopsi (13)', k:'c4', ind:'Produk Diadopsi', jenis:'Dokumentasi', tahun:'2022-2024', ket:'13 produk/jasa diadopsi masyarakat', sumber:'LED C.4 / LKPS 4.g', prio:'UTAMA', icon:'📦', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E055', nama:'Bukti Rekognisi Kepakaran DTPS', k:'c4', ind:'Rekognisi', jenis:'Dokumentasi', tahun:'2022-2024', ket:'Undangan, SK rekognisi', sumber:'LED C.4 / LKPS 4.j', prio:'UTAMA', icon:'🏆', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-
-  // C.5 Sarpras (8 evidence)
-  { id:'E056', nama:'RKAT Anggaran PSBM', k:'c5', ind:'Pembiayaan', jenis:'Dokumen', tahun:'2022-2024', ket:'Anggaran PSBM 3 tahun', sumber:'LED C.5 / LKPS 2.b', prio:'UTAMA', icon:'💰', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E057', nama:'Inventaris Laboratorium', k:'c5', ind:'Laboratorium', jenis:'Inventaris', tahun:'2024', ket:'Daftar alat lab PSBM', sumber:'LED C.5 / LKPS 5.a', prio:'UTAMA', icon:'🔧', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_57/view?usp=sharing' },
-  { id:'E058', nama:'Logbook Pemeliharaan Alat', k:'c5', ind:'Laboratorium', jenis:'Logbook', tahun:'2024', ket:'Log pemeliharaan alat lab', sumber:'LED C.5', prio:'UTAMA', icon:'📋', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E059', nama:'Daftar Perangkat Lunak', k:'c5', ind:'Perangkat Lunak', jenis:'Daftar', tahun:'2024', ket:'Software pembelajaran', sumber:'LED C.5', prio:'UTAMA', icon:'💻', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_59/view?usp=sharing' },
-  { id:'E060', nama:'Kebijakan K3L JTE', k:'c5', ind:'K3L', jenis:'Kebijakan', tahun:'2023', ket:'Kebijakan K3L resmi', sumber:'LED C.5 / LKPS 5.b', prio:'UTAMA', icon:'⚠️', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_60/view?usp=sharing' },
-  { id:'E061', nama:'SOP K3L Laboratorium', k:'c5', ind:'K3L', jenis:'SOP', tahun:'2024', ket:'SOP K3L lab', sumber:'LED C.5', prio:'UTAMA', icon:'📋', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_61/view?usp=sharing' },
-  { id:'E062', nama:'Inventaris Fasilitas K3L', k:'c5', ind:'K3L', jenis:'Inventaris', tahun:'2024', ket:'APAR, APD, jalur evakuasi', sumber:'LED C.5 / LKPS 5.c', prio:'UTAMA', icon:'🧯', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_62/view?usp=sharing' },
-  { id:'E063', nama:'Laporan Audit K3L', k:'c5', ind:'K3L', jenis:'Laporan', tahun:'2024', ket:'Laporan audit K3L terakhir', sumber:'LED C.5', prio:'UTAMA', icon:'📊', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_63/view?usp=sharing' },
-
-  // C.6 Luaran (10 evidence)
-  { id:'E064', nama:'Data Mahasiswa Aktif (PDDikti)', k:'c6', ind:'Rasio Mhs/DTPS', jenis:'Data', tahun:'2024', ket:'Data mahasiswa aktif TS', sumber:'LED C.6 / LKPS 6.a', prio:'UTAMA', icon:'👨‍🎓', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_64/view?usp=sharing' },
-  { id:'E065', nama:'Sertifikat Prestasi Mahasiswa', k:'c6', ind:'Prestasi', jenis:'Sertifikat', tahun:'2022-2024', ket:'10 prestasi akademik, 9 nonakademik', sumber:'LED C.6 / LKPS 6.c', prio:'UTAMA', icon:'🏆', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E066', nama:'Data Kelulusan & Masa Studi', k:'c6', ind:'Kelulusan', jenis:'Data', tahun:'2022-2024', ket:'Data kelulusan & masa studi', sumber:'LED C.6 / LKPS 6.d', prio:'UTAMA', icon:'📊', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_66/view?usp=sharing' },
-  { id:'E067', nama:'Daftar Publikasi Mahasiswa (126)', k:'c6', ind:'Publikasi Mhs', jenis:'Daftar', tahun:'2022-2024', ket:'126 publikasi/presentasi', sumber:'LED C.6 / LKPS 6.e.2', prio:'UTAMA', icon:'📚', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_67/view?usp=sharing' },
-  { id:'E068', nama:'Sertifikat HKI Mahasiswa', k:'c6', ind:'Luaran Mhs', jenis:'Sertifikat', tahun:'2022-2024', ket:'Paten, HKI, TTG, produk, buku', sumber:'LED C.6 / LKPS 6.e.3', prio:'UTAMA', icon:'', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E069', nama:'Bukti Produk Mahasiswa Diadopsi (16)', k:'c6', ind:'Produk Mhs', jenis:'Dokumentasi', tahun:'2022-2024', ket:'16 produk/jasa diadopsi', sumber:'LED C.6 / LKPS 6.e.4', prio:'UTAMA', icon:'📦', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E070', nama:'Laporan Tracer Study 2024', k:'c6', ind:'Tracer Study', jenis:'Laporan', tahun:'2024', ket:'Laporan tracer study lengkap', sumber:'LED C.6 / LKPS 6.f', prio:'UTAMA', icon:'', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_70/view?usp=sharing' },
-  { id:'E071', nama:'Raw Data Tracer Study', k:'c6', ind:'Tracer Study', jenis:'Data', tahun:'2024', ket:'Data mentah tracer (80 lulusan, 61 terlacak)', sumber:'LED C.6', prio:'UTAMA', icon:'📊', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_71/view?usp=sharing' },
-  { id:'E072', nama:'Laporan Survei Pengguna Lulusan', k:'c6', ind:'Kepuasan Pengguna', jenis:'Laporan', tahun:'2024', ket:'45 responden, 7 aspek kepuasan', sumber:'LED C.6 / LKPS 6.g.2', prio:'UTAMA', icon:'⭐', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_72/view?usp=sharing' },
-  { id:'E073', nama:'BA Tindak Lanjut Tracer', k:'c6', ind:'Tindak Lanjut Tracer', jenis:'BA', tahun:'2024', ket:'BA perbaikan kurikulum berbasis tracer', sumber:'LED C.6', prio:'UTAMA', icon:'📝', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_73/view?usp=sharing' },
-
-  // C.7 SPMI (10 evidence)
-  { id:'E074', nama:'SK GPM JTE', k:'c7', ind:'Unit Penjaminan Mutu', jenis:'SK', tahun:'2023', ket:'SK Gugus Penjaminan Mutu', sumber:'LED C.7 / LKPS 7.a', prio:'UTAMA', icon:'📜', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_74/view?usp=sharing' },
-  { id:'E075', nama:'Dokumen Kebijakan SPMI', k:'c7', ind:'Perangkat SPMI', jenis:'Dokumen', tahun:'2023', ket:'Kebijakan SPMI resmi', sumber:'LED C.7', prio:'UTAMA', icon:'📘', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_75/view?usp=sharing' },
-  { id:'E076', nama:'Manual SPMI (PPEPP)', k:'c7', ind:'Perangkat SPMI', jenis:'Manual', tahun:'2023', ket:'Manual siklus PPEPP', sumber:'LED C.7', prio:'UTAMA', icon:'📗', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_76/view?usp=sharing' },
-  { id:'E077', nama:'Dokumen Standar SPMI', k:'c7', ind:'Perangkat SPMI', jenis:'Dokumen', tahun:'2023', ket:'Standar mutu SPMI', sumber:'LED C.7', prio:'UTAMA', icon:'📘', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E078', nama:'Laporan AMI 2025', k:'c7', ind:'AMI', jenis:'Laporan', tahun:'2025', ket:'Laporan Audit Mutu Internal', sumber:'LED C.7', prio:'UTAMA', icon:'🔍', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_78/view?usp=sharing' },
-  { id:'E079', nama:'SK Auditor AMI', k:'c7', ind:'AMI', jenis:'SK', tahun:'2025', ket:'SK auditor AMI independen', sumber:'LED C.7', prio:'UTAMA', icon:'📜', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_79/view?usp=sharing' },
-  { id:'E080', nama:'Notulensi RTM', k:'c7', ind:'RTM', jenis:'Notulensi', tahun:'2025', ket:'Rapat Tinjauan Manajemen', sumber:'LED C.7', prio:'UTAMA', icon:'📝', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E081', nama:'Dokumen RTL AMI', k:'c7', ind:'RTL', jenis:'Dokumen', tahun:'2025', ket:'Rencana Tindak Lanjut 15 temuan', sumber:'LED C.7', prio:'UTAMA', icon:'', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_81/view?usp=sharing' },
-  { id:'E082', nama:'Laporan Evaluasi Kinerja IKT', k:'c7', ind:'Evaluasi Kinerja', jenis:'Laporan', tahun:'2024', ket:'Evaluasi IKT JTE/PSBM', sumber:'LED C.7', prio:'UTAMA', icon:'📊', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_82/view?usp=sharing' },
-  { id:'E083', nama:'Laporan Survei Kepuasan Stakeholder', k:'c7', ind:'Kepuasan Stakeholder', jenis:'Laporan', tahun:'2024', ket:'Survei mahasiswa, dosen, lulusan, pengguna', sumber:'LED C.7', prio:'UTAMA', icon:'⭐', url:'https://drive.google.com/file/d/CONTOH_ID_FILE_83/view?usp=sharing' },
-
-  // Bukti Pendukung (4 evidence)
-  { id:'E084', nama:'Foto Kegiatan FGD VMTS', k:'c1', ind:'Mekanisme', jenis:'Foto', tahun:'2024', ket:'Dokumentasi foto FGD', sumber:'LED C.1', prio:'PENDUKUNG', icon:'📷', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E085', nama:'Sertifikat Pelatihan Dosen', k:'c4', ind:'Pengembangan SDM', jenis:'Sertifikat', tahun:'2024', ket:'Sertifikat pelatihan DTPS', sumber:'LED C.4', prio:'PENDUKUNG', icon:'🏅', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E086', nama:'Foto Laboratorium', k:'c5', ind:'Laboratorium', jenis:'Foto', tahun:'2024', ket:'Dokumentasi lab PSBM', sumber:'LED C.5', prio:'PENDUKUNG', icon:'', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' },
-  { id:'E087', nama:'Foto Kegiatan PkM', k:'c3', ind:'PkM', jenis:'Foto', tahun:'2024', ket:'Dokumentasi PkM', sumber:'LED C.3', prio:'PENDUKUNG', icon:'📷', url:'https://drive.google.com/drive/folders/CONTOH_FOLDER_ID' }
+  { id:'E001', nama:'SK VMTS PT', k:'c1', ind:'Kekhasan VMTS', jenis:'SK', tahun:'2020', ket:'SK VMTS tingkat Politeknik Negeri Jakarta', sumber:'LED C.1', prio:'UTAMA', icon:'📜', url:'' },
+  { id:'E002', nama:'SK VMTS UPPS (JTE)', k:'c1', ind:'Kekhasan VMTS', jenis:'SK', tahun:'2020', ket:'SK VMTS tingkat Jurusan/UPPS', sumber:'LED C.1', prio:'UTAMA', icon:'📜', url:'' },
+  { id:'E003', nama:'Dokumen Visi Keilmuan PSBM', k:'c1', ind:'Kekhasan VMTS', jenis:'Dokumen', tahun:'2020', ket:'Visi keilmuan Broadband Multimedia', sumber:'LED C.1', prio:'UTAMA', icon:'📘', url:'' },
+  { id:'E004', nama:'Matriks Sinkronisasi VMTS', k:'c1', ind:'Kekhasan VMTS', jenis:'Matriks', tahun:'2024', ket:'Linearitas visi PT → JTE → PSBM', sumber:'LED C.1', prio:'UTAMA', icon:'📊', url:'' },
+  { id:'E005', nama:'SK Tim Penyusun VMTS', k:'c1', ind:'Mekanisme Penyusunan', jenis:'SK', tahun:'2020', ket:'SK tim penyusun VMTS dan visi keilmuan', sumber:'LED C.1', prio:'UTAMA', icon:'📜', url:'' },
+  { id:'E006', nama:'Undangan & Daftar Hadir FGD VMTS', k:'c1', ind:'Mekanisme Penyusunan', jenis:'Dokumentasi', tahun:'2020-2024', ket:'Bukti keterlibatan stakeholder', sumber:'LED C.1', prio:'UTAMA', icon:'📋', url:'' },
+  { id:'E007', nama:'Notulensi & BA FGD VMTS', k:'c1', ind:'Mekanisme Penyusunan', jenis:'BA', tahun:'2020-2024', ket:'Masukan alumni, pengguna, pakar', sumber:'LED C.1', prio:'UTAMA', icon:'📝', url:'' },
+  { id:'E008', nama:'Buku Saku VMTS', k:'c1', ind:'Sosialisasi VMTS', jenis:'Publikasi', tahun:'2024', ket:'Media sosialisasi VMTS ke stakeholder', sumber:'LED C.1', prio:'UTAMA', icon:'📗', url:'' },
+  { id:'E009', nama:'Laporan Survei Pemahaman VMTS', k:'c1', ind:'Pemahaman Stakeholder', jenis:'Laporan', tahun:'2024', ket:'Hasil survei pemahaman stakeholder (85%)', sumber:'LED C.1 / LKPS 1', prio:'UTAMA', icon:'📈', url:'' },
+  { id:'E010', nama:'Renstra & Renop JTE', k:'c1', ind:'Pencapaian VMTS', jenis:'Dokumen', tahun:'2020-2025', ket:'Target dan capaian VMTS', sumber:'LED C.1', prio:'UTAMA', icon:'📘', url:'' },
+  { id:'E011', nama:'Laporan Capaian VMTS', k:'c1', ind:'Pencapaian VMTS', jenis:'Laporan', tahun:'2024', ket:'Realisasi vs target VMTS', sumber:'LED C.1', prio:'UTAMA', icon:'📊', url:'' },
+  { id:'E012', nama:'Statuta PNJ', k:'c2', ind:'Tata Pamong', jenis:'Regulasi', tahun:'2021', ket:'Statuta Politeknik Negeri Jakarta', sumber:'LED C.2', prio:'UTAMA', icon:'📜', url:'' },
+  { id:'E013', nama:'SK OTK JTE', k:'c2', ind:'Tata Pamong', jenis:'SK', tahun:'2022', ket:'Organisasi dan Tata Kerja JTE', sumber:'LED C.2', prio:'UTAMA', icon:'📜', url:'' },
+  { id:'E014', nama:'SK Pengangkatan Pimpinan JTE', k:'c2', ind:'Tata Pamong', jenis:'SK', tahun:'2022', ket:'SK Kajur, Kaprodi', sumber:'LED C.2', prio:'UTAMA', icon:'📜', url:'' },
+  { id:'E015', nama:'SOP Tata Kelola JTE', k:'c2', ind:'Tata Pamong', jenis:'SOP', tahun:'2023', ket:'SOP pengelolaan JTE', sumber:'LED C.2', prio:'UTAMA', icon:'', url:'' },
+  { id:'E016', nama:'RKAT JTE 2024', k:'c2', ind:'Pengelolaan', jenis:'Dokumen', tahun:'2024', ket:'Rencana Kerja dan Anggaran', sumber:'LED C.2', prio:'UTAMA', icon:'📊', url:'' },
+  { id:'E017', nama:'Laporan Realisasi Anggaran', k:'c2', ind:'Pengelolaan', jenis:'Laporan', tahun:'2022-2024', ket:'Realisasi anggaran 3 tahun', sumber:'LED C.2 / LKPS 2.b', prio:'UTAMA', icon:'💰', url:'' },
+  { id:'E018', nama:'Daftar MoU Aktif (66)', k:'c2', ind:'Kerja Sama', jenis:'Daftar', tahun:'2024', ket:'66 MoU tridharma aktif', sumber:'LED C.2 / LKPS 2.a', prio:'UTAMA', icon:'🤝', url:'' },
+  { id:'E019', nama:'IA Kerja Sama Pendidikan (42)', k:'c2', ind:'Kerja Sama', jenis:'Laporan', tahun:'2022-2024', ket:'Implementasi 42 kerja sama pendidikan', sumber:'LED C.2', prio:'UTAMA', icon:'📋', url:'' },
+  { id:'E020', nama:'IA Kerja Sama Penelitian (17)', k:'c2', ind:'Kerja Sama', jenis:'Laporan', tahun:'2022-2024', ket:'Implementasi 17 kerja sama penelitian', sumber:'LED C.2', prio:'UTAMA', icon:'📋', url:'' },
+  { id:'E021', nama:'IA Kerja Sama PkM (7)', k:'c2', ind:'Kerja Sama', jenis:'Laporan', tahun:'2022-2024', ket:'Implementasi 7 kerja sama PkM', sumber:'LED C.2', prio:'UTAMA', icon:'📋', url:'' },
+  { id:'E022', nama:'Laporan Survei Kepuasan Mitra', k:'c2', ind:'Evaluasi Kerja Sama', jenis:'Laporan', tahun:'2024', ket:'Hasil survei kepuasan mitra', sumber:'LED C.2', prio:'UTAMA', icon:'⭐', url:'' },
+  { id:'E023', nama:'NADK PSBM 2020', k:'c3', ind:'Kurikulum', jenis:'Dokumen', tahun:'2020', ket:'Naskah Akademik Pengembangan Kurikulum', sumber:'LED C.3', prio:'UTAMA', icon:'📘', url:'' },
+  { id:'E024', nama:'Dokumen Kurikulum PSBM', k:'c3', ind:'Kurikulum', jenis:'Dokumen', tahun:'2024', ket:'Struktur kurikulum 150 SKS, 53 MK', sumber:'LED C.3 / LKPS 3.a.1', prio:'UTAMA', icon:'📘', url:'' },
+  { id:'E025', nama:'BA Evaluasi Kurikulum', k:'c3', ind:'Pemutakhiran Kurikulum', jenis:'BA', tahun:'2020-2024', ket:'Berita Acara evaluasi 2020, 2021, 2024', sumber:'LED C.3', prio:'UTAMA', icon:'📝', url:'' },
+  { id:'E026', nama:'Profil Lulusan PSBM', k:'c3', ind:'Profil Lulusan', jenis:'Dokumen', tahun:'2020', ket:'6 profil lulusan PSBM', sumber:'LED C.3', prio:'UTAMA', icon:'🎓', url:'' },
+  { id:'E027', nama:'Matriks Profil Lulusan–CPL', k:'c3', ind:'CPL', jenis:'Matriks', tahun:'2024', ket:'Penurunan profil lulusan ke CPL', sumber:'LED C.3', prio:'UTAMA', icon:'📊', url:'' },
+  { id:'E028', nama:'Rumusan 12 CPL PSBM', k:'c3', ind:'CPL', jenis:'Dokumen', tahun:'2020', ket:'Rumusan CPL sesuai 4 standar kompetensi', sumber:'LED C.3', prio:'UTAMA', icon:'', url:'' },
+  { id:'E029', nama:'Matriks CPL–MK', k:'c3', ind:'CPL', jenis:'Matriks', tahun:'2024', ket:'Pemetaan CPL ke mata kuliah', sumber:'LED C.3', prio:'UTAMA', icon:'', url:'' },
+  { id:'E030', nama:'Matriks CPL–CPMK', k:'c3', ind:'CPL', jenis:'Matriks', tahun:'2024', ket:'Pemetaan CPL ke CPMK', sumber:'LED C.3', prio:'UTAMA', icon:'📊', url:'' },
+  { id:'E031', nama:'Rekap Ketercapaian CPL', k:'c3', ind:'Pengukuran CPL', jenis:'Rekap', tahun:'2022-2024', ket:'Hasil pengukuran ketercapaian CPL', sumber:'LED C.3 / LKPS 3.a.1', prio:'UTAMA', icon:'📈', url:'' },
+  { id:'E032', nama:'BA Evaluasi CPL', k:'c3', ind:'Pengukuran CPL', jenis:'BA', tahun:'2024', ket:'Berita Acara evaluasi CPL', sumber:'LED C.3', prio:'UTAMA', icon:'📝', url:'' },
+  { id:'E033', nama:'Rencana Tindak Lanjut CPL', k:'c3', ind:'Pengukuran CPL', jenis:'Dokumen', tahun:'2024', ket:'RTL closed-loop CPL', sumber:'LED C.3', prio:'UTAMA', icon:'📋', url:'' },
+  { id:'E034', nama:'Repository RPS (53 MK)', k:'c3', ind:'RPS', jenis:'Repository', tahun:'2024', ket:'Kumpulan RPS 53 MK', sumber:'LED C.3 / LKPS 3.a.2', prio:'UTAMA', icon:'📁', url:'' },
+  { id:'E035', nama:'BA Tinjauan RPS', k:'c3', ind:'RPS', jenis:'BA', tahun:'2024', ket:'Berita Acara tinjauan RPS', sumber:'LED C.3', prio:'UTAMA', icon:'📝', url:'' },
+  { id:'E036', nama:'Matriks Integrasi Penelitian–MK', k:'c3', ind:'Integrasi Penelitian', jenis:'Matriks', tahun:'2024', ket:'Integrasi penelitian ke MK inti (≥10%)', sumber:'LED C.3 / LKPS 3.a.3', prio:'UTAMA', icon:'📊', url:'' },
+  { id:'E037', nama:'Matriks Integrasi PkM–MK', k:'c3', ind:'Integrasi PkM', jenis:'Matriks', tahun:'2024', ket:'Integrasi PkM ke MK inti', sumber:'LED C.3', prio:'UTAMA', icon:'📊', url:'' },
+  { id:'E038', nama:'Roadmap Penelitian PSBM', k:'c3', ind:'Penelitian', jenis:'Roadmap', tahun:'2020-2025', ket:'Peta jalan penelitian 4 bidang fokus', sumber:'LED C.3', prio:'UTAMA', icon:'️', url:'' },
+  { id:'E039', nama:'Daftar Penelitian DTPS (45 judul)', k:'c3', ind:'Penelitian', jenis:'Daftar', tahun:'2022-2024', ket:'45 penelitian: 14, 13, 18', sumber:'LED C.3 / LKPS 3.b', prio:'UTAMA', icon:'🔬', url:'' },
+  { id:'E040', nama:'Bukti Keterlibatan Mahasiswa dalam Penelitian', k:'c3', ind:'Penelitian-Mahasiswa', jenis:'Dokumentasi', tahun:'2022-2024', ket:'12/45 penelitian melibatkan mhs (26,67%)', sumber:'LED C.3 / LKPS 6.h.1', prio:'UTAMA', icon:'👨‍', url:'' },
+  { id:'E041', nama:'Roadmap PkM PSBM', k:'c3', ind:'PkM', jenis:'Roadmap', tahun:'2020-2025', ket:'Peta jalan PkM', sumber:'LED C.3', prio:'UTAMA', icon:'🗺️', url:'' },
+  { id:'E042', nama:'Daftar PkM DTPS (14 kegiatan)', k:'c3', ind:'PkM', jenis:'Daftar', tahun:'2022-2024', ket:'14 PkM: 2, 6, 6', sumber:'LED C.3 / LKPS 3.c', prio:'UTAMA', icon:'', url:'' },
+  { id:'E043', nama:'Panduan Capstone Project', k:'c3', ind:'Capstone', jenis:'Panduan', tahun:'2024', ket:'Panduan resmi capstone project', sumber:'LED C.3', prio:'UTAMA', icon:'', url:'' },
+  { id:'E044', nama:'Laporan Capstone Project', k:'c3', ind:'Capstone', jenis:'Laporan', tahun:'2024', ket:'Laporan capstone project mahasiswa', sumber:'LED C.3', prio:'UTAMA', icon:'', url:'' },
+  { id:'E045', nama:'Daftar DTPS PSBM (11 dosen)', k:'c4', ind:'Kecukupan DTPS', jenis:'Daftar', tahun:'2024', ket:'11 DTPS inti PSBM', sumber:'LED C.4 / LKPS 4.a', prio:'UTAMA', icon:'👨‍', url:'' },
+  { id:'E046', nama:'CV DTPS', k:'c4', ind:'Kualifikasi', jenis:'CV', tahun:'2024', ket:'Curriculum Vitae 11 DTPS', sumber:'LED C.4', prio:'UTAMA', icon:'📄', url:'' },
+  { id:'E047', nama:'Ijazah & Sertifikat DTPS', k:'c4', ind:'Kualifikasi', jenis:'Scan', tahun:'2024', ket:'3 doktor, 4 Lektor Kepala, 6 Lektor', sumber:'LED C.4', prio:'UTAMA', icon:'🎓', url:'' },
+  { id:'E048', nama:'SK Jabatan Fungsional', k:'c4', ind:'JAFA', jenis:'SK', tahun:'2024', ket:'SK JAFA DTPS', sumber:'LED C.4', prio:'UTAMA', icon:'📜', url:'' },
+  { id:'E049', nama:'Roadmap Pengembangan SDM', k:'c4', ind:'Pengembangan SDM', jenis:'Roadmap', tahun:'2024-2028', ket:'Rencana studi lanjut & JAFA', sumber:'LED C.4', prio:'UTAMA', icon:'🗺️', url:'' },
+  { id:'E050', nama:'Sertifikat Kompetensi DTPS', k:'c4', ind:'Sertifikasi', jenis:'Sertifikat', tahun:'2024', ket:'Sertifikasi profesi/industri DTPS', sumber:'LED C.4', prio:'UTAMA', icon:'🏅', url:'' },
+  { id:'E051', nama:'Laporan BKD DTPS', k:'c4', ind:'Beban Kerja', jenis:'Laporan', tahun:'2022-2024', ket:'BKD rata-rata 14,77 SKS', sumber:'LED C.4 / LKPS 4.c', prio:'UTAMA', icon:'📊', url:'' },
+  { id:'E052', nama:'Daftar Publikasi DTPS (220)', k:'c4', ind:'Publikasi', jenis:'Daftar', tahun:'2022-2024', ket:'220 publikasi 3 tahun', sumber:'LED C.4 / LKPS 4.e', prio:'UTAMA', icon:'📚', url:'' },
+  { id:'E053', nama:'Daftar Luaran DTPS (HKI, Produk)', k:'c4', ind:'Luaran DTPS', jenis:'Daftar', tahun:'2022-2024', ket:'Paten, HKI, TTG, produk, buku', sumber:'LED C.4 / LKPS 4.f', prio:'UTAMA', icon:'💡', url:'' },
+  { id:'E054', nama:'Bukti Produk Diadopsi (13)', k:'c4', ind:'Produk Diadopsi', jenis:'Dokumentasi', tahun:'2022-2024', ket:'13 produk/jasa diadopsi masyarakat', sumber:'LED C.4 / LKPS 4.g', prio:'UTAMA', icon:'📦', url:'' },
+  { id:'E055', nama:'Bukti Rekognisi Kepakaran DTPS', k:'c4', ind:'Rekognisi', jenis:'Dokumentasi', tahun:'2022-2024', ket:'Undangan, SK rekognisi', sumber:'LED C.4 / LKPS 4.j', prio:'UTAMA', icon:'', url:'' },
+  { id:'E056', nama:'RKAT Anggaran PSBM', k:'c5', ind:'Pembiayaan', jenis:'Dokumen', tahun:'2022-2024', ket:'Anggaran PSBM 3 tahun', sumber:'LED C.5 / LKPS 2.b', prio:'UTAMA', icon:'💰', url:'' },
+  { id:'E057', nama:'Inventaris Laboratorium', k:'c5', ind:'Laboratorium', jenis:'Inventaris', tahun:'2024', ket:'Daftar alat lab PSBM', sumber:'LED C.5 / LKPS 5.a', prio:'UTAMA', icon:'🔧', url:'' },
+  { id:'E058', nama:'Logbook Pemeliharaan Alat', k:'c5', ind:'Laboratorium', jenis:'Logbook', tahun:'2024', ket:'Log pemeliharaan alat lab', sumber:'LED C.5', prio:'UTAMA', icon:'📋', url:'' },
+  { id:'E059', nama:'Daftar Perangkat Lunak', k:'c5', ind:'Perangkat Lunak', jenis:'Daftar', tahun:'2024', ket:'Software pembelajaran', sumber:'LED C.5', prio:'UTAMA', icon:'💻', url:'' },
+  { id:'E060', nama:'Kebijakan K3L JTE', k:'c5', ind:'K3L', jenis:'Kebijakan', tahun:'2023', ket:'Kebijakan K3L resmi', sumber:'LED C.5 / LKPS 5.b', prio:'UTAMA', icon:'️', url:'' },
+  { id:'E061', nama:'SOP K3L Laboratorium', k:'c5', ind:'K3L', jenis:'SOP', tahun:'2024', ket:'SOP K3L lab', sumber:'LED C.5', prio:'UTAMA', icon:'📋', url:'' },
+  { id:'E062', nama:'Inventaris Fasilitas K3L', k:'c5', ind:'K3L', jenis:'Inventaris', tahun:'2024', ket:'APAR, APD, jalur evakuasi', sumber:'LED C.5 / LKPS 5.c', prio:'UTAMA', icon:'🧯', url:'' },
+  { id:'E063', nama:'Laporan Audit K3L', k:'c5', ind:'K3L', jenis:'Laporan', tahun:'2024', ket:'Laporan audit K3L terakhir', sumber:'LED C.5', prio:'UTAMA', icon:'📊', url:'' },
+  { id:'E064', nama:'Data Mahasiswa Aktif (PDDikti)', k:'c6', ind:'Rasio Mhs/DTPS', jenis:'Data', tahun:'2024', ket:'Data mahasiswa aktif TS', sumber:'LED C.6 / LKPS 6.a', prio:'UTAMA', icon:'👨‍🎓', url:'' },
+  { id:'E065', nama:'Sertifikat Prestasi Mahasiswa', k:'c6', ind:'Prestasi', jenis:'Sertifikat', tahun:'2022-2024', ket:'10 prestasi akademik, 9 nonakademik', sumber:'LED C.6 / LKPS 6.c', prio:'UTAMA', icon:'🏆', url:'' },
+  { id:'E066', nama:'Data Kelulusan & Masa Studi', k:'c6', ind:'Kelulusan', jenis:'Data', tahun:'2022-2024', ket:'Data kelulusan & masa studi', sumber:'LED C.6 / LKPS 6.d', prio:'UTAMA', icon:'📊', url:'' },
+  { id:'E067', nama:'Daftar Publikasi Mahasiswa (126)', k:'c6', ind:'Publikasi Mhs', jenis:'Daftar', tahun:'2022-2024', ket:'126 publikasi/presentasi', sumber:'LED C.6 / LKPS 6.e.2', prio:'UTAMA', icon:'📚', url:'' },
+  { id:'E068', nama:'Sertifikat HKI Mahasiswa', k:'c6', ind:'Luaran Mhs', jenis:'Sertifikat', tahun:'2022-2024', ket:'Paten, HKI, TTG, produk, buku', sumber:'LED C.6 / LKPS 6.e.3', prio:'UTAMA', icon:'💡', url:'' },
+  { id:'E069', nama:'Bukti Produk Mahasiswa Diadopsi (16)', k:'c6', ind:'Produk Mhs', jenis:'Dokumentasi', tahun:'2022-2024', ket:'16 produk/jasa diadopsi', sumber:'LED C.6 / LKPS 6.e.4', prio:'UTAMA', icon:'📦', url:'' },
+  { id:'E070', nama:'Laporan Tracer Study 2024', k:'c6', ind:'Tracer Study', jenis:'Laporan', tahun:'2024', ket:'Laporan tracer study lengkap', sumber:'LED C.6 / LKPS 6.f', prio:'UTAMA', icon:'📈', url:'' },
+  { id:'E071', nama:'Raw Data Tracer Study', k:'c6', ind:'Tracer Study', jenis:'Data', tahun:'2024', ket:'Data mentah tracer (80 lulusan, 61 terlacak)', sumber:'LED C.6', prio:'UTAMA', icon:'', url:'' },
+  { id:'E072', nama:'Laporan Survei Pengguna Lulusan', k:'c6', ind:'Kepuasan Pengguna', jenis:'Laporan', tahun:'2024', ket:'45 responden, 7 aspek kepuasan', sumber:'LED C.6 / LKPS 6.g.2', prio:'UTAMA', icon:'⭐', url:'' },
+  { id:'E073', nama:'BA Tindak Lanjut Tracer', k:'c6', ind:'Tindak Lanjut Tracer', jenis:'BA', tahun:'2024', ket:'BA perbaikan kurikulum berbasis tracer', sumber:'LED C.6', prio:'UTAMA', icon:'📝', url:'' },
+  { id:'E074', nama:'SK GPM JTE', k:'c7', ind:'Unit Penjaminan Mutu', jenis:'SK', tahun:'2023', ket:'SK Gugus Penjaminan Mutu', sumber:'LED C.7 / LKPS 7.a', prio:'UTAMA', icon:'📜', url:'' },
+  { id:'E075', nama:'Dokumen Kebijakan SPMI', k:'c7', ind:'Perangkat SPMI', jenis:'Dokumen', tahun:'2023', ket:'Kebijakan SPMI resmi', sumber:'LED C.7', prio:'UTAMA', icon:'📘', url:'' },
+  { id:'E076', nama:'Manual SPMI (PPEPP)', k:'c7', ind:'Perangkat SPMI', jenis:'Manual', tahun:'2023', ket:'Manual siklus PPEPP', sumber:'LED C.7', prio:'UTAMA', icon:'📗', url:'' },
+  { id:'E077', nama:'Dokumen Standar SPMI', k:'c7', ind:'Perangkat SPMI', jenis:'Dokumen', tahun:'2023', ket:'Standar mutu SPMI', sumber:'LED C.7', prio:'UTAMA', icon:'📘', url:'' },
+  { id:'E078', nama:'Laporan AMI 2025', k:'c7', ind:'AMI', jenis:'Laporan', tahun:'2025', ket:'Laporan Audit Mutu Internal', sumber:'LED C.7', prio:'UTAMA', icon:'🔍', url:'' },
+  { id:'E079', nama:'SK Auditor AMI', k:'c7', ind:'AMI', jenis:'SK', tahun:'2025', ket:'SK auditor AMI independen', sumber:'LED C.7', prio:'UTAMA', icon:'📜', url:'' },
+  { id:'E080', nama:'Notulensi RTM', k:'c7', ind:'RTM', jenis:'Notulensi', tahun:'2025', ket:'Rapat Tinjauan Manajemen', sumber:'LED C.7', prio:'UTAMA', icon:'📝', url:'' },
+  { id:'E081', nama:'Dokumen RTL AMI', k:'c7', ind:'RTL', jenis:'Dokumen', tahun:'2025', ket:'Rencana Tindak Lanjut 15 temuan', sumber:'LED C.7', prio:'UTAMA', icon:'', url:'' },
+  { id:'E082', nama:'Laporan Evaluasi Kinerja IKT', k:'c7', ind:'Evaluasi Kinerja', jenis:'Laporan', tahun:'2024', ket:'Evaluasi IKT JTE/PSBM', sumber:'LED C.7', prio:'UTAMA', icon:'📊', url:'' },
+  { id:'E083', nama:'Laporan Survei Kepuasan Stakeholder', k:'c7', ind:'Kepuasan Stakeholder', jenis:'Laporan', tahun:'2024', ket:'Survei mahasiswa, dosen, lulusan, pengguna', sumber:'LED C.7', prio:'UTAMA', icon:'⭐', url:'' },
+  { id:'E084', nama:'Foto Kegiatan FGD VMTS', k:'c1', ind:'Mekanisme', jenis:'Foto', tahun:'2024', ket:'Dokumentasi foto FGD', sumber:'LED C.1', prio:'PENDUKUNG', icon:'📷', url:'' },
+  { id:'E085', nama:'Sertifikat Pelatihan Dosen', k:'c4', ind:'Pengembangan SDM', jenis:'Sertifikat', tahun:'2024', ket:'Sertifikat pelatihan DTPS', sumber:'LED C.4', prio:'PENDUKUNG', icon:'🏅', url:'' },
+  { id:'E086', nama:'Foto Laboratorium', k:'c5', ind:'Laboratorium', jenis:'Foto', tahun:'2024', ket:'Dokumentasi lab PSBM', sumber:'LED C.5', prio:'PENDUKUNG', icon:'📷', url:'' },
+  { id:'E087', nama:'Foto Kegiatan PkM', k:'c3', ind:'PkM', jenis:'Foto', tahun:'2024', ket:'Dokumentasi PkM', sumber:'LED C.3', prio:'PENDUKUNG', icon:'📷', url:'' }
 ];
 
 // ===== DATA BAB III =====
@@ -427,9 +412,9 @@ function renderKriteria(k) {
     c1: '📑 C.1 — VMTS',
     c2: '🏛️ C.2 — Tata Pamong, Tata Kelola, Kerja Sama, Keuangan',
     c3: '📘 C.3 — Pendidikan, Penelitian, dan PkM',
-    c4: '👨‍🏫 C.4 — Sumber Daya Manusia',
+    c4: '👨‍ C.4 — Sumber Daya Manusia',
     c5: '💰 C.5 — Keuangan, Sarana, Prasarana & K3L',
-    c6: ' C.6 — Mahasiswa dan Luaran',
+    c6: '🎓 C.6 — Mahasiswa dan Luaran',
     c7: '🔄 C.7 — Sistem Penjaminan Mutu'
   };
 
@@ -471,7 +456,7 @@ function renderEvCard(e) {
   html += '<span class="ev-badge sumber">📖 ' + e.sumber + '</span>';
   html += '</div>';
   html += '<div class="ev-card-actions">';
-  html += '<a href="' + e.url + '" target="_blank" class="ev-open-btn">📂 BUKA DOKUMEN</a>';
+  html += '<a href="' + (e.url || '#') + '" target="_blank" class="ev-open-btn" onclick="' + (e.url ? '' : 'event.preventDefault(); alert(\'Link belum tersedia\');') + '">📂 BUKA DOKUMEN</a>';
   html += '<button class="ev-open-btn secondary" onclick="alert(\'Sumber: ' + e.sumber + '\')">📖 Lihat Sumber LED/LKPS</button>';
   html += '</div>';
   html += '</div></div>';
@@ -528,7 +513,7 @@ function showBab3(key, btn) {
 
   let html = '';
   if (key === 'chain') {
-    html += '<h3 style="color:#e65100; margin: 0 0 16px 0;"> Rantai Keterlacakan BAB III</h3>';
+    html += '<h3 style="color:#e65100; margin: 0 0 16px 0;">🔗 Rantai Keterlacakan BAB III</h3>';
     html += '<div class="bab3-chain">';
     dataBab3.chain.forEach(s => {
       html += '<div class="bab3-step">';
@@ -571,7 +556,7 @@ function showBab3(key, btn) {
     html += '<h3 style="color:#e65100; margin: 0 0 16px 0;">📘 Program Pengembangan</h3>';
     dataBab3.program.forEach(p => {
       html += '<div class="ev-card utama" style="border-left-color: #e65100;">';
-      html += '<div class="ev-card-icon"></div>';
+      html += '<div class="ev-card-icon">📘</div>';
       html += '<div class="ev-card-body">';
       html += '<div class="ev-card-title">' + p.nama + '</div>';
       html += '<div class="ev-card-meta">';
@@ -583,14 +568,14 @@ function showBab3(key, btn) {
     });
   } else if (key === 'monitoring') {
     html += '<h3 style="color:#e65100; margin: 0 0 16px 0;">🔄 Monitoring & PPEPP</h3>';
-    html += '<div class="ev-card utama" style="border-left-color: #e65100;"><div class="ev-card-icon"></div><div class="ev-card-body"><div class="ev-card-title">Audit Mutu Internal (AMI)</div><div class="ev-card-desc">Audit internal tahunan terhadap 7 kriteria</div><div class="ev-card-actions"><button class="ev-open-btn" onclick="quickEvSearch(\'AMI\')">📂 BUKA DOKUMEN</button></div></div></div>';
+    html += '<div class="ev-card utama" style="border-left-color: #e65100;"><div class="ev-card-icon">🔍</div><div class="ev-card-body"><div class="ev-card-title">Audit Mutu Internal (AMI)</div><div class="ev-card-desc">Audit internal tahunan terhadap 7 kriteria</div><div class="ev-card-actions"><button class="ev-open-btn" onclick="quickEvSearch(\'AMI\')">📂 BUKA DOKUMEN</button></div></div></div>';
     html += '<div class="ev-card utama" style="border-left-color: #e65100;"><div class="ev-card-icon">📝</div><div class="ev-card-body"><div class="ev-card-title">Rapat Tinjauan Manajemen (RTM)</div><div class="ev-card-desc">Tinjauan hasil AMI oleh pimpinan</div><div class="ev-card-actions"><button class="ev-open-btn" onclick="quickEvSearch(\'RTM\')">📂 BUKA DOKUMEN</button></div></div></div>';
     html += '<div class="ev-card utama" style="border-left-color: #e65100;"><div class="ev-card-icon">📋</div><div class="ev-card-body"><div class="ev-card-title">Rencana Tindak Lanjut (RTL)</div><div class="ev-card-desc">15 temuan AMI dengan RTL terdokumentasi</div><div class="ev-card-actions"><button class="ev-open-btn" onclick="quickEvSearch(\'RTL\')">📂 BUKA DOKUMEN</button></div></div></div>';
   }
   document.getElementById('bab3Content').innerHTML = html;
 }
 
-// ===== STATS =====
+// ===== STATS - DIPERBAIKI =====
 function renderStats() {
   const stats = {};
   dataEvidence.forEach(e => {
@@ -598,13 +583,15 @@ function renderStats() {
     if (!stats[key]) stats[key] = 0;
     stats[key]++;
   });
+  
   let html = '';
   ['C.1','C.2','C.3','C.4','C.5','C.6','C.7'].forEach(k => {
     const key = k.toLowerCase().replace('.','');
+    const count = stats[key] || 0;
     html += '<div class="bukti-card" onclick="goToPanel(\'' + key + '\')">';
-    html += '<div class="bc-icon">📂</div>';
+    html += '<div class="bc-icon"></div>';
     html += '<div class="bc-name">' + k + '</div>';
-    html += '<div class="bc-desc">' + (stats[k]||0) + ' evidence</div>';
+    html += '<div class="bc-desc">' + count + ' evidence</div>';
     html += '</div>';
   });
   html += '<div class="bukti-card" style="border-left-color:#e65100;" onclick="goToPanel(\'bab3\')">';
@@ -612,11 +599,13 @@ function renderStats() {
   html += '<div class="bc-name">BAB III</div>';
   html += '<div class="bc-desc">Program Pengembangan</div>';
   html += '</div>';
+  
   document.getElementById('statsGrid').innerHTML = html;
 }
 
 // ===== INIT =====
 document.addEventListener('DOMContentLoaded', function() {
+  console.log('Evidence AL loaded. Total evidence:', dataEvidence.length);
   renderStats();
 });
 </script>
