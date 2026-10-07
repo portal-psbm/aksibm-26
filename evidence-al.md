@@ -262,9 +262,9 @@ permalink: /evidence-al/
 // ===== DATA EVIDENCE LENGKAP =====
 const dataEvidence = [
   // C.1 VMTS (11)
-  { id:'E001', nama:'SK VMTS PT', k:'c1', ind:'Kekhasan VMTS', jenis:'SK', tahun:'2020', ket:'SK VMTS tingkat Politeknik Negeri Jakarta', sumber:'LED C.1', prio:'UTAMA', icon:'📜', url:'https://drive.google.com/drive/u/1/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU' },
-  { id:'E002', nama:'SK VMTS UPPS (JTE)', k:'c1', ind:'Kekhasan VMTS', jenis:'SK', tahun:'2020', ket:'SK VMTS tingkat Jurusan/UPPS', sumber:'LED C.1', prio:'UTAMA', icon:'📜', url:'https://drive.google.com/drive/u/1/folders/1JiRWv_v_-pbrFTMl74JwQzJ1ZNnCpcOt' },
-  { id:'E003', nama:'Dokumen Visi Keilmuan PSBM', k:'c1', ind:'Kekhasan VMTS', jenis:'Dokumen', tahun:'2020', ket:'Visi keilmuan Broadband Multimedia', sumber:'LED C.1', prio:'UTAMA', icon:'📘', url:'https://drive.google.com/drive/u/1/folders/1kEN_2TU9W6vch8kkKwB0qG83rU89ujxf' },
+  { id:'E001', nama:'SK VMTS PT', k:'c1', ind:'Kekhasan VMTS', jenis:'SK', tahun:'2020', ket:'SK VMTS tingkat Politeknik Negeri Jakarta', sumber:'LED C.1', prio:'UTAMA', icon:'📜', url:'https://drive.google.com/file/d/1QqTE4zPQpumq3kHSPHAhz25UwBRvHR1Q/view?usp=drive_link' },
+  { id:'E002', nama:'SK VMTS UPPS (JTE)', k:'c1', ind:'Kekhasan VMTS', jenis:'SK', tahun:'2020', ket:'SK VMTS tingkat Jurusan/UPPS', sumber:'LED C.1', prio:'UTAMA', icon:'📜', url:'https://drive.google.com/file/d/1QrMs6lNXPh709Dxm__MqjbKpxFNlF-u1/view?usp=drive_link' },
+  { id:'E003', nama:'Dokumen Visi Keilmuan PSBM', k:'c1', ind:'Kekhasan VMTS', jenis:'Dokumen', tahun:'2020', ket:'Visi keilmuan Broadband Multimedia', sumber:'LED C.1', prio:'UTAMA', icon:'📘', url:'https://drive.google.com/file/d/18cs46MSM5q2ordkANXki8jaSpDgGfTD_/view?usp=drive_link' },
   { id:'E004', nama:'Matriks Sinkronisasi VMTS', k:'c1', ind:'Kekhasan VMTS', jenis:'Matriks', tahun:'2024', ket:'Linearitas visi PT → JTE → PSBM', sumber:'LED C.1', prio:'UTAMA', icon:'📊', url:'' },
   { id:'E005', nama:'SK Tim Penyusun VMTS', k:'c1', ind:'Mekanisme Penyusunan', jenis:'SK', tahun:'2020', ket:'SK tim penyusun VMTS dan visi keilmuan', sumber:'LED C.1', prio:'UTAMA', icon:'📜', url:'' },
   { id:'E006', nama:'Undangan & Daftar Hadir FGD VMTS', k:'c1', ind:'Mekanisme Penyusunan', jenis:'Dokumentasi', tahun:'2020-2024', ket:'Bukti keterlibatan stakeholder', sumber:'LED C.1', prio:'UTAMA', icon:'📋', url:'' },
