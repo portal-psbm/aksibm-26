@@ -31,15 +31,21 @@ permalink: /evidence-al/
 .session-header h2 { margin: 0 0 8px 0; font-size: 1.4rem; }
 .session-header .subtitle { opacity: 0.95; font-size: 0.92rem; margin-bottom: 12px; }
 .session-header .tag { display: inline-block; background: rgba(255,255,255,0.25); padding: 4px 12px; border-radius: 12px; font-size: 0.75rem; font-weight: 700; margin-bottom: 8px; letter-spacing: 0.5px; }
+.session-info { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 12px; }
+.session-info .info-item { background: rgba(255,255,255,0.2); padding: 8px 14px; border-radius: 8px; font-size: 0.85rem; backdrop-filter: blur(4px); }
+.session-info .info-item strong { display: block; font-size: 1.3rem; margin-bottom: 2px; }
 
-/* ===== SUB-NAV ===== */
+/* ===== TOMBOL DOWNLOAD FILE ===== */
+.file-link-btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 20px; background: rgba(255,255,255,0.95); color: #0d47a1; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 0.88rem; transition: all 0.2s; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin-top: 12px; }
+.file-link-btn:hover { background: white; transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,0.2); }
+.file-link-btn.sesi2-btn { color: #2e7d32; }
+.file-link-btn .btn-icon { font-size: 1.2rem; }
+
 .criteria-nav { display: flex; gap: 4px; margin-bottom: 16px; border-bottom: 2px solid #e0e0e0; flex-wrap: wrap; }
 .criteria-nav button { padding: 8px 14px; background: transparent; border: none; cursor: pointer; font-weight: 600; color: #666; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: all 0.2s; font-size: 0.82rem; }
 .criteria-nav button:hover { color: #0d47a1; background: #f8fafc; }
 .criteria-nav button.active { color: #0d47a1; border-bottom-color: #0d47a1; }
-.criteria-nav.ledps-nav button.active { color: #2e7d32; border-bottom-color: #2e7d32; }
 
-/* ===== PANELS ===== */
 .lkps-table-panel { display: none; animation: fadeIn 0.3s ease; }
 .lkps-table-panel.active { display: block; }
 .ledps-criteria { display: none; animation: fadeIn 0.3s ease; }
@@ -78,9 +84,6 @@ permalink: /evidence-al/
 .led-card .evidence-link { display: inline-flex; align-items: center; gap: 4px; background: #e8f5e9; color: #2e7d32; padding: 4px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; text-decoration: none; margin-top: 8px; margin-right: 6px; }
 .led-card .evidence-link:hover { background: #c8e6c9; }
 
-.ev-open-btn { padding: 6px 14px; border-radius: 6px; border: none; background: #0d47a1; color: white; font-size: 0.78rem; font-weight: 600; cursor: pointer; transition: all 0.2s; display: inline-flex; align-items: center; gap: 4px; text-decoration: none; margin-right: 6px; margin-bottom: 6px; }
-.ev-open-btn:hover { background: #1565c0; transform: translateY(-1px); }
-
 .swot-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 16px 0; }
 .swot-card { padding: 16px; border-radius: 10px; border: 2px solid; }
 .swot-card.strength { background: #e8f5e9; border-color: #4caf50; }
@@ -97,13 +100,15 @@ permalink: /evidence-al/
 .ev-tab { min-width: 110px; flex: 0 0 auto; font-size: 0.8rem; }
 .ev-content { padding: 20px; }
 .summary-grid { grid-template-columns: 1fr 1fr; }
+.session-info { flex-direction: column; }
 .swot-grid { grid-template-columns: 1fr; }
+.file-link-btn { width: 100%; justify-content: center; }
 }
 </style>
 
 <div class="ev-cabinet">
   <div class="ev-shelf">
-    <div class="ev-tab active" onclick="showEvPanel('sesi1', this)"><br>SESI 1<br>LKPS</div>
+    <div class="ev-tab active" onclick="showEvPanel('sesi1', this)">📊<br>SESI 1<br>LKPS</div>
     <div class="ev-tab sesi2" onclick="showEvPanel('sesi2', this)">📕<br>SESI 2<br>LEDPS</div>
   </div>
 
@@ -113,12 +118,23 @@ permalink: /evidence-al/
     <div class="ev-panel active" id="panel-sesi1">
       <div class="session-header sesi1">
         <span class="tag">DATA KUANTITATIF</span>
-        <h2>📊 SESI 1 — LAPORAN KINERJA PROGRAM STUDI (LKPS)</h2>
+        <h2> SESI 1 — LAPORAN KINERJA PROGRAM STUDI (LKPS)</h2>
         <div class="subtitle">Tabel 1 s.d. 7 — Data angka 3 tahun terakhir (TS-2, TS-1, TS)</div>
+        <div class="session-info">
+          <div class="info-item"><strong>50+</strong> Tabel Evidence</div>
+          <div class="info-item"><strong>C.1–C.7</strong> Semua Kriteria</div>
+          <div class="info-item"><strong>3 Tahun</strong> Periode Data</div>
+        </div>
+        
+        <!-- TOMBOL LINK FILE LKPS -->
+        <a href="https://drive.google.com/drive/folders/GANTI_DENGAN_ID_FOLDER_LKPS" target="_blank" class="file-link-btn">
+          <span class="btn-icon">📄</span>
+          <span>Buka File LKPS Lengkap (Excel/PDF)</span>
+        </a>
       </div>
 
       <div class="info-box">
-        <strong>ℹ️ LKPS = Data Angka:</strong> Semua tabel berisi <strong>data kuantitatif</strong> yang disubmit ke SAKTI LAM Teknik. Fokus asesor: <em>validasi angka, konsistensi, kecukupan</em>.
+        <strong>️ Informasi:</strong> Halaman ini menampilkan seluruh tabel LKPS PSBM dengan <strong>link bukti Google Drive</strong> yang sudah terintegrasi. Klik tombol di atas untuk mengakses file LKPS lengkap.
       </div>
 
       <!-- Sub-nav Tabel 1-7 -->
@@ -135,14 +151,14 @@ permalink: /evidence-al/
       <!-- TABEL 1 -->
       <div class="lkps-table-panel active" id="lkps-t1">
         <div class="lkps-section">
-          <h3>📑 Tabel 1: VMTS PT, UPPS, dan Visi Keilmuan PS</h3>
+          <h3> Tabel 1: VMTS PT, UPPS, dan Visi Keilmuan PS</h3>
           <div class="table-responsive">
             <table class="lkps-table">
               <thead><tr><th>No</th><th>Jenis VMTS</th><th>Pernyataan (Ringkasan)</th><th>No. SK</th><th>Link Dokumen</th></tr></thead>
               <tbody>
                 <tr><td>1</td><td><strong>VMTS PT</strong></td><td>Visi: Menjadi politeknik unggul bertaraf internasional untuk mendukung daya saing bangsa</td><td>643/PL3/OT/2021</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU?usp=drive_link" target="_blank">📂 Buka Folder</a></td></tr>
-                <tr><td>2</td><td><strong>VMTS UPPS (JTE)</strong></td><td>Visi: Menjadi Jurusan Teknik Elektro unggul bertaraf internasional</td><td>2585/PL3/OT/2020</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1JiRWv_v_-pbrFTMl74JwQzJ1ZNnCpcOt?usp=drive_link" target="_blank"> Buka Folder</a></td></tr>
-                <tr><td>3</td><td><strong>Visi Keilmuan PS</strong></td><td>Unggul bertaraf internasional di bidang broadband multimedia</td><td>2589/PL3/KR.00/2020</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1kEN_2TU9W6vch8kkKwB0qG83rU89ujxf?usp=sharing" target="_blank"> Buka Folder</a></td></tr>
+                <tr><td>2</td><td><strong>VMTS UPPS (JTE)</strong></td><td>Visi: Menjadi Jurusan Teknik Elektro unggul bertaraf internasional</td><td>2585/PL3/OT/2020</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1JiRWv_v_-pbrFTMl74JwQzJ1ZNnCpcOt?usp=drive_link" target="_blank">📂 Buka Folder</a></td></tr>
+                <tr><td>3</td><td><strong>Visi Keilmuan PS</strong></td><td>Unggul bertaraf internasional di bidang broadband multimedia</td><td>2589/PL3/KR.00/2020</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1kEN_2TU9W6vch8kkKwB0qG83rU89ujxf?usp=sharing" target="_blank">📂 Buka Folder</a></td></tr>
               </tbody>
             </table>
           </div>
@@ -158,10 +174,9 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Nasional</div><div class="sc-value">37</div></div>
             <div class="summary-card highlight-data"><div class="sc-label">Total</div><div class="sc-value">42</div></div>
           </div>
-          <div class="info-box"><strong>📂 Link Bukti:</strong> <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="ev-open-btn">📂 Buka Folder Kerja Sama</a></div>
         </div>
         <div class="lkps-section">
-          <h3>🔬 Tabel 2a2: Kerja Sama Penelitian (17)</h3>
+          <h3> Tabel 2a2: Kerja Sama Penelitian (17)</h3>
           <div class="summary-grid">
             <div class="summary-card"><div class="sc-label">Internasional</div><div class="sc-value">1</div></div>
             <div class="summary-card"><div class="sc-label">Nasional</div><div class="sc-value">16</div></div>
@@ -169,7 +184,7 @@ permalink: /evidence-al/
           </div>
         </div>
         <div class="lkps-section">
-          <h3>🤝 Tabel 2a3: Kerja Sama PkM (7)</h3>
+          <h3> Tabel 2a3: Kerja Sama PkM (7)</h3>
           <div class="summary-grid">
             <div class="summary-card"><div class="sc-label">Nasional</div><div class="sc-value">1</div></div>
             <div class="summary-card"><div class="sc-label">Lokal/Wilayah</div><div class="sc-value">6</div></div>
@@ -177,7 +192,7 @@ permalink: /evidence-al/
           </div>
         </div>
         <div class="lkps-section">
-          <h3>💰 Tabel 2b: Penggunaan Dana</h3>
+          <h3> Tabel 2b: Penggunaan Dana</h3>
           <div class="table-responsive">
             <table class="lkps-table">
               <thead><tr><th>Jenis</th><th>UPPS Rata-rata</th><th>PS Rata-rata</th></tr></thead>
@@ -200,18 +215,15 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Total MK</div><div class="sc-value">53</div></div>
             <div class="summary-card"><div class="sc-label">Total SKS</div><div class="sc-value">150</div></div>
             <div class="summary-card"><div class="sc-label">SKS Praktik</div><div class="sc-value">80 (53,33%)</div></div>
-            <div class="summary-card"><div class="sc-label">SKS Kuliah</div><div class="sc-value">68</div></div>
           </div>
         </div>
         <div class="lkps-section">
-          <h3> Tabel 3b: Penelitian DTPS (45 judul)</h3>
+          <h3>🔬 Tabel 3b: Penelitian DTPS (45 judul)</h3>
           <div class="summary-grid">
             <div class="summary-card"><div class="sc-label">TS-2</div><div class="sc-value">14</div></div>
             <div class="summary-card"><div class="sc-label">TS-1</div><div class="sc-value">13</div></div>
             <div class="summary-card"><div class="sc-label">TS</div><div class="sc-value">18</div></div>
             <div class="summary-card highlight-data"><div class="sc-label">Total</div><div class="sc-value">45</div></div>
-            <div class="summary-card"><div class="sc-label">PT/Mandiri</div><div class="sc-value">36 (80%)</div></div>
-            <div class="summary-card"><div class="sc-label">Eksternal</div><div class="sc-value">9 (20%)</div></div>
           </div>
         </div>
         <div class="lkps-section">
@@ -221,7 +233,6 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">TS-1</div><div class="sc-value">6</div></div>
             <div class="summary-card"><div class="sc-label">TS</div><div class="sc-value">6</div></div>
             <div class="summary-card highlight-data"><div class="sc-label">Total</div><div class="sc-value">14</div></div>
-            <div class="summary-card highlight-data"><div class="sc-label">Internal/Mandiri</div><div class="sc-value">14 (100%)</div></div>
           </div>
         </div>
       </div>
@@ -236,7 +247,6 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Lektor Kepala</div><div class="sc-value">4 (36,36%)</div></div>
             <div class="summary-card"><div class="sc-label">Lektor</div><div class="sc-value">6</div></div>
           </div>
-          <div class="info-box"><strong> Link Bukti:</strong> <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="ev-open-btn">📂 Buka Folder DTPS</a></div>
         </div>
         <div class="lkps-section">
           <h3>📚 Tabel 4e: Publikasi DTPS (220 total)</h3>
@@ -244,7 +254,6 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Jurnal Nasional Terakreditasi</div><div class="sc-value">73</div></div>
             <div class="summary-card"><div class="sc-label">Jurnal Internasional Bereputasi</div><div class="sc-value">12</div></div>
             <div class="summary-card"><div class="sc-label">Prosiding Nasional</div><div class="sc-value">92</div></div>
-            <div class="summary-card"><div class="sc-label">Prosiding Scopus/WoS</div><div class="sc-value">33</div></div>
             <div class="summary-card highlight-data"><div class="sc-label">TOTAL</div><div class="sc-value">220</div></div>
           </div>
         </div>
@@ -257,11 +266,11 @@ permalink: /evidence-al/
       <!-- TABEL 5 -->
       <div class="lkps-table-panel" id="lkps-t5">
         <div class="lkps-section">
-          <h3>💰 Tabel 5a: Prasarana & Peralatan Utama</h3>
+          <h3> Tabel 5a: Prasarana & Peralatan Utama</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> 16 prasarana utama (13 lab/ruang + 3 layanan nonakademik). Seluruhnya terawat, dimiliki sendiri.</div>
         </div>
         <div class="lkps-section">
-          <h3>⚠️ Tabel 5b: Dokumen K3L (17 dokumen)</h3>
+          <h3>️ Tabel 5b: Dokumen K3L (17 dokumen)</h3>
           <div class="table-responsive">
             <table class="lkps-table">
               <thead><tr><th>No</th><th>Jenis Dokumen</th><th>Jumlah</th><th>Tanggal Pengesahan</th></tr></thead>
@@ -313,32 +322,11 @@ permalink: /evidence-al/
           </div>
         </div>
         <div class="lkps-section">
-          <h3>🏆 Tabel 6c: Prestasi Mahasiswa (19)</h3>
-          <div class="summary-grid">
-            <div class="summary-card"><div class="sc-label">Akademik</div><div class="sc-value">10</div><div class="sc-desc">2 intl + 8 nasional</div></div>
-            <div class="summary-card"><div class="sc-label">Nonakademik</div><div class="sc-value">9</div><div class="sc-desc">1 intl + 5 nas + 3 wil</div></div>
-          </div>
-        </div>
-        <div class="lkps-section">
-          <h3>📚 Tabel 6e2: Publikasi Mahasiswa (126)</h3>
-          <div class="summary-grid">
-            <div class="summary-card"><div class="sc-label">Jurnal Nasional Terakreditasi</div><div class="sc-value">34</div></div>
-            <div class="summary-card"><div class="sc-label">Jurnal Internasional</div><div class="sc-value">1</div></div>
-            <div class="summary-card"><div class="sc-label">Prosiding Nasional</div><div class="sc-value">91</div></div>
-            <div class="summary-card highlight-data"><div class="sc-label">Total</div><div class="sc-value">126</div></div>
-          </div>
-        </div>
-        <div class="lkps-section">
-          <h3>📦 Tabel 6e4: Produk Mahasiswa Diadopsi (16)</h3>
-          <div class="info-box"><strong>📂 Link Bukti:</strong> <a href="https://drive.google.com/drive/folders/1gj3fyC_mO2c6pDTNRzhnlPcIE4_pKBYS" target="_blank" class="ev-open-btn">📂 Buka Folder Produk Mahasiswa</a></div>
-        </div>
-        <div class="lkps-section">
           <h3>📈 Tabel 6f1: Waktu Tunggu Lulusan</h3>
           <div class="summary-grid">
             <div class="summary-card"><div class="sc-label">Total Lulusan</div><div class="sc-value">80</div></div>
             <div class="summary-card"><div class="sc-label">Terlacak</div><div class="sc-value">61 (76,25%)</div></div>
             <div class="summary-card"><div class="sc-label">WT < 3 bulan</div><div class="sc-value">34 (55,74%)</div></div>
-            <div class="summary-card"><div class="sc-label">WT 3-18 bulan</div><div class="sc-value">27 (44,26%)</div></div>
             <div class="summary-card highlight-data"><div class="sc-label">WT > 18 bulan</div><div class="sc-value">0</div></div>
           </div>
         </div>
@@ -352,13 +340,9 @@ permalink: /evidence-al/
                 <tr><td>Keahlian bidang ilmu</td><td class="highlight-data">73,30%</td><td>26,70%</td><td>0,00%</td><td>0,00%</td></tr>
                 <tr><td>Bahasa asing</td><td class="highlight-data">71,10%</td><td>17,80%</td><td class="highlight-data">11,10%</td><td>0,00%</td></tr>
                 <tr><td>Teknologi informasi</td><td class="highlight-data">82,20%</td><td>17,80%</td><td>0,00%</td><td>0,00%</td></tr>
-                <tr><td>Berkomunikasi</td><td class="highlight-data">77,78%</td><td>22,20%</td><td>0,00%</td><td>0,00%</td></tr>
-                <tr><td>Kerjasama tim</td><td class="highlight-data">75,60%</td><td>24,40%</td><td>0,00%</td><td>0,00%</td></tr>
-                <tr><td>Pengembangan diri</td><td class="highlight-data">73,30%</td><td>26,70%</td><td>0,00%</td><td>0,00%</td></tr>
               </tbody>
             </table>
           </div>
-          <div class="info-box"><strong>⚠️ Catatan Kritis:</strong> Bahasa asing 11,1% "Cukup" — perlu direkonsiliasi dengan narasi RTL.</div>
         </div>
       </div>
 
@@ -388,7 +372,7 @@ permalink: /evidence-al/
                 <tr><td><strong>Pelaksanaan</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/17PgbEe6jg7P3MlRUIZSZhhC4enyylZ7S" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td>—</td></tr>
                 <tr><td><strong>Evaluasi</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1ywPn4RexBzQjD6DXRT8DCXTEtemvcQLz" target="_blank">📂 Buka</a></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1gpdVeFMr0vwmrw_VvUpJhDokvF1zfVx2" target="_blank">📂 Buka</a></td><td>—</td><td>—</td></tr>
                 <tr><td><strong>Pengendalian</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1WFgIamM3JnSGZ-WAv-UOC1W22E0ondmV" target="_blank">📂 Buka</a></td><td>—</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/18PzEeZ2yIs1hfx6rVOBzbjjoaGIkSFU0" target="_blank">📂 Buka</a></td><td>—</td></tr>
-                <tr><td><strong>Peningkatan</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank">📂 Buka</a></td></tr>
+                <tr><td><strong>Peningkatan</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank"> Buka</a></td><td>—</td><td>—</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank">📂 Buka</a></td></tr>
               </tbody>
             </table>
           </div>
@@ -401,12 +385,23 @@ permalink: /evidence-al/
     <div class="ev-panel" id="panel-sesi2">
       <div class="session-header sesi2">
         <span class="tag">ANALISIS KUALITATIF + BAB III</span>
-        <h2>📕 SESI 2 — LAPORAN EVALUASI DIRI (LEDPS)</h2>
+        <h2> SESI 2 — LAPORAN EVALUASI DIRI (LEDPS)</h2>
         <div class="subtitle">C.1 s.d. C.7 (Analisis Naratif) + BAB III (SWOT & Program Pengembangan)</div>
+        <div class="session-info">
+          <div class="info-item"><strong>7</strong> Kriteria</div>
+          <div class="info-item"><strong>61</strong> Indikator</div>
+          <div class="info-item"><strong>SWOT</strong> + Program</div>
+        </div>
+        
+        <!-- TOMBOL LINK FILE LEDPS -->
+        <a href="https://drive.google.com/drive/folders/GANTI_DENGAN_ID_FOLDER_LED" target="_blank" class="file-link-btn sesi2-btn">
+          <span class="btn-icon">📄</span>
+          <span>Buka File LEDPS Lengkap (PDF)</span>
+        </a>
       </div>
 
       <div class="info-box ledps">
-        <strong>ℹ️ LEDPS = Analisis Naratif:</strong> Berbeda dengan LKPS (angka), LEDPS berisi <strong>analisis kualitatif</strong> per kriteria — evaluasi diri, capaian, masalah, dan tindak lanjut. Termasuk <strong>BAB III</strong> (SWOT, Tujuan Strategis, Program Pengembangan).
+        <strong>ℹ️ Informasi:</strong> Halaman ini berisi analisis kualitatif per kriteria (LEDPS) dan BAB III (SWOT, Tujuan Strategis, Program Pengembangan). Klik tombol di atas untuk mengakses file LEDPS lengkap.
       </div>
 
       <!-- Sub-nav Kriteria + BAB III -->
@@ -418,13 +413,13 @@ permalink: /evidence-al/
         <button onclick="showLedpsCriteria('c5', this)">C.5 Sarpras</button>
         <button onclick="showLedpsCriteria('c6', this)">C.6 Luaran</button>
         <button onclick="showLedpsCriteria('c7', this)">C.7 SPMI</button>
-        <button onclick="showLedpsCriteria('bab3', this)" style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); color: #e65100; border-radius: 6px; border: 1px solid #ffcc80;">📕 BAB III</button>
+        <button onclick="showLedpsCriteria('bab3', this)" style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); color: #e65100; border-radius: 6px; border: 1px solid #ffcc80;"> BAB III</button>
       </div>
 
       <!-- C.1 VMTS -->
       <div class="ledps-criteria active" id="ledps-c1">
         <div class="lkps-section ledps">
-          <h3>📑 C.1 — Kekhasan VMTS & Pencapaian</h3>
+          <h3> C.1 — Kekhasan VMTS & Pencapaian</h3>
           <div class="led-card">
             <h4>🎯 Visi Keilmuan PSBM</h4>
             <p><strong>"Menjadi Program Studi Unggul Bertaraf Internasional di Bidang Broadband Multimedia untuk Mendukung Daya Saing Bangsa"</strong></p>
@@ -490,7 +485,7 @@ permalink: /evidence-al/
         <div class="lkps-section ledps">
           <h3>📘 C.3 — Relevansi Pendidikan, Penelitian, dan PkM</h3>
           <div class="led-card">
-            <h4>📚 Kurikulum — Evaluasi</h4>
+            <h4> Kurikulum — Evaluasi</h4>
             <ul>
               <li><strong>Total:</strong> 53 MK, 150 SKS (80 SKS praktik = 53,33%) → <em>LKPS 3.a.1</em></li>
               <li><strong>Evaluasi:</strong> 2020, 2021, 2024 (melibatkan dosen, alumni, industri, pakar)</li>
@@ -527,7 +522,7 @@ permalink: /evidence-al/
       <!-- C.4 SDM -->
       <div class="ledps-criteria" id="ledps-c4">
         <div class="lkps-section ledps">
-          <h3>👨‍🏫 C.4 — Sumber Daya Manusia</h3>
+          <h3>👨‍ C.4 — Sumber Daya Manusia</h3>
           <div class="led-card">
             <h4>📊 Profil DTPS — Analisis</h4>
             <ul>
@@ -588,7 +583,7 @@ permalink: /evidence-al/
         <div class="lkps-section ledps">
           <h3>🎓 C.6 — Mahasiswa dan Luaran</h3>
           <div class="led-card">
-            <h4>👨‍🎓 Mahasiswa — Analisis</h4>
+            <h4>‍🎓 Mahasiswa — Analisis</h4>
             <ul>
               <li><strong>Mahasiswa Aktif:</strong> 189 (TS) → <em>LKPS 6.a</em></li>
               <li><strong>Mahasiswa Asing:</strong> 13 (1 FT, 12 PT dari Turki dan Malaysia)</li>
@@ -609,7 +604,7 @@ permalink: /evidence-al/
             </ul>
           </div>
           <div class="led-card">
-            <h4>📈 Tracer Study — Evaluasi</h4>
+            <h4> Tracer Study — Evaluasi</h4>
             <ul>
               <li><strong>Populasi:</strong> 80 lulusan | <strong>Terlacak:</strong> 61 (76,25%) → <em>LKPS 6.f.1</em></li>
               <li><strong>Waktu Tunggu:</strong> 55,74% <3 bulan, 44,26% 3-18 bulan, 0% >18 bulan</li>
@@ -628,7 +623,7 @@ permalink: /evidence-al/
               <li>Kerja Sama Tim: 75,6% Sangat Baik</li>
               <li>Keahlian Bidang: 73,3% Sangat Baik</li>
               <li>Pengembangan Diri: 73,3% Sangat Baik</li>
-              <li>Bahasa Asing: 71,1% Sangat Baik ⚠️ (11,1% Cukup)</li>
+              <li>Bahasa Asing: 71,1% Sangat Baik ️ (11,1% Cukup)</li>
             </ul>
             <p><strong>RTL:</strong> Kelas intensif bahasa asing, sertifikasi TOEFL/TOEIC, program imersi.</p>
           </div>
@@ -640,16 +635,16 @@ permalink: /evidence-al/
         <div class="lkps-section ledps">
           <h3>🔄 C.7 — Sistem Penjaminan Mutu</h3>
           <div class="led-card">
-            <h4>📋 Struktur SPMI</h4>
+            <h4> Struktur SPMI</h4>
             <ul>
               <li><strong>Tingkat Institusi:</strong> Unit Penjaminan Mutu (UPM) di bawah PPMPP</li>
               <li><strong>Tingkat Jurusan:</strong> Gugus Penjamin Mutu (GPM) sejak 2023</li>
               <li><strong>SK GPM:</strong> SK Direktur No. 147/PL3/JM/2025</li>
             </ul>
-            <a href="https://drive.google.com/drive/folders/17PgbEe6jg7P3MlRUIZSZhhC4enyylZ7S" target="_blank" class="evidence-link"> Bukti: Dokumen SPMI</a>
+            <a href="https://drive.google.com/drive/folders/17PgbEe6jg7P3MlRUIZSZhhC4enyylZ7S" target="_blank" class="evidence-link">📂 Bukti: Dokumen SPMI</a>
           </div>
           <div class="led-card">
-            <h4>🔄 Siklus PPEPP — Evaluasi</h4>
+            <h4> Siklus PPEPP — Evaluasi</h4>
             <ul>
               <li><strong>Penetapan:</strong> Standar mutu melalui SK Rektor/Dekan → <em>LKPS 7.a</em></li>
               <li><strong>Pelaksanaan:</strong> Program kerja mengacu standar (LMS, SIAKAD, SIMLitmas)</li>
@@ -784,12 +779,12 @@ permalink: /evidence-al/
             <h4>🔄 Monitoring & PPEPP</h4>
             <div class="summary-grid">
               <div class="summary-card" style="border-left-color: #e65100;">
-                <div class="sc-label">🔍 AMI</div>
+                <div class="sc-label"> AMI</div>
                 <div class="sc-value" style="font-size:1rem;">Audit Mutu Internal</div>
                 <div class="sc-desc">Audit internal tahunan terhadap 7 kriteria</div>
               </div>
               <div class="summary-card" style="border-left-color: #e65100;">
-                <div class="sc-label"> RTM</div>
+                <div class="sc-label">📝 RTM</div>
                 <div class="sc-value" style="font-size:1rem;">Rapat Tinjauan Manajemen</div>
                 <div class="sc-desc">Tinjauan hasil AMI oleh pimpinan</div>
               </div>
@@ -811,16 +806,11 @@ permalink: /evidence-al/
 <script>
 // ===== NAVIGATION UTAMA =====
 function showEvPanel(id, btn) {
-  // Sembunyikan semua panel
   document.querySelectorAll('.ev-panel').forEach(p => p.classList.remove('active'));
-  // Tampilkan panel yang dipilih
   document.getElementById('panel-' + id).classList.add('active');
-  
-  // Update tab aktif
   document.querySelectorAll('.ev-tab').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
   
-  // RESET sub-tab ke posisi awal saat berganti sesi
   if (id === 'sesi1') {
     showLkpsTable('t1', document.querySelector('#lkpsNav button'));
   } else if (id === 'sesi2') {
@@ -832,13 +822,8 @@ function showEvPanel(id, btn) {
 
 // ===== SUB-NAV LKPS (Tabel 1-7) =====
 function showLkpsTable(id, btn) {
-  // Sembunyikan semua panel tabel LKPS
   document.querySelectorAll('.lkps-table-panel').forEach(p => p.classList.remove('active'));
-  // Tampilkan panel yang dipilih
-  const target = document.getElementById('lkps-' + id);
-  if (target) target.classList.add('active');
-  
-  // Update tombol aktif
+  document.getElementById('lkps-' + id).classList.add('active');
   const nav = btn.parentElement;
   nav.querySelectorAll('button').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
@@ -846,13 +831,8 @@ function showLkpsTable(id, btn) {
 
 // ===== SUB-NAV LEDPS (C.1-C.7 + BAB III) =====
 function showLedpsCriteria(id, btn) {
-  // Sembunyikan semua panel kriteria LEDPS
   document.querySelectorAll('.ledps-criteria').forEach(p => p.classList.remove('active'));
-  // Tampilkan panel yang dipilih
-  const target = document.getElementById('ledps-' + id);
-  if (target) target.classList.add('active');
-  
-  // Update tombol aktif
+  document.getElementById('ledps-' + id).classList.add('active');
   const nav = btn.parentElement;
   nav.querySelectorAll('button').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
@@ -860,19 +840,13 @@ function showLedpsCriteria(id, btn) {
 
 // ===== INIT =====
 document.addEventListener('DOMContentLoaded', function() {
-  // Pastikan panel pertama aktif saat halaman dimuat
   const sesi1Panel = document.getElementById('panel-sesi1');
-  if (sesi1Panel) {
-    sesi1Panel.classList.add('active');
-  }
+  if (sesi1Panel) sesi1Panel.classList.add('active');
   
-  // Pastikan sub-tab pertama di setiap sesi aktif
   const firstLkpsTable = document.getElementById('lkps-t1');
   if (firstLkpsTable) firstLkpsTable.classList.add('active');
   
   const firstLedpsCriteria = document.getElementById('ledps-c1');
   if (firstLedpsCriteria) firstLedpsCriteria.classList.add('active');
-  
-  console.log('Evidence AL initialized with tab navigation');
 });
 </script>
