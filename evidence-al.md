@@ -169,27 +169,26 @@ permalink: /evidence-al/
       </div>
 
       <!-- TABEL 1: VMTS -->
-      <div class="lkps-table-panel active" id="lkps-t1">
-        <div class="lkps-section">
-          <h3>📋 Tabel 1: Visi Misi Tujuan Strategi PT dan UPPS serta Visi Keilmuan Program Studi</h3>
-          <div class="table-responsive">
-            <table class="lkps-table">
-              <thead><tr><th>No</th><th>Jenis VMTS</th><th>Pernyataan</th><th>No. SK</th><th>Link Dokumen</th></tr></thead>
-              <tbody>
-                <tr><td>1</td><td><strong>VMTS PT</strong></td><td>Visi: Menjadi politeknik unggul bertaraf internasional</td><td>643/PL3/OT/2021</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank">📂 Buka</a></td></tr>
-                <tr><td>2</td><td><strong>VMTS UPPS (JTE)</strong></td><td>Visi: Menjadi Jurusan Teknik Elektro unggul bertaraf internasional</td><td>2585/PL3/OT/2020</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1JiRWv_v_-pbrFTMl74JwQzJ1ZNnCpcOt" target="_blank">📂 Buka</a></td></tr>
-                <tr><td>3</td><td><strong>Visi Keilmuan PS</strong></td><td>Unggul bertaraf internasional di bidang broadband multimedia</td><td>2589/PL3/KR.00/2020</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1kEN_2TU9W6vch8kkKwB0qG83rU89ujxf" target="_blank">📂 Buka</a></td></tr>
-              </tbody>
-            </table>
-          </div>
-          <div style="margin-top:10px;">
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📄</span> Buka Bukti: Tabel 1 - VMTS PT</a>
-            <a href="https://drive.google.com/drive/folders/1JiRWv_v_-pbrFTMl74JwQzJ1ZNnCpcOt" target="_blank" class="table-link-btn"><span class="btn-icon">📄</span> Buka Bukti: Tabel 1 - VMTS UPPS</a>
-            <a href="https://drive.google.com/drive/folders/1kEN_2TU9W6vch8kkKwB0qG83rU89ujxf" target="_blank" class="table-link-btn"><span class="btn-icon">📘</span> Buka Bukti: Tabel 1 - Visi Keilmuan PS</a>
-          </div>
-        </div>
-      </div>
-
+<div class="lkps-table-panel active" id="lkps-t1">
+  <div class="lkps-section">
+    <h3> Tabel 1: Visi Misi Tujuan Strategi PT dan UPPS serta Visi Keilmuan Program Studi</h3>
+    <div class="table-responsive">
+      <table class="lkps-table">
+        <thead><tr><th>No</th><th>Jenis VMTS</th><th>Pernyataan</th><th>No. SK</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><strong>VMTS PT</strong></td><td>Visi: Menjadi politeknik unggul bertaraf internasional</td><td>643/PL3/OT/2021</td></tr>
+          <tr><td>2</td><td><strong>VMTS UPPS (JTE)</strong></td><td>Visi: Menjadi Jurusan Teknik Elektro unggul bertaraf internasional</td><td>2585/PL3/OT/2020</td></tr>
+          <tr><td>3</td><td><strong>Visi Keilmuan PS</strong></td><td>Unggul bertaraf internasional di bidang broadband multimedia</td><td>2589/PL3/KR.00/2020</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div style="margin-top:10px;">
+      <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📄</span> Buka Bukti: Tabel 1 - VMTS PT</a>
+      <a href="https://drive.google.com/drive/folders/1JiRWv_v_-pbrFTMl74JwQzJ1ZNnCpcOt" target="_blank" class="table-link-btn"><span class="btn-icon"></span> Buka Bukti: Tabel 1 - VMTS UPPS</a>
+      <a href="https://drive.google.com/drive/folders/1kEN_2TU9W6vch8kkKwB0qG83rU89ujxf" target="_blank" class="table-link-btn"><span class="btn-icon">📘</span> Buka Bukti: Tabel 1 - Visi Keilmuan PS</a>
+    </div>
+  </div>
+</div>
       <!-- TABEL 2: KERJA SAMA & DANA -->
       <div class="lkps-table-panel" id="lkps-t2">
         <div class="lkps-section">
