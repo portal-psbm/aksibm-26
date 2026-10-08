@@ -18,12 +18,12 @@ permalink: /evidence-al/
 .ev-tab.active { background: #0d47a1; color: #ffffff; transform: translateY(-6px); z-index: 20; border-color: #0d47a1; box-shadow: 0 -4px 16px rgba(13, 71, 161, 0.25); font-weight: 700; }
 .ev-tab.active::before { background: #0d47a1; border-color: #0d47a1; height: 8px; top: -8px; }
 
-/* SESI 2 - UNGU/VIOLET */
-.ev-tab.sesi2 { background: linear-gradient(180deg, #f3e5f5 0%, #e1bee7 100%); color: #6a1b9a; border-color: #ce93d8; }
-.ev-tab.sesi2::before { background: linear-gradient(180deg, #ce93d8 0%, #ba68c8 100%); border-color: #ce93d8; }
-.ev-tab.sesi2:hover { background: linear-gradient(180deg, #e1bee7 0%, #ce93d8 100%); color: #4a148c; }
-.ev-tab.sesi2.active { background: linear-gradient(135deg, #7b1fa2 0%, #6a1b9a 100%); color: white; border-color: #6a1b9a; box-shadow: 0 -4px 16px rgba(106, 27, 154, 0.3); }
-.ev-tab.sesi2.active::before { background: linear-gradient(135deg, #7b1fa2 0%, #6a1b9a 100%); border-color: #6a1b9a; }
+/* ===== SESI 2: BIRU MUDA (LIGHT BLUE) ===== */
+.ev-tab.sesi2 { background: linear-gradient(180deg, #e1f5fe 0%, #b3e5fc 100%); color: #01579b; border-color: #81d4fa; }
+.ev-tab.sesi2::before { background: linear-gradient(180deg, #81d4fa 0%, #4fc3f7 100%); border-color: #81d4fa; }
+.ev-tab.sesi2:hover { background: linear-gradient(180deg, #b3e5fc 0%, #81d4fa 100%); color: #01579b; }
+.ev-tab.sesi2.active { background: linear-gradient(135deg, #29b6f6 0%, #0288d1 100%); color: white; border-color: #0288d1; box-shadow: 0 -4px 16px rgba(2, 136, 209, 0.3); }
+.ev-tab.sesi2.active::before { background: linear-gradient(135deg, #29b6f6 0%, #0288d1 100%); border-color: #0288d1; }
 
 .ev-content { background: #ffffff; border: 1px solid #e0e0e0; border-top: 3px solid #0d47a1; border-radius: 0 0 16px 16px; padding: 28px; min-height: 500px; box-shadow: 0 8px 24px rgba(0,0,0,0.06); position: relative; z-index: 5; margin-top: -1px; }
 .ev-panel { display: none; animation: fadeIn 0.3s ease; }
@@ -32,8 +32,8 @@ permalink: /evidence-al/
 
 .session-header { padding: 24px; border-radius: 12px; margin-bottom: 20px; color: white; }
 .session-header.sesi1 { background: linear-gradient(135deg, #1565c0 0%, #0d47a1 100%); }
-/* SESI 2 - UNGU/VIOLET */
-.session-header.sesi2 { background: linear-gradient(135deg, #7b1fa2 0%, #6a1b9a 100%); }
+/* SESI 2: BIRU MUDA */
+.session-header.sesi2 { background: linear-gradient(135deg, #29b6f6 0%, #0288d1 100%); }
 .session-header h2 { margin: 0 0 8px 0; font-size: 1.4rem; }
 .session-header .subtitle { opacity: 0.95; font-size: 0.92rem; margin-bottom: 12px; }
 .session-header .tag { display: inline-block; background: rgba(255,255,255,0.25); padding: 4px 12px; border-radius: 12px; font-size: 0.75rem; font-weight: 700; margin-bottom: 8px; letter-spacing: 0.5px; }
@@ -42,9 +42,8 @@ permalink: /evidence-al/
 .criteria-nav button { padding: 8px 14px; background: transparent; border: none; cursor: pointer; font-weight: 600; color: #666; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: all 0.2s; font-size: 0.82rem; }
 .criteria-nav button:hover { color: #0d47a1; background: #f8fafc; }
 .criteria-nav button.active { color: #0d47a1; border-bottom-color: #0d47a1; }
-
-/* SESI 2 - UNGU/VIOLET */
-.criteria-nav.ledps-nav button.active { color: #6a1b9a; border-bottom-color: #6a1b9a; }
+/* SESI 2: BIRU MUDA */
+.criteria-nav.ledps-nav button.active { color: #0288d1; border-bottom-color: #0288d1; }
 
 .lkps-table-panel { display: none; animation: fadeIn 0.3s ease; }
 .lkps-table-panel.active { display: block; }
@@ -53,8 +52,8 @@ permalink: /evidence-al/
 
 .lkps-section { margin-bottom: 20px; }
 .lkps-section h3 { color: #0d47a1; border-left: 4px solid #0d47a1; padding-left: 12px; margin-bottom: 12px; font-size: 1.05rem; }
-/* SESI 2 - UNGU/VIOLET */
-.lkps-section.ledps h3 { color: #6a1b9a; border-left-color: #6a1b9a; }
+/* SESI 2: BIRU MUDA */
+.lkps-section.ledps h3 { color: #0288d1; border-left-color: #0288d1; }
 
 .table-responsive { overflow-x: auto; border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 16px; }
 .lkps-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; min-width: 600px; }
@@ -74,18 +73,18 @@ permalink: /evidence-al/
 .summary-card .sc-desc { font-size: 0.75rem; color: #555; }
 
 .info-box { background: #e3f2fd; border-left: 4px solid #0d47a1; padding: 12px 16px; border-radius: 6px; margin-bottom: 20px; font-size: 0.88rem; color: #0d47a1; }
-/* SESI 2 - UNGU/VIOLET */
-.info-box.ledps { background: #f3e5f5; border-left-color: #6a1b9a; color: #6a1b9a; }
+/* SESI 2: BIRU MUDA */
+.info-box.ledps { background: #e1f5fe; border-left-color: #0288d1; color: #01579b; }
 .info-box strong { color: inherit; filter: brightness(0.7); }
 
-/* SESI 2 - UNGU/VIOLET */
-.led-card { background: white; border: 1px solid #e0e0e0; border-radius: 10px; padding: 14px 16px; margin-bottom: 10px; border-left: 4px solid #6a1b9a; }
-.led-card h4 { color: #6a1b9a; margin: 0 0 8px 0; font-size: 0.92rem; }
+/* SESI 2: BIRU MUDA */
+.led-card { background: white; border: 1px solid #e0e0e0; border-radius: 10px; padding: 14px 16px; margin-bottom: 10px; border-left: 4px solid #0288d1; }
+.led-card h4 { color: #0288d1; margin: 0 0 8px 0; font-size: 0.92rem; }
 .led-card p { color: #555; font-size: 0.85rem; line-height: 1.5; margin: 0 0 8px 0; }
 .led-card ul { margin: 8px 0; padding-left: 20px; font-size: 0.82rem; color: #555; }
 .led-card li { margin-bottom: 4px; line-height: 1.5; }
-.led-card .evidence-link { display: inline-flex; align-items: center; gap: 4px; background: #f3e5f5; color: #6a1b9a; padding: 4px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; text-decoration: none; margin-top: 8px; margin-right: 6px; }
-.led-card .evidence-link:hover { background: #e1bee7; }
+.led-card .evidence-link { display: inline-flex; align-items: center; gap: 4px; background: #e1f5fe; color: #0288d1; padding: 4px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; text-decoration: none; margin-top: 8px; margin-right: 6px; }
+.led-card .evidence-link:hover { background: #b3e5fc; }
 
 .table-link-btn { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; background: linear-gradient(135deg, #0d47a1 0%, #1565c0 100%); color: white; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.78rem; transition: all 0.2s; margin: 4px 4px 4px 0; box-shadow: 0 2px 6px rgba(13, 71, 161, 0.2); }
 .table-link-btn:hover { background: linear-gradient(135deg, #1565c0 0%, #1976d2 100%); transform: translateY(-1px); box-shadow: 0 4px 10px rgba(13, 71, 161, 0.3); }
@@ -127,12 +126,12 @@ permalink: /evidence-al/
     <div class="ev-panel active" id="panel-sesi1">
       <div class="session-header sesi1">
         <span class="tag">DATA KUANTITATIF</span>
-        <h2>📊 SESI 1 — LAPORAN KINERJA PROGRAM STUDI (LKPS)</h2>
+        <h2> SESI 1 — LAPORAN KINERJA PROGRAM STUDI (LKPS)</h2>
         <div class="subtitle">Tabel 1 s.d. 7 — Data angka 3 tahun terakhir (TS-2, TS-1, TS)</div>
       </div>
 
       <div class="info-box">
-        <strong>ℹ️ Informasi:</strong> Halaman ini menampilkan seluruh tabel LKPS PSBM dengan <strong>link bukti Google Drive</strong> yang sudah terintegrasi. Klik tombol "📂 Buka Bukti" untuk mengakses dokumen asli.
+        <strong>ℹ️ Informasi:</strong> Halaman ini menampilkan seluruh tabel LKPS PSBM dengan <strong>link bukti Google Drive</strong> yang sudah terintegrasi. Klik tombol " Buka Bukti" untuk mengakses dokumen asli.
       </div>
 
       <!-- Sub-nav Tabel 1-7 -->
@@ -154,14 +153,14 @@ permalink: /evidence-al/
             <table class="lkps-table">
               <thead><tr><th>No</th><th>Jenis VMTS</th><th>Pernyataan (Ringkasan)</th><th>No. SK</th><th>Link Dokumen</th></tr></thead>
               <tbody>
-                <tr><td>1</td><td><strong>VMTS PT</strong></td><td>Visi: Menjadi politeknik unggul bertaraf internasional untuk mendukung daya saing bangsa</td><td>643/PL3/OT/2021</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank">📂 Buka Folder</a></td></tr>
-                <tr><td>2</td><td><strong>VMTS UPPS (JTE)</strong></td><td>Visi: Menjadi Jurusan Teknik Elektro unggul bertaraf internasional</td><td>2585/PL3/OT/2020</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1JiRWv_v_-pbrFTMl74JwQzJ1ZNnCpcOt" target="_blank">📂 Buka Folder</a></td></tr>
-                <tr><td>3</td><td><strong>Visi Keilmuan PS</strong></td><td>Unggul bertaraf internasional di bidang broadband multimedia</td><td>2589/PL3/KR.00/2020</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1kEN_2TU9W6vch8kkKwB0qG83rU89ujxf" target="_blank">📂 Buka Folder</a></td></tr>
+                <tr><td>1</td><td><strong>VMTS PT</strong></td><td>Visi: Menjadi politeknik unggul bertaraf internasional untuk mendukung daya saing bangsa</td><td>643/PL3/OT/2021</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU?usp=drive_link" target="_blank">📂 Buka Folder</a></td></tr>
+                <tr><td>2</td><td><strong>VMTS UPPS (JTE)</strong></td><td>Visi: Menjadi Jurusan Teknik Elektro unggul bertaraf internasional</td><td>2585/PL3/OT/2020</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1JiRWv_v_-pbrFTMl74JwQzJ1ZNnCpcOt?usp=drive_link" target="_blank">📂 Buka Folder</a></td></tr>
+                <tr><td>3</td><td><strong>Visi Keilmuan PS</strong></td><td>Unggul bertaraf internasional di bidang broadband multimedia</td><td>2589/PL3/KR.00/2020</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1kEN_2TU9W6vch8kkKwB0qG83rU89ujxf?usp=sharing" target="_blank">📂 Buka Folder</a></td></tr>
               </tbody>
             </table>
           </div>
           <div style="margin-top:12px;">
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📄</span> Buka Bukti: Tabel 1 - VMTS PT</a>
+            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon"></span> Buka Bukti: Tabel 1 - VMTS PT</a>
             <a href="https://drive.google.com/drive/folders/1JiRWv_v_-pbrFTMl74JwQzJ1ZNnCpcOt" target="_blank" class="table-link-btn"><span class="btn-icon">📄</span> Buka Bukti: Tabel 1 - VMTS UPPS</a>
             <a href="https://drive.google.com/drive/folders/1kEN_2TU9W6vch8kkKwB0qG83rU89ujxf" target="_blank" class="table-link-btn"><span class="btn-icon">📘</span> Buka Bukti: Tabel 1 - Visi Keilmuan PS</a>
           </div>
@@ -251,7 +250,7 @@ permalink: /evidence-al/
       <!-- TABEL 4 -->
       <div class="lkps-table-panel" id="lkps-t4">
         <div class="lkps-section">
-          <h3>👨‍🏫 Tabel 4a: Profil DTPS (11 Dosen)</h3>
+          <h3>‍🏫 Tabel 4a: Profil DTPS (11 Dosen)</h3>
           <div class="summary-grid">
             <div class="summary-card"><div class="sc-label">Total DTPS</div><div class="sc-value">11</div></div>
             <div class="summary-card"><div class="sc-label">Doktor</div><div class="sc-value">3 (27,27%)</div></div>
@@ -347,9 +346,6 @@ permalink: /evidence-al/
                 <tr><td>Keahlian bidang ilmu</td><td class="highlight-data">73,30%</td><td>26,70%</td><td>0,00%</td><td>0,00%</td></tr>
                 <tr><td>Bahasa asing</td><td class="highlight-data">71,10%</td><td>17,80%</td><td class="highlight-data">11,10%</td><td>0,00%</td></tr>
                 <tr><td>Teknologi informasi</td><td class="highlight-data">82,20%</td><td>17,80%</td><td>0,00%</td><td>0,00%</td></tr>
-                <tr><td>Berkomunikasi</td><td class="highlight-data">77,78%</td><td>22,20%</td><td>0,00%</td><td>0,00%</td></tr>
-                <tr><td>Kerjasama tim</td><td class="highlight-data">75,60%</td><td>24,40%</td><td>0,00%</td><td>0,00%</td></tr>
-                <tr><td>Pengembangan diri</td><td class="highlight-data">73,30%</td><td>26,70%</td><td>0,00%</td><td>0,00%</td></tr>
               </tbody>
             </table>
           </div>
@@ -403,7 +399,7 @@ permalink: /evidence-al/
 
     </div>
 
-    <!-- ========== SESI 2: LEDPS (UNGU/VIOLET) ========== -->
+    <!-- ========== SESI 2: LEDPS (BIRU MUDA) ========== -->
     <div class="ev-panel" id="panel-sesi2">
       <div class="session-header sesi2">
         <span class="tag">ANALISIS KUALITATIF + BAB III</span>
@@ -412,7 +408,7 @@ permalink: /evidence-al/
       </div>
 
       <div class="info-box ledps">
-        <strong>️ Informasi:</strong> Halaman ini berisi analisis kualitatif per kriteria (LEDPS) dan BAB III (SWOT, Tujuan Strategis, Program Pengembangan). Setiap sub-bagian memiliki tombol link ke bukti Google Drive.
+        <strong>ℹ️ Informasi:</strong> Halaman ini berisi analisis kualitatif per kriteria (LEDPS) dan BAB III (SWOT, Tujuan Strategis, Program Pengembangan). Setiap sub-bagian memiliki tombol link ke bukti Google Drive.
       </div>
 
       <!-- Sub-nav Kriteria + BAB III -->
@@ -432,7 +428,7 @@ permalink: /evidence-al/
         <div class="lkps-section ledps">
           <h3>📑 C.1 — Diferensiasi Misi (Visi, Misi, Tujuan, dan Strategi)</h3>
           <div class="led-card">
-            <h4> Visi Keilmuan PSBM</h4>
+            <h4>🎯 Visi Keilmuan PSBM</h4>
             <p><strong>"Menjadi Program Studi Unggul Bertaraf Internasional di Bidang Broadband Multimedia untuk Mendukung Daya Saing Bangsa"</strong></p>
             <p><strong>Kekhasan:</strong> Integrasi teknologi telekomunikasi broadband, jaringan komputer, komputasi, dan multimedia dengan karakter pendidikan vokasi berbasis praktik, proyek, magang industri, dan sertifikasi kompetensi.</p>
             <a href="https://drive.google.com/drive/folders/1kEN_2TU9W6vch8kkKwB0qG83rU89ujxf" target="_blank" class="evidence-link">📂 Bukti: Tabel 1 - Visi Keilmuan PS</a>
@@ -448,7 +444,7 @@ permalink: /evidence-al/
             <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="evidence-link">📂 Bukti: Tabel 1 - Mekanisme VMTS</a>
           </div>
           <div class="led-card">
-            <h4> Capaian VMTS (Traceability ke LKPS)</h4>
+            <h4>🎯 Capaian VMTS (Traceability ke LKPS)</h4>
             <ul>
               <li><strong>Pendidikan:</strong> 53,33% praktik, 5 MK diampu praktisi (20%) → <em>LKPS 3.a</em></li>
               <li><strong>Penelitian:</strong> 45 penelitian (14→13→18), tren meningkat → <em>LKPS 3.b</em></li>
@@ -467,10 +463,10 @@ permalink: /evidence-al/
           <div class="led-card">
             <h4>🏢 Tata Pamong</h4>
             <p>Struktur tata pamong mengacu pada <strong>Statuta PNJ No. 35 Tahun 2018</strong> dan <strong>OTK PNJ No. 60 Tahun 2022</strong>. Lima pilar Good University Governance: Kredibel, Transparan, Akuntabel, Bertanggung Jawab, Adil.</p>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="evidence-link">📂 Bukti: Tabel 2 - Tata Pamong</a>
+            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="evidence-link"> Bukti: Tabel 2 - Tata Pamong</a>
           </div>
           <div class="led-card">
-            <h4>🤝 Kerja Sama Tridharma — Analisis</h4>
+            <h4> Kerja Sama Tridharma — Analisis</h4>
             <ul>
               <li><strong>Total:</strong> 66 kerja sama (42 pendidikan, 17 penelitian, 7 PkM) → <em>LKPS 2.a</em></li>
               <li><strong>Tingkat:</strong> 5 internasional, 45 nasional, 16 lokal/wilayah</li>
@@ -540,7 +536,7 @@ permalink: /evidence-al/
       <!-- C.4 SUMBER DAYA MANUSIA -->
       <div class="ledps-criteria" id="ledps-c4">
         <div class="lkps-section ledps">
-          <h3>👨🏫 C.4 — Sumber Daya Manusia</h3>
+          <h3>👨‍🏫 C.4 — Sumber Daya Manusia</h3>
           <div class="led-card">
             <h4>📊 Profil DTPS — Analisis</h4>
             <ul>
@@ -551,13 +547,13 @@ permalink: /evidence-al/
               <li><strong>Rasio Mhs:DTPS:</strong> 1:17,18 — ideal</li>
               <li><strong>Analisis:</strong> SDM kompeten, perlu percepatan Guru Besar dan doktor</li>
             </ul>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="evidence-link"> Bukti: Tabel 4a - Profil DTPS</a>
+            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="evidence-link">📂 Bukti: Tabel 4a - Profil DTPS</a>
           </div>
           <div class="led-card">
             <h4>⚖️ Beban Kerja — Evaluasi</h4>
             <p><strong>Rata-rata BKD:</strong> 14,77 SKS/semester (rentang ideal 12-16 SKS)</p>
             <p>Komposisi: 9,98 SKS pendidikan, 2,22 SKS penelitian, 1,70 SKS PkM, 0,88 SKS tugas tambahan</p>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="evidence-link"> Bukti: Tabel 4c - Beban Kerja DTPS</a>
+            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="evidence-link">📂 Bukti: Tabel 4c - Beban Kerja DTPS</a>
           </div>
           <div class="led-card">
             <h4>📈 Kinerja Tridharma — Analisis</h4>
@@ -571,7 +567,7 @@ permalink: /evidence-al/
             <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="evidence-link">📂 Bukti: Tabel 4e - Publikasi DTPS</a>
             <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="evidence-link">📂 Bukti: Tabel 4f - Luaran DTPS</a>
             <a href="https://drive.google.com/drive/folders/1ReDF1ecxwnx7v2lVkMaxdwkl8Hd7NF1z" target="_blank" class="evidence-link"> Bukti: Tabel 4g - Produk Diadopsi (13)</a>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="evidence-link">📂 Bukti: Tabel 4j - Rekognisi DTPS</a>
+            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="evidence-link"> Bukti: Tabel 4j - Rekognisi DTPS</a>
           </div>
         </div>
       </div>
@@ -592,7 +588,7 @@ permalink: /evidence-al/
             <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="evidence-link">📂 Bukti: Tabel 5a - Sarpras & Lab</a>
           </div>
           <div class="led-card">
-            <h4>️ K3L — Evaluasi</h4>
+            <h4>⚠️ K3L — Evaluasi</h4>
             <ul>
               <li><strong>Dokumen:</strong> 17 dokumen K3L (Pedoman, SOP, Laporan) → <em>LKPS 5.b</em></li>
               <li><strong>Fasilitas:</strong> 12 item (APAR, Hidran, Ambulance, APD, P3K, Jalur Evakuasi) → <em>LKPS 5.c</em></li>
@@ -600,7 +596,7 @@ permalink: /evidence-al/
               <li><strong>Analisis:</strong> Implementasi K3L baik, perlu audit berkala dan sosialisasi berkelanjutan</li>
             </ul>
             <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="evidence-link">📂 Bukti: Tabel 5b - Dokumen K3L</a>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="evidence-link"> Bukti: Tabel 5c - Fasilitas K3L</a>
+            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="evidence-link">📂 Bukti: Tabel 5c - Fasilitas K3L</a>
           </div>
         </div>
       </div>
@@ -610,7 +606,7 @@ permalink: /evidence-al/
         <div class="lkps-section ledps">
           <h3>🎓 C.6 — Mahasiswa dan Luaran Mahasiswa</h3>
           <div class="led-card">
-            <h4>‍🎓 Mahasiswa — Analisis</h4>
+            <h4>👨🎓 Mahasiswa — Analisis</h4>
             <ul>
               <li><strong>Mahasiswa Aktif:</strong> 189 (TS) → <em>LKPS 6.a</em></li>
               <li><strong>Mahasiswa Asing:</strong> 13 (1 FT, 12 PT dari Turki dan Malaysia)</li>
@@ -622,7 +618,7 @@ permalink: /evidence-al/
             <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="evidence-link">📂 Bukti: Tabel 6b - IPK Lulusan</a>
           </div>
           <div class="led-card">
-            <h4> Prestasi & Luaran — Analisis</h4>
+            <h4>🏆 Prestasi & Luaran — Analisis</h4>
             <ul>
               <li><strong>Prestasi Akademik:</strong> 10 (2 internasional, 8 nasional) → <em>LKPS 6.c.1</em></li>
               <li><strong>Prestasi Nonakademik:</strong> 9 (1 internasional, 5 nasional, 3 wilayah) → <em>LKPS 6.c.2</em></li>
@@ -631,7 +627,7 @@ permalink: /evidence-al/
               <li><strong>Produk Diadopsi:</strong> 16 produk/jasa mahasiswa → <em>LKPS 6.e.4</em></li>
               <li><strong>Analisis:</strong> Luaran mahasiswa sangat produktif, perlu peningkatan eksposur internasional</li>
             </ul>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="evidence-link"> Bukti: Tabel 6c1 - Prestasi Akademik</a>
+            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="evidence-link">📂 Bukti: Tabel 6c1 - Prestasi Akademik</a>
             <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="evidence-link">📂 Bukti: Tabel 6c2 - Prestasi Nonakademik</a>
             <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="evidence-link">📂 Bukti: Tabel 6e2 - Publikasi Mahasiswa</a>
             <a href="https://drive.google.com/drive/folders/1gj3fyC_mO2c6pDTNRzhnlPcIE4_pKBYS" target="_blank" class="evidence-link">📂 Bukti: Tabel 6e4 - Produk Mahasiswa (16)</a>
@@ -659,7 +655,7 @@ permalink: /evidence-al/
               <li>Kerja Sama Tim: 75,6% Sangat Baik</li>
               <li>Keahlian Bidang: 73,3% Sangat Baik</li>
               <li>Pengembangan Diri: 73,3% Sangat Baik</li>
-              <li>Bahasa Asing: 71,1% Sangat Baik ⚠️ (11,1% Cukup)</li>
+              <li>Bahasa Asing: 71,1% Sangat Baik ️ (11,1% Cukup)</li>
             </ul>
             <p><strong>RTL:</strong> Kelas intensif bahasa asing, sertifikasi TOEFL/TOEIC, program imersi.</p>
             <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="evidence-link">📂 Bukti: Tabel 6g2 - Kepuasan Pengguna</a>
@@ -672,7 +668,7 @@ permalink: /evidence-al/
         <div class="lkps-section ledps">
           <h3>🔄 C.7 — Sistem Penjaminan Mutu</h3>
           <div class="led-card">
-            <h4>📋 Struktur SPMI</h4>
+            <h4> Struktur SPMI</h4>
             <ul>
               <li><strong>Tingkat Institusi:</strong> Unit Penjaminan Mutu (UPM) di bawah PPMPP</li>
               <li><strong>Tingkat Jurusan:</strong> Gugus Penjamin Mutu (GPM) sejak 2023</li>
@@ -681,7 +677,7 @@ permalink: /evidence-al/
             <a href="https://drive.google.com/drive/folders/17PgbEe6jg7P3MlRUIZSZhhC4enyylZ7S" target="_blank" class="evidence-link">📂 Bukti: Tabel 7a - Dokumen SPMI</a>
           </div>
           <div class="led-card">
-            <h4> Siklus PPEPP — Evaluasi</h4>
+            <h4>🔄 Siklus PPEPP — Evaluasi</h4>
             <ul>
               <li><strong>Penetapan:</strong> Standar mutu melalui SK Rektor/Dekan → <em>LKPS 7.a</em></li>
               <li><strong>Pelaksanaan:</strong> Program kerja mengacu standar (LMS, SIAKAD, SIMLitmas)</li>
@@ -690,8 +686,8 @@ permalink: /evidence-al/
               <li><strong>Peningkatan:</strong> Revisi standar dan strategi berdasarkan hasil evaluasi</li>
             </ul>
             <a href="https://drive.google.com/drive/folders/1gpdVeFMr0vwmrw_VvUpJhDokvF1zfVx2" target="_blank" class="evidence-link">📂 Bukti: Tabel 7b - Laporan AMI</a>
-            <a href="https://drive.google.com/drive/folders/18PzEeZ2yIs1hfx6rVOBzbjjoaGIkSFU0" target="_blank" class="evidence-link">📂 Bukti: Tabel 7b - Notulensi RTM</a>
-            <a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank" class="evidence-link">📂 Bukti: Tabel 7b - Dokumen RTL</a>
+            <a href="https://drive.google.com/drive/folders/18PzEeZ2yIs1hfx6rVOBzbjjoaGIkSFU0" target="_blank" class="evidence-link"> Bukti: Tabel 7b - Notulensi RTM</a>
+            <a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank" class="evidence-link"> Bukti: Tabel 7b - Dokumen RTL</a>
           </div>
           <div class="led-card">
             <h4>⭐ Kepuasan Stakeholder — Evaluasi</h4>
