@@ -174,7 +174,7 @@ permalink: /evidence-al/
             target="_blank" 
             class="bukti-card" 
             style="text-decoration:none; color:inherit;">
-        <div class="bc-icon"></div>
+        <div class="bc-icon">📖</div>
         <div class="bc-name">LED Final</div>
         <div class="bc-desc">Laporan Evaluasi Diri</div>
         <div style="margin-top:8px; font-size:0.72rem; color:#0d47a1; font-weight:600;">
