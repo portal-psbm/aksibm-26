@@ -288,7 +288,7 @@ const dataEvidence = [
   { id:'E011', nama:'Laporan Capaian VMTS', k:'c1', ind:'Pencapaian VMTS', jenis:'Laporan', tahun:'2024', ket:'Realisasi vs target VMTS', sumber:'LED C.1', prio:'UTAMA', icon:'📊', url:'' },
 
   // C.2 Tata Kelola (11)
-  { id:'E012', nama:'Statuta PNJ', k:'c2', ind:'Tata Pamong', jenis:'Regulasi', tahun:'2021', ket:'Statuta Politeknik Negeri Jakarta', sumber:'LED C.2', prio:'UTAMA', icon:'📜', url:'' },
+  { id:'E012', nama:'Statuta PNJ', k:'c2', ind:'Tata Pamong', jenis:'Regulasi', tahun:'2021', ket:'Statuta Politeknik Negeri Jakarta', sumber:'LED C.2', prio:'UTAMA', icon:'📜', url:'https://drive.google.com/file/d/1ZYumKTTHevGA5eD3wJPkFVjwJjWs66R8/view?usp=drive_link' },
   { id:'E013', nama:'SK OTK JTE', k:'c2', ind:'Tata Pamong', jenis:'SK', tahun:'2022', ket:'Organisasi dan Tata Kerja JTE', sumber:'LED C.2', prio:'UTAMA', icon:'📜', url:'' },
   { id:'E014', nama:'SK Pengangkatan Pimpinan JTE', k:'c2', ind:'Tata Pamong', jenis:'SK', tahun:'2022', ket:'SK Kajur, Kaprodi', sumber:'LED C.2', prio:'UTAMA', icon:'📜', url:'' },
   { id:'E015', nama:'SOP Tata Kelola JTE', k:'c2', ind:'Tata Pamong', jenis:'SOP', tahun:'2023', ket:'SOP pengelolaan JTE', sumber:'LED C.2', prio:'UTAMA', icon:'📋', url:'' },
