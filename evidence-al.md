@@ -125,6 +125,44 @@ permalink: /evidence-al/
 .session-header .subtitle { opacity: 0.95; font-size: 0.88rem; margin-bottom: 10px; }
 .session-header .tag { display: inline-block; background: rgba(255,255,255,0.25); padding: 4px 12px; border-radius: 12px; font-size: 0.72rem; font-weight: 700; margin-bottom: 8px; letter-spacing: 0.5px; }
 
+/* ===== FILE OPEN BUTTON ===== */
+.file-open-bar { 
+  display: flex; 
+  gap: 8px; 
+  margin-top: 12px; 
+  flex-wrap: wrap; 
+}
+.file-open-btn { 
+  display: inline-flex; 
+  align-items: center; 
+  gap: 8px; 
+  padding: 10px 18px; 
+  background: rgba(255,255,255,0.95); 
+  color: #0d47a1; 
+  border-radius: 8px; 
+  text-decoration: none; 
+  font-weight: 700; 
+  font-size: 0.82rem; 
+  transition: all 0.25s ease; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
+  border: none; 
+  cursor: pointer; 
+}
+.file-open-btn:hover { 
+  transform: translateY(-2px); 
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25); 
+  background: #ffffff; 
+}
+.file-open-btn .btn-icon { font-size: 1.1rem; }
+
+.file-open-btn.pdf { 
+  background: rgba(255,255,255,0.95); 
+  color: #c62828; 
+}
+.file-open-btn.pdf:hover { 
+  background: #ffffff; 
+}
+
 /* ===== SUB-NAV (SYMMETRICAL BUTTONS) ===== */
 .criteria-nav { 
   display: flex; 
@@ -205,7 +243,7 @@ permalink: /evidence-al/
   justify-content: center;
   gap: 6px; 
   padding: 8px 12px; 
-  min-width: 220px; /* Memastikan panjang tombol seragam */
+  min-width: 220px; 
   background: linear-gradient(135deg, #0d47a1 0%, #1565c0 100%); 
   color: white; 
   border-radius: 6px; 
@@ -274,6 +312,7 @@ permalink: /evidence-al/
   .swot-grid { grid-template-columns: 1fr; }
   .criteria-nav button { min-width: 80px; font-size: 0.7rem; padding: 8px 6px; }
   .table-link-btn { min-width: 100%; margin: 4px 0; }
+  .file-open-btn { width: 100%; justify-content: center; }
 }
 </style>
 
@@ -297,6 +336,13 @@ permalink: /evidence-al/
         <span class="tag">DATA KUANTITATIF — 50+ TABEL LKPS</span>
         <h2>📊 SESI 1 — LAPORAN KINERJA PROGRAM STUDI (LKPS)</h2>
         <div class="subtitle">Semua tabel LKPS PSBM dengan link bukti Google Drive</div>
+        
+        <div class="file-open-bar">
+          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="file-open-btn">
+            <span class="btn-icon">📗</span>
+            <span>Open LKPS (Excel)</span>
+          </a>
+        </div>
       </div>
 
       <div class="info-box">
@@ -308,7 +354,7 @@ permalink: /evidence-al/
         <button class="active" onclick="showLkpsTable('t1', this)"><span>📑</span><span>T1</span><small>VMTS</small></button>
         <button onclick="showLkpsTable('t2', this)"><span>🤝</span><span>T2</span><small>Kerja Sama</small></button>
         <button onclick="showLkpsTable('t3', this)"><span>📘</span><span>T3</span><small>Kurikulum</small></button>
-        <button onclick="showLkpsTable('t4', this)"><span>👨‍🏫</span><span>T4</span><small>SDM</small></button>
+        <button onclick="showLkpsTable('t4', this)"><span>‍🏫</span><span>T4</span><small>SDM</small></button>
         <button onclick="showLkpsTable('t5', this)"><span>💰</span><span>T5</span><small>Sarpras</small></button>
         <button onclick="showLkpsTable('t6', this)"><span>🎓</span><span>T6</span><small>Luaran</small></button>
         <button onclick="showLkpsTable('t7', this)"><span>🔄</span><span>T7</span><small>SPMI</small></button>
@@ -339,7 +385,7 @@ permalink: /evidence-al/
       <!-- TABEL 2: KERJA SAMA & DANA -->
       <div class="lkps-table-panel" id="lkps-t2">
         <div class="lkps-section">
-          <h3>🤝 Tabel 2a1: Kerja Sama Tridharma - Pendidikan</h3>
+          <h3> Tabel 2a1: Kerja Sama Tridharma - Pendidikan</h3>
           <div class="summary-grid">
             <div class="summary-card"><div class="sc-label">Internasional</div><div class="sc-value">5</div></div>
             <div class="summary-card"><div class="sc-label">Nasional</div><div class="sc-value">37</div></div>
@@ -393,7 +439,7 @@ permalink: /evidence-al/
       <!-- TABEL 3: KURIKULUM & TRIDHARMA -->
       <div class="lkps-table-panel" id="lkps-t3">
         <div class="lkps-section">
-          <h3>📘 Tabel 3a1: Kurikulum dan Rencana Pembelajaran</h3>
+          <h3> Tabel 3a1: Kurikulum dan Rencana Pembelajaran</h3>
           <div class="summary-grid">
             <div class="summary-card"><div class="sc-label">Total MK</div><div class="sc-value">53</div></div>
             <div class="summary-card"><div class="sc-label">Total SKS</div><div class="sc-value">150</div></div>
@@ -405,7 +451,7 @@ permalink: /evidence-al/
           </div>
         </div>
         <div class="lkps-section">
-          <h3>📘 Tabel 3a2: Mata Kuliah dan Dokumen Pembelajaran</h3>
+          <h3> Tabel 3a2: Mata Kuliah dan Dokumen Pembelajaran</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> 100% MK memiliki RPS dengan 9 komponen lengkap.</div>
           <div style="margin-top:10px; display: flex; flex-wrap: wrap; gap: 8px;">
             <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📝</span> Buka Bukti: RPS</a>
@@ -448,11 +494,11 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Lektor</div><div class="sc-value">6</div></div>
           </div>
           <div style="margin-top:10px; display: flex; flex-wrap: wrap; gap: 8px;">
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">👨‍🏫</span> Buka Bukti: Profil DTPS</a>
+            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">‍🏫</span> Buka Bukti: Profil DTPS</a>
           </div>
         </div>
         <div class="lkps-section">
-          <h3>📚 Tabel 4e: Pagelaran/Pameran/Presentasi/Publikasi Ilmiah DTPS</h3>
+          <h3> Tabel 4e: Pagelaran/Pameran/Presentasi/Publikasi Ilmiah DTPS</h3>
           <div class="summary-grid">
             <div class="summary-card"><div class="sc-label">Jurnal Nasional</div><div class="sc-value">73</div></div>
             <div class="summary-card"><div class="sc-label">Jurnal Internasional</div><div class="sc-value">12</div></div>
@@ -460,7 +506,7 @@ permalink: /evidence-al/
             <div class="summary-card highlight-data"><div class="sc-label">Total</div><div class="sc-value">220</div></div>
           </div>
           <div style="margin-top:10px; display: flex; flex-wrap: wrap; gap: 8px;">
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📚</span> Buka Bukti: Publikasi DTPS</a>
+            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon"></span> Buka Bukti: Publikasi DTPS</a>
           </div>
         </div>
         <div class="lkps-section">
@@ -469,7 +515,7 @@ permalink: /evidence-al/
             <div class="summary-card highlight-data"><div class="sc-label">Total Produk Diadopsi</div><div class="sc-value">13</div></div>
           </div>
           <div style="margin-top:10px; display: flex; flex-wrap: wrap; gap: 8px;">
-            <a href="https://drive.google.com/drive/folders/1ReDF1ecxwnx7v2lVkMaxdwkl8Hd7NF1z" target="_blank" class="table-link-btn"><span class="btn-icon">📦</span> Buka Bukti: Produk Diadopsi</a>
+            <a href="https://drive.google.com/drive/folders/1ReDF1ecxwnx7v2lVkMaxdwkl8Hd7NF1z" target="_blank" class="table-link-btn"><span class="btn-icon"></span> Buka Bukti: Produk Diadopsi</a>
           </div>
         </div>
       </div>
@@ -606,9 +652,9 @@ permalink: /evidence-al/
               <tbody>
                 <tr><td><strong>Penetapan</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/17PgbEe6jg7P3MlRUIZSZhhC4enyylZ7S" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td>—</td></tr>
                 <tr><td><strong>Pelaksanaan</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/17PgbEe6jg7P3MlRUIZSZhhC4enyylZ7S" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td>—</td></tr>
-                <tr><td><strong>Evaluasi</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1ywPn4RexBzQjD6DXRT8DCXTEtemvcQLz" target="_blank">📂 Buka</a></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1gpdVeFMr0vwmrw_VvUpJhDokvF1zfVx2" target="_blank">📂 Buka</a></td><td>—</td><td>—</td></tr>
-                <tr><td><strong>Pengendalian</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1WFgIamM3JnSGZ-WAv-UOC1W22E0ondmV" target="_blank">📂 Buka</a></td><td>—</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/18PzEeZ2yIs1hfx6rVOBzbjjoaGIkSFU0" target="_blank">📂 Buka</a></td><td>—</td></tr>
-                <tr><td><strong>Peningkatan</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank">📂 Buka</a></td></tr>
+                <tr><td><strong>Evaluasi</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1ywPn4RexBzQjD6DXRT8DCXTEtemvcQLz" target="_blank"> Buka</a></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1gpdVeFMr0vwmrw_VvUpJhDokvF1zfVx2" target="_blank">📂 Buka</a></td><td>—</td><td>—</td></tr>
+                <tr><td><strong>Pengendalian</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1WFgIamM3JnSGZ-WAv-UOC1W22E0ondmV" target="_blank"> Buka</a></td><td>—</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/18PzEeZ2yIs1hfx6rVOBzbjjoaGIkSFU0" target="_blank">📂 Buka</a></td><td>—</td></tr>
+                <tr><td><strong>Peningkatan</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank"> Buka</a></td></tr>
               </tbody>
             </table>
           </div>
@@ -629,6 +675,13 @@ permalink: /evidence-al/
         <span class="tag">ANALISIS KUALITATIF + BAB III</span>
         <h2>📘 SESI 2 — LAPORAN EVALUASI DIRI (LEDPS)</h2>
         <div class="subtitle">C.1 s.d. C.7 (Analisis Naratif) + BAB III (SWOT & Program Pengembangan)</div>
+        
+        <div class="file-open-bar">
+          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="file-open-btn pdf">
+            <span class="btn-icon">📕</span>
+            <span>Open LEDPS (PDF)</span>
+          </a>
+        </div>
       </div>
 
       <div class="info-box ledps">
@@ -641,7 +694,7 @@ permalink: /evidence-al/
         <button onclick="showLedpsCriteria('c2', this)"><span>🏛️</span><span>C.2</span><small>Akuntabilitas</small></button>
         <button onclick="showLedpsCriteria('c3', this)"><span>📘</span><span>C.3</span><small>Relevansi</small></button>
         <button onclick="showLedpsCriteria('c4', this)"><span>👨‍🏫</span><span>C.4</span><small>SDM</small></button>
-        <button onclick="showLedpsCriteria('c5', this)"><span>💰</span><span>C.5</span><small>Sarpras & K3L</small></button>
+        <button onclick="showLedpsCriteria('c5', this)"><span></span><span>C.5</span><small>Sarpras & K3L</small></button>
         <button onclick="showLedpsCriteria('c6', this)"><span>🎓</span><span>C.6</span><small>Luaran</small></button>
         <button onclick="showLedpsCriteria('c7', this)"><span>🔄</span><span>C.7</span><small>SPMI</small></button>
         <button onclick="showLedpsCriteria('bab3', this)"><span>📕</span><span>BAB III</span><small>SWOT & Program</small></button>
@@ -652,7 +705,7 @@ permalink: /evidence-al/
         <div class="lkps-section ledps">
           <h3>📑 C.1 — Diferensiasi Misi</h3>
           <div class="led-card">
-            <h4>🎯 Visi Keilmuan PSBM</h4>
+            <h4> Visi Keilmuan PSBM</h4>
             <p><strong>"Menjadi Program Studi Unggul Bertaraf Internasional di Bidang Broadband Multimedia untuk Mendukung Daya Saing Bangsa"</strong></p>
             <p><strong>Kekhasan:</strong> Integrasi teknologi telekomunikasi broadband, jaringan komputer, komputasi, dan multimedia dengan karakter pendidikan vokasi berbasis praktik, proyek, magang industri, dan sertifikasi kompetensi.</p>
             <div style="margin-top:10px; display: flex; flex-wrap: wrap; gap: 8px;">
@@ -660,14 +713,14 @@ permalink: /evidence-al/
             </div>
           </div>
           <div class="led-card">
-            <h4>🔧 Mekanisme Penyusunan VMTS</h4>
+            <h4> Mekanisme Penyusunan VMTS</h4>
             <ul>
               <li><strong>Internal:</strong> Dosen, mahasiswa, tendik (Forum Dialog Jurusan)</li>
               <li><strong>Eksternal:</strong> Alumni, pengguna lulusan, pakar industri (FGD)</li>
               <li><strong>SK Penetapan:</strong> SK Direktur PNJ No. 954/PL3.9/HK.03/2020</li>
             </ul>
             <div style="margin-top:10px; display: flex; flex-wrap: wrap; gap: 8px;">
-              <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📋</span> Buka Bukti: Mekanisme VMTS</a>
+              <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon"></span> Buka Bukti: Mekanisme VMTS</a>
             </div>
           </div>
         </div>
@@ -711,7 +764,7 @@ permalink: /evidence-al/
       <!-- C.4 SUMBER DAYA MANUSIA -->
       <div class="ledps-criteria" id="ledps-c4">
         <div class="lkps-section ledps">
-          <h3>👨‍🏫 C.4 — Sumber Daya Manusia</h3>
+          <h3>‍🏫 C.4 — Sumber Daya Manusia</h3>
           <div class="led-card">
             <h4>📊 Profil & Kinerja DTPS</h4>
             <p>11 DTPS (90,91% Lektor ke atas). 100% memiliki sertifikasi kompetensi. Rerata beban kerja 14,77 SKS. Menghasilkan 220 publikasi dan 43 rekognisi.</p>
@@ -789,7 +842,7 @@ permalink: /evidence-al/
                 </ul>
               </div>
               <div class="swot-card weakness">
-                <h4>⚠️ Weaknesses</h4>
+                <h4>️ Weaknesses</h4>
                 <ul>
                   <li>Internasionalisasi belum sekuat nasional</li>
                   <li>Pendanaan penelitian 80% internal</li>
@@ -798,7 +851,7 @@ permalink: /evidence-al/
                 </ul>
               </div>
               <div class="swot-card opportunity">
-                <h4>🚀 Opportunities</h4>
+                <h4> Opportunities</h4>
                 <ul>
                   <li>Transformasi digital & 5G/6G, IoT, AI</li>
                   <li>Hibah nasional (BIMA, DRTPM)</li>
@@ -817,7 +870,7 @@ permalink: /evidence-al/
           </div>
 
           <div class="led-card">
-            <h4>🎯 6 Tujuan Strategis PSBM</h4>
+            <h4> 6 Tujuan Strategis PSBM</h4>
             <div class="summary-grid">
               <div class="summary-card" style="border-left-color: #e65100;"><div class="sc-label">Tujuan 1</div><div class="sc-value" style="font-size:0.85rem;">Mutu Pendidikan</div></div>
               <div class="summary-card" style="border-left-color: #e65100;"><div class="sc-label">Tujuan 2</div><div class="sc-value" style="font-size:0.85rem;">Penelitian & Hilirisasi</div></div>
@@ -844,7 +897,7 @@ permalink: /evidence-al/
               </table>
             </div>
             <div style="margin-top:10px; display: flex; flex-wrap: wrap; gap: 8px;">
-              <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📕</span> Buka Bukti: BAB III</a>
+              <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon"></span> Buka Bukti: BAB III</a>
             </div>
           </div>
 
