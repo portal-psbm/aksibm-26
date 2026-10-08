@@ -10,18 +10,14 @@ permalink: /evidence-al/
 .ev-shelf::-webkit-scrollbar { height: 4px; }
 .ev-shelf::-webkit-scrollbar-track { background: rgba(13, 71, 161, 0.05); border-radius: 2px; }
 .ev-shelf::-webkit-scrollbar-thumb { background: #0d47a1; border-radius: 2px; }
-.ev-tab { position: relative; flex: 1 1 0; min-width: 0; padding: 14px 8px 18px 8px; background: #ffffff; border-radius: 10px 10px 0 0; border: 1px solid #e0e0e0; border-bottom: none; cursor: pointer; text-align: center; font-weight: 600; font-size: 0.78rem; line-height: 1.2; color: #555; transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1); transform: translateY(4px); box-shadow: 0 -2px 6px rgba(0,0,0,0.05); white-space: normal; word-wrap: break-word; overflow-wrap: break-word; }
-.ev-tab::before { content: ''; position: absolute; top: -6px; left: 22%; width: 56%; height: 6px; background: #f5f5f5; border-radius: 4px 4px 0 0; border: 1px solid #e0e0e0; border-bottom: none; transition: all 0.35s ease; }
+.ev-tab { position: relative; flex: 1 1 0; min-width: 0; padding: 16px 10px 20px 10px; background: #ffffff; border-radius: 10px 10px 0 0; border: 1px solid #e0e0e0; border-bottom: none; cursor: pointer; text-align: center; font-weight: 600; font-size: 0.85rem; line-height: 1.2; color: #555; transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1); transform: translateY(4px); box-shadow: 0 -2px 6px rgba(0,0,0,0.05); white-space: normal; word-wrap: break-word; overflow-wrap: break-word; }
+.ev-tab::before { content: ''; position: absolute; top: -7px; left: 22%; width: 56%; height: 7px; background: #f5f5f5; border-radius: 4px 4px 0 0; border: 1px solid #e0e0e0; border-bottom: none; transition: all 0.35s ease; }
 .ev-tab:hover { background: #f1f5f9; transform: translateY(0px); color: #0d47a1; }
+.ev-tab:hover::before { background: #f1f5f9; }
 .ev-tab.active { background: #0d47a1; color: #ffffff; transform: translateY(-6px); z-index: 20; border-color: #0d47a1; box-shadow: 0 -4px 16px rgba(13, 71, 161, 0.25); font-weight: 700; }
-.ev-tab.active::before { background: #0d47a1; border-color: #0d47a1; height: 8px; top: -8px; }
-.ev-tab.lkps-tab.active { background: linear-gradient(135deg, #1565c0 0%, #0d47a1 100%); }
-.ev-tab.ledps-tab.active { background: linear-gradient(135deg, #388e3c 0%, #2e7d32 100%); }
-.ev-tab.ledps-tab { background: linear-gradient(180deg, #e8f5e9 0%, #c8e6c9 100%); color: #2e7d32; border-color: #a5d6a7; }
-.ev-tab.ledps-tab::before { background: linear-gradient(180deg, #a5d6a7 0%, #81c784 100%); border-color: #a5d6a7; }
-.ev-tab.bab3-tab.active { background: linear-gradient(135deg, #f57c00 0%, #e65100 100%); }
-.ev-tab.bab3-tab { background: linear-gradient(180deg, #fff3e0 0%, #ffe0b2 100%); color: #e65100; border-color: #ffcc80; }
-.ev-tab.bab3-tab::before { background: linear-gradient(180deg, #ffcc80 0%, #ffb74d 100%); border-color: #ffcc80; }
+.ev-tab.active::before { background: #0d47a1; border-color: #0d47a1; height: 9px; top: -9px; }
+.ev-tab.sesi2.active { background: linear-gradient(135deg, #f57c00 0%, #e65100 100%); border-color: #e65100; }
+.ev-tab.sesi2.active::before { background: linear-gradient(135deg, #f57c00 0%, #e65100 100%); }
 
 .ev-content { background: #ffffff; border: 1px solid #e0e0e0; border-top: 3px solid #0d47a1; border-radius: 0 0 16px 16px; padding: 28px; min-height: 500px; box-shadow: 0 8px 24px rgba(0,0,0,0.06); position: relative; z-index: 5; margin-top: -1px; }
 .ev-panel { display: none; animation: fadeIn 0.3s ease; }
@@ -29,9 +25,8 @@ permalink: /evidence-al/
 @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 
 .session-header { padding: 24px; border-radius: 12px; margin-bottom: 20px; color: white; }
-.session-header.lkps { background: linear-gradient(135deg, #1565c0 0%, #0d47a1 100%); }
-.session-header.ledps { background: linear-gradient(135deg, #388e3c 0%, #2e7d32 100%); }
-.session-header.bab3 { background: linear-gradient(135deg, #f57c00 0%, #e65100 100%); }
+.session-header.sesi1 { background: linear-gradient(135deg, #1565c0 0%, #0d47a1 100%); }
+.session-header.sesi2 { background: linear-gradient(135deg, #f57c00 0%, #e65100 100%); }
 .session-header h2 { margin: 0 0 8px 0; font-size: 1.4rem; }
 .session-header .subtitle { opacity: 0.95; font-size: 0.92rem; margin-bottom: 12px; }
 .session-header .tag { display: inline-block; background: rgba(255,255,255,0.25); padding: 4px 12px; border-radius: 12px; font-size: 0.75rem; font-weight: 700; margin-bottom: 8px; letter-spacing: 0.5px; }
@@ -39,21 +34,18 @@ permalink: /evidence-al/
 .session-info .info-item { background: rgba(255,255,255,0.2); padding: 8px 14px; border-radius: 8px; font-size: 0.85rem; backdrop-filter: blur(4px); }
 .session-info .info-item strong { display: block; font-size: 1.3rem; margin-bottom: 2px; }
 
-/* Sub-nav per kriteria */
 .criteria-nav { display: flex; gap: 4px; margin-bottom: 16px; border-bottom: 2px solid #e0e0e0; flex-wrap: wrap; }
 .criteria-nav button { padding: 8px 14px; background: transparent; border: none; cursor: pointer; font-weight: 600; color: #666; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: all 0.2s; font-size: 0.82rem; }
 .criteria-nav button:hover { color: #0d47a1; background: #f8fafc; }
 .criteria-nav button.active { color: #0d47a1; border-bottom-color: #0d47a1; }
-.criteria-nav.ledps-nav button.active { color: #2e7d32; border-bottom-color: #2e7d32; }
-.criteria-nav.bab3-nav button.active { color: #e65100; border-bottom-color: #e65100; }
+.criteria-nav.ledps-nav button.active { color: #e65100; border-bottom-color: #e65100; }
 
 .criteria-panel { display: none; animation: fadeIn 0.3s ease; }
 .criteria-panel.active { display: block; }
 
 .lkps-section { margin-bottom: 24px; }
 .lkps-section h3 { color: #0d47a1; border-left: 4px solid #0d47a1; padding-left: 12px; margin-bottom: 12px; font-size: 1.1rem; }
-.lkps-section.ledps h3 { color: #2e7d32; border-left-color: #2e7d32; }
-.lkps-section.bab3 h3 { color: #e65100; border-left-color: #e65100; }
+.lkps-section.ledps h3 { color: #e65100; border-left-color: #e65100; }
 
 .table-responsive { overflow-x: auto; border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 16px; }
 .lkps-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; min-width: 600px; }
@@ -73,18 +65,16 @@ permalink: /evidence-al/
 .summary-card .sc-desc { font-size: 0.78rem; color: #555; }
 
 .info-box { background: #e3f2fd; border-left: 4px solid #0d47a1; padding: 12px 16px; border-radius: 6px; margin-bottom: 20px; font-size: 0.88rem; color: #0d47a1; }
-.info-box.ledps { background: #e8f5e9; border-left-color: #2e7d32; color: #2e7d32; }
-.info-box.bab3 { background: #fff3e0; border-left-color: #e65100; color: #e65100; }
+.info-box.ledps { background: #fff3e0; border-left-color: #e65100; color: #e65100; }
 .info-box strong { color: inherit; filter: brightness(0.7); }
 
-/* LEDPS analysis card */
-.led-card { background: white; border: 1px solid #e0e0e0; border-radius: 10px; padding: 16px; margin-bottom: 12px; border-left: 4px solid #2e7d32; }
-.led-card h4 { color: #2e7d32; margin: 0 0 8px 0; font-size: 0.95rem; }
+.led-card { background: white; border: 1px solid #e0e0e0; border-radius: 10px; padding: 16px; margin-bottom: 12px; border-left: 4px solid #e65100; }
+.led-card h4 { color: #e65100; margin: 0 0 8px 0; font-size: 0.95rem; }
 .led-card p { color: #555; font-size: 0.88rem; line-height: 1.6; margin: 0 0 8px 0; }
 .led-card ul { margin: 8px 0; padding-left: 20px; font-size: 0.85rem; color: #555; }
 .led-card li { margin-bottom: 4px; line-height: 1.5; }
-.led-card .evidence-link { display: inline-flex; align-items: center; gap: 4px; background: #e8f5e9; color: #2e7d32; padding: 4px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; text-decoration: none; margin-top: 8px; }
-.led-card .evidence-link:hover { background: #c8e6c9; }
+.led-card .evidence-link { display: inline-flex; align-items: center; gap: 4px; background: #fff3e0; color: #e65100; padding: 4px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; text-decoration: none; margin-top: 8px; margin-right: 6px; }
+.led-card .evidence-link:hover { background: #ffe0b2; }
 
 .swot-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 16px 0; }
 .swot-card { padding: 16px; border-radius: 10px; border: 2px solid; }
@@ -105,7 +95,7 @@ permalink: /evidence-al/
 @media (max-width: 767px) {
 .ev-shelf { gap: 4px; padding-bottom: 8px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
 .ev-shelf::-webkit-scrollbar { display: none; }
-.ev-tab { min-width: 90px; flex: 0 0 auto; font-size: 0.72rem; padding: 12px 6px 16px 6px; }
+.ev-tab { min-width: 110px; flex: 0 0 auto; font-size: 0.8rem; }
 .ev-content { padding: 20px; }
 .summary-grid { grid-template-columns: 1fr 1fr; }
 .session-info { flex-direction: column; }
@@ -115,9 +105,8 @@ permalink: /evidence-al/
 
 <div class="ev-cabinet">
   <div class="ev-shelf">
-    <div class="ev-tab lkps-tab active" onclick="showEvPanel('lkps', this)">📊<br>SESI 1<br>LKPS<br><small style="font-size:0.65rem; font-weight:400;">Tabel 1-7</small></div>
-    <div class="ev-tab ledps-tab" onclick="showEvPanel('ledps', this)">📕<br>SESI 2<br>LEDPS<br><small style="font-size:0.65rem; font-weight:400;">C.1-C.7</small></div>
-    <div class="ev-tab bab3-tab" onclick="showEvPanel('bab3', this)">📙<br>SESI 3<br>BAB III<br><small style="font-size:0.65rem; font-weight:400;">SWOT & Program</small></div>
+    <div class="ev-tab active" onclick="showEvPanel('sesi1', this)">📊<br>SESI 1<br>LKPS<br><small style="font-size:0.65rem; font-weight:400;">Data Kuantitatif</small></div>
+    <div class="ev-tab sesi2" onclick="showEvPanel('sesi2', this)">📕<br>SESI 2<br>LEDPS<br><small style="font-size:0.65rem; font-weight:400;">Analisis + BAB III</small></div>
   </div>
 
   <div class="ev-content">
@@ -125,8 +114,8 @@ permalink: /evidence-al/
     <!-- ========================================================= -->
     <!-- ========== SESI 1: LKPS (DATA KUANTITATIF) ============== -->
     <!-- ========================================================= -->
-    <div class="ev-panel active" id="panel-lkps">
-      <div class="session-header lkps">
+    <div class="ev-panel active" id="panel-sesi1">
+      <div class="session-header sesi1">
         <span class="tag">DATA KUANTITATIF</span>
         <h2>📊 SESI 1 — LAPORAN KINERJA PROGRAM STUDI (LKPS)</h2>
         <div class="subtitle">Tabel 1 s.d. 7 — Data angka 3 tahun terakhir (TS-2, TS-1, TS)</div>
@@ -254,13 +243,12 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Doktor</div><div class="sc-value">3 (27,27%)</div></div>
             <div class="summary-card"><div class="sc-label">Lektor Kepala</div><div class="sc-value">4 (36,36%)</div></div>
             <div class="summary-card"><div class="sc-label">Lektor</div><div class="sc-value">6</div></div>
-            <div class="summary-card"><div class="sc-label">Asisten Ahli</div><div class="sc-value">2</div></div>
           </div>
           <div class="table-responsive">
             <table class="lkps-table">
               <thead><tr><th>No</th><th>Nama Dosen</th><th>NIDN</th><th>Jabatan</th><th>Pendidikan</th><th>Bidang Keahlian</th></tr></thead>
               <tbody>
-                <tr><td>1</td><td>Dr. Isdawimah, S.T., M.T.</td><td>0005056305</td><td>Lektor Kepala</td><td>Doktor</td><td>Sistem Kelistrikan Energi Terbarukan</td></tr>
+                <tr><td>1</td><td>Dr. Isdawimah, S.T., M.T.</td><td>0005056305</td><td>Lektor Kepala</td><td>Doktor</td><td>Aplikasi Sistem Kelistrikan Energi Terbarukan</td></tr>
                 <tr><td>2</td><td>Nana Sutarna, S.T., M.T., Ph.D.</td><td>0012077003</td><td>Lektor Kepala</td><td>Ph.D.</td><td>Teknologi Rekayasa Elektronika</td></tr>
                 <tr><td>3</td><td>Mera Kartika Delimayanti, Ph.D.</td><td>0028047901</td><td>Lektor Kepala</td><td>Ph.D.</td><td>Sains Data Terapan</td></tr>
                 <tr><td>4</td><td>Zulhelman, S.T., M.T.</td><td>0002036403</td><td>Lektor Kepala</td><td>Magister</td><td>Teknologi Rekayasa Internet</td></tr>
@@ -294,7 +282,7 @@ permalink: /evidence-al/
                 <tr><td>1</td><td>Viving Frendiana</td><td>Web Sekolah & Sistem Pemantauan KBM</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1ReDF1ecxwnx7v2lVkMaxdwkl8Hd7NF1z?usp=sharing" target="_blank">📂 Buka</a></td></tr>
                 <tr><td>2</td><td>Viving Frendiana</td><td>Website Desa Wisata Kampung Setaman</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1z9iUaWIHcKZnNlxXHH3rYC7PbNS_q_4y?usp=sharing" target="_blank">📂 Buka</a></td></tr>
                 <tr><td>3</td><td>Asri Wulandari</td><td>Aplikasi Bank Sampah Beji Timur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/105r2TRtetj-Nt9ULWgWxxnsW5f_mOgPK?usp=sharing" target="_blank">📂 Buka</a></td></tr>
-                <tr><td>4</td><td>Zulhelman</td><td>Sistem Informasi OJT Kemensos RI</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1Q9KQyaZKFr9P35UYPn25LLK2N4YvV3wH?usp=sharing" target="_blank">📂 Buka</a></td></tr>
+                <tr><td>4</td><td>Zulhelman</td><td>Sistem Informasi OJT Kemensos RI</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1Q9KQyaZKFr9P35UYPn25LLK2N4YvV3wH?usp=sharing" target="_blank"> Buka</a></td></tr>
                 <tr><td>5</td><td>Mohamad Fathurahman</td><td>Smart Aquaculture LoRa BBI Ciganjur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1-BrkUP0EVaN4J3rrFYyBJtyBNRLzRwnX?usp=sharing" target="_blank">📂 Buka</a></td></tr>
                 <tr><td>6</td><td>Viving Frendiana</td><td>Sistem Keamanan IoT Beji Timur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/167sSDvTK5Q9depemXao-pcVs0sHJbqPn?usp=sharing" target="_blank">📂 Buka</a></td></tr>
               </tbody>
@@ -340,7 +328,7 @@ permalink: /evidence-al/
       <!-- ===== TABEL 6: MAHASISWA & LUARAN ===== -->
       <div class="lkps-table-panel" id="lkps-t6">
         <div class="lkps-section">
-          <h3>🎓 Tabel 6a: Jumlah Mahasiswa (189 aktif TS)</h3>
+          <h3> Tabel 6a: Jumlah Mahasiswa (189 aktif TS)</h3>
           <div class="summary-grid">
             <div class="summary-card"><div class="sc-label">TS-2</div><div class="sc-value">192</div></div>
             <div class="summary-card"><div class="sc-label">TS-1</div><div class="sc-value">182</div></div>
@@ -387,19 +375,19 @@ permalink: /evidence-al/
                 <tr><td>2</td><td>Muhammad Zaki Raya dkk</td><td>Website Desa Wisata Kampung Setaman</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/10Uedbfz4neHCLzH0gVGHO46a18iBY_Sn?usp=sharing" target="_blank">📂 Buka</a></td></tr>
                 <tr><td>3</td><td>Bemi Raihan R dkk</td><td>Aplikasi Bank Sampah "Bersih Plus"</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1kOYXp1Zto8t7KmGOKmEyXLlYZgm0986E?usp=sharing" target="_blank">📂 Buka</a></td></tr>
                 <tr><td>4</td><td>Ilham Satria Lubis dkk</td><td>Smart Aquaculture LoRa BBI Ciganjur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1sbQtwzrJmOYN8MMsVykxXJMIsNnvWPE4?usp=sharing" target="_blank">📂 Buka</a></td></tr>
-                <tr><td>5</td><td>Annisa Octaviani dkk</td><td>Sistem Keamanan IoT Beji Timur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1jOUQDJJjgd0QhcgX3RgIchbhu01FsJLf?usp=sharing" target="_blank">📂 Buka</a></td></tr>
+                <tr><td>5</td><td>Annisa Octaviani dkk</td><td>Sistem Keamanan IoT Beji Timur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1jOUQDJJjgd0QhcgX3RgIchbhu01FsJLf?usp=sharing" target="_blank"> Buka</a></td></tr>
               </tbody>
             </table>
           </div>
         </div>
         <div class="lkps-section">
-          <h3>📈 Tabel 6f1: Waktu Tunggu Lulusan</h3>
+          <h3> Tabel 6f1: Waktu Tunggu Lulusan</h3>
           <div class="summary-grid">
             <div class="summary-card"><div class="sc-label">Total Lulusan</div><div class="sc-value">80</div></div>
             <div class="summary-card"><div class="sc-label">Terlacak</div><div class="sc-value">61 (76,25%)</div></div>
-            <div class="summary-card"><div class="sc-label">WT < 3 bulan</div><div class="sc-value">34 (55,74%)</div></div>
+            <div class="summary-card"><div class="sc-label">WT &lt; 3 bulan</div><div class="sc-value">34 (55,74%)</div></div>
             <div class="summary-card"><div class="sc-label">WT 3-18 bulan</div><div class="sc-value">27 (44,26%)</div></div>
-            <div class="summary-card highlight-data"><div class="sc-label">WT > 18 bulan</div><div class="sc-value">0</div></div>
+            <div class="summary-card highlight-data"><div class="sc-label">WT &gt; 18 bulan</div><div class="sc-value">0</div></div>
           </div>
         </div>
         <div class="lkps-section">
@@ -445,9 +433,9 @@ permalink: /evidence-al/
               <thead><tr><th>Tahap PPEPP</th><th>Link Dokumen</th><th>Link Audit</th><th>Link RTM</th><th>Link Peningkatan</th></tr></thead>
               <tbody>
                 <tr><td><strong>Penetapan</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/17PgbEe6jg7P3MlRUIZSZhhC4enyylZ7S" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td>—</td></tr>
-                <tr><td><strong>Pelaksanaan</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/17PgbEe6jg7P3MlRUIZSZhhC4enyylZ7S" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td><strong>Pelaksanaan</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/17PgbEe6jg7P3MlRUIZSZhhC4enyylZ7S" target="_blank"> Buka</a></td><td>—</td><td>—</td><td>—</td></tr>
                 <tr><td><strong>Evaluasi</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1ywPn4RexBzQjD6DXRT8DCXTEtemvcQLz" target="_blank">📂 Buka</a></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1gpdVeFMr0vwmrw_VvUpJhDokvF1zfVx2" target="_blank">📂 Buka</a></td><td>—</td><td>—</td></tr>
-                <tr><td><strong>Pengendalian</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1WFgIamM3JnSGZ-WAv-UOC1W22E0ondmV" target="_blank">📂 Buka</a></td><td>—</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/18PzEeZ2yIs1hfx6rVOBzbjjoaGIkSFU0" target="_blank">📂 Buka</a></td><td>—</td></tr>
+                <tr><td><strong>Pengendalian</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1WFgIamM3JnSGZ-WAv-UOC1W22E0ondmV" target="_blank"> Buka</a></td><td>—</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/18PzEeZ2yIs1hfx6rVOBzbjjoaGIkSFU0" target="_blank">📂 Buka</a></td><td>—</td></tr>
                 <tr><td><strong>Peningkatan</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank">📂 Buka</a></td></tr>
               </tbody>
             </table>
@@ -458,25 +446,25 @@ permalink: /evidence-al/
     </div>
 
     <!-- ========================================================= -->
-    <!-- ========== SESI 2: LEDPS (ANALISIS KUALITATIF) ========== -->
+    <!-- ========== SESI 2: LEDPS (ANALISIS + BAB III) =========== -->
     <!-- ========================================================= -->
-    <div class="ev-panel" id="panel-ledps">
-      <div class="session-header ledps">
-        <span class="tag">ANALISIS KUALITATIF</span>
+    <div class="ev-panel" id="panel-sesi2">
+      <div class="session-header sesi2">
+        <span class="tag">ANALISIS KUALITATIF + BAB III</span>
         <h2>📕 SESI 2 — LAPORAN EVALUASI DIRI (LEDPS)</h2>
-        <div class="subtitle">C.1 s.d. C.7 — Narasi evaluasi, analisis, dan capaian per kriteria</div>
+        <div class="subtitle">C.1 s.d. C.7 (Analisis Naratif) + BAB III (SWOT & Program Pengembangan)</div>
         <div class="session-info">
           <div class="info-item"><strong>7</strong> Kriteria</div>
           <div class="info-item"><strong>61</strong> Indikator</div>
-          <div class="info-item"><strong>Narasi</strong> Evaluasi Diri</div>
+          <div class="info-item"><strong>SWOT</strong> + Program</div>
         </div>
       </div>
 
       <div class="info-box ledps">
-        <strong>ℹ️ LEDPS = Analisis Naratif:</strong> Berbeda dengan LKPS (angka), LEDPS berisi <strong>analisis kualitatif</strong> per kriteria — evaluasi diri, capaian, masalah, dan tindak lanjut. Fokus asesor: <em>kedalaman analisis, konsistensi dengan LKPS, closed-loop improvement</em>.
+        <strong>ℹ️ LEDPS = Analisis Naratif:</strong> Berbeda dengan LKPS (angka), LEDPS berisi <strong>analisis kualitatif</strong> per kriteria — evaluasi diri, capaian, masalah, dan tindak lanjut. Termasuk <strong>BAB III</strong> (SWOT, Tujuan Strategis, Program Pengembangan).
       </div>
 
-      <!-- Sub-nav Kriteria -->
+      <!-- Sub-nav Kriteria + BAB III -->
       <div class="criteria-nav ledps-nav">
         <button class="active" onclick="showLedpsCriteria('c1', this)">C.1 VMTS</button>
         <button onclick="showLedpsCriteria('c2', this)">C.2 Tata Kelola</button>
@@ -485,6 +473,7 @@ permalink: /evidence-al/
         <button onclick="showLedpsCriteria('c5', this)">C.5 Sarpras</button>
         <button onclick="showLedpsCriteria('c6', this)">C.6 Luaran</button>
         <button onclick="showLedpsCriteria('c7', this)">C.7 SPMI</button>
+        <button onclick="showLedpsCriteria('bab3', this)" style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); color: #e65100; border-radius: 6px; border: 1px solid #ffcc80;">📕 BAB III</button>
       </div>
 
       <!-- ===== C.1 VMTS ===== -->
@@ -510,7 +499,6 @@ permalink: /evidence-al/
           <div class="led-card">
             <h4>📊 Tingkat Pemahaman VMTS</h4>
             <p>Hasil survei menunjukkan <strong>lebih dari 60% responden</strong> berada pada kategori "Memahami" terhadap VMTS JTE.</p>
-            <a href="#" class="evidence-link">📂 Bukti: Laporan Survei VMTS</a>
           </div>
           <div class="led-card">
             <h4>🎯 Capaian VMTS (Traceability ke LKPS)</h4>
@@ -530,9 +518,8 @@ permalink: /evidence-al/
         <div class="lkps-section ledps">
           <h3>🏛️ C.2 — Tata Pamong, Tata Kelola, Kerja Sama, Keuangan</h3>
           <div class="led-card">
-            <h4>🏢 Tata Pamong</h4>
+            <h4> Tata Pamong</h4>
             <p>Struktur tata pamong mengacu pada <strong>Statuta PNJ No. 35 Tahun 2018</strong> dan <strong>OTK PNJ No. 60 Tahun 2022</strong>. Lima pilar Good University Governance: Kredibel, Transparan, Akuntabel, Bertanggung Jawab, Adil.</p>
-            <a href="#" class="evidence-link">📂 Bukti: Statuta, OTK, SK</a>
           </div>
           <div class="led-card">
             <h4>🤝 Kerja Sama Tridharma — Analisis</h4>
@@ -566,12 +553,11 @@ permalink: /evidence-al/
             <ul>
               <li><strong>Total:</strong> 53 MK, 150 SKS (80 SKS praktik = 53,33%) → <em>LKPS 3.a.1</em></li>
               <li><strong>Evaluasi:</strong> 2020, 2021, 2024 (melibatkan dosen, alumni, industri, pakar)</li>
-              <li><strong>Profil Lulusan:</strong> 12 profil (IT Engineer, Network Engineer, RF Planner, dll.)</li>
+              <li><strong>Profil Lulusan:</strong> 6 profil (IT Engineer, Network Engineer, RF Planner, dll.)</li>
               <li><strong>CPL:</strong> 12 CPL sesuai 4 standar kompetensi lulusan</li>
               <li><strong>RPS:</strong> 100% MK memiliki RPS dengan 9 komponen lengkap</li>
               <li><strong>Analisis:</strong> Kurikulum vokasi kuat, perlu penguatan closed-loop CPL</li>
             </ul>
-            <a href="#" class="evidence-link">📂 Bukti: NADK + Kurikulum + RPS</a>
           </div>
           <div class="led-card">
             <h4>🔬 Penelitian — Evaluasi</h4>
@@ -661,7 +647,7 @@ permalink: /evidence-al/
         <div class="lkps-section ledps">
           <h3>🎓 C.6 — Mahasiswa dan Luaran</h3>
           <div class="led-card">
-            <h4>👨‍🎓 Mahasiswa — Analisis</h4>
+            <h4>‍🎓 Mahasiswa — Analisis</h4>
             <ul>
               <li><strong>Mahasiswa Aktif:</strong> 189 (TS) → <em>LKPS 6.a</em></li>
               <li><strong>Mahasiswa Asing:</strong> 13 (1 FT, 12 PT dari Turki dan Malaysia)</li>
@@ -685,7 +671,7 @@ permalink: /evidence-al/
             <h4>📈 Tracer Study — Evaluasi</h4>
             <ul>
               <li><strong>Populasi:</strong> 80 lulusan | <strong>Terlacak:</strong> 61 (76,25%) → <em>LKPS 6.f.1</em></li>
-              <li><strong>Waktu Tunggu:</strong> 55,74% <3 bulan, 44,26% 3-18 bulan, 0% >18 bulan</li>
+              <li><strong>Waktu Tunggu:</strong> 55,74% &lt;3 bulan, 44,26% 3-18 bulan, 0% &gt;18 bulan</li>
               <li><strong>Kesesuaian Bidang:</strong> 70,49% tinggi, 18,03% sedang, 11,48% rendah → <em>LKPS 6.f.2</em></li>
               <li><strong>Tempat Kerja:</strong> 63,93% nasional, 16,39% multinasional, 19,67% lokal → <em>LKPS 6.g.1</em></li>
               <li><strong>Analisis:</strong> Daya saing lulusan baik, perlu peningkatan response rate tracer</li>
@@ -713,7 +699,7 @@ permalink: /evidence-al/
         <div class="lkps-section ledps">
           <h3>🔄 C.7 — Sistem Penjaminan Mutu</h3>
           <div class="led-card">
-            <h4>📋 Struktur SPMI</h4>
+            <h4> Struktur SPMI</h4>
             <ul>
               <li><strong>Tingkat Institusi:</strong> Unit Penjaminan Mutu (UPM) di bawah PPMPP</li>
               <li><strong>Tingkat Jurusan:</strong> Gugus Penjamin Mutu (GPM) sejak 2023</li>
@@ -731,251 +717,162 @@ permalink: /evidence-al/
               <li><strong>Peningkatan:</strong> Revisi standar dan strategi berdasarkan hasil evaluasi</li>
             </ul>
             <a href="https://drive.google.com/drive/folders/1gpdVeFMr0vwmrw_VvUpJhDokvF1zfVx2" target="_blank" class="evidence-link">📂 Bukti: Laporan AMI</a>
-            <a href="https://drive.google.com/drive/folders/18PzEeZ2yIs1hfx6rVOBzbjjoaGIkSFU0" target="_blank" class="evidence-link">📂 Bukti: Notulensi RTM</a>
+            <a href="https://drive.google.com/drive/folders/18PzEeZ2yIs1hfx6rVOBzbjjoaGIkSFU0" target="_blank" class="evidence-link"> Bukti: Notulensi RTM</a>
           </div>
           <div class="led-card">
             <h4>⭐ Kepuasan Stakeholder — Evaluasi</h4>
             <p>Survei kepuasan dilakukan terhadap mahasiswa, dosen, tendik, dan pengguna lulusan. Hasil menunjukkan persepsi positif dengan area peningkatan pada layanan SDM, kemahasiswaan, dan sarana-prasarana.</p>
-            <a href="#" class="evidence-link">📂 Bukti: Laporan Survei Kepuasan</a>
           </div>
         </div>
       </div>
 
-    </div>
-
-    <!-- ========================================================= -->
-    <!-- ========== SESI 3: BAB III (SWOT & PROGRAM) ============= -->
-    <!-- ========================================================= -->
-    <div class="ev-panel" id="panel-bab3">
-      <div class="session-header bab3">
-        <span class="tag">SINTESIS STRATEGIS</span>
-        <h2>📙 SESI 3 — BAB III: PROGRAM PENGEMBANGAN BERKELANJUTAN</h2>
-        <div class="subtitle">Sintesis C.1–C.7 → SWOT → Tujuan Strategis → Program Pengembangan</div>
-        <div class="session-info">
-          <div class="info-item"><strong>4</strong> Kuadran SWOT</div>
-          <div class="info-item"><strong>6</strong> Tujuan Strategis</div>
-          <div class="info-item"><strong>6</strong> Program Utama</div>
-        </div>
-      </div>
-
-      <div class="info-box bab3">
-        <strong>ℹ️ BAB III = Sintesis Strategis:</strong> Merupakan sintesis evaluasi C.1–C.7 dan analisis lingkungan eksternal, dipetakan menjadi SWOT, tujuan strategis, dan program pengembangan. <strong>Bukan sekadar rencana kerja</strong> — diturunkan dari gap hasil evaluasi diri dan diarahkan pada peningkatan kinerja terukur.
-      </div>
-
-      <!-- Sub-nav BAB III -->
-      <div class="criteria-nav bab3-nav">
-        <button class="active" onclick="showBab3Panel('swot', this)">📊 SWOT</button>
-        <button onclick="showBab3Panel('tujuan', this)">🎯 Tujuan Strategis</button>
-        <button onclick="showBab3Panel('program', this)">📘 Program Pengembangan</button>
-        <button onclick="showBab3Panel('monitoring', this)">🔄 Monitoring</button>
-      </div>
-
-      <!-- ===== SWOT ===== -->
-      <div class="bab3-panel active" id="bab3-swot">
-        <div class="lkps-section bab3">
-          <h3>📊 Analisis SWOT PSBM</h3>
-          <div class="swot-grid">
-            <div class="swot-card strength">
-              <h4>💪 Strengths (Kekuatan)</h4>
-              <ul>
-                <li>VMTS linear PNJ→JTE→PSBM</li>
-                <li>Kekhasan Broadband Multimedia</li>
-                <li>Kurikulum responsif industri</li>
-                <li>66 kerja sama tridharma</li>
-                <li>SDM kuat (90,91% Lektor+, 100% sertifikasi)</li>
-                <li>Tridharma produktif (45 penelitian, 14 PkM)</li>
-                <li>Kinerja lulusan baik (IPK 3,46, 80,32% nasional+)</li>
-                <li>SPMI berjalan (PPEPP, AMI, RTM)</li>
-              </ul>
-              <p style="font-size:0.75rem; color:#2e7d32; margin-top:8px;"><strong>Sumber:</strong> LKPS 2.a, 3.a, 4.a, 4.e, 6.b</p>
-            </div>
-            <div class="swot-card weakness">
-              <h4>⚠️ Weaknesses (Kelemahan)</h4>
-              <ul>
-                <li>Internasionalisasi belum sekuat nasional</li>
-                <li>Dokumentasi CPL/CPMK perlu diperkuat</li>
-                <li>Pendanaan penelitian 80% internal</li>
-                <li>Keterlibatan mhs dalam penelitian 26,67%</li>
-                <li>Belum ada Guru Besar</li>
-                <li>Publikasi bereputasi belum merata</li>
-                <li>Bahasa asing perlu penguatan</li>
-                <li>Pemutakhiran fasilitas berkelanjutan</li>
-              </ul>
-              <p style="font-size:0.75rem; color:#e65100; margin-top:8px;"><strong>Sumber:</strong> LKPS 3.b, 4.a, 4.e, 6.g.2</p>
-            </div>
-            <div class="swot-card opportunity">
-              <h4>🚀 Opportunities (Peluang)</h4>
-              <ul>
-                <li>Transformasi digital & 5G/6G</li>
-                <li>IoT, AI, cloud computing, Big Data</li>
-                <li>Hibah nasional (BIMA, DRTPM)</li>
-                <li>Kebutuhan DUDI broadband</li>
-                <li>Program Merdeka Belajar</li>
-                <li>Jejaring alumni & pengguna</li>
-                <li>Sertifikasi kompetensi internasional</li>
-              </ul>
-              <p style="font-size:0.75rem; color:#1565c0; margin-top:8px;"><strong>Sumber:</strong> Analisis lingkungan eksternal</p>
-            </div>
-            <div class="swot-card threat">
-              <h4>⚡ Threats (Ancaman)</h4>
-              <ul>
-                <li>Perubahan teknologi cepat</li>
-                <li>Persaingan PT sejenis</li>
-                <li>Tuntutan kompetensi DUDI dinamis</li>
-                <li>Regulasi DIKTI berubah</li>
-                <li>Persaingan hibah eksternal</li>
-                <li>Standar internasional meningkat</li>
-              </ul>
-              <p style="font-size:0.75rem; color:#c62828; margin-top:8px;"><strong>Sumber:</strong> Analisis lingkungan eksternal</p>
+      <!-- ===== BAB III ===== -->
+      <div class="ledps-criteria" id="ledps-bab3">
+        <div class="lkps-section ledps">
+          <h3>📕 BAB III — Program Pengembangan Berkelanjutan</h3>
+          
+          <!-- SWOT -->
+          <div class="led-card">
+            <h4>📊 Analisis SWOT</h4>
+            <div class="swot-grid">
+              <div class="swot-card strength">
+                <h4>💪 Strengths (Kekuatan)</h4>
+                <ul>
+                  <li>VMTS linear PNJ→JTE→PSBM</li>
+                  <li>Kekhasan Broadband Multimedia</li>
+                  <li>Kurikulum responsif industri</li>
+                  <li>66 kerja sama tridharma</li>
+                  <li>SDM kuat (90,91% Lektor+, 100% sertifikasi)</li>
+                  <li>Tridharma produktif (45 penelitian, 14 PkM)</li>
+                  <li>Kinerja lulusan baik (IPK 3,46, 80,32% nasional+)</li>
+                  <li>SPMI berjalan (PPEPP, AMI, RTM)</li>
+                </ul>
+              </div>
+              <div class="swot-card weakness">
+                <h4>⚠️ Weaknesses (Kelemahan)</h4>
+                <ul>
+                  <li>Internasionalisasi belum sekuat nasional</li>
+                  <li>Dokumentasi CPL/CPMK perlu diperkuat</li>
+                  <li>Pendanaan penelitian 80% internal</li>
+                  <li>Keterlibatan mhs dalam penelitian 26,67%</li>
+                  <li>Belum ada Guru Besar</li>
+                  <li>Publikasi bereputasi belum merata</li>
+                  <li>Bahasa asing perlu penguatan</li>
+                  <li>Pemutakhiran fasilitas berkelanjutan</li>
+                </ul>
+              </div>
+              <div class="swot-card opportunity">
+                <h4>🚀 Opportunities (Peluang)</h4>
+                <ul>
+                  <li>Transformasi digital & 5G/6G</li>
+                  <li>IoT, AI, cloud computing, Big Data</li>
+                  <li>Hibah nasional (BIMA, DRTPM)</li>
+                  <li>Kebutuhan DUDI broadband</li>
+                  <li>Program Merdeka Belajar</li>
+                  <li>Jejaring alumni & pengguna</li>
+                  <li>Sertifikasi kompetensi internasional</li>
+                </ul>
+              </div>
+              <div class="swot-card threat">
+                <h4>⚡ Threats (Ancaman)</h4>
+                <ul>
+                  <li>Perubahan teknologi cepat</li>
+                  <li>Persaingan PT sejenis</li>
+                  <li>Tuntutan kompetensi DUDI dinamis</li>
+                  <li>Regulasi DIKTI berubah</li>
+                  <li>Persaingan hibah eksternal</li>
+                  <li>Standar internasional meningkat</li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      <!-- ===== TUJUAN STRATEGIS ===== -->
-      <div class="bab3-panel" id="bab3-tujuan">
-        <div class="lkps-section bab3">
-          <h3>🎯 6 Tujuan Strategis PSBM</h3>
-          <div class="summary-grid">
-            <div class="summary-card" style="border-left-color: #e65100;">
-              <div class="sc-label">Tujuan 1</div>
-              <div class="sc-value" style="font-size:0.9rem;">Memperkuat relevansi & mutu pendidikan</div>
-              <div class="sc-desc">Indikator: 100% CPL terukur</div>
-            </div>
-            <div class="summary-card" style="border-left-color: #e65100;">
-              <div class="sc-label">Tujuan 2</div>
-              <div class="sc-value" style="font-size:0.9rem;">Meningkatkan penelitian & hilirisasi</div>
-              <div class="sc-desc">Target: ≥40% pendanaan eksternal</div>
-            </div>
-            <div class="summary-card" style="border-left-color: #e65100;">
-              <div class="sc-label">Tujuan 3</div>
-              <div class="sc-value" style="font-size:0.9rem;">Meningkatkan kualitas SDM</div>
-              <div class="sc-desc">Target: 5 doktor, 50% LK</div>
-            </div>
-            <div class="summary-card" style="border-left-color: #e65100;">
-              <div class="sc-label">Tujuan 4</div>
-              <div class="sc-value" style="font-size:0.9rem;">Memperluas internasionalisasi</div>
-              <div class="sc-desc">Target: ≥5 kerja sama intl</div>
-            </div>
-            <div class="summary-card" style="border-left-color: #e65100;">
-              <div class="sc-label">Tujuan 5</div>
-              <div class="sc-value" style="font-size:0.9rem;">Meningkatkan daya saing lulusan</div>
-              <div class="sc-desc">Target: ≥80% sesuai bidang</div>
-            </div>
-            <div class="summary-card" style="border-left-color: #e65100;">
-              <div class="sc-label">Tujuan 6</div>
-              <div class="sc-value" style="font-size:0.9rem;">Memperkuat budaya mutu</div>
-              <div class="sc-desc">Target: Siklus PPEPP berjalan</div>
+          <!-- Tujuan Strategis -->
+          <div class="led-card">
+            <h4>🎯 6 Tujuan Strategis PSBM</h4>
+            <div class="summary-grid">
+              <div class="summary-card" style="border-left-color: #e65100;">
+                <div class="sc-label">Tujuan 1</div>
+                <div class="sc-value" style="font-size:0.9rem;">Memperkuat relevansi & mutu pendidikan</div>
+                <div class="sc-desc">Indikator: 100% CPL terukur</div>
+              </div>
+              <div class="summary-card" style="border-left-color: #e65100;">
+                <div class="sc-label">Tujuan 2</div>
+                <div class="sc-value" style="font-size:0.9rem;">Meningkatkan penelitian & hilirisasi</div>
+                <div class="sc-desc">Target: ≥40% pendanaan eksternal</div>
+              </div>
+              <div class="summary-card" style="border-left-color: #e65100;">
+                <div class="sc-label">Tujuan 3</div>
+                <div class="sc-value" style="font-size:0.9rem;">Meningkatkan kualitas SDM</div>
+                <div class="sc-desc">Target: 5 doktor, 50% LK</div>
+              </div>
+              <div class="summary-card" style="border-left-color: #e65100;">
+                <div class="sc-label">Tujuan 4</div>
+                <div class="sc-value" style="font-size:0.9rem;">Memperluas internasionalisasi</div>
+                <div class="sc-desc">Target: ≥5 kerja sama intl</div>
+              </div>
+              <div class="summary-card" style="border-left-color: #e65100;">
+                <div class="sc-label">Tujuan 5</div>
+                <div class="sc-value" style="font-size:0.9rem;">Meningkatkan daya saing lulusan</div>
+                <div class="sc-desc">Target: ≥80% sesuai bidang</div>
+              </div>
+              <div class="summary-card" style="border-left-color: #e65100;">
+                <div class="sc-label">Tujuan 6</div>
+                <div class="sc-value" style="font-size:0.9rem;">Memperkuat budaya mutu</div>
+                <div class="sc-desc">Target: Siklus PPEPP berjalan</div>
+              </div>
             </div>
           </div>
-          <div class="info-box bab3">
-            <strong>🔗 Traceability:</strong> Setiap tujuan diturunkan dari gap evaluasi C.1–C.7 dan diarahkan pada peningkatan kinerja terukur. Bukan sekadar rencana kerja.
-          </div>
-        </div>
-      </div>
 
-      <!-- ===== PROGRAM PENGEMBANGAN ===== -->
-      <div class="bab3-panel" id="bab3-program">
-        <div class="lkps-section bab3">
-          <h3>📘 6 Program Pengembangan Berkelanjutan</h3>
-          <div class="table-responsive">
-            <table class="program-table">
-              <thead>
-                <tr><th>No</th><th>Program</th><th>Strategi</th><th>Target</th><th>PIC</th><th>Anggaran</th></tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td><strong>Penguatan Closed-Loop CPL</strong></td>
-                  <td>WO</td>
-                  <td>100% CPL terukur & ditindaklanjuti</td>
-                  <td>Kurikulum/GPM</td>
-                  <td>Rp 30 juta</td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td><strong>Peningkatan Pendanaan Eksternal Penelitian</strong></td>
-                  <td>WO</td>
-                  <td>≥40% pendanaan eksternal (2026)</td>
-                  <td>P3M</td>
-                  <td>Rp 50 juta</td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td><strong>Integrasi Penelitian DTPS dengan Mahasiswa</strong></td>
-                  <td>WO</td>
-                  <td>≥40% penelitian libatkan mhs</td>
-                  <td>P3M/Kaprodi</td>
-                  <td>Rp 40 juta</td>
-                </tr>
-                <tr>
-                  <td>4</td>
-                  <td><strong>Percepatan JAFA & Studi Lanjut</strong></td>
-                  <td>ST</td>
-                  <td>5 doktor, 50% LK, 1 GB</td>
-                  <td>Kajur</td>
-                  <td>Rp 200 juta</td>
-                </tr>
-                <tr>
-                  <td>5</td>
-                  <td><strong>Peningkatan Response Rate Tracer</strong></td>
-                  <td>WT</td>
-                  <td>≥80% response rate</td>
-                  <td>CDC/GPM</td>
-                  <td>Rp 20 juta</td>
-                </tr>
-                <tr>
-                  <td>6</td>
-                  <td><strong>Internasionalisasi Kerja Sama & Publikasi</strong></td>
-                  <td>SO</td>
-                  <td>≥5 MoU intl, ≥10 publikasi Scopus</td>
-                  <td>Kajur/P3M</td>
-                  <td>Rp 80 juta</td>
-                </tr>
-              </tbody>
-            </table>
+          <!-- Program Pengembangan -->
+          <div class="led-card">
+            <h4>📘 6 Program Pengembangan Berkelanjutan</h4>
+            <div class="table-responsive">
+              <table class="program-table">
+                <thead><tr><th>No</th><th>Program</th><th>Strategi</th><th>Target</th><th>PIC</th><th>Anggaran</th></tr></thead>
+                <tbody>
+                  <tr><td>1</td><td><strong>Penguatan Closed-Loop CPL</strong></td><td>WO</td><td>100% CPL terukur & ditindaklanjuti</td><td>Kurikulum/GPM</td><td>Rp 30 juta</td></tr>
+                  <tr><td>2</td><td><strong>Peningkatan Pendanaan Eksternal Penelitian</strong></td><td>WO</td><td>≥40% pendanaan eksternal (2026)</td><td>P3M</td><td>Rp 50 juta</td></tr>
+                  <tr><td>3</td><td><strong>Integrasi Penelitian DTPS dengan Mahasiswa</strong></td><td>WO</td><td>≥40% penelitian libatkan mhs</td><td>P3M/Kaprodi</td><td>Rp 40 juta</td></tr>
+                  <tr><td>4</td><td><strong>Percepatan JAFA & Studi Lanjut</strong></td><td>ST</td><td>5 doktor, 50% LK, 1 GB</td><td>Kajur</td><td>Rp 200 juta</td></tr>
+                  <tr><td>5</td><td><strong>Peningkatan Response Rate Tracer</strong></td><td>WT</td><td>≥80% response rate</td><td>CDC/GPM</td><td>Rp 20 juta</td></tr>
+                  <tr><td>6</td><td><strong>Internasionalisasi Kerja Sama & Publikasi</strong></td><td>SO</td><td>≥5 MoU intl, ≥10 publikasi Scopus</td><td>Kajur/P3M</td><td>Rp 80 juta</td></tr>
+                </tbody>
+              </table>
+            </div>
           </div>
-          <div class="info-box bab3">
-            <strong>🔗 Strategi SWOT:</strong> SO (Strength-Opportunity), WO (Weakness-Opportunity), ST (Strength-Threat), WT (Weakness-Threat). Setiap program diintegrasikan dengan perencanaan UPPS/PS, penjaminan mutu, dan pengembangan jangka pendek-menengah.
-          </div>
-        </div>
-      </div>
 
-      <!-- ===== MONITORING ===== -->
-      <div class="bab3-panel" id="bab3-monitoring">
-        <div class="lkps-section bab3">
-          <h3>🔄 Monitoring & PPEPP Program</h3>
-          <div class="summary-grid">
-            <div class="summary-card" style="border-left-color: #e65100;">
-              <div class="sc-label">🔍 AMI</div>
-              <div class="sc-value" style="font-size:1rem;">Audit Mutu Internal</div>
-              <div class="sc-desc">Audit internal tahunan terhadap 7 kriteria</div>
+          <!-- Monitoring -->
+          <div class="led-card">
+            <h4>🔄 Monitoring & PPEPP Program</h4>
+            <div class="summary-grid">
+              <div class="summary-card" style="border-left-color: #e65100;">
+                <div class="sc-label"> AMI</div>
+                <div class="sc-value" style="font-size:1rem;">Audit Mutu Internal</div>
+                <div class="sc-desc">Audit internal tahunan terhadap 7 kriteria</div>
+              </div>
+              <div class="summary-card" style="border-left-color: #e65100;">
+                <div class="sc-label">📝 RTM</div>
+                <div class="sc-value" style="font-size:1rem;">Rapat Tinjauan Manajemen</div>
+                <div class="sc-desc">Tinjauan hasil AMI oleh pimpinan</div>
+              </div>
+              <div class="summary-card" style="border-left-color: #e65100;">
+                <div class="sc-label">📋 RTL</div>
+                <div class="sc-value" style="font-size:1rem;">Rencana Tindak Lanjut</div>
+                <div class="sc-desc">15 temuan AMI dengan RTL terdokumentasi</div>
+              </div>
+              <div class="summary-card" style="border-left-color: #e65100;">
+                <div class="sc-label">📊 Evaluasi Berkala</div>
+                <div class="sc-value" style="font-size:1rem;">Tracer & Survei</div>
+                <div class="sc-desc">Tracer study, survei kepuasan, evaluasi kinerja</div>
+              </div>
             </div>
-            <div class="summary-card" style="border-left-color: #e65100;">
-              <div class="sc-label">📝 RTM</div>
-              <div class="sc-value" style="font-size:1rem;">Rapat Tinjauan Manajemen</div>
-              <div class="sc-desc">Tinjauan hasil AMI oleh pimpinan</div>
-            </div>
-            <div class="summary-card" style="border-left-color: #e65100;">
-              <div class="sc-label">📋 RTL</div>
-              <div class="sc-value" style="font-size:1rem;">Rencana Tindak Lanjut</div>
-              <div class="sc-desc">15 temuan AMI dengan RTL terdokumentasi</div>
-            </div>
-            <div class="summary-card" style="border-left-color: #e65100;">
-              <div class="sc-label">📊 Evaluasi Berkala</div>
-              <div class="sc-value" style="font-size:1rem;">Tracer & Survei</div>
-              <div class="sc-desc">Tracer study, survei kepuasan, evaluasi kinerja</div>
-            </div>
-          </div>
-          <div class="led-card" style="border-left-color: #e65100;">
-            <h4 style="color: #e65100;">🔗 Keberlanjutan Program</h4>
-            <p>Program tidak dibentuk untuk AL, tetapi diintegrasikan dengan:</p>
+            <p style="margin-top:12px;"><strong> Keberlanjutan Program:</strong> Program tidak dibentuk untuk AL, tetapi diintegrasikan dengan:</p>
             <ul>
               <li><strong>Perencanaan UPPS/PS:</strong> Renstra, Renop, RKAT</li>
               <li><strong>Penjaminan Mutu:</strong> Siklus PPEPP, AMI, RTM</li>
               <li><strong>Pengembangan Jangka Menengah:</strong> Target 2026-2028</li>
             </ul>
-            <a href="#" class="evidence-link" style="background:#fff3e0; color:#e65100;">📂 Bukti: Renstra + Renop + RKAT</a>
           </div>
         </div>
       </div>
@@ -999,11 +896,12 @@ function showEvPanel(id, btn) {
 function showLkpsTable(id, btn) {
   document.querySelectorAll('.lkps-table-panel').forEach(p => p.classList.remove('active'));
   document.getElementById('lkps-' + id).classList.add('active');
-  document.querySelectorAll('.criteria-nav button').forEach(b => b.classList.remove('active'));
+  const nav = btn.parentElement;
+  nav.querySelectorAll('button').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
 }
 
-// ===== SUB-NAV LEDPS (C.1-C.7) =====
+// ===== SUB-NAV LEDPS (C.1-C.7 + BAB III) =====
 function showLedpsCriteria(id, btn) {
   document.querySelectorAll('.ledps-criteria').forEach(p => p.classList.remove('active'));
   document.getElementById('ledps-' + id).classList.add('active');
@@ -1012,24 +910,12 @@ function showLedpsCriteria(id, btn) {
   btn.classList.add('active');
 }
 
-// ===== SUB-NAV BAB III =====
-function showBab3Panel(id, btn) {
-  document.querySelectorAll('.bab3-panel').forEach(p => p.classList.remove('active'));
-  document.getElementById('bab3-' + id).classList.add('active');
-  const nav = btn.parentElement;
-  nav.querySelectorAll('button').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-}
-
-// Init
+// ===== INIT =====
 document.addEventListener('DOMContentLoaded', function() {
   document.querySelectorAll('.lkps-table-panel').forEach((p, i) => {
     p.classList.toggle('active', i === 0);
   });
   document.querySelectorAll('.ledps-criteria').forEach((p, i) => {
-    p.classList.toggle('active', i === 0);
-  });
-  document.querySelectorAll('.bab3-panel').forEach((p, i) => {
     p.classList.toggle('active', i === 0);
   });
 });
