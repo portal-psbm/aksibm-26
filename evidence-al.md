@@ -17,7 +17,9 @@ permalink: /evidence-al/
 .ev-tab:hover::before { background: rgba(255,255,255,0.25); }
 .ev-tab.active { background: #ffffff; color: #0d47a1; transform: translateY(-6px); z-index: 20; border-color: rgba(255,255,255,0.8); box-shadow: 0 -4px 16px rgba(13, 71, 161, 0.25); font-weight: 700; }
 .ev-tab.active::before { background: #ffffff; border-color: rgba(255,255,255,0.8); height: 8px; top: -8px; }
-.ev-tab.sesi2.active { color: #2e7d32; }
+
+/* ===== WARNA SESI 2: BIRU MUDA ===== */
+.ev-tab.sesi2.active { color: #0288d1; }
 .ev-tab .tab-emoji { font-size: 1.2rem; display: block; margin-bottom: 4px; }
 .ev-tab .tab-label { font-size: 0.72rem; opacity: 0.9; }
 
@@ -28,7 +30,7 @@ permalink: /evidence-al/
 
 .session-header { padding: 20px; border-radius: 12px; margin-bottom: 16px; color: white; }
 .session-header.sesi1 { background: linear-gradient(135deg, #1565c0 0%, #0d47a1 100%); }
-.session-header.sesi2 { background: linear-gradient(135deg, #388e3c 0%, #2e7d32 100%); }
+.session-header.sesi2 { background: linear-gradient(135deg, #03a9f4 0%, #0288d1 100%); }
 .session-header h2 { margin: 0 0 6px 0; font-size: 1.3rem; }
 .session-header .subtitle { opacity: 0.95; font-size: 0.88rem; margin-bottom: 10px; }
 .session-header .tag { display: inline-block; background: rgba(255,255,255,0.25); padding: 4px 12px; border-radius: 12px; font-size: 0.72rem; font-weight: 700; margin-bottom: 8px; letter-spacing: 0.5px; }
@@ -46,7 +48,9 @@ permalink: /evidence-al/
 .criteria-nav button { padding: 6px 12px; background: white; border: 2px solid #e0e0e0; border-radius: 6px; cursor: pointer; font-weight: 600; color: #555; font-size: 0.75rem; transition: all 0.2s; }
 .criteria-nav button:hover { border-color: #0d47a1; color: #0d47a1; transform: translateY(-1px); }
 .criteria-nav button.active { background: #0d47a1; color: white; border-color: #0d47a1; box-shadow: 0 2px 6px rgba(13, 71, 161, 0.3); }
-.criteria-nav.ledps-nav button.active { background: #2e7d32; border-color: #2e7d32; }
+
+/* Warna Sub-nav SESI 2: Biru Muda */
+.criteria-nav.ledps-nav button.active { background: #0288d1; border-color: #0288d1; }
 
 .lkps-table-panel { display: none; animation: fadeIn 0.3s ease; }
 .lkps-table-panel.active { display: block; }
@@ -55,7 +59,9 @@ permalink: /evidence-al/
 
 .lkps-section { margin-bottom: 16px; }
 .lkps-section h3 { color: #0d47a1; border-left: 4px solid #0d47a1; padding-left: 10px; margin: 0 0 10px 0; font-size: 1rem; }
-.lkps-section.ledps h3 { color: #2e7d32; border-left-color: #2e7d32; }
+
+/* Warna Heading SESI 2: Biru Muda */
+.lkps-section.ledps h3 { color: #0288d1; border-left-color: #0288d1; }
 
 .table-responsive { overflow-x: auto; border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 12px; }
 .lkps-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; min-width: 600px; }
@@ -72,8 +78,8 @@ permalink: /evidence-al/
 .table-link-btn:hover { background: linear-gradient(135deg, #1565c0 0%, #1976d2 100%); transform: translateY(-1px); box-shadow: 0 4px 10px rgba(13, 71, 161, 0.3); }
 .table-link-btn.secondary { background: linear-gradient(135deg, #455a64 0%, #546e7a 100%); box-shadow: 0 2px 6px rgba(69, 90, 100, 0.2); }
 .table-link-btn.secondary:hover { background: linear-gradient(135deg, #546e7a 0%, #607d8b 100%); }
-.table-link-btn.success { background: linear-gradient(135deg, #2e7d32 0%, #388e3c 100%); box-shadow: 0 2px 6px rgba(46, 125, 50, 0.2); }
-.table-link-btn.success:hover { background: linear-gradient(135deg, #388e3c 0%, #43a047 100%); }
+.table-link-btn.success { background: linear-gradient(135deg, #0288d1 0%, #03a9f4 100%); box-shadow: 0 2px 6px rgba(2, 136, 209, 0.2); }
+.table-link-btn.success:hover { background: linear-gradient(135deg, #03a9f4 0%, #29b6f4 100%); }
 .table-link-btn .btn-icon { font-size: 0.9rem; }
 
 .summary-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; margin: 12px 0; }
@@ -84,11 +90,14 @@ permalink: /evidence-al/
 .summary-card .sc-desc { font-size: 0.72rem; color: #555; }
 
 .info-box { background: #e3f2fd; border-left: 4px solid #0d47a1; padding: 10px 14px; border-radius: 6px; margin-bottom: 16px; font-size: 0.82rem; color: #0d47a1; }
-.info-box.ledps { background: #e8f5e9; border-left-color: #2e7d32; color: #2e7d32; }
+
+/* Warna Info Box SESI 2: Biru Muda */
+.info-box.ledps { background: #e1f5fe; border-left-color: #0288d1; color: #01579b; }
 .info-box strong { color: inherit; filter: brightness(0.7); }
 
-.led-card { background: white; border: 1px solid #e0e0e0; border-radius: 8px; padding: 12px; margin-bottom: 10px; border-left: 4px solid #2e7d32; }
-.led-card h4 { color: #2e7d32; margin: 0 0 6px 0; font-size: 0.88rem; }
+/* Warna Card SESI 2: Biru Muda */
+.led-card { background: white; border: 1px solid #e0e0e0; border-radius: 8px; padding: 12px; margin-bottom: 10px; border-left: 4px solid #0288d1; }
+.led-card h4 { color: #0288d1; margin: 0 0 6px 0; font-size: 0.88rem; }
 .led-card p { color: #555; font-size: 0.82rem; line-height: 1.5; margin: 0 0 6px 0; }
 .led-card ul { margin: 6px 0; padding-left: 18px; font-size: 0.8rem; color: #555; }
 .led-card li { margin-bottom: 3px; line-height: 1.4; }
