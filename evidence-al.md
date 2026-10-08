@@ -170,7 +170,7 @@ permalink: /evidence-al/
         <div class="bukti-section">
           <h3>⭐ Bukti Utama AL</h3>
           <div class="bukti-grid">
-            <a href="https://drive.google.com/file/d/GANTI_DENGAN_ID_LED/view?usp=sharing" 
+            <a href="https://drive.google.com/file/d/1LBzHBix2Wxxpc8FG0XOw-WJDcB6DTwD0/view?usp=drive_link" 
             target="_blank" 
             class="bukti-card" 
             style="text-decoration:none; color:inherit;">
@@ -182,17 +182,17 @@ permalink: /evidence-al/
         </div>
         </a>
 
-<a href="https://drive.google.com/file/d/GANTI_DENGAN_ID_LKPS/view?usp=sharing" 
-   target="_blank" 
-   class="bukti-card" 
-   style="text-decoration:none; color:inherit;">
-  <div class="bc-icon">📊</div>
-  <div class="bc-name">LKPS Final</div>
-  <div class="bc-desc">Laporan Kinerja PS</div>
-  <div style="margin-top:8px; font-size:0.72rem; color:#0d47a1; font-weight:600;">
-    📂 Klik untuk membuka →
-  </div>
-</a>
+        <a href="https://docs.google.com/spreadsheets/d/1vS3kctRbtq2ze-NpJriezcRrmUMynC1T/edit?usp=drive_link&ouid=104338691997360962714&rtpof=true&sd=true" 
+        target="_blank" 
+        class="bukti-card" 
+        style="text-decoration:none; color:inherit;">
+        <div class="bc-icon">📊</div>
+        <div class="bc-name">LKPS Final</div>
+        <div class="bc-desc">Laporan Kinerja PS</div>
+        <div style="margin-top:8px; font-size:0.72rem; color:#0d47a1; font-weight:600;">
+            📂 Klik untuk membuka →
+        </div>
+        </a>
             <div class="bukti-card" onclick="quickEvSearch('NADK')">
               <div class="bc-icon">📘</div>
               <div class="bc-name">NADK / Kurikulum</div>
