@@ -84,7 +84,7 @@ permalink: /evidence-al/
 <div class="ev-cabinet">
   <div class="ev-shelf">
     <div class="ev-tab active" onclick="showEvPanel('sesi1', this)">📊<br>SESI 1<br>LKPS</div>
-    <div class="ev-tab sesi2" onclick="showEvPanel('sesi2', this)">🔄<br>SESI 2<br>Penjaminan Mutu</div>
+    <div class="ev-tab sesi2" onclick="showEvPanel('sesi2', this)">🔄<br>SESI 2<br>Penjaminan Mutu dan LEDPS</div>
   </div>
 
   <div class="ev-content">
