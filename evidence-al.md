@@ -5,524 +5,252 @@ permalink: /evidence-al/
 ---
 
 <style>
-.ev-cabinet { background: linear-gradient(180deg, #e3f2fd 0%, #bbdefb 100%); padding: 20px 20px 0 20px; border-radius: 16px 16px 0 0; box-shadow: inset 0 4px 12px rgba(13, 71, 161, 0.08), 0 4px 16px rgba(0,0,0,0.06); position: relative; border: 1px solid #bbdefb; border-bottom: none; }
-.ev-shelf { display: flex; flex-wrap: nowrap; gap: 6px; padding: 0 8px; position: relative; z-index: 10; overflow-x: auto; overflow-y: visible; scrollbar-width: thin; scrollbar-color: #0d47a1 transparent; padding-bottom: 4px; }
-.ev-shelf::-webkit-scrollbar { height: 4px; }
-.ev-shelf::-webkit-scrollbar-track { background: rgba(13, 71, 161, 0.05); border-radius: 2px; }
-.ev-shelf::-webkit-scrollbar-thumb { background: #0d47a1; border-radius: 2px; }
-.ev-tab { position: relative; flex: 1 1 0; min-width: 0; padding: 14px 8px 18px 8px; background: #ffffff; border-radius: 10px 10px 0 0; border: 1px solid #e0e0e0; border-bottom: none; cursor: pointer; text-align: center; font-weight: 600; font-size: 0.78rem; line-height: 1.2; color: #555; transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1); transform: translateY(4px); box-shadow: 0 -2px 6px rgba(0,0,0,0.05); white-space: normal; word-wrap: break-word; overflow-wrap: break-word; }
-.ev-tab::before { content: ''; position: absolute; top: -6px; left: 22%; width: 56%; height: 6px; background: #f5f5f5; border-radius: 4px 4px 0 0; border: 1px solid #e0e0e0; border-bottom: none; transition: all 0.35s ease; }
-.ev-tab:hover { background: #f1f5f9; transform: translateY(0px); color: #0d47a1; }
-.ev-tab:hover::before { background: #f1f5f9; }
-.ev-tab.active { background: #0d47a1; color: #ffffff; transform: translateY(-6px); z-index: 20; border-color: #0d47a1; box-shadow: 0 -4px 16px rgba(13, 71, 161, 0.25); font-weight: 700; }
-.ev-tab.active::before { background: #0d47a1; border-color: #0d47a1; height: 8px; top: -8px; }
-.ev-tab.sesi1 { background: linear-gradient(180deg, #e3f2fd 0%, #bbdefb 100%); color: #0d47a1; border-color: #90caf9; }
-.ev-tab.sesi1.active { background: linear-gradient(135deg, #1565c0 0%, #0d47a1 100%); color: white; }
-.ev-tab.sesi2 { background: linear-gradient(180deg, #e8f5e9 0%, #c8e6c9 100%); color: #2e7d32; border-color: #a5d6a7; }
-.ev-tab.sesi2.active { background: linear-gradient(135deg, #388e3c 0%, #2e7d32 100%); color: white; }
-.ev-tab.sesi3 { background: linear-gradient(180deg, #fff3e0 0%, #ffe0b2 100%); color: #e65100; border-color: #ffcc80; }
-.ev-tab.sesi3.active { background: linear-gradient(135deg, #f57c00 0%, #e65100 100%); color: white; }
-
-.ev-content { background: #ffffff; border: 1px solid #e0e0e0; border-top: 3px solid #0d47a1; border-radius: 0 0 16px 16px; padding: 28px; min-height: 500px; box-shadow: 0 8px 24px rgba(0,0,0,0.06); position: relative; z-index: 5; margin-top: -1px; }
+/* ===== UI DASAR ===== */
+.ev-tabs { display: flex; gap: 4px; margin-bottom: 20px; border-bottom: 2px solid #e0e0e0; overflow-x: auto; padding-bottom: 4px; }
+.ev-tab { padding: 10px 16px; background: transparent; border: none; cursor: pointer; font-weight: 600; color: #666; border-bottom: 3px solid transparent; white-space: nowrap; transition: all 0.2s; }
+.ev-tab:hover { color: #0d47a1; background: #f8fafc; }
+.ev-tab.active { color: #0d47a1; border-bottom-color: #0d47a1; }
 .ev-panel { display: none; animation: fadeIn 0.3s ease; }
 .ev-panel.active { display: block; }
 @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 
-/* Session Header */
-.session-header { background: linear-gradient(135deg, #0d47a1 0%, #1565c0 100%); color: white; padding: 24px; border-radius: 12px; margin-bottom: 20px; }
-.session-header.sesi2 { background: linear-gradient(135deg, #2e7d32 0%, #388e3c 100%); }
-.session-header.sesi3 { background: linear-gradient(135deg, #e65100 0%, #f57c00 100%); }
-.session-header h2 { margin: 0 0 8px 0; font-size: 1.4rem; }
-.session-header .subtitle { opacity: 0.9; font-size: 0.9rem; margin-bottom: 16px; }
-.session-header .session-info { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 12px; }
-.session-header .info-item { background: rgba(255,255,255,0.15); padding: 8px 14px; border-radius: 8px; font-size: 0.85rem; }
-.session-header .info-item strong { display: block; font-size: 1.2rem; margin-bottom: 2px; }
+/* ===== STYLE TABEL LKPS (RESPONSIF & RAPI) ===== */
+.lkps-section { margin-bottom: 30px; }
+.lkps-section h3 { color: #0d47a1; border-left: 4px solid #0d47a1; padding-left: 12px; margin-bottom: 12px; font-size: 1.1rem; }
+.table-responsive { overflow-x: auto; border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 20px; }
+.lkps-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; min-width: 800px; }
+.lkps-table th, .lkps-table td { border: 1px solid #e0e0e0; padding: 8px 12px; text-align: left; vertical-align: top; }
+.lkps-table th { background-color: #f1f5f9; font-weight: 600; color: #0d47a1; position: sticky; top: 0; z-index: 1; }
+.lkps-table tr:nth-child(even) { background-color: #f8fafc; }
+.lkps-table tr:hover { background-color: #e3f2fd; }
 
-/* Progress Bar */
-.progress-section { background: #f8fafc; border: 1px solid #e0e0e0; border-radius: 10px; padding: 16px; margin-bottom: 20px; }
-.progress-section h3 { color: #0d47a1; margin: 0 0 12px 0; font-size: 1rem; }
-.progress-bar { height: 20px; background: #e0e0e0; border-radius: 10px; overflow: hidden; margin-bottom: 8px; }
-.progress-fill { height: 100%; background: linear-gradient(90deg, #4caf50 0%, #81c784 100%); transition: width 0.5s ease; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.75rem; font-weight: 700; }
-.progress-stats { display: flex; justify-content: space-between; font-size: 0.82rem; color: #666; }
+/* Highlight untuk data penting */
+.highlight-data { background-color: #fff8e1 !important; font-weight: 600; color: #e65100; }
+.link-cell a { color: #0d47a1; text-decoration: none; word-break: break-all; }
+.link-cell a:hover { text-decoration: underline; }
 
-/* Sub-nav Kategori */
-.ev-subnav { display: flex; gap: 4px; margin-bottom: 16px; border-bottom: 2px solid #e0e0e0; flex-wrap: wrap; }
-.ev-subnav button { padding: 8px 14px; background: transparent; border: none; cursor: pointer; font-weight: 600; color: #666; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: all 0.2s; font-size: 0.82rem; }
-.ev-subnav button:hover { color: #0d47a1; background: #f8fafc; }
-.ev-subnav button.active { color: #0d47a1; border-bottom-color: #0d47a1; }
-.ev-subnav button .cnt { background: #e3f2fd; color: #0d47a1; padding: 2px 8px; border-radius: 10px; font-size: 0.7rem; margin-left: 4px; font-weight: 700; }
-.ev-subnav button.active .cnt { background: #0d47a1; color: white; }
-
-/* Evidence Card */
-.ev-card { background: white; border: 1px solid #e0e0e0; border-radius: 10px; padding: 14px 16px; margin-bottom: 10px; transition: all 0.2s; display: flex; gap: 14px; align-items: flex-start; }
-.ev-card:hover { box-shadow: 0 4px 14px rgba(0,0,0,0.08); transform: translateX(2px); }
-.ev-card.utama { border-left: 4px solid #0d47a1; }
-.ev-card.pendukung { border-left: 4px solid #90a4ae; }
-.ev-card-icon { font-size: 1.6rem; min-width: 36px; text-align: center; padding-top: 2px; }
-.ev-card-body { flex: 1; min-width: 0; }
-.ev-card-title { font-weight: 700; color: #333; font-size: 0.92rem; margin-bottom: 4px; }
-.ev-card-desc { font-size: 0.82rem; color: #555; line-height: 1.5; margin-bottom: 8px; }
-.ev-card-meta { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
-.ev-badge { padding: 3px 10px; border-radius: 10px; font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.3px; }
-.ev-badge.utama { background: #e3f2fd; color: #0d47a1; }
-.ev-badge.pendukung { background: #eceff1; color: #546e7a; }
-.ev-badge.jenis { background: #f3e5f5; color: #6a1b9a; }
-.ev-badge.tahun { background: #e8f5e9; color: #2e7d32; }
-.ev-badge.sumber { background: #fff8e1; color: #e65100; }
-.ev-card-actions { display: flex; gap: 6px; flex-wrap: wrap; }
-.ev-open-btn { padding: 6px 14px; border-radius: 6px; border: none; background: #0d47a1; color: white; font-size: 0.78rem; font-weight: 600; cursor: pointer; transition: all 0.2s; display: inline-flex; align-items: center; gap: 4px; text-decoration: none; }
-.ev-open-btn:hover { background: #1565c0; transform: translateY(-1px); }
-.ev-open-btn.secondary { background: white; color: #0d47a1; border: 1px solid #0d47a1; }
-.ev-open-btn.secondary:hover { background: #e3f2fd; }
-.ev-open-btn:disabled { background: #bdbdbd; cursor: not-allowed; }
-
-/* Checklist */
-.checklist-section { background: #f8fafc; border: 1px solid #e0e0e0; border-radius: 10px; padding: 16px; margin-bottom: 20px; }
-.checklist-section h3 { color: #0d47a1; margin: 0 0 12px 0; font-size: 1rem; }
-.checklist-item { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-bottom: 1px solid #e0e0e0; }
-.checklist-item:last-child { border-bottom: none; }
-.checklist-item input[type="checkbox"] { width: 18px; height: 18px; cursor: pointer; accent-color: #0d47a1; }
-.checklist-item label { font-size: 0.88rem; color: #333; cursor: pointer; flex: 1; }
-.checklist-item.done label { text-decoration: line-through; color: #999; }
-
-/* Quick Access Grid */
-.quick-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; margin: 16px 0; }
-.quick-card { background: white; border: 1px solid #e0e0e0; border-left: 4px solid #0d47a1; border-radius: 8px; padding: 12px; cursor: pointer; transition: all 0.2s; }
-.quick-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); transform: translateY(-2px); border-left-color: #4caf50; }
-.quick-card .qc-icon { font-size: 1.4rem; margin-bottom: 4px; }
-.quick-card .qc-name { font-weight: 700; color: #333; font-size: 0.85rem; }
-.quick-card .qc-desc { font-size: 0.72rem; color: #666; margin-top: 2px; }
-
-/* Search */
-.ev-search-wrap { display: flex; gap: 8px; max-width: 700px; margin: 0 auto 16px auto; }
-.ev-search { flex: 1; padding: 14px 22px; border-radius: 30px; border: 2px solid rgba(255,255,255,0.3); background: rgba(255,255,255,0.15); color: white; font-size: 1rem; backdrop-filter: blur(4px); }
-.ev-search::placeholder { color: rgba(255,255,255,0.7); }
-.ev-search:focus { outline: none; border-color: #fff; background: rgba(255,255,255,0.25); }
-.ev-btn { padding: 14px 22px; border-radius: 30px; border: none; font-size: 0.95rem; font-weight: 600; cursor: pointer; transition: all 0.2s; white-space: nowrap; }
-.ev-btn.search { background: #4caf50; color: white; }
-.ev-btn.search:hover { background: #45a049; }
-.ev-btn.clear { background: rgba(255,255,255,0.2); color: white; border: 2px solid rgba(255,255,255,0.5); }
-
-.no-result { text-align: center; padding: 40px 20px; color: #888; background: #f8fafc; border-radius: 10px; }
-
-@media (max-width: 767px) {
-.ev-shelf { gap: 4px; padding-bottom: 8px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
-.ev-shelf::-webkit-scrollbar { display: none; }
-.ev-tab { min-width: 90px; flex: 0 0 auto; font-size: 0.72rem; padding: 12px 6px 16px 6px; }
-.ev-content { padding: 20px; }
-.ev-search-wrap { flex-direction: column; }
-.ev-btn { width: 100%; }
-.ev-card { flex-direction: column; }
-.session-header .session-info { flex-direction: column; gap: 8px; }
-}
+/* ===== INFO BOX ===== */
+.info-box { background: #e3f2fd; border-left: 4px solid #0d47a1; padding: 12px 16px; border-radius: 6px; margin-bottom: 20px; font-size: 0.9rem; color: #0d47a1; }
 </style>
 
-<div class="ev-cabinet">
-  <div class="ev-shelf">
-    <div class="ev-tab sesi1 active" onclick="showEvPanel('sesi1', this)">📊<br>SESI 1<br>LKPS</div>
-    <div class="ev-tab sesi2" onclick="showEvPanel('sesi2', this)">🔄<br>SESI 2<br>Penjaminan Mutu</div>
-    <div class="ev-tab sesi3" onclick="showEvPanel('sesi3', this)">📕<br>SESI 3<br>LEDPS</div>
+<div class="info-box">
+  <strong>ℹ️ Informasi:</strong> Halaman ini menampilkan <strong>data lengkap</strong> dari tabel LKPS PSBM. Gunakan scroll horizontal pada tabel jika tampilan terpotong di layar kecil.
+</div>
+
+<!-- ===== TAB NAVIGASI ===== -->
+<div class="ev-tabs">
+  <button class="ev-tab active" onclick="showEvPanel('c5', this)">C.5: Sarpras & K3L</button>
+  <button class="ev-tab" onclick="showEvPanel('c6', this)">C.6: Mahasiswa & Luaran</button>
+  <button class="ev-tab" onclick="showEvPanel('c7', this)">C.7: SPMI</button>
+</div>
+
+<!-- ===== PANEL C.5 ===== -->
+<div class="ev-panel active" id="panel-c5">
+  
+  <!-- Tabel 5.a -->
+  <div class="lkps-section">
+    <h3>Tabel 5.a) Prasarana dan Peralatan Utama</h3>
+    <div class="table-responsive">
+      <table class="lkps-table">
+        <thead>
+          <tr><th>No</th><th>Nama Sarana</th><th>Jumlah Prasarana</th><th>Standar Minimal</th><th>Dimiliki UPPS</th><th>Sendiri</th><th>Sewa</th><th>Terawat</th><th>Tidak Terawat</th><th>Ada</th><th>Tidak Ada</th><th>Rata-rata Waktu Penggunaan (Jam/Minggu)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Lab Elektronika Analog dan Digital (G102)</td><td>1</td><td>Power Supply RIGOL DP831: 6</td><td>8</td><td>V</td><td></td><td>V</td><td></td><td>V</td><td></td><td>16</td></tr>
+          <tr><td>2</td><td>Lab Sistem Transmisi (G103)</td><td>1</td><td>U PATCH PANEL TYPE C: 6</td><td>8</td><td>V</td><td></td><td>V</td><td></td><td>V</td><td></td><td>12</td></tr>
+          <tr><td>3</td><td>Lab Sistem Telekomunikasi (G104)</td><td>1</td><td>FUNCTION GENERATOR: 3</td><td>4</td><td>V</td><td></td><td>V</td><td></td><td>V</td><td></td><td>18</td></tr>
+          <tr><td>4</td><td>Lab Mikrokontroler dan Antarmuka (G105)</td><td>1</td><td>MEJA KAYU PRAKTIKUM: 11</td><td>11</td><td>V</td><td></td><td>V</td><td></td><td>V</td><td></td><td>32</td></tr>
+          <tr><td>5</td><td>Ruang Penyimpanan Alat (G106)</td><td>1</td><td>Lemari Besi: 5</td><td>5</td><td>V</td><td></td><td>V</td><td></td><td>V</td><td></td><td>40</td></tr>
+          <tr><td>6</td><td>Ruang Tunggu Dosen (G107)</td><td>1</td><td>DISPENSER MIDEA: 1</td><td>1</td><td>V</td><td></td><td>V</td><td></td><td>V</td><td></td><td>30</td></tr>
+          <tr><td>7</td><td>Lab Komunikasi Data dan Serat Optik (G108)</td><td>1</td><td>MEJA PRAKTIKUM: 6</td><td>10</td><td>V</td><td></td><td>V</td><td></td><td>V</td><td></td><td>12</td></tr>
+          <tr><td>8</td><td>Ruang Dosen (G109)</td><td>1</td><td>Meja Kerja Kayu Jati: 12</td><td>12</td><td>V</td><td></td><td>V</td><td></td><td>V</td><td></td><td>36</td></tr>
+          <tr><td>9</td><td>Lab Jaringan Komunikasi Broadband (G110)</td><td>1</td><td>MEJA PRAKTIKUM: 12</td><td>12</td><td>V</td><td></td><td>V</td><td></td><td>V</td><td></td><td>16</td></tr>
+          <tr><td>10</td><td>Bengkel Elektronika dan Fabrikasi Antena (G115)</td><td>1</td><td>BOR DUDUK WESTLAKE YY624: 2</td><td>2</td><td>V</td><td></td><td>V</td><td></td><td>V</td><td></td><td>12</td></tr>
+          <tr><td>11</td><td>Ruang Peralatan Bengkel (G116)</td><td>1</td><td>SOLDER GOT RX711: 24</td><td>24</td><td>V</td><td></td><td>V</td><td></td><td>V</td><td></td><td>40</td></tr>
+          <tr><td>12</td><td>Ruang Pengembangan Dosen (G203)</td><td>1</td><td>SPECTRUM ANALYZER: 1</td><td>1</td><td>V</td><td></td><td>V</td><td></td><td>V</td><td></td><td>30</td></tr>
+          <tr><td>13</td><td>Smartlab (G303)</td><td>1</td><td>RASBERY PI 400 KIT: 12</td><td>13</td><td>V</td><td></td><td>V</td><td></td><td>V</td><td></td><td>8</td></tr>
+          <tr><td>14</td><td>Layanan Kesehatan</td><td>1</td><td>Meja: 3</td><td>3</td><td>V</td><td></td><td>V</td><td></td><td>V</td><td></td><td>40</td></tr>
+          <tr><td>15</td><td>Layanan Konseling</td><td>1</td><td>Meja: 3</td><td>3</td><td>V</td><td></td><td>V</td><td></td><td>V</td><td></td><td>30</td></tr>
+          <tr><td>16</td><td>Masjid Darul Ilmi</td><td>1</td><td>Meja: 2</td><td>2</td><td>V</td><td></td><td>V</td><td></td><td>V</td><td></td><td>80</td></tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 
-  <div class="ev-content">
-
-    <!-- ========== SESI 1: LKPS ========== -->
-    <div class="ev-panel active" id="panel-sesi1">
-      <div class="session-header">
-        <h2>📊 SESI 1 — LAPORAN KINERJA PROGRAM STUDI (LKPS)</h2>
-        <div class="subtitle">Data kuantitatif 3 tahun terakhir (TS-2, TS-1, TS)</div>
-        <div class="session-info">
-          <div class="info-item"><strong>87</strong> Dokumen Evidence</div>
-          <div class="info-item"><strong>C.1–C.7</strong> Semua Kriteria</div>
-          <div class="info-item"><strong>3 Tahun</strong> Periode Data</div>
-        </div>
-      </div>
-
-      <!-- Progress -->
-      <div class="progress-section">
-        <h3>📈 Progress Kesiapan Sesi 1</h3>
-        <div class="progress-bar">
-          <div class="progress-fill" style="width: 75%;">75%</div>
-        </div>
-        <div class="progress-stats">
-          <span>65 dari 87 dokumen siap</span>
-          <span>22 dokumen perlu verifikasi</span>
-        </div>
-      </div>
-
-      <!-- Checklist -->
-      <div class="checklist-section">
-        <h3>✅ Checklist Dokumen Sesi 1</h3>
-        <div class="checklist-item done"><input type="checkbox" checked><label>Tabel 1 — VMTS dan Profil Program Studi</label></div>
-        <div class="checklist-item done"><input type="checkbox" checked><label>Tabel 2.a — Kerja Sama Tridharma</label></div>
-        <div class="checklist-item done"><input type="checkbox" checked><label>Tabel 2.b — Keuangan dan Pembiayaan</label></div>
-        <div class="checklist-item"><input type="checkbox"><label>Tabel 3.a.1 — Kurikulum dan CPL</label></div>
-        <div class="checklist-item"><input type="checkbox"><label>Tabel 3.b — Penelitian DTPS</label></div>
-        <div class="checklist-item"><input type="checkbox"><label>Tabel 3.c — PkM DTPS</label></div>
-        <div class="checklist-item done"><input type="checkbox" checked><label>Tabel 4.a — DTPS dan Kualifikasi</label></div>
-        <div class="checklist-item"><input type="checkbox"><label>Tabel 4.e — Publikasi DTPS</label></div>
-        <div class="checklist-item"><input type="checkbox"><label>Tabel 5.a — Sarana dan Prasarana</label></div>
-        <div class="checklist-item"><input type="checkbox"><label>Tabel 6.a — Mahasiswa</label></div>
-        <div class="checklist-item"><input type="checkbox"><label>Tabel 6.f — Tracer Study</label></div>
-        <div class="checklist-item"><input type="checkbox"><label>Tabel 7.a — SPMI</label></div>
-      </div>
-
-      <!-- Quick Access -->
-      <h3 style="color:#0d47a1; margin: 20px 0 12px 0;">⚡ Akses Cepat Dokumen LKPS</h3>
-      <div class="quick-grid">
-        <div class="quick-card" onclick="filterKategori('lkps-table1')">
-          <div class="qc-icon">📊</div>
-          <div class="qc-name">Tabel 1</div>
-          <div class="qc-desc">VMTS & Profil PS</div>
-        </div>
-        <div class="quick-card" onclick="filterKategori('lkps-kerja-sama')">
-          <div class="qc-icon">🤝</div>
-          <div class="qc-name">Tabel 2.a</div>
-          <div class="qc-desc">Kerja Sama (66)</div>
-        </div>
-        <div class="quick-card" onclick="filterKategori('lkps-keuangan')">
-          <div class="qc-icon">💰</div>
-          <div class="qc-name">Tabel 2.b</div>
-          <div class="qc-desc">Keuangan</div>
-        </div>
-        <div class="quick-card" onclick="filterKategori('lkps-kurikulum')">
-          <div class="qc-icon">📘</div>
-          <div class="qc-name">Tabel 3.a</div>
-          <div class="qc-desc">Kurikulum & CPL</div>
-        </div>
-        <div class="quick-card" onclick="filterKategori('lkps-penelitian')">
-          <div class="qc-icon">🔬</div>
-          <div class="qc-name">Tabel 3.b</div>
-          <div class="qc-desc">Penelitian (45)</div>
-        </div>
-        <div class="quick-card" onclick="filterKategori('lkps-pkm')">
-          <div class="qc-icon"></div>
-          <div class="qc-name">Tabel 3.c</div>
-          <div class="qc-desc">PkM (14)</div>
-        </div>
-        <div class="quick-card" onclick="filterKategori('lkps-sdm')">
-          <div class="qc-icon">👨‍🏫</div>
-          <div class="qc-name">Tabel 4</div>
-          <div class="qc-desc">SDM & DTPS</div>
-        </div>
-        <div class="quick-card" onclick="filterKategori('lkps-sarpras')">
-          <div class="qc-icon">🔧</div>
-          <div class="qc-name">Tabel 5</div>
-          <div class="qc-desc">Sarpras & K3L</div>
-        </div>
-        <div class="quick-card" onclick="filterKategori('lkps-mahasiswa')">
-          <div class="qc-icon">🎓</div>
-          <div class="qc-name">Tabel 6</div>
-          <div class="qc-desc">Mahasiswa & Luaran</div>
-        </div>
-        <div class="quick-card" onclick="filterKategori('lkps-tracer')">
-          <div class="qc-icon"></div>
-          <div class="qc-name">Tabel 6.f</div>
-          <div class="qc-desc">Tracer Study</div>
-        </div>
-      </div>
-
-      <!-- Evidence List -->
-      <div id="sesi1Content"></div>
+  <!-- Tabel 5.b -->
+  <div class="lkps-section">
+    <h3>Tabel 5.b) Dokumen K3L di UPPS</h3>
+    <div class="table-responsive">
+      <table class="lkps-table">
+        <thead><tr><th>No</th><th>Jenis Dokumen</th><th>Jumlah</th><th>Riwayat Pengesahan</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Pedoman Sistem Manajemen Keselamatan Kerja di Lingkungan PNJ</td><td>1</td><td>1 Januari 2025, disahkan oleh Kepala UPA Perawatan, Perbaikan dan K3</td></tr>
+          <tr><td>2</td><td>Pedoman K3L Jurusan Teknik Elektro</td><td>1</td><td>25 Oktober 2025, disahkan oleh Ketua Jurusan Teknik Elektro</td></tr>
+          <tr><td>3</td><td>SOP Prosedur Identifikasi Bahaya, Penilaian dan Pengendalian Risiko K3</td><td>1</td><td>1 Januari 2025, disahkan oleh Kepala UPA Perawatan, Perbaikan dan K3</td></tr>
+          <tr><td>4</td><td>SOP Identifikasi Peraturan Perundang-Undangan dan Persyaratan K3</td><td>1</td><td>1 Januari 2025, disahkan oleh Kepala UPA Perawatan, Perbaikan dan K3</td></tr>
+          <tr><td>5</td><td>SOP Pelatihan K3</td><td>1</td><td>1 Januari 2025, disahkan oleh Kepala UPA Perawatan, Perbaikan dan K3</td></tr>
+          <tr><td>6</td><td>SOP Prosedur Komunikasi K3</td><td>1</td><td>1 Januari 2025, disahkan oleh Kepala UPA Perawatan, Perbaikan dan K3</td></tr>
+          <tr><td>7</td><td>SOP Partisipasi dan Konsultasi K3</td><td>1</td><td>1 Januari 2025, disahkan oleh Kepala UPA Perawatan, Perbaikan dan K3</td></tr>
+          <tr><td>8</td><td>SOP Pengendalian Dokumen K3</td><td>1</td><td>1 Januari 2025, disahkan oleh Kepala UPA Perawatan, Perbaikan dan K3</td></tr>
+          <tr><td>9</td><td>SOP Tanggap Darurat K3</td><td>1</td><td>1 Januari 2025, disahkan oleh Kepala UPA Perawatan, Perbaikan dan K3</td></tr>
+          <tr><td>10</td><td>SOP Pengukuran dan Pemantauan Kinerja K3</td><td>1</td><td>1 Januari 2025, disahkan oleh Kepala UPA Perawatan, Perbaikan dan K3</td></tr>
+          <tr><td>11</td><td>SOP Kesesuaian Penerapan Perundang-undangan dan Persyaratan K3 Lainnya</td><td>1</td><td>1 Januari 2025, disahkan oleh Kepala UPA Perawatan, Perbaikan dan K3</td></tr>
+          <tr><td>12</td><td>SOP Investigasi Insiden Kecelakaan Kerja</td><td>1</td><td>1 Januari 2025, disahkan oleh Kepala UPA Perawatan, Perbaikan dan K3</td></tr>
+          <tr><td>13</td><td>SOP Identifikasi Ketidaksesuaian, Tindakan Perbaikan dan Tindakan Pencegahan</td><td>1</td><td>1 Januari 2025, disahkan oleh Kepala UPA Perawatan, Perbaikan dan K3</td></tr>
+          <tr><td>14</td><td>SOP Audit Internal K3</td><td>1</td><td>1 Januari 2025, disahkan oleh Kepala UPA Perawatan, Perbaikan dan K3</td></tr>
+          <tr><td>15</td><td>SOP Penggunaan Lab dan Bengkel</td><td>1</td><td>1 Januari 2025, disahkan oleh Kepala UPA Perawatan, Perbaikan dan K3</td></tr>
+          <tr><td>16</td><td>Hasil Tinjauan Berkala K3</td><td>1</td><td>5 November 2025, disahkan oleh Ketua Jurusan Teknik Elektro</td></tr>
+        </tbody>
+      </table>
     </div>
+  </div>
 
-    <!-- ========== SESI 2: PENJAMINAN MUTU ========== -->
-    <div class="ev-panel" id="panel-sesi2">
-      <div class="session-header sesi2">
-        <h2>🔄 SESI 2 — PENJAMINAN MUTU (SPMI)</h2>
-        <div class="subtitle">Sistem Penjaminan Mutu Internal & Eksternal</div>
-        <div class="session-info">
-          <div class="info-item"><strong>23</strong> Dokumen Evidence</div>
-          <div class="info-item"><strong>C.7</strong> Fokus Utama</div>
-          <div class="info-item"><strong>PPEPP</strong> Siklus Mutu</div>
-        </div>
-      </div>
-
-      <!-- Progress -->
-      <div class="progress-section">
-        <h3>📈 Progress Kesiapan Sesi 2</h3>
-        <div class="progress-bar">
-          <div class="progress-fill" style="width: 85%; background: linear-gradient(90deg, #388e3c 0%, #4caf50 100%);">85%</div>
-        </div>
-        <div class="progress-stats">
-          <span>20 dari 23 dokumen siap</span>
-          <span>3 dokumen perlu update</span>
-        </div>
-      </div>
-
-      <!-- Checklist -->
-      <div class="checklist-section">
-        <h3>✅ Checklist Dokumen Sesi 2</h3>
-        <div class="checklist-item done"><input type="checkbox" checked><label>SK GPM (Gugus Penjaminan Mutu)</label></div>
-        <div class="checklist-item done"><input type="checkbox" checked><label>Dokumen Kebijakan SPMI</label></div>
-        <div class="checklist-item done"><input type="checkbox" checked><label>Manual SPMI (PPEPP)</label></div>
-        <div class="checklist-item done"><input type="checkbox" checked><label>Dokumen Standar SPMI</label></div>
-        <div class="checklist-item"><input type="checkbox"><label>Laporan AMI 2025</label></div>
-        <div class="checklist-item"><input type="checkbox"><label>SK Auditor AMI</label></div>
-        <div class="checklist-item"><input type="checkbox"><label>Notulensi RTM</label></div>
-        <div class="checklist-item"><input type="checkbox"><label>Dokumen RTL AMI (15 temuan)</label></div>
-        <div class="checklist-item done"><input type="checkbox" checked><label>Laporan Survei Kepuasan Stakeholder</label></div>
-        <div class="checklist-item done"><input type="checkbox" checked><label>Laporan Survei Kepuasan Pengguna Lulusan</label></div>
-      </div>
-
-      <!-- Quick Access -->
-      <h3 style="color:#2e7d32; margin: 20px 0 12px 0;">⚡ Akses Cepat Dokumen SPMI</h3>
-      <div class="quick-grid">
-        <div class="quick-card" onclick="filterKategori('spmi-kebijakan')" style="border-left-color: #2e7d32;">
-          <div class="qc-icon"></div>
-          <div class="qc-name">Kebijakan SPMI</div>
-          <div class="qc-desc">Dokumen resmi</div>
-        </div>
-        <div class="quick-card" onclick="filterKategori('spmi-manual')" style="border-left-color: #2e7d32;">
-          <div class="qc-icon">📗</div>
-          <div class="qc-name">Manual PPEPP</div>
-          <div class="qc-desc">Siklus mutu</div>
-        </div>
-        <div class="quick-card" onclick="filterKategori('spmi-ami')" style="border-left-color: #2e7d32;">
-          <div class="qc-icon"></div>
-          <div class="qc-name">AMI 2025</div>
-          <div class="qc-desc">Audit Mutu Internal</div>
-        </div>
-        <div class="quick-card" onclick="filterKategori('spmi-rtm')" style="border-left-color: #2e7d32;">
-          <div class="qc-icon">📝</div>
-          <div class="qc-name">RTM</div>
-          <div class="qc-desc">Rapat Tinjauan Manajemen</div>
-        </div>
-        <div class="quick-card" onclick="filterKategori('spmi-rtl')" style="border-left-color: #2e7d32;">
-          <div class="qc-icon">📋</div>
-          <div class="qc-name">RTL</div>
-          <div class="qc-desc">Rencana Tindak Lanjut</div>
-        </div>
-        <div class="quick-card" onclick="filterKategori('spmi-survei')" style="border-left-color: #2e7d32;">
-          <div class="qc-icon">⭐</div>
-          <div class="qc-name">Survei Kepuasan</div>
-          <div class="qc-desc">Stakeholder & Pengguna</div>
-        </div>
-      </div>
-
-      <!-- Evidence List -->
-      <div id="sesi2Content"></div>
+  <!-- Tabel 5.c -->
+  <div class="lkps-section">
+    <h3>Tabel 5.c) Fasilitas K3L di UPPS</h3>
+    <div class="table-responsive">
+      <table class="lkps-table">
+        <thead><tr><th>No</th><th>Nama Sarana</th><th>Fungsi</th><th>Jumlah Unit</th><th>Terawat</th><th>Tidak Terawat</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Hidran Pilar</td><td>Sumber air bertekanan untuk membantu suplai air bagi truk pemadam api besar</td><td>2</td><td>V</td><td></td></tr>
+          <tr><td>2</td><td>Layanan Kesehatan</td><td>untuk pengobatan pertama</td><td>1</td><td>V</td><td></td></tr>
+          <tr><td>3</td><td>Ambulance</td><td>untuk evakuasi</td><td>1</td><td>V</td><td></td></tr>
+          <tr><td>4</td><td>APAR</td><td>untuk pemadam api ringan</td><td>6</td><td>V</td><td></td></tr>
+          <tr><td>5</td><td>APAB</td><td>untuk pemadam api besar</td><td>1</td><td>V</td><td></td></tr>
+          <tr><td>6</td><td>Truk Damkar</td><td>untuk pemadam api yang lebih besar</td><td>1</td><td>V</td><td></td></tr>
+          <tr><td>7</td><td>Rambu keselamatan kerja</td><td>Papan atau stiker berisi simbol/tulisan peringatan, larangan, dan instruksi keselamatan di area kerja.</td><td>7</td><td>V</td><td></td></tr>
+          <tr><td>8</td><td>Sign system APD</td><td>Papan untuk menginformasikan kelengkapan Alat Pelindung Diri yang harus digunakan sebelum masuk laboratorium</td><td>5</td><td>V</td><td></td></tr>
+          <tr><td>9</td><td>Kotak P3K</td><td>Kotak berisi perlengkapan pertolongan pertama seperti perban, plester, antiseptik, dan sarung tangan medis.</td><td>2</td><td>V</td><td></td></tr>
+          <tr><td>10</td><td>Lemari penyimpanan bahan kimia</td><td>Tempat khusus yang aman dan terlabel untuk menyimpan bahan kimia dan bahan berbahaya.</td><td>2</td><td>V</td><td></td></tr>
+          <tr><td>11</td><td>Tanda jalur evakuasi dan titik kumpul</td><td>Penandaan jalur keluar darurat yang jelas, dilengkapi peta evakuasi di setiap area laboratorium/bengkel.</td><td>22</td><td>V</td><td></td></tr>
+          <tr><td>12</td><td>Video Safety Induction</td><td>Video instruksi akan hal yang harus dilakukan jika terjadi bahaya</td><td>1</td><td>V</td><td></td></tr>
+        </tbody>
+      </table>
     </div>
+  </div>
+</div>
 
-    <!-- ========== SESI 3: LEDPS ========== -->
-    <div class="ev-panel" id="panel-sesi3">
-      <div class="session-header sesi3">
-        <h2>📕 SESI 3 — LAPORAN EVALUASI DIRI (LEDPS)</h2>
-        <div class="subtitle">Analisis, SWOT, dan Program Pengembangan Berkelanjutan</div>
-        <div class="session-info">
-          <div class="info-item"><strong>35</strong> Dokumen Evidence</div>
-          <div class="info-item"><strong>C.1 + BAB III</strong> Fokus Utama</div>
-          <div class="info-item"><strong>SWOT</strong> Analisis Strategis</div>
-        </div>
-      </div>
-
-      <!-- Progress -->
-      <div class="progress-section">
-        <h3>📈 Progress Kesiapan Sesi 3</h3>
-        <div class="progress-bar">
-          <div class="progress-fill" style="width: 90%; background: linear-gradient(90deg, #e65100 0%, #f57c00 100%);">90%</div>
-        </div>
-        <div class="progress-stats">
-          <span>32 dari 35 dokumen siap</span>
-          <span>3 dokumen dalam finalisasi</span>
-        </div>
-      </div>
-
-      <!-- Checklist -->
-      <div class="checklist-section">
-        <h3>✅ Checklist Dokumen Sesi 3</h3>
-        <div class="checklist-item done"><input type="checkbox" checked><label>LEDPS Final (Bab 1-7)</label></div>
-        <div class="checklist-item done"><input type="checkbox" checked><label>VMTS PT, JTE, PSBM</label></div>
-        <div class="checklist-item done"><input type="checkbox" checked><label>Matriks Sinkronisasi VMTS</label></div>
-        <div class="checklist-item done"><input type="checkbox" checked><label>Dokumen SWOT</label></div>
-        <div class="checklist-item done"><input type="checkbox" checked><label>Tujuan Strategis</label></div>
-        <div class="checklist-item"><input type="checkbox"><label>Program Pengembangan (Tabel 3.2)</label></div>
-        <div class="checklist-item"><input type="checkbox"><label>Matriks Traceability</label></div>
-        <div class="checklist-item done"><input type="checkbox" checked><label>Renstra & Renop JTE</label></div>
-        <div class="checklist-item done"><input type="checkbox" checked><label>Laporan Capaian VMTS</label></div>
-      </div>
-
-      <!-- Quick Access -->
-      <h3 style="color:#e65100; margin: 20px 0 12px 0;"> Akses Cepat Dokumen LEDPS</h3>
-      <div class="quick-grid">
-        <div class="quick-card" onclick="filterKategori('led-vmts')" style="border-left-color: #e65100;">
-          <div class="qc-icon">🎯</div>
-          <div class="qc-name">VMTS</div>
-          <div class="qc-desc">Visi Misi Tujuan Sasaran</div>
-        </div>
-        <div class="quick-card" onclick="filterKategori('led-swot')" style="border-left-color: #e65100;">
-          <div class="qc-icon">📊</div>
-          <div class="qc-name">SWOT</div>
-          <div class="qc-desc">Analisis Strategis</div>
-        </div>
-        <div class="quick-card" onclick="filterKategori('led-tujuan')" style="border-left-color: #e65100;">
-          <div class="qc-icon">🎯</div>
-          <div class="qc-name">Tujuan Strategis</div>
-          <div class="qc-desc">6 Tujuan Utama</div>
-        </div>
-        <div class="quick-card" onclick="filterKategori('led-program')" style="border-left-color: #e65100;">
-          <div class="qc-icon">📘</div>
-          <div class="qc-name">Program Pengembangan</div>
-          <div class="qc-desc">Tabel 3.2</div>
-        </div>
-        <div class="quick-card" onclick="filterKategori('led-renstra')" style="border-left-color: #e65100;">
-          <div class="qc-icon">📗</div>
-          <div class="qc-name">Renstra/Renop</div>
-          <div class="qc-desc">Perencanaan</div>
-        </div>
-        <div class="quick-card" onclick="filterKategori('led-capstone')" style="border-left-color: #e65100;">
-          <div class="qc-icon"></div>
-          <div class="qc-name">Capstone Project</div>
-          <div class="qc-desc">Evaluasi Pembelajaran</div>
-        </div>
-      </div>
-
-      <!-- Evidence List -->
-      <div id="sesi3Content"></div>
+<!-- ===== PANEL C.6 ===== -->
+<div class="ev-panel" id="panel-c6">
+  
+  <!-- Tabel 6.a -->
+  <div class="lkps-section">
+    <h3>Tabel 6.a) Jumlah Mahasiswa (Reguler dan Asing)</h3>
+    <div class="table-responsive">
+      <table class="lkps-table">
+        <thead><tr><th>No</th><th>Program Studi</th><th>Prodi yang Diakreditasi</th><th>TS-2</th><th>TS-1</th><th>TS</th><th>Mhs Asing FT TS-2</th><th>Mhs Asing FT TS-1</th><th>Mhs Asing FT TS</th><th>Mhs Asing PT TS-2</th><th>Mhs Asing PT TS-1</th><th>Mhs Asing PT TS</th></tr></thead>
+        <tbody>
+          <tr class="highlight-data"><td>1</td><td>D4 - Broadband Multimedia</td><td>V</td><td>192</td><td>182</td><td>189</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>12</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><td colspan="3"><strong>Total</strong></td><td><strong>192</strong></td><td><strong>182</strong></td><td><strong>189</strong></td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>12</td></tr>
+        </tfoot>
+      </table>
     </div>
+  </div>
 
+  <!-- Tabel 6.b -->
+  <div class="lkps-section">
+    <h3>Tabel 6.b) IPK Lulusan</h3>
+    <div class="table-responsive">
+      <table class="lkps-table">
+        <thead><tr><th>No</th><th>Tahun Lulus</th><th>Jumlah Lulusan</th><th>Min.</th><th>Rata-rata</th><th>Maks</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>TS-2</td><td>44</td><td>2.66</td><td class="highlight-data">3.49</td><td>3.76</td></tr>
+          <tr><td>2</td><td>TS-1</td><td>36</td><td>3.18</td><td class="highlight-data">3.45</td><td>3.73</td></tr>
+          <tr><td>3</td><td>TS</td><td>44</td><td>2.78</td><td class="highlight-data">3.43</td><td>3.82</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Tabel 6.d -->
+  <div class="lkps-section">
+    <h3>Tabel 6.d) Masa Studi Lulusan</h3>
+    <div class="table-responsive">
+      <table class="lkps-table">
+        <thead><tr><th>Tahun Masuk</th><th>Jumlah Mahasiswa Masuk</th><th>3,5 < MS ≤ 4,5</th><th>4,5 < MS ≤ 5,5</th><th>5,5 < MS ≤ 6,5</th><th>6,5 < MS ≤ 8</th></tr></thead>
+        <tbody>
+          <tr><td>TS-7</td><td>41</td><td>39</td><td>2</td><td>0</td><td>0</td></tr>
+          <tr><td>TS-6</td><td>42</td><td>39</td><td>3</td><td>0</td><td>0</td></tr>
+          <tr><td>TS-5</td><td>43</td><td>42</td><td>1</td><td>0</td><td></td></tr>
+          <tr><td>TS-4</td><td>38</td><td>36</td><td>2</td><td></td><td></td></tr>
+          <tr><td>TS-3</td><td>47</td><td>43</td><td></td><td></td><td></td></tr>
+          <tr><td>TS-2</td><td>44</td><td></td><td></td><td></td><td></td></tr>
+          <tr><td>TS-1</td><td>46</td><td></td><td></td><td></td><td></td></tr>
+          <tr><td>TS</td><td>45</td><td></td><td></td><td></td><td></td></>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Tabel 6.g.2 -->
+  <div class="lkps-section">
+    <h3>Tabel 6.g.2) Kepuasan Pengguna Lulusan</h3>
+    <div class="table-responsive">
+      <table class="lkps-table">
+        <thead><tr><th>No</th><th>Jenis Kemampuan</th><th>Sangat Baik</th><th>Baik</th><th>Cukup</th><th>Kurang</th><th>Rencana Tindak Lanjut oleh UPPS/PS</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Etika</td><td class="highlight-data">80.00%</td><td>20.00%</td><td>0.00%</td><td>0.00%</td><td>Mempertahankan capaian melalui penguatan nilai etika profesi dalam kurikulum dan kegiatan kemahasiswaan.</td></tr>
+          <tr><td>2</td><td>Keahlian pada bidang ilmu (kompetensi utama)</td><td class="highlight-data">73.30%</td><td>26.70%</td><td>0.00%</td><td>0.00%</td><td>Mempertahankan dan meningkatkan kualitas pembelajaran melalui pemutakhiran kurikulum sesuai perkembangan industri serta penguatan praktikum/proyek berbasis kasus nyata.</td></tr>
+          <tr><td>3</td><td>Kemampuan berbahasa asing</td><td class="highlight-data">71.10%</td><td>17.80%</td><td class="highlight-data">11.10%</td><td>0.00%</td><td>Meningkatkan intensitas pembelajaran bahasa asing (mis. kelas intensif, sertifikasi TOEFL/TOEIC, program imersi), mengingat masih terdapat 25% penilaian "Cukup" dari pengguna lulusan.</td></tr>
+          <tr><td>4</td><td>Penggunaan teknologi informasi</td><td class="highlight-data">82.20%</td><td>17.80%</td><td>0.00%</td><td>0.00%</td><td>Mempertahankan capaian dengan terus mengikuti perkembangan teknologi terkini melalui pelatihan/sertifikasi tambahan bagi mahasiswa.</td></tr>
+          <tr><td>5</td><td>Kemampuan berkomunikasi</td><td class="highlight-data">77.78%</td><td>22.20%</td><td>0.00%</td><td>0.00%</td><td>Mempertahankan dan meningkatkan melalui pelatihan soft skill, public speaking, dan simulasi presentasi dalam perkuliahan.</td></tr>
+          <tr><td>6</td><td>Kerjasama tim</td><td class="highlight-data">75.60%</td><td>24.40%</td><td>0.00%</td><td>0.00%</td><td>Mempertahankan capaian dengan memperbanyak tugas kelompok dan proyek kolaboratif lintas disiplin.</td></tr>
+          <tr><td>7</td><td>Pengembangan diri</td><td class="highlight-data">73.30%</td><td>26.70%</td><td>0.00%</td><td>0.00%</td><td>Mempertahankan dan mendorong keikutsertaan mahasiswa dalam organisasi, pelatihan kepemimpinan, dan kegiatan pengembangan karakter.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Catatan: Tabel 6.c.1, 6.c.2, 6.e.1 - 6.e.4, 6.f.1, 6.f.2, 6.g.1, 6.h.1, 6.h.2, 6.i dapat ditambahkan dengan pola yang sama di atas -->
+  <div class="info-box">
+    <strong>Catatan:</strong> Tabel 6.c.1, 6.c.2, 6.e, 6.f, 6.g.1, 6.h, dan 6.i telah disediakan dalam data mentah Anda. Anda dapat menyalin format tabel di atas dan menempelkan data tersebut di bagian ini agar halaman tetap rapi dan terstruktur.
+  </div>
+</div>
+
+<!-- ===== PANEL C.7 ===== -->
+<div class="ev-panel" id="panel-c7">
+  
+  <!-- Tabel 7.a -->
+  <div class="lkps-section">
+    <h3>Tabel 7.a) Ketersediaan Dokumen/Buku Sistem Penjaminan Mutu Internal</h3>
+    <div class="table-responsive">
+      <table class="lkps-table">
+        <thead><tr><th>No</th><th>Jenis Dokumen Penjaminan Mutu</th><th>No Dokumen</th><th>Tanggal Dokumen</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Kebijakan SPMI</td><td>No: SM/PNJ/SPMI/342</td><td>18/1/2022</td></tr>
+          <tr><td>2</td><td>Pedoman penerapan siklus PPEPP standar pendidikan tinggi dalam SPMI</td><td>KM/PNJ/SPMI/212</td><td>18/1/2022</td></tr>
+          <tr><td>3</td><td>Standar dan/atau kriteria, norma, acuan mutu penyelenggaraan pendidikan dan pengelolaan perguruan tinggi</td><td>SM/PNJ/SPMI/311</td><td>20/1/2022</td></tr>
+          <tr><td>4</td><td>Tata cara pendokumentasian implementasi SPMI</td><td>KM/PNJ/SPMI/215</td><td>20/1/2022</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Tabel 7.b -->
+  <div class="lkps-section">
+    <h3>Tabel 7.b) Ketersediaan Dokumen Pelaksanaan Sistem Penjaminan Mutu Internal</h3>
+    <div class="table-responsive">
+      <table class="lkps-table">
+        <thead><tr><th>No</th><th>Dokumen</th><th>Link Dokumen</th><th>Link Laporan Hasil Audit</th><th>Link Laporan RTM</th><th>Link Dokumen Peningkatan</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Penetapan</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/17PgbEe6jg7P3MlRUIZSZhhC4enyylZ7S?usp=drive_link" target="_blank">Buka Folder Google Drive</a></td><td>-</td><td>-</td><td>-</td></tr>
+          <tr><td>2</td><td>Pelaksanaan</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/17PgbEe6jg7P3MlRUIZSZhhC4enyylZ7S?usp=drive_link" target="_blank">Buka Folder Google Drive</a></td><td>-</td><td>-</td><td>-</td></tr>
+          <tr><td>3</td><td>Evaluasi</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1ywPn4RexBzQjD6DXRT8DCXTEtemvcQLz?usp=sharing" target="_blank">Buka Folder Google Drive</a></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1gpdVeFMr0vwmrw_VvUpJhDokvF1zfVx2?usp=sharing" target="_blank">Buka Folder Google Drive</a></td><td>-</td><td>-</td></tr>
+          <tr><td>4</td><td>Pengendalian</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1WFgIamM3JnSGZ-WAv-UOC1W22E0ondmV?usp=sharing" target="_blank">Buka Folder Google Drive</a></td><td>-</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/18PzEeZ2yIs1hfx6rVOBzbjjoaGIkSFU0?usp=sharing" target="_blank">Buka Folder Google Drive</a></td><td>-</td></tr>
+          <tr><td>5</td><td>Peningkatan</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0?usp=sharing" target="_blank">Buka Folder Google Drive</a></td><td>-</td><td>-</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0?usp=sharing" target="_blank">Buka Folder Google Drive</a></td></tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </div>
 
 <script>
-// ===== DATA EVIDENCE PER SESI =====
-const dataEvidenceSesi1 = [
-  // LKPS Tables - C.1
-  { id:'LKPS-001', nama:'Tabel 1 — VMTS dan Profil PS', sesi:'sesi1', kategori:'lkps-table1', jenis:'Tabel LKPS', tahun:'2024', ket:'Data VMTS PT, JTE, PSBM dan profil program studi', sumber:'LKPS Tabel 1', prio:'UTAMA', icon:'', url:'' },
-  { id:'LKPS-002', nama:'Tabel 2.a — Kerja Sama Tridharma', sesi:'sesi1', kategori:'lkps-kerja-sama', jenis:'Tabel LKPS', tahun:'2024', ket:'66 kerja sama: 42 pendidikan, 17 penelitian, 7 PkM', sumber:'LKPS Tabel 2.a', prio:'UTAMA', icon:'🤝', url:'' },
-  { id:'LKPS-003', nama:'Tabel 2.b — Keuangan', sesi:'sesi1', kategori:'lkps-keuangan', jenis:'Tabel LKPS', tahun:'2024', ket:'BOP, anggaran, realisasi 3 tahun', sumber:'LKPS Tabel 2.b', prio:'UTAMA', icon:'💰', url:'' },
-  
-  // LKPS Tables - C.3
-  { id:'LKPS-004', nama:'Tabel 3.a.1 — Kurikulum', sesi:'sesi1', kategori:'lkps-kurikulum', jenis:'Tabel LKPS', tahun:'2024', ket:'53 MK, 150 SKS, 80 SKS praktik (53,33%)', sumber:'LKPS Tabel 3.a.1', prio:'UTAMA', icon:'', url:'' },
-  { id:'LKPS-005', nama:'Tabel 3.b — Penelitian', sesi:'sesi1', kategori:'lkps-penelitian', jenis:'Tabel LKPS', tahun:'2024', ket:'45 penelitian: 14, 13, 18 (3 tahun)', sumber:'LKPS Tabel 3.b', prio:'UTAMA', icon:'🔬', url:'' },
-  { id:'LKPS-006', nama:'Tabel 3.c — PkM', sesi:'sesi1', kategori:'lkps-pkm', jenis:'Tabel LKPS', tahun:'2024', ket:'14 PkM: 2, 6, 6 (3 tahun)', sumber:'LKPS Tabel 3.c', prio:'UTAMA', icon:'', url:'' },
-  
-  // LKPS Tables - C.4
-  { id:'LKPS-007', nama:'Tabel 4.a — DTPS', sesi:'sesi1', kategori:'lkps-sdm', jenis:'Tabel LKPS', tahun:'2024', ket:'11 DTPS: 3 doktor, 4 LK, 6 Lektor', sumber:'LKPS Tabel 4.a', prio:'UTAMA', icon:'👨‍🏫', url:'' },
-  { id:'LKPS-008', nama:'Tabel 4.e — Publikasi', sesi:'sesi1', kategori:'lkps-sdm', jenis:'Tabel LKPS', tahun:'2024', ket:'220 publikasi 3 tahun', sumber:'LKPS Tabel 4.e', prio:'UTAMA', icon:'📚', url:'' },
-  
-  // LKPS Tables - C.5
-  { id:'LKPS-009', nama:'Tabel 5.a — Sarpras', sesi:'sesi1', kategori:'lkps-sarpras', jenis:'Tabel LKPS', tahun:'2024', ket:'Laboratorium, peralatan, K3L', sumber:'LKPS Tabel 5.a', prio:'UTAMA', icon:'', url:'' },
-  
-  // LKPS Tables - C.6
-  { id:'LKPS-010', nama:'Tabel 6.a — Mahasiswa', sesi:'sesi1', kategori:'lkps-mahasiswa', jenis:'Tabel LKPS', tahun:'2024', ket:'Rasio mhs:DTPS 18:1', sumber:'LKPS Tabel 6.a', prio:'UTAMA', icon:'🎓', url:'' },
-  { id:'LKPS-011', nama:'Tabel 6.f — Tracer Study', sesi:'sesi1', kategori:'lkps-tracer', jenis:'Tabel LKPS', tahun:'2024', ket:'80 lulusan, 61 terlacak (76,25%)', sumber:'LKPS Tabel 6.f', prio:'UTAMA', icon:'📈', url:'' },
-  { id:'LKPS-012', nama:'Tabel 6.g — Kepuasan Pengguna', sesi:'sesi1', kategori:'lkps-mahasiswa', jenis:'Tabel LKPS', tahun:'2024', ket:'45 responden, 7 aspek', sumber:'LKPS Tabel 6.g', prio:'UTAMA', icon:'⭐', url:'' }
-];
-
-const dataEvidenceSesi2 = [
-  // SPMI - C.7
-  { id:'SPMI-001', nama:'SK GPM JTE', sesi:'sesi2', kategori:'spmi-kebijakan', jenis:'SK', tahun:'2023', ket:'SK Gugus Penjaminan Mutu', sumber:'LED C.7', prio:'UTAMA', icon:'', url:'' },
-  { id:'SPMI-002', nama:'Dokumen Kebijakan SPMI', sesi:'sesi2', kategori:'spmi-kebijakan', jenis:'Dokumen', tahun:'2023', ket:'Kebijakan SPMI resmi', sumber:'LED C.7', prio:'UTAMA', icon:'📘', url:'' },
-  { id:'SPMI-003', nama:'Manual SPMI (PPEPP)', sesi:'sesi2', kategori:'spmi-manual', jenis:'Manual', tahun:'2023', ket:'Manual siklus PPEPP', sumber:'LED C.7', prio:'UTAMA', icon:'📗', url:'' },
-  { id:'SPMI-004', nama:'Dokumen Standar SPMI', sesi:'sesi2', kategori:'spmi-kebijakan', jenis:'Dokumen', tahun:'2023', ket:'Standar mutu SPMI', sumber:'LED C.7', prio:'UTAMA', icon:'📘', url:'' },
-  { id:'SPMI-005', nama:'Laporan AMI 2025', sesi:'sesi2', kategori:'spmi-ami', jenis:'Laporan', tahun:'2025', ket:'Laporan Audit Mutu Internal', sumber:'LED C.7', prio:'UTAMA', icon:'🔍', url:'' },
-  { id:'SPMI-006', nama:'SK Auditor AMI', sesi:'sesi2', kategori:'spmi-ami', jenis:'SK', tahun:'2025', ket:'SK auditor AMI independen', sumber:'LED C.7', prio:'UTAMA', icon:'📜', url:'' },
-  { id:'SPMI-007', nama:'Notulensi RTM', sesi:'sesi2', kategori:'spmi-rtm', jenis:'Notulensi', tahun:'2025', ket:'Rapat Tinjauan Manajemen', sumber:'LED C.7', prio:'UTAMA', icon:'📝', url:'' },
-  { id:'SPMI-008', nama:'Dokumen RTL AMI', sesi:'sesi2', kategori:'spmi-rtl', jenis:'Dokumen', tahun:'2025', ket:'Rencana Tindak Lanjut 15 temuan', sumber:'LED C.7', prio:'UTAMA', icon:'📋', url:'' },
-  { id:'SPMI-009', nama:'Laporan Survei Kepuasan Stakeholder', sesi:'sesi2', kategori:'spmi-survei', jenis:'Laporan', tahun:'2024', ket:'Survei mahasiswa, dosen, lulusan, pengguna', sumber:'LED C.7', prio:'UTAMA', icon:'⭐', url:'' },
-  { id:'SPMI-010', nama:'Laporan Survei Kepuasan Pengguna Lulusan', sesi:'sesi2', kategori:'spmi-survei', jenis:'Laporan', tahun:'2024', ket:'45 responden, 7 aspek kepuasan', sumber:'LED C.6', prio:'UTAMA', icon:'⭐', url:'' }
-];
-
-const dataEvidenceSesi3 = [
-  // LEDPS - C.1 & BAB III
-  { id:'LED-001', nama:'LEDPS Final (Bab 1-7)', sesi:'sesi3', kategori:'led-vmts', jenis:'Laporan', tahun:'2026', ket:'Laporan Evaluasi Diri Program Studi lengkap', sumber:'LEDPS', prio:'UTAMA', icon:'📕', url:'' },
-  { id:'LED-002', nama:'SK VMTS PT', sesi:'sesi3', kategori:'led-vmts', jenis:'SK', tahun:'2020', ket:'SK VMTS tingkat Politeknik Negeri Jakarta', sumber:'LED C.1', prio:'UTAMA', icon:'📜', url:'' },
-  { id:'LED-003', nama:'SK VMTS UPPS (JTE)', sesi:'sesi3', kategori:'led-vmts', jenis:'SK', tahun:'2020', ket:'SK VMTS tingkat Jurusan/UPPS', sumber:'LED C.1', prio:'UTAMA', icon:'📜', url:'' },
-  { id:'LED-004', nama:'Dokumen Visi Keilmuan PSBM', sesi:'sesi3', kategori:'led-vmts', jenis:'Dokumen', tahun:'2020', ket:'Visi keilmuan Broadband Multimedia', sumber:'LED C.1', prio:'UTAMA', icon:'📘', url:'' },
-  { id:'LED-005', nama:'Matriks Sinkronisasi VMTS', sesi:'sesi3', kategori:'led-vmts', jenis:'Matriks', tahun:'2024', ket:'Linearitas visi PT → JTE → PSBM', sumber:'LED C.1', prio:'UTAMA', icon:'📊', url:'' },
-  { id:'LED-006', nama:'Dokumen SWOT', sesi:'sesi3', kategori:'led-swot', jenis:'Dokumen', tahun:'2024', ket:'Analisis SWOT PSBM', sumber:'BAB III', prio:'UTAMA', icon:'📊', url:'' },
-  { id:'LED-007', nama:'Tujuan Strategis', sesi:'sesi3', kategori:'led-tujuan', jenis:'Dokumen', tahun:'2024', ket:'6 tujuan strategis PSBM', sumber:'BAB III', prio:'UTAMA', icon:'🎯', url:'' },
-  { id:'LED-008', nama:'Program Pengembangan (Tabel 3.2)', sesi:'sesi3', kategori:'led-program', jenis:'Tabel', tahun:'2024', ket:'6 program pengembangan dengan PIC dan anggaran', sumber:'BAB III', prio:'UTAMA', icon:'📘', url:'' },
-  { id:'LED-009', nama:'Matriks Traceability', sesi:'sesi3', kategori:'led-program', jenis:'Matriks', tahun:'2024', ket:'Keterlacakan temuan → SWOT → program', sumber:'BAB III', prio:'UTAMA', icon:'', url:'' },
-  { id:'LED-010', nama:'Renstra & Renop JTE', sesi:'sesi3', kategori:'led-renstra', jenis:'Dokumen', tahun:'2020-2025', ket:'Target dan capaian VMTS', sumber:'LED C.1', prio:'UTAMA', icon:'', url:'' },
-  { id:'LED-011', nama:'Laporan Capaian VMTS', sesi:'sesi3', kategori:'led-renstra', jenis:'Laporan', tahun:'2024', ket:'Realisasi vs target VMTS', sumber:'LED C.1', prio:'UTAMA', icon:'📊', url:'' },
-  { id:'LED-012', nama:'Panduan Capstone Project', sesi:'sesi3', kategori:'led-capstone', jenis:'Panduan', tahun:'2024', ket:'Panduan resmi capstone project', sumber:'LED C.3', prio:'UTAMA', icon:'📗', url:'' }
-];
-
-// ===== NAVIGATION =====
 function showEvPanel(id, btn) {
   document.querySelectorAll('.ev-panel').forEach(p => p.classList.remove('active'));
   document.getElementById('panel-' + id).classList.add('active');
   document.querySelectorAll('.ev-tab').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
-  
-  if (id === 'sesi1') renderSesi1();
-  if (id === 'sesi2') renderSesi2();
-  if (id === 'sesi3') renderSesi3();
 }
-
-// ===== RENDER SESI 1 =====
-function renderSesi1() {
-  let html = '<h3 style="color:#0d47a1; margin: 20px 0 12px 0;">📊 Dokumen Evidence Sesi 1 — LKPS</h3>';
-  dataEvidenceSesi1.forEach(e => { html += renderEvCard(e); });
-  document.getElementById('sesi1Content').innerHTML = html;
-}
-
-// ===== RENDER SESI 2 =====
-function renderSesi2() {
-  let html = '<h3 style="color:#2e7d32; margin: 20px 0 12px 0;">🔄 Dokumen Evidence Sesi 2 — Penjaminan Mutu</h3>';
-  dataEvidenceSesi2.forEach(e => { html += renderEvCard(e); });
-  document.getElementById('sesi2Content').innerHTML = html;
-}
-
-// ===== RENDER SESI 3 =====
-function renderSesi3() {
-  let html = '<h3 style="color:#e65100; margin: 20px 0 12px 0;">📕 Dokumen Evidence Sesi 3 — LEDPS</h3>';
-  dataEvidenceSesi3.forEach(e => { html += renderEvCard(e); });
-  document.getElementById('sesi3Content').innerHTML = html;
-}
-
-// ===== RENDER CARD =====
-function renderEvCard(e) {
-  const prioClass = e.prio === 'UTAMA' ? 'utama' : 'pendukung';
-  const hasUrl = e.url && e.url.trim() !== '';
-  const btnHtml = hasUrl 
-    ? '<a href="' + e.url + '" target="_blank" class="ev-open-btn">📂 BUKA DOKUMEN</a>'
-    : '<button class="ev-open-btn" disabled title="Link belum tersedia">📂 BUKA DOKUMEN</button>';
-  
-  let html = '<div class="ev-card ' + prioClass + '">';
-  html += '<div class="ev-card-icon">' + e.icon + '</div>';
-  html += '<div class="ev-card-body">';
-  html += '<div class="ev-card-title">' + e.nama + '</div>';
-  html += '<div class="ev-card-desc">' + e.ket + '</div>';
-  html += '<div class="ev-card-meta">';
-  html += '<span class="ev-badge ' + prioClass + '">' + e.prio + '</span>';
-  html += '<span class="ev-badge jenis">' + e.jenis + '</span>';
-  html += '<span class="ev-badge tahun">' + e.tahun + '</span>';
-  html += '<span class="ev-badge sumber">📖 ' + e.sumber + '</span>';
-  html += '</div>';
-  html += '<div class="ev-card-actions">';
-  html += btnHtml;
-  html += '<button class="ev-open-btn secondary" onclick="showSourceInfo(\'' + e.id + '\')"> Referensi</button>';
-  html += '</div></div></div>';
-  return html;
-}
-
-// ===== SHOW SOURCE INFO =====
-function showSourceInfo(id) {
-  const allData = [...dataEvidenceSesi1, ...dataEvidenceSesi2, ...dataEvidenceSesi3];
-  const e = allData.find(x => x.id === id);
-  if (!e) return;
-  alert(
-    `📚 REFERENSI DOKUMEN\n\n` +
-    `📄 Dokumen: ${e.nama}\n` +
-    `📁 Kategori: ${e.kategori}\n` +
-    `📚 Sumber: ${e.sumber}\n` +
-    `📅 Tahun: ${e.tahun}\n\n` +
-    ` Pastikan dokumen sudah diunggah ke Google Drive.`
-  );
-}
-
-// ===== FILTER KATEGORI =====
-function filterKategori(kategori) {
-  alert(`Filter kategori: ${kategori}\n\nFitur ini akan menampilkan dokumen dengan kategori "${kategori}".\n\nImplementasi: tambahkan filter berdasarkan properti 'kategori' di data evidence.`);
-}
-
-// ===== INIT =====
-document.addEventListener('DOMContentLoaded', function() {
-  renderSesi1();
-  renderSesi2();
-  renderSesi3();
-});
 </script>
