@@ -41,12 +41,46 @@ permalink: /evidence-al/
 .file-open-btn.pdf:hover { box-shadow: 0 4px 10px rgba(198, 40, 40, 0.4); }
 .file-open-btn .btn-icon { font-size: 1rem; }
 
-/* ===== SUB-NAV ===== */
-.criteria-nav { display: flex; gap: 4px; margin-bottom: 12px; border-bottom: 2px solid #e0e0e0; flex-wrap: wrap; padding-bottom: 8px; }
-.criteria-nav button { padding: 6px 12px; background: white; border: 2px solid #e0e0e0; border-radius: 6px; cursor: pointer; font-weight: 600; color: #555; font-size: 0.75rem; transition: all 0.2s; }
+/* ===== SUB-NAV (SYMMETRICAL & EQUAL LENGTH) ===== */
+.criteria-nav { 
+  display: flex; 
+  gap: 6px; 
+  margin-bottom: 12px; 
+  flex-wrap: wrap; 
+  padding-bottom: 8px; 
+}
+.criteria-nav button { 
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 8px 4px; 
+  background: white; 
+  border: 2px solid #e0e0e0; 
+  border-radius: 6px; 
+  cursor: pointer; 
+  font-weight: 600; 
+  color: #555; 
+  font-size: 0.75rem; 
+  transition: all 0.2s; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.2;
+}
 .criteria-nav button:hover { border-color: #0d47a1; color: #0d47a1; transform: translateY(-1px); }
 .criteria-nav button.active { background: #0d47a1; color: white; border-color: #0d47a1; box-shadow: 0 2px 6px rgba(13, 71, 161, 0.3); }
 .criteria-nav.ledps-nav button.active { background: #2e7d32; border-color: #2e7d32; }
+.criteria-nav button.bab3-btn {
+  background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+  color: #e65100;
+  border-color: #ffcc80;
+}
+.criteria-nav button.bab3-btn.active {
+  background: linear-gradient(135deg, #e65100 0%, #f57c00 100%);
+  color: white;
+  border-color: #e65100;
+}
 
 .lkps-table-panel { display: none; animation: fadeIn 0.3s ease; }
 .lkps-table-panel.active { display: block; }
@@ -663,22 +697,22 @@ permalink: /evidence-al/
         <strong>ℹ️ Informasi:</strong> Halaman ini berisi analisis kualitatif per kriteria (LEDPS) dan BAB III (SWOT, Tujuan Strategis, Program Pengembangan).
       </div>
 
-      <!-- Sub-nav Kriteria + BAB III -->
+      <!-- Sub-nav Kriteria + BAB III (UPDATED NAMES & SYMMETRICAL) -->
       <div class="criteria-nav ledps-nav" id="ledpsNav">
-        <button class="active" onclick="showLedpsCriteria('c1', this)">C.1 VMTS</button>
-        <button onclick="showLedpsCriteria('c2', this)">C.2 Tata Kelola</button>
-        <button onclick="showLedpsCriteria('c3', this)">C.3 Diklitpmas</button>
-        <button onclick="showLedpsCriteria('c4', this)">C.4 SDM</button>
-        <button onclick="showLedpsCriteria('c5', this)">C.5 Sarpras</button>
-        <button onclick="showLedpsCriteria('c6', this)">C.6 Luaran</button>
-        <button onclick="showLedpsCriteria('c7', this)">C.7 SPMI</button>
-        <button onclick="showLedpsCriteria('bab3', this)" style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); color: #e65100; border-radius: 6px; border: 1px solid #ffcc80;">📕 BAB III</button>
+        <button class="active" onclick="showLedpsCriteria('c1', this)">C.1 Diferensiasi Misi</button>
+        <button onclick="showLedpsCriteria('c2', this)">C.2 Akuntabilitas</button>
+        <button onclick="showLedpsCriteria('c3', this)">C.3 Relevansi Diklitpmas</button>
+        <button onclick="showLedpsCriteria('c4', this)">C.4 Sumber Daya Manusia</button>
+        <button onclick="showLedpsCriteria('c5', this)">C.5 Sarana, Prasarana, dan K3L</button>
+        <button onclick="showLedpsCriteria('c6', this)">C.6 Mahasiswa & Luaran</button>
+        <button onclick="showLedpsCriteria('c7', this)">C.7 Sistem Penjaminan Mutu</button>
+        <button class="bab3-btn" onclick="showLedpsCriteria('bab3', this)">📕 BAB III</button>
       </div>
 
-      <!-- C.1 VMTS -->
+      <!-- C.1 DIFERENSIASI MISI -->
       <div class="ledps-criteria active" id="ledps-c1">
         <div class="lkps-section ledps">
-          <h3>📑 C.1 — Kekhasan VMTS & Pencapaian</h3>
+          <h3>📑 C.1 — Diferensiasi Misi (Visi, Misi, Tujuan, dan Strategi)</h3>
           <div class="led-card">
             <h4>🎯 Visi Keilmuan PSBM</h4>
             <p><strong>"Menjadi Program Studi Unggul Bertaraf Internasional di Bidang Broadband Multimedia untuk Mendukung Daya Saing Bangsa"</strong></p>
@@ -708,10 +742,10 @@ permalink: /evidence-al/
         </div>
       </div>
 
-      <!-- C.2 TATA KELOLA -->
+      <!-- C.2 AKUNTABILITAS -->
       <div class="ledps-criteria" id="ledps-c2">
         <div class="lkps-section ledps">
-          <h3>🏛️ C.2 — Tata Pamong, Tata Kelola, Kerja Sama, Keuangan</h3>
+          <h3>🏛️ C.2 — Akuntabilitas (Tata Pamong, Tata Kelola, Kerja Sama, Keuangan)</h3>
           <div class="led-card">
             <h4>🏢 Tata Pamong</h4>
             <p>Struktur tata pamong mengacu pada <strong>Statuta PNJ No. 35 Tahun 2018</strong> dan <strong>OTK PNJ No. 60 Tahun 2022</strong>. Lima pilar Good University Governance: Kredibel, Transparan, Akuntabel, Bertanggung Jawab, Adil.</p>
@@ -743,7 +777,7 @@ permalink: /evidence-al/
         </div>
       </div>
 
-      <!-- C.3 DIKLITPMAS -->
+      <!-- C.3 RELEVANSI DIKLITPMAS -->
       <div class="ledps-criteria" id="ledps-c3">
         <div class="lkps-section ledps">
           <h3>📘 C.3 — Relevansi Pendidikan, Penelitian, dan PkM</h3>
@@ -785,7 +819,7 @@ permalink: /evidence-al/
         </div>
       </div>
 
-      <!-- C.4 SDM -->
+      <!-- C.4 SUMBER DAYA MANUSIA -->
       <div class="ledps-criteria" id="ledps-c4">
         <div class="lkps-section ledps">
           <h3>👨‍🏫 C.4 — Sumber Daya Manusia</h3>
@@ -824,10 +858,10 @@ permalink: /evidence-al/
         </div>
       </div>
 
-      <!-- C.5 SARPRAS -->
+      <!-- C.5 SARANA, PRASARANA, DAN K3L -->
       <div class="ledps-criteria" id="ledps-c5">
         <div class="lkps-section ledps">
-          <h3>💰 C.5 — Sarana, Prasarana, dan K3L</h3>
+          <h3>💰 C.5 — Sarana, Prasarana, dan Keselamatan Kesehatan Kerja dan Lingkungan (K3L)</h3>
           <div class="led-card">
             <h4>🔧 Sarana Pembelajaran — Evaluasi</h4>
             <ul>
@@ -853,10 +887,10 @@ permalink: /evidence-al/
         </div>
       </div>
 
-      <!-- C.6 LUARAN -->
+      <!-- C.6 MAHASISWA DAN LUARAN MAHASISWA -->
       <div class="ledps-criteria" id="ledps-c6">
         <div class="lkps-section ledps">
-          <h3> C.6 — Mahasiswa dan Luaran</h3>
+          <h3>🎓 C.6 — Mahasiswa dan Luaran Mahasiswa</h3>
           <div class="led-card">
             <h4>👨‍🎓 Mahasiswa — Analisis</h4>
             <ul>
@@ -915,7 +949,7 @@ permalink: /evidence-al/
         </div>
       </div>
 
-      <!-- C.7 SPMI -->
+      <!-- C.7 SISTEM PENJAMINAN MUTU -->
       <div class="ledps-criteria" id="ledps-c7">
         <div class="lkps-section ledps">
           <h3>🔄 C.7 — Sistem Penjaminan Mutu</h3>
