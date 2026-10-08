@@ -170,16 +170,29 @@ permalink: /evidence-al/
         <div class="bukti-section">
           <h3>⭐ Bukti Utama AL</h3>
           <div class="bukti-grid">
-            <div class="bukti-card" onclick="quickEvSearch('LED')">
-              <div class="bc-icon">📄</div>
-              <div class="bc-name">LED Final</div>
-              <div class="bc-desc">Laporan Evaluasi Diri</div>
-            </div>
-            <div class="bukti-card" onclick="quickEvSearch('LKPS')">
-              <div class="bc-icon">📊</div>
-              <div class="bc-name">LKPS Final</div>
-              <div class="bc-desc">Laporan Kinerja PS</div>
-            </div>
+            <a href="https://drive.google.com/file/d/GANTI_DENGAN_ID_LED/view?usp=sharing" 
+            target="_blank" 
+            class="bukti-card" 
+            style="text-decoration:none; color:inherit;">
+        <div class="bc-icon"></div>
+        <div class="bc-name">LED Final</div>
+        <div class="bc-desc">Laporan Evaluasi Diri</div>
+        <div style="margin-top:8px; font-size:0.72rem; color:#0d47a1; font-weight:600;">
+            📂 Klik untuk membuka →
+        </div>
+        </a>
+
+<a href="https://drive.google.com/file/d/GANTI_DENGAN_ID_LKPS/view?usp=sharing" 
+   target="_blank" 
+   class="bukti-card" 
+   style="text-decoration:none; color:inherit;">
+  <div class="bc-icon">📊</div>
+  <div class="bc-name">LKPS Final</div>
+  <div class="bc-desc">Laporan Kinerja PS</div>
+  <div style="margin-top:8px; font-size:0.72rem; color:#0d47a1; font-weight:600;">
+    📂 Klik untuk membuka →
+  </div>
+</a>
             <div class="bukti-card" onclick="quickEvSearch('NADK')">
               <div class="bc-icon">📘</div>
               <div class="bc-name">NADK / Kurikulum</div>
@@ -291,7 +304,7 @@ const dataEvidence = [
   { id:'E023', nama:'NADK PSBM 2020', k:'c3', ind:'Kurikulum', jenis:'Dokumen', tahun:'2020', ket:'Naskah Akademik Pengembangan Kurikulum', sumber:'LED C.3', prio:'UTAMA', icon:'📘', url:'https://drive.google.com/file/d/18cs46MSM5q2ordkANXki8jaSpDgGfTD_/view?usp=drive_link' },
   { id:'E024', nama:'Dokumen Kurikulum PSBM', k:'c3', ind:'Kurikulum', jenis:'Dokumen', tahun:'2024', ket:'Struktur kurikulum 150 SKS, 53 MK', sumber:'LED C.3 / LKPS 3.a.1', prio:'UTAMA', icon:'📘', url:'https://drive.google.com/file/d/1VHNU5kCHUHKsZs93cjN3D-Re225W7d8B/view?usp=drive_link' },
   { id:'E025', nama:'BA Evaluasi Kurikulum', k:'c3', ind:'Pemutakhiran Kurikulum', jenis:'BA', tahun:'2020-2024', ket:'Berita Acara evaluasi 2020, 2021, 2024', sumber:'LED C.3', prio:'UTAMA', icon:'📝', url:'https://drive.google.com/drive/u/3/folders/1vuU2z7VhEUTivDGj3W0WmBgql1XSpD2y' },
-  { id:'E026', nama:'Profil Lulusan PSBM', k:'c3', ind:'Profil Lulusan', jenis:'Dokumen', tahun:'2020', ket:'Profil lulusan PSBM dari NADK 2020', sumber:'LED C.3', prio:'UTAMA', icon:'🎓', url:'https://drive.google.com/file/d/19Q1pSr4YL-JKM75nZ78kyCdW7vzhdhKN/view?usp=drive_link' },
+  { id:'E026', nama:'Profil Lulusan PSBM', k:'c3', ind:'Profil Lulusan', jenis:'Dokumen', tahun:'2020', ket:'Profil lulusan PSBM dari NADK', sumber:'LED C.3', prio:'UTAMA', icon:'🎓', url:'https://drive.google.com/file/d/19Q1pSr4YL-JKM75nZ78kyCdW7vzhdhKN/view?usp=drive_link' },
   { id:'E027', nama:'Matriks Profil Lulusan–CPL', k:'c3', ind:'CPL', jenis:'Matriks', tahun:'2024', ket:'Penurunan profil lulusan ke CPL', sumber:'LED C.3', prio:'UTAMA', icon:'📊', url:'' },
   { id:'E028', nama:'Rumusan 12 CPL PSBM', k:'c3', ind:'CPL', jenis:'Dokumen', tahun:'2020', ket:'Rumusan CPL sesuai 4 standar kompetensi', sumber:'LED C.3', prio:'UTAMA', icon:'🎓', url:'' },
   { id:'E029', nama:'Matriks CPL–MK', k:'c3', ind:'CPL', jenis:'Matriks', tahun:'2024', ket:'Pemetaan CPL ke mata kuliah', sumber:'LED C.3', prio:'UTAMA', icon:'📊', url:'' },
