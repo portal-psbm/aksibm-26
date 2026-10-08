@@ -142,7 +142,7 @@ permalink: /evidence-al/
     <div class="ev-panel active" id="panel-sesi1">
       <div class="session-header sesi1">
         <span class="tag">DATA KUANTITATIF — 50+ TABEL LKPS</span>
-        <h2> SESI 1 — LAPORAN KINERJA PROGRAM STUDI (LKPS)</h2>
+        <h2>📊 SESI 1 — LAPORAN KINERJA PROGRAM STUDI (LKPS)</h2>
         <div class="subtitle">Semua tabel LKPS PSBM dengan link bukti Google Drive</div>
         
         <div class="file-open-bar">
@@ -171,7 +171,7 @@ permalink: /evidence-al/
       <!-- TABEL 1: VMTS -->
       <div class="lkps-table-panel active" id="lkps-t1">
         <div class="lkps-section">
-          <h3> Tabel 1: VMTS PT, UPPS, dan Visi Keilmuan PS</h3>
+          <h3>📋 Tabel 1: VMTS PT, UPPS, dan Visi Keilmuan PS</h3>
           <div class="table-responsive">
             <table class="lkps-table">
               <thead><tr><th>No</th><th>Jenis VMTS</th><th>Pernyataan</th><th>No. SK</th><th>Link Dokumen</th></tr></thead>
@@ -193,7 +193,7 @@ permalink: /evidence-al/
       <!-- TABEL 2: KERJA SAMA & DANA -->
       <div class="lkps-table-panel" id="lkps-t2">
         <div class="lkps-section">
-          <h3> Tabel 2a1: Kerja Sama Pendidikan (42)</h3>
+          <h3>🤝 Tabel 2a1: Kerja Sama Pendidikan (42)</h3>
           <div class="summary-grid">
             <div class="summary-card"><div class="sc-label">Internasional</div><div class="sc-value">5</div></div>
             <div class="summary-card"><div class="sc-label">Nasional</div><div class="sc-value">37</div></div>
@@ -250,7 +250,7 @@ permalink: /evidence-al/
         </div>
         <div class="lkps-section">
           <h3>📘 Tabel 3a2: Mata Kuliah dan Dokumen Pembelajaran</h3>
-          <div class="info-box"><strong> Ringkasan:</strong> 100% MK memiliki RPS dengan 9 komponen lengkap.</div>
+          <div class="info-box"><strong>📌 Ringkasan:</strong> 100% MK memiliki RPS dengan 9 komponen lengkap.</div>
           <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📝</span> Buka Bukti: Tabel 3a2 - RPS</a>
         </div>
         <div class="lkps-section">
@@ -276,7 +276,7 @@ permalink: /evidence-al/
               </tbody>
             </table>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon"></span> Buka Bukti: Tabel 3a4 - Basic Science</a>
+          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📐</span> Buka Bukti: Tabel 3a4 - Basic Science</a>
         </div>
         <div class="lkps-section">
           <h3>🎓 Tabel 3a5: Capstone Design dalam Proses Pembelajaran</h3>
@@ -318,7 +318,7 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Lektor Kepala</div><div class="sc-value">4 (36,36%)</div></div>
             <div class="summary-card"><div class="sc-label">Lektor</div><div class="sc-value">6</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">👨‍</span> Buka Bukti: Tabel 4a - Profil DTPS</a>
+          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">👨‍🏫</span> Buka Bukti: Tabel 4a - Profil DTPS</a>
           <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn secondary"><span class="btn-icon">📜</span> Buka Bukti: Tabel 4a - SK & Sertifikat</a>
         </div>
         <div class="lkps-section">
@@ -372,7 +372,7 @@ permalink: /evidence-al/
           <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📖</span> Buka Bukti: Tabel 4f-4 - Buku DTPS</a>
         </div>
         <div class="lkps-section">
-          <h3> Tabel 4g: Produk/Jasa DTPS Diadopsi (13)</h3>
+          <h3>📦 Tabel 4g: Produk/Jasa DTPS Diadopsi (13)</h3>
           <div class="table-responsive">
             <table class="lkps-table">
               <thead><tr><th>No</th><th>Nama DTPS</th><th>Nama Produk/Jasa</th><th>Link Bukti</th></tr></thead>
@@ -417,9 +417,9 @@ permalink: /evidence-al/
       <!-- TABEL 5: SARPRAS & K3L -->
       <div class="lkps-table-panel" id="lkps-t5">
         <div class="lkps-section">
-          <h3>💰 Tabel 5a: Prasarana dan Peralatan Utama</h3>
+          <h3>🏗️ Tabel 5a: Prasarana dan Peralatan Utama</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> 16 prasarana utama (13 lab/ruang + 3 layanan nonakademik). Seluruhnya terawat, dimiliki sendiri.</div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">💰</span> Buka Bukti: Tabel 5a - Sarpras</a>
+          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🏗️</span> Buka Bukti: Tabel 5a - Sarpras</a>
         </div>
         <div class="lkps-section">
           <h3>⚠️ Tabel 5b: Dokumen K3L (17 dokumen)</h3>
@@ -454,7 +454,7 @@ permalink: /evidence-al/
       <!-- TABEL 6: MAHASISWA & LUARAN -->
       <div class="lkps-table-panel" id="lkps-t6">
         <div class="lkps-section">
-          <h3> Tabel 6a: Jumlah Mahasiswa (189 aktif TS)</h3>
+          <h3>🎓 Tabel 6a: Jumlah Mahasiswa (189 aktif TS)</h3>
           <div class="summary-grid">
             <div class="summary-card"><div class="sc-label">TS-2</div><div class="sc-value">192</div></div>
             <div class="summary-card"><div class="sc-label">TS-1</div><div class="sc-value">182</div></div>
@@ -497,7 +497,7 @@ permalink: /evidence-al/
           <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🎭</span> Buka Bukti: Tabel 6c2 - Prestasi Nonakademik</a>
         </div>
         <div class="lkps-section">
-          <h3> Tabel 6d: Masa Studi Lulusan</h3>
+          <h3>📅 Tabel 6d: Masa Studi Lulusan</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> Rata-rata 4,05 tahun. 95,025% lulus tepat waktu.</div>
           <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📅</span> Buka Bukti: Tabel 6d - Masa Studi</a>
         </div>
@@ -512,7 +512,7 @@ permalink: /evidence-al/
           <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📚</span> Buka Bukti: Tabel 6e2 - Publikasi Mahasiswa</a>
         </div>
         <div class="lkps-section">
-          <h3> Tabel 6e3-1: HKI Paten Mahasiswa (0)</h3>
+          <h3>💡 Tabel 6e3-1: HKI Paten Mahasiswa (0)</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> Tidak ada paten mahasiswa.</div>
           <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">💡</span> Buka Bukti: Tabel 6e3-1 - Paten Mahasiswa</a>
         </div>
@@ -532,7 +532,7 @@ permalink: /evidence-al/
           <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📖</span> Buka Bukti: Tabel 6e3-4 - Buku Mahasiswa</a>
         </div>
         <div class="lkps-section">
-          <h3> Tabel 6e4: Produk/Jasa Mahasiswa Diadopsi (16)</h3>
+          <h3>📦 Tabel 6e4: Produk/Jasa Mahasiswa Diadopsi (16)</h3>
           <div class="table-responsive">
             <table class="lkps-table">
               <thead><tr><th>No</th><th>Nama Mahasiswa</th><th>Produk/Jasa</th><th>Link Bukti</th></tr></thead>
@@ -542,7 +542,7 @@ permalink: /evidence-al/
                 <tr><td>3</td><td>Adrian Eka Ramadhani dkk</td><td>Pelatihan Kompetensi Digital Beji Timur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1_bRTrD7Biee4s4TWA7hixSnR6tAUoEs6" target="_blank">📂 Buka</a></td></tr>
                 <tr><td>4</td><td>Bemi Raihan R dkk</td><td>Aplikasi Bank Sampah "Bersih Plus"</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1kOYXp1Zto8t7KmGOKmEyXLlYZgm0986E" target="_blank">📂 Buka</a></td></tr>
                 <tr><td>5</td><td>Nabilla Farassaskya Zanna</td><td>Sistem Informasi OJT Kemensos RI</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1RtCF0v8ZWTKRa554t-tfHOazMMd1bJ-3" target="_blank">📂 Buka</a></td></tr>
-                <tr><td>6</td><td>Ilham Satria Lubis dkk</td><td>Smart Aquaculture LoRa BBI Ciganjur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1sbQtwzrJmOYN8MMsVykxXJMIsNnvWPE4" target="_blank"> Buka</a></td></tr>
+                <tr><td>6</td><td>Ilham Satria Lubis dkk</td><td>Smart Aquaculture LoRa BBI Ciganjur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1sbQtwzrJmOYN8MMsVykxXJMIsNnvWPE4" target="_blank">📂 Buka</a></td></tr>
               </tbody>
             </table>
           </div>
@@ -633,7 +633,7 @@ permalink: /evidence-al/
               <tbody>
                 <tr><td><strong>Penetapan</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/17PgbEe6jg7P3MlRUIZSZhhC4enyylZ7S" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td>—</td></tr>
                 <tr><td><strong>Pelaksanaan</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/17PgbEe6jg7P3MlRUIZSZhhC4enyylZ7S" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td>—</td></tr>
-                <tr><td><strong>Evaluasi</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1ywPn4RexBzQjD6DXRT8DCXTEtemvcQLz" target="_blank">📂 Buka</a></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1gpdVeFMr0vwmrw_VvUpJhDokvF1zfVx2" target="_blank"> Buka</a></td><td>—</td><td>—</td></tr>
+                <tr><td><strong>Evaluasi</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1ywPn4RexBzQjD6DXRT8DCXTEtemvcQLz" target="_blank">📂 Buka</a></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1gpdVeFMr0vwmrw_VvUpJhDokvF1zfVx2" target="_blank">📂 Buka</a></td><td>—</td><td>—</td></tr>
                 <tr><td><strong>Pengendalian</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1WFgIamM3JnSGZ-WAv-UOC1W22E0ondmV" target="_blank">📂 Buka</a></td><td>—</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/18PzEeZ2yIs1hfx6rVOBzbjjoaGIkSFU0" target="_blank">📂 Buka</a></td><td>—</td></tr>
                 <tr><td><strong>Peningkatan</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank">📂 Buka</a></td></tr>
               </tbody>
@@ -662,7 +662,7 @@ permalink: /evidence-al/
         
         <div class="file-open-bar">
           <a href="https://drive.google.com/file/d/GANTI_DENGAN_ID_FILE_LED/view?usp=sharing" target="_blank" class="file-open-btn pdf">
-            <span class="btn-icon"></span>
+            <span class="btn-icon">📕</span>
             <span>Open LEDPS (PDF)</span>
           </a>
         </div>
@@ -674,20 +674,20 @@ permalink: /evidence-al/
 
       <!-- Sub-nav Kriteria + BAB III -->
       <div class="criteria-nav ledps-nav" id="ledpsNav">
-        <button class="active" onclick="showLedpsCriteria('c1', this)">C.1 VMTS</button>
-        <button onclick="showLedpsCriteria('c2', this)">C.2 Tata Kelola</button>
-        <button onclick="showLedpsCriteria('c3', this)">C.3 Diklitpmas</button>
-        <button onclick="showLedpsCriteria('c4', this)">C.4 SDM</button>
-        <button onclick="showLedpsCriteria('c5', this)">C.5 Sarpras</button>
-        <button onclick="showLedpsCriteria('c6', this)">C.6 Luaran</button>
-        <button onclick="showLedpsCriteria('c7', this)">C.7 SPMI</button>
+        <button class="active" onclick="showLedpsCriteria('c1', this)">C.1 Diferensiasi Misi</button>
+        <button onclick="showLedpsCriteria('c2', this)">C.2 Akuntabilitas</button>
+        <button onclick="showLedpsCriteria('c3', this)">C.3 Relevansi Diklitpmas</button>
+        <button onclick="showLedpsCriteria('c4', this)">C.4 Sumber Daya Manusia</button>
+        <button onclick="showLedpsCriteria('c5', this)">C.5 Sarana, Prasarana, dan K3L</button>
+        <button onclick="showLedpsCriteria('c6', this)">C.6 Mahasiswa & Luaran</button>
+        <button onclick="showLedpsCriteria('c7', this)">C.7 Sistem Penjaminan Mutu</button>
         <button onclick="showLedpsCriteria('bab3', this)" style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); color: #e65100; border-radius: 6px; border: 1px solid #ffcc80;">📕 BAB III</button>
       </div>
 
-      <!-- C.1 VMTS -->
+      <!-- C.1 DIFERENSIASI MISI -->
       <div class="ledps-criteria active" id="ledps-c1">
         <div class="lkps-section ledps">
-          <h3>📑 C.1 — Kekhasan VMTS & Pencapaian</h3>
+          <h3>📑 C.1 — Diferensiasi Misi (Visi, Misi, Tujuan, dan Strategi)</h3>
           <div class="led-card">
             <h4>🎯 Visi Keilmuan PSBM</h4>
             <p><strong>"Menjadi Program Studi Unggul Bertaraf Internasional di Bidang Broadband Multimedia untuk Mendukung Daya Saing Bangsa"</strong></p>
@@ -705,7 +705,7 @@ permalink: /evidence-al/
             <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📋</span> Buka Bukti: Tabel 1 - Mekanisme VMTS</a>
           </div>
           <div class="led-card">
-            <h4> Capaian VMTS (Traceability ke LKPS)</h4>
+            <h4>📊 Capaian VMTS (Traceability ke LKPS)</h4>
             <ul>
               <li><strong>Pendidikan:</strong> 53,33% praktik, 5 MK diampu praktisi (20%) → <em>LKPS 3.a</em></li>
               <li><strong>Penelitian:</strong> 45 penelitian (14→13→18), tren meningkat → <em>LKPS 3.b</em></li>
@@ -717,10 +717,10 @@ permalink: /evidence-al/
         </div>
       </div>
 
-      <!-- C.2 TATA KELOLA -->
+      <!-- C.2 AKUNTABILITAS -->
       <div class="ledps-criteria" id="ledps-c2">
         <div class="lkps-section ledps">
-          <h3>🏛️ C.2 — Tata Pamong, Tata Kelola, Kerja Sama, Keuangan</h3>
+          <h3>🏛️ C.2 — Akuntabilitas (Tata Pamong, Tata Kelola, Kerja Sama, Keuangan)</h3>
           <div class="led-card">
             <h4>🏢 Tata Pamong</h4>
             <p>Struktur tata pamong mengacu pada <strong>Statuta PNJ No. 35 Tahun 2018</strong> dan <strong>OTK PNJ No. 60 Tahun 2022</strong>. Lima pilar Good University Governance: Kredibel, Transparan, Akuntabel, Bertanggung Jawab, Adil.</p>
@@ -752,7 +752,7 @@ permalink: /evidence-al/
         </div>
       </div>
 
-      <!-- C.3 DIKLITPMAS -->
+      <!-- C.3 RELEVANSI PENDIDIKAN, PENELITIAN, DAN PKM -->
       <div class="ledps-criteria" id="ledps-c3">
         <div class="lkps-section ledps">
           <h3>📘 C.3 — Relevansi Pendidikan, Penelitian, dan PkM</h3>
@@ -769,7 +769,7 @@ permalink: /evidence-al/
             <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📘</span> Buka Bukti: Tabel 3a1 - Kurikulum</a>
           </div>
           <div class="led-card">
-            <h4> Penelitian — Evaluasi</h4>
+            <h4>🔬 Penelitian — Evaluasi</h4>
             <ul>
               <li><strong>Total:</strong> 45 penelitian (14→13→18) → <em>LKPS 3.b</em></li>
               <li><strong>Sumber Dana:</strong> 36 internal (80%), 9 eksternal nasional (20%), 0 luar negeri</li>
@@ -794,7 +794,7 @@ permalink: /evidence-al/
         </div>
       </div>
 
-      <!-- C.4 SDM -->
+      <!-- C.4 SUMBER DAYA MANUSIA -->
       <div class="ledps-criteria" id="ledps-c4">
         <div class="lkps-section ledps">
           <h3>👨‍🏫 C.4 — Sumber Daya Manusia</h3>
@@ -833,10 +833,10 @@ permalink: /evidence-al/
         </div>
       </div>
 
-      <!-- C.5 SARPRAS -->
+      <!-- C.5 SARANA, PRASARANA, DAN K3L -->
       <div class="ledps-criteria" id="ledps-c5">
         <div class="lkps-section ledps">
-          <h3>💰 C.5 — Sarana, Prasarana, dan K3L</h3>
+          <h3>🏗️ C.5 — Sarana, Prasarana, dan Keselamatan Kesehatan Kerja dan Lingkungan (K3L)</h3>
           <div class="led-card">
             <h4>🔧 Sarana Pembelajaran — Evaluasi</h4>
             <ul>
@@ -857,15 +857,15 @@ permalink: /evidence-al/
               <li><strong>Analisis:</strong> Implementasi K3L baik, perlu audit berkala dan sosialisasi berkelanjutan</li>
             </ul>
             <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">⚠️</span> Buka Bukti: Tabel 5b - Dokumen K3L</a>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn secondary"><span class="btn-icon"></span> Buka Bukti: Tabel 5c - Fasilitas K3L</a>
+            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn secondary"><span class="btn-icon">🧯</span> Buka Bukti: Tabel 5c - Fasilitas K3L</a>
           </div>
         </div>
       </div>
 
-      <!-- C.6 LUARAN -->
+      <!-- C.6 MAHASISWA DAN LUARAN MAHASISWA -->
       <div class="ledps-criteria" id="ledps-c6">
         <div class="lkps-section ledps">
-          <h3> C.6 — Mahasiswa dan Luaran</h3>
+          <h3>🎓 C.6 — Mahasiswa dan Luaran Mahasiswa</h3>
           <div class="led-card">
             <h4>👨‍🎓 Mahasiswa — Analisis</h4>
             <ul>
@@ -875,11 +875,11 @@ permalink: /evidence-al/
               <li><strong>Masa Studi:</strong> 4,06 tahun</li>
               <li><strong>Kelulusan Tepat Waktu:</strong> 95,025%</li>
             </ul>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon"></span> Buka Bukti: Tabel 6a - Mahasiswa</a>
+            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🎓</span> Buka Bukti: Tabel 6a - Mahasiswa</a>
             <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn secondary"><span class="btn-icon">🎓</span> Buka Bukti: Tabel 6b - IPK Lulusan</a>
           </div>
           <div class="led-card">
-            <h4> Prestasi & Luaran — Analisis</h4>
+            <h4>🏆 Prestasi & Luaran — Analisis</h4>
             <ul>
               <li><strong>Prestasi Akademik:</strong> 10 (2 internasional, 8 nasional) → <em>LKPS 6.c.1</em></li>
               <li><strong>Prestasi Nonakademik:</strong> 9 (1 internasional, 5 nasional, 3 wilayah) → <em>LKPS 6.c.2</em></li>
@@ -924,7 +924,7 @@ permalink: /evidence-al/
         </div>
       </div>
 
-      <!-- C.7 SPMI -->
+      <!-- C.7 SISTEM PENJAMINAN MUTU -->
       <div class="ledps-criteria" id="ledps-c7">
         <div class="lkps-section ledps">
           <h3>🔄 C.7 — Sistem Penjaminan Mutu</h3>
@@ -1076,7 +1076,7 @@ permalink: /evidence-al/
             <h4>🔄 Monitoring & PPEPP</h4>
             <div class="summary-grid">
               <div class="summary-card" style="border-left-color: #e65100;">
-                <div class="sc-label"> AMI</div>
+                <div class="sc-label">🔍 AMI</div>
                 <div class="sc-value" style="font-size:0.95rem;">Audit Mutu Internal</div>
                 <div class="sc-desc">Audit internal tahunan terhadap 7 kriteria</div>
               </div>
