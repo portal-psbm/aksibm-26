@@ -1,4 +1,3 @@
----
 layout: default
 title: Evidence AL
 permalink: /evidence-al/
@@ -44,8 +43,8 @@ permalink: /evidence-al/
 .file-open-btn .btn-icon { font-size: 1rem; }
 
 /* ===== SUB-NAV ===== */
-.criteria-nav { display: flex; gap: 4px; margin-bottom: 12px; border-bottom: 2px solid #e0e0e0; flex-wrap: wrap; padding-bottom: 8px; }
-.criteria-nav button { padding: 6px 12px; background: white; border: 2px solid #e0e0e0; border-radius: 6px; cursor: pointer; font-weight: 600; color: #555; font-size: 0.75rem; transition: all 0.2s; }
+.criteria-nav { display: flex; gap: 4px; margin-bottom: 12px; border-bottom: 2px solid #e0e0e0; flex-wrap: nowrap; padding-bottom: 8px; }
+.criteria-nav button { flex: 1 1 0; padding: 8px 4px; background: white; border: 2px solid #e0e0e0; border-radius: 6px; cursor: pointer; font-weight: 600; color: #555; font-size: 0.7rem; transition: all 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-align: center; min-width: 0; }
 .criteria-nav button:hover { border-color: #0d47a1; color: #0d47a1; transform: translateY(-1px); }
 .criteria-nav button.active { background: #0d47a1; color: white; border-color: #0d47a1; box-shadow: 0 2px 6px rgba(13, 71, 161, 0.3); }
 
@@ -121,6 +120,8 @@ permalink: /evidence-al/
   .swot-grid { grid-template-columns: 1fr; }
   .file-open-bar { flex-direction: column; }
   .file-open-btn { width: 100%; justify-content: center; }
+  .criteria-nav { flex-wrap: wrap; }
+  .criteria-nav button { flex: 1 1 calc(50% - 2px); font-size: 0.65rem; padding: 6px 2px; }
 }
 </style>
 
@@ -181,13 +182,7 @@ permalink: /evidence-al/
                 <tr><td>3</td><td><strong>Visi Keilmuan PS</strong></td><td>Unggul bertaraf internasional di bidang broadband multimedia</td><td>2589/PL3/KR.00/2020</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1kEN_2TU9W6vch8kkKwB0qG83rU89ujxf" target="_blank">📂 Buka</a></td></tr>
               </tbody>
             </table>
-          </div>
-          <div style="margin-top:10px;">
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📄</span> Buka Bukti: VMTS PT</a>
-            <a href="https://drive.google.com/drive/folders/1JiRWv_v_-pbrFTMl74JwQzJ1ZNnCpcOt" target="_blank" class="table-link-btn"><span class="btn-icon">📄</span> Buka Bukti: VMTS UPPS</a>
-            <a href="https://drive.google.com/drive/folders/1kEN_2TU9W6vch8kkKwB0qG83rU89ujxf" target="_blank" class="table-link-btn"><span class="btn-icon">📘</span> Buka Bukti: Visi Keilmuan PS</a>
-          </div>
-        </div>
+          
       </div>
 
       <!-- TABEL 2: KERJA SAMA & DANA -->
@@ -251,10 +246,10 @@ permalink: /evidence-al/
         <div class="lkps-section">
           <h3>📘 Tabel 3a2: Mata Kuliah dan Dokumen Pembelajaran</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> 100% MK memiliki RPS dengan 9 komponen lengkap.</div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📝</span> Buka Bukti: RPS</a>
+          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon"></span> Buka Bukti: RPS</a>
         </div>
         <div class="lkps-section">
-          <h3>🔬 Tabel 3a3: Integrasi Kegiatan Penelitian/PkM dalam Pembelajaran</h3>
+          <h3> Tabel 3a3: Integrasi Kegiatan Penelitian/PkM dalam Pembelajaran</h3>
           <div class="summary-grid">
             <div class="summary-card"><div class="sc-label">Dosen Terlibat</div><div class="sc-value">8</div></div>
             <div class="summary-card"><div class="sc-label">Judul Penelitian/PkM</div><div class="sc-value">8</div></div>
@@ -280,7 +275,7 @@ permalink: /evidence-al/
         </div>
         <div class="lkps-section">
           <h3>🎓 Tabel 3a5: Capstone Design dalam Proses Pembelajaran</h3>
-          <div class="info-box"><strong>📌 Ringkasan:</strong> 24 MK pendukung + Magang Industri (20 SKS) → Skripsi (10 SKS) di Semester 8.</div>
+          <div class="info-box"><strong> Ringkasan:</strong> 24 MK pendukung + Magang Industri (20 SKS) → Skripsi (10 SKS) di Semester 8.</div>
           <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🎓</span> Buka Bukti: Capstone Design</a>
         </div>
         <div class="lkps-section">
@@ -304,7 +299,7 @@ permalink: /evidence-al/
             <div class="summary-card highlight-data"><div class="sc-label">Total</div><div class="sc-value">14</div></div>
             <div class="summary-card highlight-data"><div class="sc-label">Internal/Mandiri</div><div class="sc-value">14 (100%)</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🤝</span> Buka Bukti: PkM DTPS</a>
+          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon"></span> Buka Bukti: PkM DTPS</a>
         </div>
       </div>
 
@@ -354,7 +349,7 @@ permalink: /evidence-al/
         <div class="lkps-section">
           <h3>💡 Tabel 4f-1: HKI (Paten, Paten Sederhana)</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> 3 paten/paten sederhana.</div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">💡</span> Buka Bukti: Paten DTPS</a>
+          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon"></span> Buka Bukti: Paten DTPS</a>
         </div>
         <div class="lkps-section">
           <h3>💡 Tabel 4f-2: HKI (Hak Cipta, Desain Produk Industri, dll.)</h3>
@@ -438,7 +433,7 @@ permalink: /evidence-al/
           <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">⚠️</span> Buka Bukti: Dokumen K3L</a>
         </div>
         <div class="lkps-section">
-          <h3>🧯 Tabel 5c: Fasilitas K3L di UPPS</h3>
+          <h3> Tabel 5c: Fasilitas K3L di UPPS</h3>
           <div class="summary-grid">
             <div class="summary-card"><div class="sc-label">APAR</div><div class="sc-value">6</div></div>
             <div class="summary-card"><div class="sc-label">Hidran</div><div class="sc-value">2</div></div>
@@ -454,7 +449,7 @@ permalink: /evidence-al/
       <!-- TABEL 6: MAHASISWA & LUARAN -->
       <div class="lkps-table-panel" id="lkps-t6">
         <div class="lkps-section">
-          <h3>🎓 Tabel 6a: Jumlah Mahasiswa (Reguler dan Asing)</h3>
+          <h3> Tabel 6a: Jumlah Mahasiswa (Reguler dan Asing)</h3>
           <div class="summary-grid">
             <div class="summary-card"><div class="sc-label">TS-2</div><div class="sc-value">192</div></div>
             <div class="summary-card"><div class="sc-label">TS-1</div><div class="sc-value">182</div></div>
@@ -487,7 +482,7 @@ permalink: /evidence-al/
           <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🏆</span> Buka Bukti: Prestasi Akademik</a>
         </div>
         <div class="lkps-section">
-          <h3>🎭 Tabel 6c2: Prestasi Non-akademik Mahasiswa</h3>
+          <h3> Tabel 6c2: Prestasi Non-akademik Mahasiswa</h3>
           <div class="summary-grid">
             <div class="summary-card"><div class="sc-label">Internasional</div><div class="sc-value">1</div></div>
             <div class="summary-card"><div class="sc-label">Nasional</div><div class="sc-value">5</div></div>
@@ -497,7 +492,7 @@ permalink: /evidence-al/
           <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🎭</span> Buka Bukti: Prestasi Nonakademik</a>
         </div>
         <div class="lkps-section">
-          <h3>📅 Tabel 6d: Masa Studi Lulusan</h3>
+          <h3> Tabel 6d: Masa Studi Lulusan</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> Rata-rata 4,05 tahun. 95,025% lulus tepat waktu.</div>
           <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📅</span> Buka Bukti: Masa Studi</a>
         </div>
@@ -509,7 +504,7 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Prosiding Nasional</div><div class="sc-value">91</div></div>
             <div class="summary-card highlight-data"><div class="sc-label">Total</div><div class="sc-value">126</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📚</span> Buka Bukti: Publikasi Mahasiswa</a>
+          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon"></span> Buka Bukti: Publikasi Mahasiswa</a>
         </div>
         <div class="lkps-section">
           <h3>💡 Tabel 6e3-1: HKI (Paten, Paten Sederhana)</h3>
@@ -519,7 +514,7 @@ permalink: /evidence-al/
         <div class="lkps-section">
           <h3>💡 Tabel 6e3-2: HKI (Hak Cipta, Desain Produk Industri, dll.)</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> 16 HKI Hak Cipta.</div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">💡</span> Buka Bukti: HKI Mahasiswa</a>
+          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon"></span> Buka Bukti: HKI Mahasiswa</a>
         </div>
         <div class="lkps-section">
           <h3>💡 Tabel 6e3-3: Teknologi Tepat Guna, Produk</h3>
@@ -538,7 +533,7 @@ permalink: /evidence-al/
               <thead><tr><th>No</th><th>Nama Mahasiswa</th><th>Produk/Jasa</th><th>Deskripsi Produk/Jasa</th><th>Link Bukti</th></tr></thead>
               <tbody>
                 <tr><td>1</td><td>Algifri Prayudha Diwiryo, Anindhya Jasminaningdhyah, dkk</td><td>Web Sekolah dan Implementasi Sistem Pemantauan Kegiatan Belajar Mengajar Berbasis Nirkabel</td><td>Sistem Web dan Pemantauan KBM Berbasis Nirkabel adalah solusi terpadu yang mengintegrasikan portal digital sekolah dengan jaringan CCTV nirkabel.</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1gj3fyC_mO2c6pDTNRzhnlPcIE4_pKBYS" target="_blank">📂 Buka</a></td></tr>
-                <tr><td>2</td><td>Muhammad Zaki Raya, Andafa Eka Octariano, Adinda Mutiara Putri</td><td>Website “Desa Wisata Kampung Setaman” Cipayung Depok</td><td>Platform digital yang dirancang berdasarkan analisis kebutuhan menyeluruh melalui observasi dan diskusi langsung bersama pengurus kawasan.</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/10Uedbfz4neHCLzH0gVGHO46a18iBY_Sn" target="_blank">📂 Buka</a></td></tr>
+                <tr><td>2</td><td>Muhammad Zaki Raya, Andafa Eka Octariano, Adinda Mutiara Putri</td><td>Website "Desa Wisata Kampung Setaman" Cipayung Depok</td><td>Platform digital yang dirancang berdasarkan analisis kebutuhan menyeluruh melalui observasi dan diskusi langsung bersama pengurus kawasan.</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/10Uedbfz4neHCLzH0gVGHO46a18iBY_Sn" target="_blank">📂 Buka</a></td></tr>
                 <tr><td>3</td><td>Adrian Eka Ramadhani, Ananda Wizza Kayla, dkk</td><td>Pelatihan Kompetensi Digital Sebagai Upaya Peningkatan SDM Di Kelurahan Beji Timur Kota Depok</td><td>Layanan bimbingan teknis terstruktur yang dirancang untuk meningkatkan kapasitas SDM pengurus wilayah dan kader Posyandu.</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1_bRTrD7Biee4s4TWA7hixSnR6tAUoEs6" target="_blank">📂 Buka</a></td></tr>
                 <tr><td>4</td><td>Bemi Raihan R, Salma Afifah, Angellia Malika</td><td>Aplikasi Bank Sampah Di Kampung Proklim Kelurahan Beji Timur Depok</td><td>Solusi digital pengelolaan bank sampah yang mengintegrasikan kepedulian lingkungan dengan insentif ekonomi secara praktis.</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1kOYXp1Zto8t7KmGOKmEyXLlYZgm0986E" target="_blank">📂 Buka</a></td></tr>
                 <tr><td>5</td><td>Nabilla Farassaskya Zanna</td><td>Sistem Informasi Layanan On The Job Training Masyarakat Di Kementerian Sosial RI</td><td>Platform digital terintegrasi yang dirancang untuk merampingkan seluruh siklus pengelolaan program magang secara transparan dan efisien.</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1RtCF0v8ZWTKRa554t-tfHOazMMd1bJ-3" target="_blank">📂 Buka</a></td></tr>
@@ -601,7 +596,7 @@ permalink: /evidence-al/
                 <tr><td>1</td><td>Zulhelman, S.T., M.T.</td><td>Rekayasa Polarisasi RHCP-LHCP pada Konfigurasi Antena MIMO</td><td>Muhammad Roby Meidiansyah, Reza Pratama Putra</td><td>Perancangan</td><td>2025</td></tr>
                 <tr><td>2</td><td>Agus Wagyana, S.T., M.T.</td><td>Evaluasi Akurasi Pengukuran Jarak dalam Ruangan dengan Modul Ultra Wideband</td><td>Andafa Eka Octariano, Ahmad Rifai</td><td>Kegiatan Lain yang Relevan</td><td>2023</td></tr>
                 <tr><td>3</td><td>Asri Wulandari, S.T., M.T.</td><td>Analisa Implementasi Konfigurasi Antena pada Private 5G Network</td><td>Akita Hasna Mayanti, Raviadin Nugroho</td><td>Kegiatan Lain yang Relevan</td><td>2023</td></tr>
-                <tr><td>4</td><td>Mohamad Fathurahman, S.T., M.T.</td><td>Sistem Pendeteksi Kecurangan Ujian dengan Computer Vision</td><td>Adi Ageng Asy’ari, Erian Putra Assyakur</td><td>Tugas Akhir</td><td>2023</td></tr>
+                <tr><td>4</td><td>Mohamad Fathurahman, S.T., M.T.</td><td>Sistem Pendeteksi Kecurangan Ujian dengan Computer Vision</td><td>Adi Ageng Asy'ari, Erian Putra Assyakur</td><td>Tugas Akhir</td><td>2023</td></tr>
                 <tr><td>5</td><td>Viving Frendiana, S.ST., M.T.</td><td>IMPLEMENTASI CLOUD COMPUTING UNTUK DEPLOYMENT SISTEM INFORMASI INVENTORY</td><td>Desi Fitriana, Fadli Ahmad Fauzi, Poundra Karna Kuncoro</td><td>Perancangan</td><td>2025</td></tr>
               </tbody>
             </table>
@@ -614,7 +609,7 @@ permalink: /evidence-al/
             <table class="lkps-table">
               <thead><tr><th>No</th><th>Nama Dosen</th><th>Tema PkM</th><th>Nama Mahasiswa</th><th>Judul Kegiatan PkM</th><th>Tahun</th></tr></thead>
               <tbody>
-                <tr><td>1</td><td>Viving Frendiana, S.ST., M.T.</td><td>Aplikasi Web</td><td>Muhammad Zaki Raya, Andafa Eka Octariano, Adinda Mutiara Putri</td><td>Rancang Bangun dan Pelatihan Admin Website “Desa Wisata Kampung Setaman”</td><td>2023</td></tr>
+                <tr><td>1</td><td>Viving Frendiana, S.ST., M.T.</td><td>Aplikasi Web</td><td>Muhammad Zaki Raya, Andafa Eka Octariano, Adinda Mutiara Putri</td><td>Rancang Bangun dan Pelatihan Admin Website "Desa Wisata Kampung Setaman"</td><td>2023</td></tr>
                 <tr><td>2</td><td>Viving Frendiana, S.ST., M.T.</td><td>Cloud Computing</td><td>Adrian Eka Ramadhani, Ananda Wizza Kayla, Rakesh Sharma Pramujio, Daffa Dzufadhli</td><td>Pengembangan Kompetensi Digital Sebagai Upaya Peningkatan SDM Di Kelurahan Beji Timur</td><td>2024</td></tr>
                 <tr><td>3</td><td>Asri Wulandari, S.T., M.T.</td><td>Aplikasi Web dan Mobile</td><td>Bemi Raihan R, Salma Afifah, Angellia Malika</td><td>Upaya Pemberdayaan Masyarakat Melalui Pembuatan Aplikasi Bank Sampah</td><td>2024</td></tr>
                 <tr><td>4</td><td>Zulhelman, S.T., M.T.</td><td>Aplikasi Web</td><td>Nabilla Farassaskya Zanna</td><td>Rancang Bangun Sistem Informasi Layanan On The Job Training Masyarakat Di Kementerian Sosial Ri</td><td>2025</td></tr>
@@ -644,16 +639,16 @@ permalink: /evidence-al/
           <a href="https://drive.google.com/drive/folders/17PgbEe6jg7P3MlRUIZSZhhC4enyylZ7S" target="_blank" class="table-link-btn"><span class="btn-icon">📋</span> Buka Bukti: Dokumen SPMI</a>
         </div>
         <div class="lkps-section">
-          <h3>🔄 Tabel 7b: Ketersediaan Dokumen Pelaksanaan Sistem Penjaminan Mutu Internal</h3>
+          <h3> Tabel 7b: Ketersediaan Dokumen Pelaksanaan Sistem Penjaminan Mutu Internal</h3>
           <div class="table-responsive">
             <table class="lkps-table">
               <thead><tr><th>No</th><th>Dokumen</th><th>Link Dokumen</th><th>Link Laporan Hasil Audit</th><th>Link Laporan RTM</th><th>Link Dokumen Peningkatan</th></tr></thead>
               <tbody>
                 <tr><td>1</td><td>Penetapan</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/17PgbEe6jg7P3MlRUIZSZhhC4enyylZ7S" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td>—</td></tr>
                 <tr><td>2</td><td>Pelaksanaan</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/17PgbEe6jg7P3MlRUIZSZhhC4enyylZ7S" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td>—</td></tr>
-                <tr><td>3</td><td>Evaluasi</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1ywPn4RexBzQjD6DXRT8DCXTEtemvcQLz" target="_blank">📂 Buka</a></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1gpdVeFMr0vwmrw_VvUpJhDokvF1zfVx2" target="_blank">📂 Buka</a></td><td>—</td><td>—</td></tr>
+                <tr><td>3</td><td>Evaluasi</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1ywPn4RexBzQjD6DXRT8DCXTEtemvcQLz" target="_blank">📂 Buka</a></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1gpdVeFMr0vwmrw_VvUpJhDokvF1zfVx2" target="_blank"> Buka</a></td><td>—</td><td>—</td></tr>
                 <tr><td>4</td><td>Pengendalian</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1WFgIamM3JnSGZ-WAv-UOC1W22E0ondmV" target="_blank">📂 Buka</a></td><td>—</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/18PzEeZ2yIs1hfx6rVOBzbjjoaGIkSFU0" target="_blank">📂 Buka</a></td><td>—</td></tr>
-                <tr><td>5</td><td>Peningkatan</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank">📂 Buka</a></td></tr>
+                <tr><td>5</td><td>Peningkatan</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank"> Buka</a></td></tr>
               </tbody>
             </table>
           </div>
@@ -805,7 +800,7 @@ permalink: /evidence-al/
             <h4>👨‍🎓 Kinerja Mahasiswa & Lulusan</h4>
             <p>189 mahasiswa aktif. IPK rata-rata 3,46, masa studi 4,06 tahun. Tracer study: 76,25% terlacak, 55,74% bekerja <3 bulan, 70,49% sesuai bidang.</p>
             <div style="margin-top:10px;">
-              <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🎓</span> Buka Bukti: Kinerja Lulusan</a>
+              <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon"></span> Buka Bukti: Kinerja Lulusan</a>
             </div>
           </div>
           <div class="led-card">
@@ -859,7 +854,7 @@ permalink: /evidence-al/
                 </ul>
               </div>
               <div class="swot-card opportunity">
-                <h4>🚀 Opportunities</h4>
+                <h4> Opportunities</h4>
                 <ul>
                   <li>Transformasi digital & 5G/6G, IoT, AI</li>
                   <li>Hibah nasional (BIMA, DRTPM)</li>
@@ -867,7 +862,7 @@ permalink: /evidence-al/
                 </ul>
               </div>
               <div class="swot-card threat">
-                <h4>⚡ Threats</h4>
+                <h4> Threats</h4>
                 <ul>
                   <li>Perubahan teknologi cepat</li>
                   <li>Persaingan PT sejenis</li>
@@ -913,7 +908,7 @@ permalink: /evidence-al/
             <h4>🔄 Monitoring & PPEPP</h4>
             <div class="summary-grid">
               <div class="summary-card" style="border-left-color: #e65100;"><div class="sc-label">🔍 AMI</div><div class="sc-value" style="font-size:0.95rem;">Audit Mutu Internal</div></div>
-              <div class="summary-card" style="border-left-color: #e65100;"><div class="sc-label">📝 RTM</div><div class="sc-value" style="font-size:0.95rem;">Rapat Tinjauan Manajemen</div></div>
+              <div class="summary-card" style="border-left-color: #e65100;"><div class="sc-label"> RTM</div><div class="sc-value" style="font-size:0.95rem;">Rapat Tinjauan Manajemen</div></div>
               <div class="summary-card" style="border-left-color: #e65100;"><div class="sc-label">📋 RTL</div><div class="sc-value" style="font-size:0.95rem;">Rencana Tindak Lanjut</div></div>
             </div>
             <div style="margin-top:10px;">
