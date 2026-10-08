@@ -171,7 +171,7 @@ permalink: /evidence-al/
         <div class="subtitle">Semua tabel LKPS PSBM dengan link bukti Google Drive</div>
         
         <div class="file-open-bar">
-          <a href="https://drive.google.com/file/d/GANTI_DENGAN_ID_FILE_LKPS/view?usp=sharing" target="_blank" class="file-open-btn">
+          <a href="https://docs.google.com/spreadsheets/d/1vS3kctRbtq2ze-NpJriezcRrmUMynC1T/edit?usp=drive_link&ouid=104338691997360962714&rtpof=true&sd=true" target="_blank" class="file-open-btn">
             <span class="btn-icon">📗</span>
             <span>Open LKPS (Excel)</span>
           </a>
@@ -686,7 +686,7 @@ permalink: /evidence-al/
         <div class="subtitle">C.1 s.d. C.7 (Analisis Naratif) + BAB III (SWOT & Program Pengembangan)</div>
         
         <div class="file-open-bar">
-          <a href="https://drive.google.com/file/d/GANTI_DENGAN_ID_FILE_LED/view?usp=sharing" target="_blank" class="file-open-btn pdf">
+          <a href="https://drive.google.com/file/d/1LBzHBix2Wxxpc8FG0XOw-WJDcB6DTwD0/view?usp=drive_link" target="_blank" class="file-open-btn pdf">
             <span class="btn-icon"></span>
             <span>Open LEDPS (PDF)</span>
           </a>
