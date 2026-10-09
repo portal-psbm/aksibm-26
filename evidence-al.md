@@ -327,7 +327,7 @@ permalink: /evidence-al/
             <div class="summary-card highlight-data"><div class="sc-label">Total</div><div class="sc-value">14</div></div>
             <div class="summary-card highlight-data"><div class="sc-label">Internal/Mandiri</div><div class="sc-value">14 (100%)</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🤝</span> Buka Bukti: Tabel 3c - PkM DTPS</a>
+          <a href="https://drive.google.com/drive/folders/1bhWdKKjVQnmnRH28OFLm9BIg6y924iMW?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🤝</span> Buka Bukti: Tabel 3c - PkM DTPS</a>
         </div>
       </div>
 
@@ -341,8 +341,8 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Lektor Kepala</div><div class="sc-value">4 (36,36%)</div></div>
             <div class="summary-card"><div class="sc-label">Lektor</div><div class="sc-value">6</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">👨‍</span> Buka Bukti: Tabel 4a - Profil DTPS</a>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn secondary"><span class="btn-icon">📜</span> Buka Bukti: Tabel 4a - SK & Sertifikat</a>
+          <a href="https://drive.google.com/drive/folders/1uU7DVV3R67Wy4X7qnsq5o7pMh2qmHqXY?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">👨‍</span> Buka Bukti: Tabel 4a - Profil DTPS</a>
+          <a href="https://drive.google.com/drive/folders/1FjB53b64GX4WJ2MSb_duKGzS1U1dBU5z?usp=drive_link" target="_blank" class="table-link-btn secondary"><span class="btn-icon">📜</span> Buka Bukti: Tabel 4a - SK & Sertifikat</a>
         </div>
         <div class="lkps-section">
           <h3>👷 Tabel 4b: Data Tenaga Kependidikan (8 orang)</h3>
@@ -351,7 +351,7 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Bersertifikat</div><div class="sc-value">6 (75%)</div></div>
             <div class="summary-card"><div class="sc-label">Aktif untuk PSBM</div><div class="sc-value">4</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">👷</span> Buka Bukti: Tabel 4b - Tendik</a>
+          <a href="https://drive.google.com/drive/folders/1valnqjR3LxuMzzOp92mshLb0AGJS074t?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">👷</span> Buka Bukti: Tabel 4b - Tendik</a>
         </div>
         <div class="lkps-section">
           <h3>⚖️ Tabel 4c: Beban Kerja DTPS (RBK 14,77 SKS)</h3>
@@ -361,7 +361,7 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">PkM</div><div class="sc-value">1,70</div></div>
             <div class="summary-card"><div class="sc-label">Tugas Tambahan</div><div class="sc-value">0,88</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">⚖️</span> Buka Bukti: Tabel 4c - BKD DTPS</a>
+          <a href="https://drive.google.com/drive/folders/1BEGp0hK4K4Pac4PLQ4yURKOC45QHboY-?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">⚖️</span> Buka Bukti: Tabel 4c - BKD DTPS</a>
         </div>
         <div class="lkps-section">
           <h3>📚 Tabel 4e: Pagelaran/Pameran/Presentasi/Publikasi Ilmiah DTPS (220)</h3>
@@ -372,27 +372,27 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Prosiding Scopus/WoS</div><div class="sc-value">33</div></div>
             <div class="summary-card highlight-data"><div class="sc-label">TOTAL</div><div class="sc-value">220</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📚</span> Buka Bukti: Tabel 4e - Publikasi DTPS</a>
+          <a href="https://drive.google.com/drive/folders/1g7FIrmACLtXBIeDoliHrNIaOdbaRl17n?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">📚</span> Buka Bukti: Tabel 4e - Publikasi DTPS</a>
         </div>
         <div class="lkps-section">
           <h3>💡 Tabel 4f-1: HKI Paten (3)</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> 3 paten/paten sederhana.</div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">💡</span> Buka Bukti: Tabel 4f-1 - Paten DTPS</a>
+          <a href="https://drive.google.com/drive/folders/1cAnlr1AfAOXWx-ZKctrSYemz6pdYTQry?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">💡</span> Buka Bukti: Tabel 4f-1 - Paten DTPS</a>
         </div>
         <div class="lkps-section">
           <h3>💡 Tabel 4f-2: HKI Hak Cipta (36)</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> 36 HKI Hak Cipta, Desain Produk Industri, dll.</div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">💡</span> Buka Bukti: Tabel 4f-2 - HKI DTPS</a>
+          <a href="https://drive.google.com/drive/folders/1HwAQ6PCd7ZqMhAAja1eWA8qPbOZRK_aJ?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">💡</span> Buka Bukti: Tabel 4f-2 - HKI DTPS</a>
         </div>
         <div class="lkps-section">
           <h3>💡 Tabel 4f-3: Teknologi Tepat Guna (4)</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> 4 TTG/Produk.</div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">💡</span> Buka Bukti: Tabel 4f-3 - TTG DTPS</a>
+          <a href="https://drive.google.com/drive/folders/1bNZo_XJnqWOzlDOVdvgE_y3Ty2SnJ0KZ?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">💡</span> Buka Bukti: Tabel 4f-3 - TTG DTPS</a>
         </div>
         <div class="lkps-section">
           <h3>📖 Tabel 4f-4: Buku ber-ISBN/Book Chapter (14)</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> 14 buku/book chapter.</div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📖</span> Buka Bukti: Tabel 4f-4 - Buku DTPS</a>
+          <a href="https://drive.google.com/drive/folders/1lJxzs04wfdFYS-yf0m4hq5MyVjlkogI5?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">📖</span> Buka Bukti: Tabel 4f-4 - Buku DTPS</a>
         </div>
         <div class="lkps-section">
           <h3> Tabel 4g: Produk/Jasa DTPS Diadopsi (13)</h3>
