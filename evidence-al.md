@@ -1083,12 +1083,13 @@ permalink: /evidence-al/
               <table class="lkps-table">
                 <thead><tr><th>No</th><th>Program</th><th>Strategi</th><th>Target</th><th>PIC</th><th>Anggaran</th></tr></thead>
                 <tbody>
-                  <tr><td>1</td><td><strong>Penguatan kurikulum dan pembelajaran</strong></td><td>WO</td><td>100% CPL terukur & ditindaklanjuti</td><td>Kurikulum/GPM</td><td>-</td></tr>
-                  <tr><td>2</td><td><strong>Pengembangan SDM</strong></td><td>WO</td><td>≥5 doktor, 50% LK, 1 GB</td><td>P3M</td><td>-</td></tr>
-                  <tr><td>3</td><td><strong>Penguatan penelitian dan PkM</strong></td><td>WO</td><td>≥40% pendanaan eksternal</td><td>P3M/Kaprodi</td><td>-</td></tr>
-                  <tr><td>4</td><td><strong>Pengembangan sarana-prasarana</strong></td><td>ST</td><td>Pemutakhiran dan pemeliharaan laboratorium serta fasilitas TIK sesuai kebutuhan pembelajaran</td><td>Kajur</td><td>-</td></tr>
-                  <tr><td>5</td><td><strong>Peningkatan daya saing mahasiswa dan lulusan</strong></td><td>WT</td><td>Pembinaan prestasi; sertifikasi; penguatan bahasa asing; magang dan kegiatan nasional/internasional</td><td>CDC/GPM</td><td>-</td></tr>
-                  <tr><td>6</td><td><strong>Penguatan kerja sama yang berdampak</strong></td><td>SO</td><td>Optimalisasi kerja sama untuk pembelajaran, magang, sertifikasi, penelitian/PkM dan peningkatan kompetensi</td><td>Kajur/P3M</td><td>-</td></tr>
+                  <tr><td>1</td><td><strong>Penguatan kurikulum dan pembelajaran</strong></td><td>-</td><td>Pengukuran CPL terdokumentasi dan ditindaklanjuti; kurikulum dan pembelajaran tetap relevan dengan kebutuhan DUDI</td><td>Kaprodi</td><td>-</td></tr>
+                  <tr><td>2</td><td><strong>Pengembangan SDM</strong></td><td>-</td><td>Peningkatan jabatan akademik, kompetensi, publikasi, kolaborasi, dan rekognisi DTPS</td><td>Kajur</td><td>-</td></tr>
+                  <tr><td>3</td><td><strong>Penguatan penelitian dan PkM</strong></td><td>-</td><td>Pendanaan eksternal dan keterlibatan mahasiswa meningkat; peningkatan luaran dan pemanfaatan hasil penelitian/PkM</td><td>P3M/Kaprodi</td><td>-</td></tr>
+                  <tr><td>4</td><td><strong>Pengembangan sarana-prasarana</strong></td><td>-</td><td>Kecukupan, keandalan, dan pemanfaatan fasilitas meningkat</td><td>Kajur/Kaprodi</td><td>-</td></tr>
+                  <tr><td>5</td><td><strong>Peningkatan daya saing mahasiswa dan lulusan</strong></td><td>-</td><td>Prestasi, sertifikasi dan aktivitas internasional meningkat; daya serap dan relevansi lulusan terjaga</td><td>CDC/Kaprodi</td><td>-</td></tr>
+                  <tr><td>6</td><td><strong>Penguatan kerja sama yang berdampak</strong></td><td>-</td><td>Implementasi dan manfaat kerja sama meningkat serta kepuasan mitra terdokumentasi</td><td>Kajur/Kaprodi</td><td>-</td></tr>
+                   <tr><td>7</td><td><strong>Penguatan tata kelola dan penjaminan mutu</strong></td><td>-</td><td>Tindak lanjut terdokumentasi dan hasil evaluasi digunakan untuk perbaikan serta peningkatan standar</td><td>Kajur/GPM</td><td>-</td></tr>
                 </tbody>
               </table>
             </div>
