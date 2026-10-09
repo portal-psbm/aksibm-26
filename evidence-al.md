@@ -622,12 +622,12 @@ permalink: /evidence-al/
         <div class="lkps-section">
           <h3>🔬 Tabel 6h1: Penelitian DTPS yang Melibatkan Mahasiswa (12/45 = 26,67%)</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> 12 dari 45 penelitian DTPS melibatkan mahasiswa.</div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🔬</span> Buka Bukti: Tabel 6h1 - Penelitian Melibatkan Mhs</a>
+          <a href="https://drive.google.com/drive/folders/1qTeCicjqBBp-Bdfl1tRXQoTD5a0RoqIi?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🔬</span> Buka Bukti: Tabel 6h1 - Penelitian Melibatkan Mhs</a>
         </div>
         <div class="lkps-section">
           <h3>🤝 Tabel 6i: PkM DTPS yang Melibatkan Mahasiswa (7)</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> 7 PkM DTPS melibatkan mahasiswa.</div>
-          <a href="https://drive.google.com/drive/folders/156ktAz7jKLjXCNGoaammiLWqWEIVlKmK?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🤝</span> Buka Bukti: Tabel 6i - PkM Melibatkan Mhs</a>
+          <a href="https://drive.google.com/drive/folders/1QxZZPS4CCNYdWyRBvs42_GaQsv1FBJko?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🤝</span> Buka Bukti: Tabel 6i - PkM Melibatkan Mhs</a>
         </div>
       </div>
 
