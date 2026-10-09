@@ -400,12 +400,12 @@ permalink: /evidence-al/
             <table class="lkps-table">
               <thead><tr><th>No</th><th>Nama DTPS</th><th>Nama Produk/Jasa</th><th>Link Bukti</th></tr></thead>
               <tbody>
-                <tr><td>1</td><td>Viving Frendiana</td><td>Web Sekolah & Sistem Pemantauan KBM</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1ReDF1ecxwnx7v2lVkMaxdwkl8Hd7NF1z" target="_blank">📂 Buka</a></td></tr>
-                <tr><td>2</td><td>Viving Frendiana</td><td>Website Desa Wisata Kampung Setaman</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1z9iUaWIHcKZnNlxXHH3rYC7PbNS_q_4y" target="_blank">📂 Buka</a></td></tr>
-                <tr><td>3</td><td>Viving Frendiana</td><td>Modul Pelatihan Kompetensi Digital Beji Timur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1UhrW8jTpDyjj1ivYWuMzq6y1YRs6NmWs" target="_blank">📂 Buka</a></td></tr>
-                <tr><td>4</td><td>Asri Wulandari</td><td>Aplikasi Bank Sampah Beji Timur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/105r2TRtetj-Nt9ULWgWxxnsW5f_mOgPK" target="_blank">📂 Buka</a></td></tr>
-                <tr><td>5</td><td>Zulhelman</td><td>Sistem Informasi OJT Kemensos RI</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1Q9KQyaZKFr9P35UYPn25LLK2N4YvV3wH" target="_blank">📂 Buka</a></td></tr>
-                <tr><td>6</td><td>Mohamad Fathurahman</td><td>Smart Aquaculture LoRa BBI Ciganjur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1-BrkUP0EVaN4J3rrFYyBJtyBNRLzRwnX" target="_blank">📂 Buka</a></td></tr>
+                <tr><td>1</td><td>Viving Frendiana</td><td>Web Sekolah & Sistem Pemantauan KBM</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1nMMar36UhwXaM0W9uD45jN7bRSjkomkO?usp=drive_link" target="_blank">📂 Buka</a></td></tr>
+                <tr><td>2</td><td>Viving Frendiana</td><td>Website Desa Wisata Kampung Setaman</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1nMMar36UhwXaM0W9uD45jN7bRSjkomkO?usp=drive_link" target="_blank">📂 Buka</a></td></tr>
+                <tr><td>3</td><td>Viving Frendiana</td><td>Modul Pelatihan Kompetensi Digital Beji Timur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1nMMar36UhwXaM0W9uD45jN7bRSjkomkO?usp=drive_link" target="_blank">📂 Buka</a></td></tr>
+                <tr><td>4</td><td>Asri Wulandari</td><td>Aplikasi Bank Sampah Beji Timur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1nMMar36UhwXaM0W9uD45jN7bRSjkomkO?usp=drive_link" target="_blank">📂 Buka</a></td></tr>
+                <tr><td>5</td><td>Zulhelman</td><td>Sistem Informasi OJT Kemensos RI</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1nMMar36UhwXaM0W9uD45jN7bRSjkomkO?usp=drive_link" target="_blank">📂 Buka</a></td></tr>
+                <tr><td>6</td><td>Mohamad Fathurahman</td><td>Smart Aquaculture LoRa BBI Ciganjur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1nMMar36UhwXaM0W9uD45jN7bRSjkomkO?usp=drive_link" target="_blank">📂 Buka</a></td></tr>
               </tbody>
             </table>
           </div>
@@ -416,7 +416,7 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Total Karya</div><div class="sc-value">20</div></div>
             <div class="summary-card"><div class="sc-label">DTPS dengan Karya</div><div class="sc-value">6</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📊</span> Buka Bukti: Tabel 4h - Kinerja DTPS</a>
+          <a href="https://drive.google.com/drive/folders/1VidjxsfN0aa-PxRLdHtzLls8P_PwXsh9?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">📊</span> Buka Bukti: Tabel 4h - Kinerja DTPS</a>
         </div>
         <div class="lkps-section">
           <h3>📖 Tabel 4i: Karya Ilmiah DTPS yang Disitasi (94 karya, 500 sitasi)</h3>
@@ -425,7 +425,7 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Total Sitasi</div><div class="sc-value">500</div></div>
             <div class="summary-card"><div class="sc-label">Rata-rata</div><div class="sc-value">5,32</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📖</span> Buka Bukti: Tabel 4i - Sitasi DTPS</a>
+          <a href="https://drive.google.com/drive/folders/1fMavnisNMu9vj_sKyyZ2VvAMqnW64Crp?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">📖</span> Buka Bukti: Tabel 4i - Sitasi DTPS</a>
         </div>
         <div class="lkps-section">
           <h3>🏆 Tabel 4j: Pengakuan/Rekognisi Dosen (43 rekognisi)</h3>
@@ -433,7 +433,7 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Total Rekognisi</div><div class="sc-value">43</div></div>
             <div class="summary-card"><div class="sc-label">DTPS dengan Rekognisi</div><div class="sc-value">10/11 (90,91%)</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🏆</span> Buka Bukti: Tabel 4j - Rekognisi DTPS</a>
+          <a href="https://drive.google.com/drive/folders/1Aqs6WUUeAs5lSwb4dh9YYqYM3c4Yq-41?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🏆</span> Buka Bukti: Tabel 4j - Rekognisi DTPS</a>
         </div>
       </div>
 
@@ -442,7 +442,7 @@ permalink: /evidence-al/
         <div class="lkps-section">
           <h3>💰 Tabel 5a: Prasarana dan Peralatan Utama</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> 16 prasarana utama (13 lab/ruang + 3 layanan nonakademik). Seluruhnya terawat, dimiliki sendiri.</div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">💰</span> Buka Bukti: Tabel 5a - Sarpras</a>
+          <a href="https://drive.google.com/drive/folders/1mZE_7jvhdPUZa-tZbjaNq-khY2U244AZ?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">💰</span> Buka Bukti: Tabel 5a - Sarpras</a>
         </div>
         <div class="lkps-section">
           <h3>⚠️ Tabel 5b: Dokumen K3L (17 dokumen)</h3>
@@ -458,7 +458,7 @@ permalink: /evidence-al/
               </tbody>
             </table>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">⚠️</span> Buka Bukti: Tabel 5b - Dokumen K3L</a>
+          <a href="https://drive.google.com/drive/folders/1MElyR4sZcbQD_yRYMYoZuFp-Lb4LvR_-?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">⚠️</span> Buka Bukti: Tabel 5b - Dokumen K3L</a>
         </div>
         <div class="lkps-section">
           <h3>🧯 Tabel 5c: Fasilitas K3L (12 item, semua terawat)</h3>
@@ -470,7 +470,7 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Rambu K3</div><div class="sc-value">7</div></div>
             <div class="summary-card"><div class="sc-label">Jalur Evakuasi</div><div class="sc-value">22</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🧯</span> Buka Bukti: Tabel 5c - Fasilitas K3L</a>
+          <a href="https://drive.google.com/drive/folders/1QY03kvtIs80AE5y1Tmrx_ASbWP9Ao-tV?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🧯</span> Buka Bukti: Tabel 5c - Fasilitas K3L</a>
         </div>
       </div>
 
@@ -484,7 +484,7 @@ permalink: /evidence-al/
             <div class="summary-card highlight-data"><div class="sc-label">TS</div><div class="sc-value">189</div></div>
             <div class="summary-card"><div class="sc-label">Mhs Asing PT TS</div><div class="sc-value">12</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🎓</span> Buka Bukti: Tabel 6a - Mahasiswa</a>
+          <a href="https://drive.google.com/drive/folders/1_iSVFo7NkYbWdENBJbLh0Jt5Cbuize71?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🎓</span> Buka Bukti: Tabel 6a - Mahasiswa</a>
         </div>
         <div class="lkps-section">
           <h3>🎓 Tabel 6b: IPK Lulusan</h3>
@@ -498,7 +498,7 @@ permalink: /evidence-al/
               </tbody>
             </table>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🎓</span> Buka Bukti: Tabel 6b - IPK Lulusan</a>
+          <a href="https://drive.google.com/drive/folders/16bYIhCVva3gdT5a-1Evqw-W9xmCNZ4hX?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🎓</span> Buka Bukti: Tabel 6b - IPK Lulusan</a>
         </div>
         <div class="lkps-section">
           <h3>🏆 Tabel 6c1: Prestasi Akademik Mahasiswa (10)</h3>
@@ -507,7 +507,7 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Nasional</div><div class="sc-value">8</div></div>
             <div class="summary-card highlight-data"><div class="sc-label">Total</div><div class="sc-value">10</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🏆</span> Buka Bukti: Tabel 6c1 - Prestasi Akademik</a>
+          <a href="https://drive.google.com/drive/folders/1B0ujOnki6sDZBurAjkW7JfeJDvxngtQs?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🏆</span> Buka Bukti: Tabel 6c1 - Prestasi Akademik</a>
         </div>
         <div class="lkps-section">
           <h3>🎭 Tabel 6c2: Prestasi Non-akademik Mahasiswa (9)</h3>
@@ -517,12 +517,12 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Wilayah</div><div class="sc-value">3</div></div>
             <div class="summary-card highlight-data"><div class="sc-label">Total</div><div class="sc-value">9</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🎭</span> Buka Bukti: Tabel 6c2 - Prestasi Nonakademik</a>
+          <a href="https://drive.google.com/drive/folders/16wJ9i7V4S_vhU1_NZEXCEK_XlZpZUOcH?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🎭</span> Buka Bukti: Tabel 6c2 - Prestasi Nonakademik</a>
         </div>
         <div class="lkps-section">
           <h3> Tabel 6d: Masa Studi Lulusan</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> Rata-rata 4,05 tahun. 95,025% lulus tepat waktu.</div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📅</span> Buka Bukti: Tabel 6d - Masa Studi</a>
+          <a href="https://drive.google.com/drive/folders/1q3nmmMkfNWb1ecdFEUKeOAHwcs_t9YL6?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">📅</span> Buka Bukti: Tabel 6d - Masa Studi</a>
         </div>
         <div class="lkps-section">
           <h3>📚 Tabel 6e2: Publikasi Ilmiah Mahasiswa (126)</h3>
@@ -532,27 +532,27 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Prosiding Nasional</div><div class="sc-value">91</div></div>
             <div class="summary-card highlight-data"><div class="sc-label">Total</div><div class="sc-value">126</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📚</span> Buka Bukti: Tabel 6e2 - Publikasi Mahasiswa</a>
+          <a href="https://drive.google.com/drive/folders/1qEY6OWtXEOfVYrAhS4uX5ffzQPVVdkRr?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">📚</span> Buka Bukti: Tabel 6e2 - Publikasi Mahasiswa</a>
         </div>
         <div class="lkps-section">
           <h3> Tabel 6e3-1: HKI Paten Mahasiswa (0)</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> Tidak ada paten mahasiswa.</div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">💡</span> Buka Bukti: Tabel 6e3-1 - Paten Mahasiswa</a>
+          <a href="" target="_blank" class="table-link-btn"><span class="btn-icon">💡</span> Buka Bukti: Tabel 6e3-1 - Paten Mahasiswa</a>
         </div>
         <div class="lkps-section">
           <h3>💡 Tabel 6e3-2: HKI Hak Cipta Mahasiswa (16)</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> 16 HKI Hak Cipta.</div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">💡</span> Buka Bukti: Tabel 6e3-2 - HKI Mahasiswa</a>
+          <a href="https://drive.google.com/drive/folders/1e94kPo9bX0XaYl_0Mo_xIGnd4aCNAqHN?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">💡</span> Buka Bukti: Tabel 6e3-2 - HKI Mahasiswa</a>
         </div>
         <div class="lkps-section">
           <h3>💡 Tabel 6e3-3: TTG/Produk Mahasiswa (1)</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> 1 Teknologi Tepat Guna.</div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">💡</span> Buka Bukti: Tabel 6e3-3 - TTG Mahasiswa</a>
+          <a href="https://drive.google.com/drive/folders/12HtQxOnrAR_VY_3slY2BFFdKwqGCi264?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">💡</span> Buka Bukti: Tabel 6e3-3 - TTG Mahasiswa</a>
         </div>
         <div class="lkps-section">
           <h3>📖 Tabel 6e3-4: Buku ber-ISBN/Book Chapter Mahasiswa (2)</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> 2 buku/book chapter.</div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📖</span> Buka Bukti: Tabel 6e3-4 - Buku Mahasiswa</a>
+          <a href="https://drive.google.com/drive/folders/1nbKEy-3e8BOCNzZReVS9gb454VtaTLcJ?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">📖</span> Buka Bukti: Tabel 6e3-4 - Buku Mahasiswa</a>
         </div>
         <div class="lkps-section">
           <h3> Tabel 6e4: Produk/Jasa Mahasiswa Diadopsi (16)</h3>
@@ -560,12 +560,12 @@ permalink: /evidence-al/
             <table class="lkps-table">
               <thead><tr><th>No</th><th>Nama Mahasiswa</th><th>Produk/Jasa</th><th>Link Bukti</th></tr></thead>
               <tbody>
-                <tr><td>1</td><td>Algifri Prayudha dkk</td><td>Web Sekolah & Sistem Pemantauan KBM</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1gj3fyC_mO2c6pDTNRzhnlPcIE4_pKBYS" target="_blank">📂 Buka</a></td></tr>
-                <tr><td>2</td><td>Muhammad Zaki Raya dkk</td><td>Website Desa Wisata Kampung Setaman</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/10Uedbfz4neHCLzH0gVGHO46a18iBY_Sn" target="_blank">📂 Buka</a></td></tr>
-                <tr><td>3</td><td>Adrian Eka Ramadhani dkk</td><td>Pelatihan Kompetensi Digital Beji Timur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1_bRTrD7Biee4s4TWA7hixSnR6tAUoEs6" target="_blank">📂 Buka</a></td></tr>
-                <tr><td>4</td><td>Bemi Raihan R dkk</td><td>Aplikasi Bank Sampah "Bersih Plus"</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1kOYXp1Zto8t7KmGOKmEyXLlYZgm0986E" target="_blank">📂 Buka</a></td></tr>
-                <tr><td>5</td><td>Nabilla Farassaskya Zanna</td><td>Sistem Informasi OJT Kemensos RI</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1RtCF0v8ZWTKRa554t-tfHOazMMd1bJ-3" target="_blank">📂 Buka</a></td></tr>
-                <tr><td>6</td><td>Ilham Satria Lubis dkk</td><td>Smart Aquaculture LoRa BBI Ciganjur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1sbQtwzrJmOYN8MMsVykxXJMIsNnvWPE4" target="_blank"> Buka</a></td></tr>
+                <tr><td>1</td><td>Algifri Prayudha dkk</td><td>Web Sekolah & Sistem Pemantauan KBM</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1SgrufMWIsoHqMW9gzj-YRaVzRSRpBzKm?usp=drive_link" target="_blank">📂 Buka</a></td></tr>
+                <tr><td>2</td><td>Muhammad Zaki Raya dkk</td><td>Website Desa Wisata Kampung Setaman</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1SgrufMWIsoHqMW9gzj-YRaVzRSRpBzKm?usp=drive_link" target="_blank">📂 Buka</a></td></tr>
+                <tr><td>3</td><td>Adrian Eka Ramadhani dkk</td><td>Pelatihan Kompetensi Digital Beji Timur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1SgrufMWIsoHqMW9gzj-YRaVzRSRpBzKm?usp=drive_link" target="_blank">📂 Buka</a></td></tr>
+                <tr><td>4</td><td>Bemi Raihan R dkk</td><td>Aplikasi Bank Sampah "Bersih Plus"</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1SgrufMWIsoHqMW9gzj-YRaVzRSRpBzKm?usp=drive_link" target="_blank">📂 Buka</a></td></tr>
+                <tr><td>5</td><td>Nabilla Farassaskya Zanna</td><td>Sistem Informasi OJT Kemensos RI</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1SgrufMWIsoHqMW9gzj-YRaVzRSRpBzKm?usp=drive_link" target="_blank">📂 Buka</a></td></tr>
+                <tr><td>6</td><td>Ilham Satria Lubis dkk</td><td>Smart Aquaculture LoRa BBI Ciganjur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1SgrufMWIsoHqMW9gzj-YRaVzRSRpBzKm?usp=drive_link" target="_blank"> Buka</a></td></tr>
               </tbody>
             </table>
           </div>
@@ -579,7 +579,7 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">WT 3-18 bulan</div><div class="sc-value">27 (44,26%)</div></div>
             <div class="summary-card highlight-data"><div class="sc-label">WT > 18 bulan</div><div class="sc-value">0</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📈</span> Buka Bukti: Tabel 6f1 - Waktu Tunggu</a>
+          <a href="https://drive.google.com/drive/folders/1BoUG_0QwnW3ZDjQiptsFn-aIxxrz8JGJ?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">📈</span> Buka Bukti: Tabel 6f1 - Waktu Tunggu</a>
         </div>
         <div class="lkps-section">
           <h3>💼 Tabel 6f2: Kesesuaian Bidang Kerja Lulusan</h3>
@@ -588,7 +588,7 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Sedang</div><div class="sc-value">11 (18,03%)</div></div>
             <div class="summary-card"><div class="sc-label">Rendah</div><div class="sc-value">7 (11,48%)</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">💼</span> Buka Bukti: Tabel 6f2 - Kesesuaian Bidang</a>
+          <a href="https://drive.google.com/drive/folders/1hh1mW9WbJH6aMavrhm0FwpjSrCiJ4mtm?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">💼</span> Buka Bukti: Tabel 6f2 - Kesesuaian Bidang</a>
         </div>
         <div class="lkps-section">
           <h3>🏢 Tabel 6g1: Tempat Kerja Lulusan</h3>
@@ -598,7 +598,7 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Multinasional/Intl</div><div class="sc-value">10</div></div>
             <div class="summary-card highlight-data"><div class="sc-label">Nasional + Multinasional</div><div class="sc-value">49/61 (80,33%)</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🏢</span> Buka Bukti: Tabel 6g1 - Tempat Kerja</a>
+          <a href="https://drive.google.com/drive/folders/16gBuZ7zf-dlMs69xkjNt2X09IsdCd5p-?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🏢</span> Buka Bukti: Tabel 6g1 - Tempat Kerja</a>
         </div>
         <div class="lkps-section">
           <h3>⭐ Tabel 6g2: Kepuasan Pengguna Lulusan (45 responden)</h3>
@@ -617,7 +617,7 @@ permalink: /evidence-al/
             </table>
           </div>
           <div class="info-box"><strong>⚠️ Catatan Kritis:</strong> Bahasa asing 11,1% "Cukup" — perlu direkonsiliasi dengan narasi RTL yang menyebut 25%.</div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">⭐</span> Buka Bukti: Tabel 6g2 - Kepuasan Pengguna</a>
+          <a href="https://drive.google.com/drive/folders/1sF1UyrL2tzmVpd_ax_ujQQ5TcBSXkOFg?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">⭐</span> Buka Bukti: Tabel 6g2 - Kepuasan Pengguna</a>
         </div>
         <div class="lkps-section">
           <h3>🔬 Tabel 6h1: Penelitian DTPS yang Melibatkan Mahasiswa (12/45 = 26,67%)</h3>
@@ -627,7 +627,7 @@ permalink: /evidence-al/
         <div class="lkps-section">
           <h3>🤝 Tabel 6i: PkM DTPS yang Melibatkan Mahasiswa (7)</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> 7 PkM DTPS melibatkan mahasiswa.</div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🤝</span> Buka Bukti: Tabel 6i - PkM Melibatkan Mhs</a>
+          <a href="https://drive.google.com/drive/folders/156ktAz7jKLjXCNGoaammiLWqWEIVlKmK?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🤝</span> Buka Bukti: Tabel 6i - PkM Melibatkan Mhs</a>
         </div>
       </div>
 
