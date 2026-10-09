@@ -1083,12 +1083,12 @@ permalink: /evidence-al/
               <table class="lkps-table">
                 <thead><tr><th>No</th><th>Program</th><th>Strategi</th><th>Target</th><th>PIC</th><th>Anggaran</th></tr></thead>
                 <tbody>
-                  <tr><td>1</td><td><strong>Penguatan Closed-Loop CPL</strong></td><td>WO</td><td>100% CPL terukur & ditindaklanjuti</td><td>Kurikulum/GPM</td><td>Rp 30 juta</td></tr>
-                  <tr><td>2</td><td><strong>Peningkatan Pendanaan Eksternal Penelitian</strong></td><td>WO</td><td>≥40% pendanaan eksternal (2026)</td><td>P3M</td><td>Rp 50 juta</td></tr>
-                  <tr><td>3</td><td><strong>Integrasi Penelitian DTPS dengan Mahasiswa</strong></td><td>WO</td><td>≥40% penelitian libatkan mhs</td><td>P3M/Kaprodi</td><td>Rp 40 juta</td></tr>
-                  <tr><td>4</td><td><strong>Percepatan JAFA & Studi Lanjut</strong></td><td>ST</td><td>5 doktor, 50% LK, 1 GB</td><td>Kajur</td><td>Rp 200 juta</td></tr>
-                  <tr><td>5</td><td><strong>Peningkatan Response Rate Tracer</strong></td><td>WT</td><td>≥80% response rate</td><td>CDC/GPM</td><td>Rp 20 juta</td></tr>
-                  <tr><td>6</td><td><strong>Internasionalisasi Kerja Sama & Publikasi</strong></td><td>SO</td><td>≥5 MoU intl, ≥10 publikasi Scopus</td><td>Kajur/P3M</td><td>Rp 80 juta</td></tr>
+                  <tr><td>1</td><td><strong>Penguatan kurikulum dan pembelajaran</strong></td><td>WO</td><td>100% CPL terukur & ditindaklanjuti</td><td>Kurikulum/GPM</td><td>-</td></tr>
+                  <tr><td>2</td><td><strong>Pengembangan SDM</strong></td><td>WO</td><td>≥5 doktor, 50% LK, 1 GB</td><td>P3M</td><td>-</td></tr>
+                  <tr><td>3</td><td><strong>Penguatan penelitian dan PkM</strong></td><td>WO</td><td>≥40% pendanaan eksternal</td><td>P3M/Kaprodi</td><td>-</td></tr>
+                  <tr><td>4</td><td><strong>Pengembangan sarana-prasarana</strong></td><td>ST</td><td>Pemutakhiran dan pemeliharaan laboratorium serta fasilitas TIK sesuai kebutuhan pembelajaran</td><td>Kajur</td><td>-</td></tr>
+                  <tr><td>5</td><td><strong>Peningkatan daya saing mahasiswa dan lulusan</strong></td><td>WT</td><td>Pembinaan prestasi; sertifikasi; penguatan bahasa asing; magang dan kegiatan nasional/internasional</td><td>CDC/GPM</td><td>-</td></tr>
+                  <tr><td>6</td><td><strong>Penguatan kerja sama yang berdampak</strong></td><td>SO</td><td>Optimalisasi kerja sama untuk pembelajaran, magang, sertifikasi, penelitian/PkM dan peningkatan kompetensi</td><td>Kajur/P3M</td><td>-</td></tr>
                 </tbody>
               </table>
             </div>
