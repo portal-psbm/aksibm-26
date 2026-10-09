@@ -179,7 +179,7 @@ permalink: /evidence-al/
       </div>
 
       <div class="info-box">
-        <strong>ℹ️ Informasi:</strong> Halaman ini menampilkan <strong>50+ tabel LKPS</strong> dengan link bukti Google Drive. Klik tombol "📂 Buka Bukti" untuk mengakses dokumen asli.
+        <strong>ℹ️ Informasi:</strong> Halaman ini menampilkan <strong>50+ tabel LKPS</strong> dengan link bukti Google Drive. 
       </div>
 
       <!-- Sub-nav Kriteria -->
@@ -208,9 +208,7 @@ permalink: /evidence-al/
             </table>
           </div>
           <div style="margin-top:10px;">
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📄</span> Buka Bukti: Tabel 1 - VMTS PT</a>
-            <a href="https://drive.google.com/drive/folders/1JiRWv_v_-pbrFTMl74JwQzJ1ZNnCpcOt" target="_blank" class="table-link-btn"><span class="btn-icon">📄</span> Buka Bukti: Tabel 1 - VMTS UPPS</a>
-            <a href="https://drive.google.com/drive/folders/1kEN_2TU9W6vch8kkKwB0qG83rU89ujxf" target="_blank" class="table-link-btn"><span class="btn-icon">📘</span> Buka Bukti: Tabel 1 - Visi Keilmuan PS</a>
+           
           </div>
         </div>
       </div>
