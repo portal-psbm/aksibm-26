@@ -284,7 +284,7 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">MK Terintegrasi</div><div class="sc-value">8</div></div>
             <div class="summary-card highlight-data"><div class="sc-label">Sesuai Roadmap</div><div class="sc-value">100%</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🔬</span> Buka Bukti: Tabel 3a3 - Integrasi Penelitian/PkM</a>
+          <a href="https://drive.google.com/drive/folders/1Ts8pPE2Bn_ylaNoSTwcZs0mSpH5BAZvo?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🔬</span> Buka Bukti: Tabel 3a3 - Integrasi Penelitian/PkM</a>
         </div>
         <div class="lkps-section">
           <h3>📐 Tabel 3a4: Mata Kuliah Basic Science dan Matematika (8 SKS)</h3>
@@ -299,12 +299,12 @@ permalink: /evidence-al/
               </tbody>
             </table>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon"></span> Buka Bukti: Tabel 3a4 - Basic Science</a>
+          <a href="https://drive.google.com/drive/folders/1xeKPxDvWUzBshZSECOoCDX-jMCSa7feQ?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon"></span> Buka Bukti: Tabel 3a4 - Basic Science</a>
         </div>
         <div class="lkps-section">
           <h3>🎓 Tabel 3a5: Capstone Design dalam Proses Pembelajaran</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> 24 MK pendukung + Magang Industri (20 SKS) → Skripsi (10 SKS) di Semester 8.</div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🎓</span> Buka Bukti: Tabel 3a5 - Capstone Design</a>
+          <a href="https://drive.google.com/drive/folders/1JJViSFSpbg7ZM-g19aMD0Xncuyi2tkww?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🎓</span> Buka Bukti: Tabel 3a5 - Capstone Design</a>
         </div>
         <div class="lkps-section">
           <h3>🔬 Tabel 3b: Penelitian DTPS (45 judul, 3 tahun)</h3>
@@ -316,7 +316,7 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">PT/Mandiri</div><div class="sc-value">36 (80%)</div></div>
             <div class="summary-card"><div class="sc-label">Eksternal</div><div class="sc-value">9 (20%)</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🔬</span> Buka Bukti: Tabel 3b - Penelitian DTPS</a>
+          <a href="https://drive.google.com/drive/folders/1vj_OZyZqJqLrkSJeR4EWkUWpoe17IpkM?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🔬</span> Buka Bukti: Tabel 3b - Penelitian DTPS</a>
         </div>
         <div class="lkps-section">
           <h3>🤝 Tabel 3c: PkM DTPS (14 judul, 3 tahun)</h3>
