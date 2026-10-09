@@ -565,7 +565,7 @@ permalink: /evidence-al/
                 <tr><td>3</td><td>Adrian Eka Ramadhani dkk</td><td>Pelatihan Kompetensi Digital Beji Timur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1SgrufMWIsoHqMW9gzj-YRaVzRSRpBzKm?usp=drive_link" target="_blank">📂 Buka</a></td></tr>
                 <tr><td>4</td><td>Bemi Raihan R dkk</td><td>Aplikasi Bank Sampah "Bersih Plus"</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1SgrufMWIsoHqMW9gzj-YRaVzRSRpBzKm?usp=drive_link" target="_blank">📂 Buka</a></td></tr>
                 <tr><td>5</td><td>Nabilla Farassaskya Zanna</td><td>Sistem Informasi OJT Kemensos RI</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1SgrufMWIsoHqMW9gzj-YRaVzRSRpBzKm?usp=drive_link" target="_blank">📂 Buka</a></td></tr>
-                <tr><td>6</td><td>Ilham Satria Lubis dkk</td><td>Smart Aquaculture LoRa BBI Ciganjur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1SgrufMWIsoHqMW9gzj-YRaVzRSRpBzKm?usp=drive_link" target="_blank"> Buka</a></td></tr>
+                <tr><td>6</td><td>Ilham Satria Lubis dkk</td><td>Smart Aquaculture LoRa BBI Ciganjur</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1SgrufMWIsoHqMW9gzj-YRaVzRSRpBzKm?usp=drive_link" target="_blank">📂 Buka</a></td></tr>
               </tbody>
             </table>
           </div>
@@ -622,7 +622,7 @@ permalink: /evidence-al/
         <div class="lkps-section">
           <h3>🔬 Tabel 6h1: Penelitian DTPS yang Melibatkan Mahasiswa (12/45 = 26,67%)</h3>
           <div class="info-box"><strong>📌 Ringkasan:</strong> 12 dari 45 penelitian DTPS melibatkan mahasiswa.</div>
-          <a href="https://drive.google.com/drive/folders/1qTeCicjqBBp-Bdfl1tRXQoTD5a0RoqIi?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🔬</span> Buka Bukti: Tabel 6h1 - Penelitian Melibatkan Mhs</a>
+          <a href="https://drive.google.com/drive/folders/156ktAz7jKLjXCNGoaammiLWqWEIVlKmK?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🔬</span> Buka Bukti: Tabel 6h1 - Penelitian Melibatkan Mhs</a>
         </div>
         <div class="lkps-section">
           <h3>🤝 Tabel 6i: PkM DTPS yang Melibatkan Mahasiswa (7)</h3>
@@ -646,7 +646,7 @@ permalink: /evidence-al/
               </tbody>
             </table>
           </div>
-          <a href="https://drive.google.com/drive/folders/17PgbEe6jg7P3MlRUIZSZhhC4enyylZ7S" target="_blank" class="table-link-btn"><span class="btn-icon">📋</span> Buka Bukti: Tabel 7a - Dokumen SPMI</a>
+          <a href="https://drive.google.com/drive/folders/1V3nYc0Vu3iCQsAbkn0XfNZl6PyGjtCGw?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">📋</span> Buka Bukti: Tabel 7a - Dokumen SPMI</a>
         </div>
         <div class="lkps-section">
           <h3>🔄 Tabel 7b: Pelaksanaan SPMI (Siklus PPEPP)</h3>
@@ -654,21 +654,21 @@ permalink: /evidence-al/
             <table class="lkps-table">
               <thead><tr><th>Tahap PPEPP</th><th>Link Dokumen</th><th>Link Audit</th><th>Link RTM</th><th>Link Peningkatan</th></tr></thead>
               <tbody>
-                <tr><td><strong>Penetapan</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/17PgbEe6jg7P3MlRUIZSZhhC4enyylZ7S" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td>—</td></tr>
-                <tr><td><strong>Pelaksanaan</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/17PgbEe6jg7P3MlRUIZSZhhC4enyylZ7S" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td>—</td></tr>
-                <tr><td><strong>Evaluasi</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1ywPn4RexBzQjD6DXRT8DCXTEtemvcQLz" target="_blank">📂 Buka</a></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1gpdVeFMr0vwmrw_VvUpJhDokvF1zfVx2" target="_blank"> Buka</a></td><td>—</td><td>—</td></tr>
-                <tr><td><strong>Pengendalian</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1WFgIamM3JnSGZ-WAv-UOC1W22E0ondmV" target="_blank">📂 Buka</a></td><td>—</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/18PzEeZ2yIs1hfx6rVOBzbjjoaGIkSFU0" target="_blank">📂 Buka</a></td><td>—</td></tr>
-                <tr><td><strong>Peningkatan</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank">📂 Buka</a></td></tr>
+                <tr><td><strong>Penetapan</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/11g6dYbG-0Y7-bcUPIpGJdu-bWkAwyLYy?usp=drive_link" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td><strong>Pelaksanaan</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/11g6dYbG-0Y7-bcUPIpGJdu-bWkAwyLYy?usp=drive_link" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td>—</td></tr>
+                <tr><td><strong>Evaluasi</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/11g6dYbG-0Y7-bcUPIpGJdu-bWkAwyLYy?usp=drive_link" target="_blank">📂 Buka</a></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/11g6dYbG-0Y7-bcUPIpGJdu-bWkAwyLYy?usp=drive_link" target="_blank"> Buka</a></td><td>—</td><td>—</td></tr>
+                <tr><td><strong>Pengendalian</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/11g6dYbG-0Y7-bcUPIpGJdu-bWkAwyLYy?usp=drive_link" target="_blank">📂 Buka</a></td><td>—</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/18PzEeZ2yIs1hfx6rVOBzbjjoaGIkSFU0" target="_blank">📂 Buka</a></td><td>—</td></tr>
+                <tr><td><strong>Peningkatan</strong></td><td class="link-cell"><a href="https://drive.google.com/drive/folders/11g6dYbG-0Y7-bcUPIpGJdu-bWkAwyLYy?usp=drive_link" target="_blank">📂 Buka</a></td><td>—</td><td>—</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/11g6dYbG-0Y7-bcUPIpGJdu-bWkAwyLYy?usp=drive_link" target="_blank">📂 Buka</a></td></tr>
               </tbody>
             </table>
           </div>
           <div style="margin-top:10px;">
-            <a href="https://drive.google.com/drive/folders/17PgbEe6jg7P3MlRUIZSZhhC4enyylZ7S" target="_blank" class="table-link-btn"><span class="btn-icon">📋</span> Buka Bukti: Tabel 7b - Penetapan & Pelaksanaan</a>
-            <a href="https://drive.google.com/drive/folders/1ywPn4RexBzQjD6DXRT8DCXTEtemvcQLz" target="_blank" class="table-link-btn secondary"><span class="btn-icon">📊</span> Buka Bukti: Tabel 7b - Evaluasi</a>
-            <a href="https://drive.google.com/drive/folders/1gpdVeFMr0vwmrw_VvUpJhDokvF1zfVx2" target="_blank" class="table-link-btn secondary"><span class="btn-icon">🔍</span> Buka Bukti: Tabel 7b - Laporan AMI</a>
-            <a href="https://drive.google.com/drive/folders/1WFgIamM3JnSGZ-WAv-UOC1W22E0ondmV" target="_blank" class="table-link-btn secondary"><span class="btn-icon">📝</span> Buka Bukti: Tabel 7b - Pengendalian</a>
-            <a href="https://drive.google.com/drive/folders/18PzEeZ2yIs1hfx6rVOBzbjjoaGIkSFU0" target="_blank" class="table-link-btn secondary"><span class="btn-icon">📝</span> Buka Bukti: Tabel 7b - Notulensi RTM</a>
-            <a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank" class="table-link-btn success"><span class="btn-icon">📈</span> Buka Bukti: Tabel 7b - Peningkatan & RTL</a>
+            <a href="https://drive.google.com/drive/folders/11g6dYbG-0Y7-bcUPIpGJdu-bWkAwyLYy?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">📋</span> Buka Bukti: Tabel 7b - Penetapan & Pelaksanaan</a>
+            <a href="https://drive.google.com/drive/folders/11g6dYbG-0Y7-bcUPIpGJdu-bWkAwyLYy?usp=drive_link" target="_blank" class="table-link-btn secondary"><span class="btn-icon">📊</span> Buka Bukti: Tabel 7b - Evaluasi</a>
+            <a href="https://drive.google.com/drive/folders/11g6dYbG-0Y7-bcUPIpGJdu-bWkAwyLYy?usp=drive_link" target="_blank" class="table-link-btn secondary"><span class="btn-icon">🔍</span> Buka Bukti: Tabel 7b - Laporan AMI</a>
+            <a href="https://drive.google.com/drive/folders/11g6dYbG-0Y7-bcUPIpGJdu-bWkAwyLYy?usp=drive_link" target="_blank" class="table-link-btn secondary"><span class="btn-icon">📝</span> Buka Bukti: Tabel 7b - Pengendalian</a>
+            <a href="https://drive.google.com/drive/folders/11g6dYbG-0Y7-bcUPIpGJdu-bWkAwyLYy?usp=drive_link" target="_blank" class="table-link-btn secondary"><span class="btn-icon">📝</span> Buka Bukti: Tabel 7b - Notulensi RTM</a>
+            <a href="https://drive.google.com/drive/folders/11g6dYbG-0Y7-bcUPIpGJdu-bWkAwyLYy?usp=drive_link" target="_blank" class="table-link-btn success"><span class="btn-icon">📈</span> Buka Bukti: Tabel 7b - Peningkatan & RTL</a>
           </div>
           <div class="info-box"><strong>✅ Siklus PPEPP Lengkap:</strong> Semua 5 tahap terdokumentasi dengan link Google Drive aktif.</div>
         </div>
