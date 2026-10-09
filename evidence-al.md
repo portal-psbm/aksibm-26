@@ -715,7 +715,7 @@ permalink: /evidence-al/
             <h4>🎯 Visi Keilmuan PSBM</h4>
             <p><strong>"Menjadi Program Studi Unggul Bertaraf Internasional di Bidang Broadband Multimedia untuk Mendukung Daya Saing Bangsa"</strong></p>
             <p><strong>Kekhasan:</strong> Integrasi teknologi telekomunikasi broadband, jaringan komputer, komputasi, dan multimedia dengan karakter pendidikan vokasi berbasis praktik, proyek, magang industri, dan sertifikasi kompetensi.</p>
-            <a href="https://drive.google.com/drive/folders/1kEN_2TU9W6vch8kkKwB0qG83rU89ujxf" target="_blank" class="table-link-btn"><span class="btn-icon">📘</span> Buka Bukti: Tabel 1 - Visi Keilmuan PS</a>
+            <a href="https://drive.google.com/drive/folders/1kEN_2TU9W6vch8kkKwB0qG83rU89ujxf?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">📘</span> Buka Bukti: Tabel 1 - Visi Keilmuan PS</a>
           </div>
           <div class="led-card">
             <h4>🔧 Mekanisme Penyusunan VMTS</h4>
@@ -725,7 +725,7 @@ permalink: /evidence-al/
               <li><strong>Pakar:</strong> Marfani (Telkomsel), Hendra Gunawan (MyRepublic), Irvan Nugraha (Universal Satellite Indonesia)</li>
               <li><strong>SK Penetapan:</strong> SK Direktur PNJ No. 954/PL3.9/HK.03/2020</li>
             </ul>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📋</span> Buka Bukti: Tabel 1 - Mekanisme VMTS</a>
+            <a href="https://drive.google.com/drive/folders/11KOsyDjCEj8RiDtm6_woVIqjSiukWjnG?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">📋</span> Buka Bukti: Tabel 1 - Mekanisme VMTS</a>
           </div>
           <div class="led-card">
             <h4> Capaian VMTS (Traceability ke LKPS)</h4>
@@ -747,7 +747,7 @@ permalink: /evidence-al/
           <div class="led-card">
             <h4>🏢 Tata Pamong</h4>
             <p>Struktur tata pamong mengacu pada <strong>Statuta PNJ No. 35 Tahun 2018</strong> dan <strong>OTK PNJ No. 60 Tahun 2022</strong>. Lima pilar Good University Governance: Kredibel, Transparan, Akuntabel, Bertanggung Jawab, Adil.</p>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📜</span> Buka Bukti: Tabel 2 - Tata Pamong</a>
+            <a href="https://drive.google.com/drive/folders/1ILbGhjneVD8riGtO3m5Jyjljb7gTeSNC?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">📜</span> Buka Bukti: Tata Pamong</a>
           </div>
           <div class="led-card">
             <h4>🤝 Kerja Sama Tridharma — Analisis</h4>
@@ -757,9 +757,9 @@ permalink: /evidence-al/
               <li><strong>Mitra Strategis:</strong> St. John's University Taiwan, PT Ericsson, PT Huawei, PT Telkomsel, PT NEC, PT MyRepublic, BRIN, Bank BRI</li>
               <li><strong>Analisis:</strong> Kerja sama pendidikan dominan nasional (37/42), perlu penguatan internasionalisasi</li>
             </ul>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🤝</span> Buka Bukti: Tabel 2a1 - Kerja Sama Pendidikan</a>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn secondary"><span class="btn-icon">🔬</span> Buka Bukti: Tabel 2a2 - Kerja Sama Penelitian</a>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn secondary"><span class="btn-icon">🤝</span> Buka Bukti: Tabel 2a3 - Kerja Sama PkM</a>
+            <a href="https://drive.google.com/drive/folders/13hzvLIlAw3MuSb6bGfNpcCwCFVpUPeOU?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🤝</span> Buka Bukti: Tabel 2a1 - Kerja Sama Pendidikan</a>
+            <a href="https://drive.google.com/drive/folders/1ZJGPjiBA458Aeqn7hSMYW2irtuuUJZq1?usp=drive_link" target="_blank" class="table-link-btn secondary"><span class="btn-icon">🔬</span> Buka Bukti: Tabel 2a2 - Kerja Sama Penelitian</a>
+            <a href="https://drive.google.com/drive/folders/1HpNUFfJknQLdRowrPrnkUJWbjHzjnX_K?usp=drive_link" target="_blank" class="table-link-btn secondary"><span class="btn-icon">🤝</span> Buka Bukti: Tabel 2a3 - Kerja Sama PkM</a>
           </div>
           <div class="led-card">
             <h4>💰 Keuangan — Analisis</h4>
@@ -770,7 +770,7 @@ permalink: /evidence-al/
               <li><strong>Dana PkM:</strong> Rp 88,16 juta/tahun (100% internal)</li>
               <li><strong>Analisis:</strong> Ketersediaan dana memadai, namun diversifikasi pendanaan eksternal perlu ditingkatkan</li>
             </ul>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">💰</span> Buka Bukti: Tabel 2b - Penggunaan Dana</a>
+            <a href="https://drive.google.com/drive/folders/1CJ_OYPYE68O0N1ccNDSqyg3C-DfTWpNe?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">💰</span> Buka Bukti: Tabel 2b - Penggunaan Dana</a>
           </div>
         </div>
       </div>
@@ -789,7 +789,7 @@ permalink: /evidence-al/
               <li><strong>RPS:</strong> 100% MK memiliki RPS dengan 9 komponen lengkap</li>
               <li><strong>Analisis:</strong> Kurikulum vokasi kuat, perlu penguatan closed-loop CPL</li>
             </ul>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📘</span> Buka Bukti: Tabel 3a1 - Kurikulum</a>
+            <a href="https://drive.google.com/drive/folders/1amXJc8jQulcsDBwgBm1cOe00tkU6of8_?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">📘</span> Buka Bukti: Tabel 3a1 - Kurikulum</a>
           </div>
           <div class="led-card">
             <h4> Penelitian — Evaluasi</h4>
@@ -800,7 +800,7 @@ permalink: /evidence-al/
               <li><strong>Tema:</strong> AI/ML, IoT, LoRa, 4G/5G, komunikasi nirkabel, antena, cloud computing</li>
               <li><strong>Analisis:</strong> Produktivitas baik, namun pendanaan eksternal dan keterlibatan mahasiswa perlu ditingkatkan</li>
             </ul>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🔬</span> Buka Bukti: Tabel 3b - Penelitian DTPS</a>
+            <a href="https://drive.google.com/drive/folders/1vj_OZyZqJqLrkSJeR4EWkUWpoe17IpkM?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🔬</span> Buka Bukti: Tabel 3b - Penelitian DTPS</a>
           </div>
           <div class="led-card">
             <h4>🤝 PkM — Evaluasi</h4>
@@ -811,8 +811,8 @@ permalink: /evidence-al/
               <li><strong>Contoh:</strong> Smart Aquaculture LoRa, Aplikasi Bank Sampah, Sistem Keamanan IoT, Website Desa Wisata</li>
               <li><strong>Analisis:</strong> Dampak masyarakat baik, perlu hilirisasi dan pendanaan eksternal</li>
             </ul>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🤝</span> Buka Bukti: Tabel 3c - PkM DTPS</a>
-            <a href="https://drive.google.com/drive/folders/1ReDF1ecxwnx7v2lVkMaxdwkl8Hd7NF1z" target="_blank" class="table-link-btn secondary"><span class="btn-icon">📦</span> Buka Bukti: Tabel 4g - Produk Diadopsi</a>
+            <a href="https://drive.google.com/drive/folders/1bhWdKKjVQnmnRH28OFLm9BIg6y924iMW?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🤝</span> Buka Bukti: Tabel 3c - PkM DTPS</a>
+            <a href="https://drive.google.com/drive/folders/1nMMar36UhwXaM0W9uD45jN7bRSjkomkO?usp=drive_link" target="_blank" class="table-link-btn secondary"><span class="btn-icon">📦</span> Buka Bukti: Tabel 4g - Produk Diadopsi</a>
           </div>
         </div>
       </div>
@@ -831,13 +831,13 @@ permalink: /evidence-al/
               <li><strong>Rasio Mhs:DTPS:</strong> 1:17,18 — ideal</li>
               <li><strong>Analisis:</strong> SDM kompeten, perlu percepatan Guru Besar dan doktor</li>
             </ul>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">👨‍🏫</span> Buka Bukti: Tabel 4a - Profil DTPS</a>
+            <a href="https://drive.google.com/drive/folders/1uU7DVV3R67Wy4X7qnsq5o7pMh2qmHqXY?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">👨‍🏫</span> Buka Bukti: Tabel 4a - Profil DTPS</a>
           </div>
           <div class="led-card">
             <h4>⚖️ Beban Kerja — Evaluasi</h4>
             <p><strong>Rata-rata BKD:</strong> 14,77 SKS/semester (rentang ideal 12-16 SKS)</p>
             <p>Komposisi: 9,98 SKS pendidikan, 2,22 SKS penelitian, 1,70 SKS PkM, 0,88 SKS tugas tambahan</p>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">⚖️</span> Buka Bukti: Tabel 4c - Beban Kerja DTPS</a>
+            <a href="https://drive.google.com/drive/folders/1BEGp0hK4K4Pac4PLQ4yURKOC45QHboY-?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">⚖️</span> Buka Bukti: Tabel 4c - Beban Kerja DTPS</a>
           </div>
           <div class="led-card">
             <h4>📈 Kinerja Tridharma — Analisis</h4>
@@ -848,10 +848,10 @@ permalink: /evidence-al/
               <li><strong>Rekognisi:</strong> 43 rekognisi (10 dari 11 DTPS = 90,91%) → <em>LKPS 4.j</em></li>
               <li><strong>Analisis:</strong> Produktivitas tinggi, perlu penguatan rekognisi internasional</li>
             </ul>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📚</span> Buka Bukti: Tabel 4e - Publikasi DTPS</a>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn secondary"><span class="btn-icon">💡</span> Buka Bukti: Tabel 4f - Luaran DTPS</a>
-            <a href="https://drive.google.com/drive/folders/1ReDF1ecxwnx7v2lVkMaxdwkl8Hd7NF1z" target="_blank" class="table-link-btn success"><span class="btn-icon">📦</span> Buka Bukti: Tabel 4g - Produk Diadopsi (13)</a>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn secondary"><span class="btn-icon">🏆</span> Buka Bukti: Tabel 4j - Rekognisi DTPS</a>
+            <a href="https://drive.google.com/drive/folders/1g7FIrmACLtXBIeDoliHrNIaOdbaRl17n?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">📚</span> Buka Bukti: Tabel 4e - Publikasi DTPS</a>
+            <a href="https://drive.google.com/drive/folders/1JR--QyoDBqdQgOc96E_wYTdxmbs0E_WW?usp=drive_link" target="_blank" class="table-link-btn secondary"><span class="btn-icon">💡</span> Buka Bukti: Tabel 4f - Luaran DTPS</a>
+            <a href="https://drive.google.com/drive/folders/1nMMar36UhwXaM0W9uD45jN7bRSjkomkO?usp=drive_link" target="_blank" class="table-link-btn success"><span class="btn-icon">📦</span> Buka Bukti: Tabel 4g - Produk Diadopsi (13)</a>
+            <a href="https://drive.google.com/drive/folders/1Aqs6WUUeAs5lSwb4dh9YYqYM3c4Yq-41?usp=drive_link" target="_blank" class="table-link-btn secondary"><span class="btn-icon">🏆</span> Buka Bukti: Tabel 4j - Rekognisi DTPS</a>
           </div>
         </div>
       </div>
@@ -869,7 +869,7 @@ permalink: /evidence-al/
               <li><strong>Akses Digital:</strong> LMS, SIAKAD, perpustakaan digital, jurnal internasional</li>
               <li><strong>Analisis:</strong> Sarpras memadai, perlu pemutakhiran berkelanjutan sesuai perkembangan teknologi</li>
             </ul>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🔧</span> Buka Bukti: Tabel 5a - Sarpras & Lab</a>
+            <a href="https://drive.google.com/drive/folders/1mZE_7jvhdPUZa-tZbjaNq-khY2U244AZ?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🔧</span> Buka Bukti: Tabel 5a - Sarpras & Lab</a>
           </div>
           <div class="led-card">
             <h4>⚠️ K3L — Evaluasi</h4>
@@ -879,8 +879,8 @@ permalink: /evidence-al/
               <li><strong>Status:</strong> Seluruhnya terawat dan berfungsi</li>
               <li><strong>Analisis:</strong> Implementasi K3L baik, perlu audit berkala dan sosialisasi berkelanjutan</li>
             </ul>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">⚠️</span> Buka Bukti: Tabel 5b - Dokumen K3L</a>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn secondary"><span class="btn-icon"></span> Buka Bukti: Tabel 5c - Fasilitas K3L</a>
+            <a href="https://drive.google.com/drive/folders/1MElyR4sZcbQD_yRYMYoZuFp-Lb4LvR_-?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">⚠️</span> Buka Bukti: Tabel 5b - Dokumen K3L</a>
+            <a href="https://drive.google.com/drive/folders/1QY03kvtIs80AE5y1Tmrx_ASbWP9Ao-tV?usp=drive_link" target="_blank" class="table-link-btn secondary"><span class="btn-icon"></span> Buka Bukti: Tabel 5c - Fasilitas K3L</a>
           </div>
         </div>
       </div>
@@ -898,8 +898,8 @@ permalink: /evidence-al/
               <li><strong>Masa Studi:</strong> 4,06 tahun</li>
               <li><strong>Kelulusan Tepat Waktu:</strong> 95,025%</li>
             </ul>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon"></span> Buka Bukti: Tabel 6a - Mahasiswa</a>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn secondary"><span class="btn-icon">🎓</span> Buka Bukti: Tabel 6b - IPK Lulusan</a>
+            <a href="https://drive.google.com/drive/folders/1_iSVFo7NkYbWdENBJbLh0Jt5Cbuize71?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon"></span> Buka Bukti: Tabel 6a - Mahasiswa</a>
+            <a href="https://drive.google.com/drive/folders/16bYIhCVva3gdT5a-1Evqw-W9xmCNZ4hX?usp=drive_link" target="_blank" class="table-link-btn secondary"><span class="btn-icon">🎓</span> Buka Bukti: Tabel 6b - IPK Lulusan</a>
           </div>
           <div class="led-card">
             <h4> Prestasi & Luaran — Analisis</h4>
@@ -911,10 +911,10 @@ permalink: /evidence-al/
               <li><strong>Produk Diadopsi:</strong> 16 produk/jasa mahasiswa → <em>LKPS 6.e.4</em></li>
               <li><strong>Analisis:</strong> Luaran mahasiswa sangat produktif, perlu peningkatan eksposur internasional</li>
             </ul>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🏆</span> Buka Bukti: Tabel 6c1 - Prestasi Akademik</a>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn secondary"><span class="btn-icon">🎭</span> Buka Bukti: Tabel 6c2 - Prestasi Nonakademik</a>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn secondary"><span class="btn-icon">📚</span> Buka Bukti: Tabel 6e2 - Publikasi Mahasiswa</a>
-            <a href="https://drive.google.com/drive/folders/1gj3fyC_mO2c6pDTNRzhnlPcIE4_pKBYS" target="_blank" class="table-link-btn success"><span class="btn-icon">📦</span> Buka Bukti: Tabel 6e4 - Produk Mahasiswa (16)</a>
+            <a href="https://drive.google.com/drive/folders/1B0ujOnki6sDZBurAjkW7JfeJDvxngtQs?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🏆</span> Buka Bukti: Tabel 6c1 - Prestasi Akademik</a>
+            <a href="https://drive.google.com/drive/folders/16wJ9i7V4S_vhU1_NZEXCEK_XlZpZUOcH?usp=drive_link" target="_blank" class="table-link-btn secondary"><span class="btn-icon">🎭</span> Buka Bukti: Tabel 6c2 - Prestasi Nonakademik</a>
+            <a href="https://drive.google.com/drive/folders/1qEY6OWtXEOfVYrAhS4uX5ffzQPVVdkRr?usp=drive_link" target="_blank" class="table-link-btn secondary"><span class="btn-icon">📚</span> Buka Bukti: Tabel 6e2 - Publikasi Mahasiswa</a>
+            <a href="https://drive.google.com/drive/folders/1SgrufMWIsoHqMW9gzj-YRaVzRSRpBzKm?usp=drive_link" target="_blank" class="table-link-btn success"><span class="btn-icon">📦</span> Buka Bukti: Tabel 6e4 - Produk Mahasiswa (16)</a>
           </div>
           <div class="led-card">
             <h4>📈 Tracer Study — Evaluasi</h4>
@@ -925,9 +925,9 @@ permalink: /evidence-al/
               <li><strong>Tempat Kerja:</strong> 63,93% nasional, 16,39% multinasional, 19,67% lokal → <em>LKPS 6.g.1</em></li>
               <li><strong>Analisis:</strong> Daya saing lulusan baik, perlu peningkatan response rate tracer</li>
             </ul>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📈</span> Buka Bukti: Tabel 6f1 - Waktu Tunggu</a>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn secondary"><span class="btn-icon">💼</span> Buka Bukti: Tabel 6f2 - Kesesuaian Bidang</a>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn secondary"><span class="btn-icon">🏢</span> Buka Bukti: Tabel 6g1 - Tempat Kerja</a>
+            <a href="https://drive.google.com/drive/folders/1BoUG_0QwnW3ZDjQiptsFn-aIxxrz8JGJ?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">📈</span> Buka Bukti: Tabel 6f1 - Waktu Tunggu</a>
+            <a href="https://drive.google.com/drive/folders/1hh1mW9WbJH6aMavrhm0FwpjSrCiJ4mtm?usp=drive_link" target="_blank" class="table-link-btn secondary"><span class="btn-icon">💼</span> Buka Bukti: Tabel 6f2 - Kesesuaian Bidang</a>
+            <a href="https://drive.google.com/drive/folders/16gBuZ7zf-dlMs69xkjNt2X09IsdCd5p-?usp=drive_link" target="_blank" class="table-link-btn secondary"><span class="btn-icon">🏢</span> Buka Bukti: Tabel 6g1 - Tempat Kerja</a>
           </div>
           <div class="led-card">
             <h4>⭐ Kepuasan Pengguna — Evaluasi</h4>
@@ -941,8 +941,8 @@ permalink: /evidence-al/
               <li>Pengembangan Diri: 73,3% Sangat Baik</li>
               <li>Bahasa Asing: 71,1% Sangat Baik ⚠️ (11,1% Cukup)</li>
             </ul>
-            <p><strong>RTL:</strong> Kelas intensif bahasa asing, sertifikasi TOEFL/TOEIC, program imersi.</p>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">⭐</span> Buka Bukti: Tabel 6g2 - Kepuasan Pengguna</a>
+            <p><strong>RTL:</strong> Kelas intensif bahasa asing dan sertifikasi TOEFL/TOEIC.</p>
+            <a href="https://drive.google.com/drive/folders/1sF1UyrL2tzmVpd_ax_ujQQ5TcBSXkOFg?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">⭐</span> Buka Bukti: Tabel 6g2 - Kepuasan Pengguna</a>
           </div>
         </div>
       </div>
@@ -958,7 +958,7 @@ permalink: /evidence-al/
               <li><strong>Tingkat Jurusan:</strong> Gugus Penjamin Mutu (GPM) sejak 2023</li>
               <li><strong>SK GPM:</strong> SK Direktur No. 147/PL3/JM/2025</li>
             </ul>
-            <a href="https://drive.google.com/drive/folders/17PgbEe6jg7P3MlRUIZSZhhC4enyylZ7S" target="_blank" class="table-link-btn"><span class="btn-icon">📋</span> Buka Bukti: Tabel 7a - Dokumen SPMI</a>
+            <a href="https://drive.google.com/drive/folders/1V3nYc0Vu3iCQsAbkn0XfNZl6PyGjtCGw?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">📋</span> Buka Bukti: Tabel 7a - Dokumen SPMI</a>
           </div>
           <div class="led-card">
             <h4>🔄 Siklus PPEPP — Evaluasi</h4>
@@ -970,13 +970,13 @@ permalink: /evidence-al/
               <li><strong>Peningkatan:</strong> Revisi standar dan strategi berdasarkan hasil evaluasi</li>
             </ul>
             <a href="https://drive.google.com/drive/folders/1gpdVeFMr0vwmrw_VvUpJhDokvF1zfVx2" target="_blank" class="table-link-btn"><span class="btn-icon">🔍</span> Buka Bukti: Tabel 7b - Laporan AMI</a>
-            <a href="https://drive.google.com/drive/folders/18PzEeZ2yIs1hfx6rVOBzbjjoaGIkSFU0" target="_blank" class="table-link-btn secondary"><span class="btn-icon">📝</span> Buka Bukti: Tabel 7b - Notulensi RTM</a>
-            <a href="https://drive.google.com/drive/folders/1vQGaaKTH7mtpT8vgRPEwZ2Olx8G_0Gb0" target="_blank" class="table-link-btn success"><span class="btn-icon">📈</span> Buka Bukti: Tabel 7b - Dokumen RTL</a>
+            <a href="https://drive.google.com/drive/folders/11g6dYbG-0Y7-bcUPIpGJdu-bWkAwyLYy?usp=drive_link" target="_blank" class="table-link-btn secondary"><span class="btn-icon">📝</span> Buka Bukti: Tabel 7b - Notulensi RTM</a>
+            <a href="https://drive.google.com/drive/folders/11g6dYbG-0Y7-bcUPIpGJdu-bWkAwyLYy?usp=drive_link" target="_blank" class="table-link-btn success"><span class="btn-icon">📈</span> Buka Bukti: Tabel 7b - Dokumen RTL</a>
           </div>
           <div class="led-card">
             <h4>⭐ Kepuasan Stakeholder — Evaluasi</h4>
             <p>Survei kepuasan dilakukan terhadap mahasiswa, dosen, tendik, dan pengguna lulusan. Hasil menunjukkan persepsi positif dengan area peningkatan pada layanan SDM, kemahasiswaan, dan sarana-prasarana.</p>
-            <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">⭐</span> Buka Bukti: Tabel 7 - Survei Stakeholder</a>
+            <a href="https://drive.google.com/drive/folders/11g6dYbG-0Y7-bcUPIpGJdu-bWkAwyLYy?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">⭐</span> Buka Bukti: Tabel 7 - Survei Stakeholder</a>
           </div>
         </div>
       </div>
