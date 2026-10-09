@@ -1041,44 +1041,9 @@ permalink: /evidence-al/
             </div>
           </div>
 
+          
           <div class="led-card">
-            <h4>🎯 6 Tujuan Strategis PSBM</h4>
-            <div class="summary-grid">
-              <div class="summary-card" style="border-left-color: #e65100;">
-                <div class="sc-label">Tujuan 1</div>
-                <div class="sc-value" style="font-size:0.85rem;">Memperkuat relevansi & mutu pendidikan</div>
-                <div class="sc-desc">Indikator: 100% CPL terukur</div>
-              </div>
-              <div class="summary-card" style="border-left-color: #e65100;">
-                <div class="sc-label">Tujuan 2</div>
-                <div class="sc-value" style="font-size:0.85rem;">Meningkatkan penelitian & hilirisasi</div>
-                <div class="sc-desc">Target: ≥40% pendanaan eksternal</div>
-              </div>
-              <div class="summary-card" style="border-left-color: #e65100;">
-                <div class="sc-label">Tujuan 3</div>
-                <div class="sc-value" style="font-size:0.85rem;">Meningkatkan kualitas SDM</div>
-                <div class="sc-desc">Target: 5 doktor, 50% LK</div>
-              </div>
-              <div class="summary-card" style="border-left-color: #e65100;">
-                <div class="sc-label">Tujuan 4</div>
-                <div class="sc-value" style="font-size:0.85rem;">Memperluas internasionalisasi</div>
-                <div class="sc-desc">Target: ≥5 kerja sama intl</div>
-              </div>
-              <div class="summary-card" style="border-left-color: #e65100;">
-                <div class="sc-label">Tujuan 5</div>
-                <div class="sc-value" style="font-size:0.85rem;">Meningkatkan daya saing lulusan</div>
-                <div class="sc-desc">Target: ≥80% sesuai bidang</div>
-              </div>
-              <div class="summary-card" style="border-left-color: #e65100;">
-                <div class="sc-label">Tujuan 6</div>
-                <div class="sc-value" style="font-size:0.85rem;">Memperkuat budaya mutu</div>
-                <div class="sc-desc">Target: Siklus PPEPP berjalan</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="led-card">
-            <h4>📘 6 Program Pengembangan Berkelanjutan</h4>
+            <h4>📘 7 Program Pengembangan Berkelanjutan</h4>
             <div class="table-responsive">
               <table class="lkps-table">
                 <thead><tr><th>No</th><th>Program</th><th>Strategi</th><th>Target</th><th>PIC</th><th>Anggaran</th></tr></thead>
