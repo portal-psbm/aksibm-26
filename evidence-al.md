@@ -201,9 +201,9 @@ permalink: /evidence-al/
             <table class="lkps-table">
               <thead><tr><th>No</th><th>Jenis VMTS</th><th>Pernyataan</th><th>No. SK</th><th>Link Dokumen</th></tr></thead>
               <tbody>
-                <tr><td>1</td><td><strong>VMTS PT</strong></td><td>Visi: Menjadi Politeknik Unggul Bertaraf Internasional untuk Mendukung Daya Saing Bangsa</td><td>643/PL3/OT/2021</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank">📂 Buka</a></td></tr>
-                <tr><td>2</td><td><strong>VMTS UPPS (JTE)</strong></td><td>Visi: Menjadi Jurusan Teknik Elektro Unggul Bertaraf Internasional untuk Mendukung Daya Saing Bangsa</td><td>2585/PL3/OT/2020</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1JiRWv_v_-pbrFTMl74JwQzJ1ZNnCpcOt" target="_blank">📂 Buka</a></td></tr>
-                <tr><td>3</td><td><strong>Visi Keilmuan PS</strong></td><td>Unggul Bertaraf Internasional di Bidang Broadband Multimedia untuk Mendukung Daya Saing Bangsa</td><td>2589/PL3/KR.00/2020</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1kEN_2TU9W6vch8kkKwB0qG83rU89ujxf" target="_blank">📂 Buka</a></td></tr>
+                <tr><td>1</td><td><strong>VMTS PT</strong></td><td>Visi: Menjadi Politeknik Unggul Bertaraf Internasional untuk Mendukung Daya Saing Bangsa</td><td>643/PL3/OT/2021</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU?usp=drive_link" target="_blank">📂 Buka</a></td></tr>
+                <tr><td>2</td><td><strong>VMTS UPPS (JTE)</strong></td><td>Visi: Menjadi Jurusan Teknik Elektro Unggul Bertaraf Internasional untuk Mendukung Daya Saing Bangsa</td><td>2585/PL3/OT/2020</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1JiRWv_v_-pbrFTMl74JwQzJ1ZNnCpcOt?usp=drive_link" target="_blank">📂 Buka</a></td></tr>
+                <tr><td>3</td><td><strong>Visi Keilmuan PS</strong></td><td>Unggul Bertaraf Internasional di Bidang Broadband Multimedia untuk Mendukung Daya Saing Bangsa</td><td>2589/PL3/KR.00/2020</td><td class="link-cell"><a href="https://drive.google.com/drive/folders/1kEN_2TU9W6vch8kkKwB0qG83rU89ujxf?usp=drive_link" target="_blank">📂 Buka</a></td></tr>
               </tbody>
             </table>
           </div>
@@ -222,7 +222,7 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Nasional</div><div class="sc-value">37</div></div>
             <div class="summary-card highlight-data"><div class="sc-label">Total</div><div class="sc-value">42</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🤝</span> Buka Bukti: Tabel 2a1 - Kerja Sama Pendidikan</a>
+          <a href="https://drive.google.com/drive/folders/13hzvLIlAw3MuSb6bGfNpcCwCFVpUPeOU?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🤝</span> Buka Bukti: Tabel 2a1 - Kerja Sama Pendidikan</a>
         </div>
         <div class="lkps-section">
           <h3>🔬 Tabel 2a2: Kerja Sama Penelitian (17)</h3>
@@ -231,7 +231,7 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Nasional</div><div class="sc-value">16</div></div>
             <div class="summary-card highlight-data"><div class="sc-label">Total</div><div class="sc-value">17</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🔬</span> Buka Bukti: Tabel 2a2 - Kerja Sama Penelitian</a>
+          <a href="https://drive.google.com/drive/folders/1ZJGPjiBA458Aeqn7hSMYW2irtuuUJZq1?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🔬</span> Buka Bukti: Tabel 2a2 - Kerja Sama Penelitian</a>
         </div>
         <div class="lkps-section">
           <h3>🤝 Tabel 2a3: Kerja Sama PkM (7)</h3>
@@ -240,7 +240,7 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">Lokal/Wilayah</div><div class="sc-value">6</div></div>
             <div class="summary-card highlight-data"><div class="sc-label">Total</div><div class="sc-value">7</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">🤝</span> Buka Bukti: Tabel 2a3 - Kerja Sama PkM</a>
+          <a href="https://drive.google.com/drive/folders/1HpNUFfJknQLdRowrPrnkUJWbjHzjnX_K?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">🤝</span> Buka Bukti: Tabel 2a3 - Kerja Sama PkM</a>
         </div>
         <div class="lkps-section">
           <h3>💰 Tabel 2b: Penggunaan Dana</h3>
@@ -255,7 +255,7 @@ permalink: /evidence-al/
               </tbody>
             </table>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">💰</span> Buka Bukti: Tabel 2b - Penggunaan Dana</a>
+          <a href="https://drive.google.com/drive/folders/1CJ_OYPYE68O0N1ccNDSqyg3C-DfTWpNe?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">💰</span> Buka Bukti: Tabel 2b - Penggunaan Dana</a>
         </div>
       </div>
 
@@ -269,12 +269,12 @@ permalink: /evidence-al/
             <div class="summary-card"><div class="sc-label">SKS Praktik</div><div class="sc-value">80 (53,33%)</div></div>
             <div class="summary-card"><div class="sc-label">SKS Kuliah</div><div class="sc-value">68</div></div>
           </div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📘</span> Buka Bukti: Tabel 3a1 - Kurikulum</a>
+          <a href="https://drive.google.com/drive/folders/1amXJc8jQulcsDBwgBm1cOe00tkU6of8_?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">📘</span> Buka Bukti: Tabel 3a1 - Kurikulum</a>
         </div>
         <div class="lkps-section">
-          <h3>📘 Tabel 3a2: Mata Kuliah dan Dokumen Pembelajaran</h3>
+          <h3>📘 Tabel 3a3: Mata Kuliah dan Dokumen Pembelajaran</h3>
           <div class="info-box"><strong> Ringkasan:</strong> 100% MK memiliki RPS dengan 9 komponen lengkap.</div>
-          <a href="https://drive.google.com/drive/folders/1EGqnMf6ZPJ_skiJBP5tOCXhlCJiYKqPU" target="_blank" class="table-link-btn"><span class="btn-icon">📝</span> Buka Bukti: Tabel 3a2 - RPS</a>
+          <a href="https://drive.google.com/drive/folders/1C7jWYxfctnQhVfqG2Pq4dbhh4qlRcpUs?usp=drive_link" target="_blank" class="table-link-btn"><span class="btn-icon">📝</span> Buka Bukti: Tabel 3a2 - RPS</a>
         </div>
         <div class="lkps-section">
           <h3>🔬 Tabel 3a3: Integrasi Kegiatan Penelitian/PkM dalam Pembelajaran</h3>
